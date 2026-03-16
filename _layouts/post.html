@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="post-container">
+    <header class="post-header">
+        <h2 class="post-title-main">{{ page.title }}</h2>
+        <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
+        <div class="post-categories-footer">
+            本文分類： 
+            {% for category in page.categories %}
+            <p>
+                <a href="{{ site.baseurl }}/category/{{ category | slugize }}/" class="category-link-footer">
+                    {{ site.category_names[category] | default: category }}
+                </a>
+            </p>
+            {% endfor %}
+        </div>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <hr class="post-divider">
+    <div class="post-categories-footer">
+        更多文章 in 分類： 
+        {% for category in page.categories %}
+        <p>
+            <a href="{{ site.baseurl }}/category/{{ category | slugize }}/" class="category-link-footer">
+                {{ site.category_names[category] | default: category }}
+            </a>
+        </p>
+        {% endfor %}
+    </div>
+</article>

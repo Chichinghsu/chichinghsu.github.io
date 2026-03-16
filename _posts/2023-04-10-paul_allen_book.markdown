@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "微軟 Paul Allen 回憶錄 Idea Man"
 date:   2023-04-10 10:00:00 +0200
-categories: Books
+categories: books
+thumbnail: /images/2023-04-10-paul_allen_book/1.png
 ---
 這次來分享書名很長且含副標題之書，全名應是 Idea Man: A Memoir by the Cofounder of Microsoft，中文書名看起來是（至少我手上這個版本）[《我與微軟，以及我的夢想》][book_link]加上一段像是很久以前偶像劇的副標「一段永遠改變人類生活的創業傳奇；一個不斷為創意而奮鬥的驚奇人生」。
 
@@ -49,19 +49,6 @@ categories: Books
 讀完此書後覺得他的人生的確是值得一書，從小時候與比爾哥一起研究電腦，接著微軟創立，奮鬥幾年致富後慢慢淡出，接著在西雅圖當 NBA 與美式足球球隊老闆，參與太空計畫、環遊世界、贊助腦科學研究等等。我想這每一項在普羅大眾眼裡都是遙不可及的夢想，但他卻達成了每一項。
 
 看來看去覺得其實這些「神人」也是如你我一樣的普通人，會說錯話、會吃蛋捲，對於未來也看會走眼，也許努力，也許幸運，最終那麼不普通了一點。他們把握了機會，也創造了機會，但天時地利人和仍缺一不可。
-
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  更多文章 in 分類： <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
-
 
 [book_link]: https://www.books.com.tw/products/0010556902
 [paul_allen_wiki]: https://en.wikipedia.org/wiki/Paul_Allen

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>
+        {% if site.category_names[page.title] %}
+          {{ site.category_names[page.title] }} |
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+        疏離蘇黎世
+    </title>
+    <link rel="icon" href="https://fav.farm/%F0%9F%A4%A1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">疏離蘇黎世</a>
+            <ul class="nav-links">
+                <li><a href="{{ '/category/eth' | relative_url }}">碩博生活</a></li>
+                <li><a href="{{ '/category/flights' | relative_url }}">飛行紀錄</a></li>
+                <li><a href="{{ '/category/books' | relative_url }}">閱讀筆記</a></li>
+                <li><a href="{{ '/category/travel' | relative_url }}">遊記</a></li>
+                <li><a href="{{ '/category/switzerland' | relative_url }}">瑞士</a></li>
+                <li><a href="{{ '/category/arch' | relative_url }}">建築</a></li>
+                <li><a href="{{ '/category/data' | relative_url }}">數據</a></li>
+                <li><a href="{{ '/category/others' | relative_url }}">隨筆</a></li>
+            </ul>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>CCH 的疏離蘇黎世</h3>
+                <p>充滿廢文的地方 ... </p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="{{ '/about' | relative_url }}">你是誰？</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h2>
+    {{ site.category_names[page.title] | default: page.title }} 
+    (共 {{ site.categories[page.title] | size }} 篇)
+</h2>
+
+{% for post in site.categories[page.title] %}
+<div class="post-card">
+    {% if post.thumbnail %}
+    <div class="post-thumbnail">
+        <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+        </a>
+    </div>
+    {% endif %}
+    
+    <div class="post-content">
+        <span class="category-tag">
+            {{ site.category_names[page.title] | default: page.title }}
+        </span>
+        <h2 class="index-post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p>{{ post.excerpt | strip_html | truncate: 90 }}</p>
+    </div>
+</div>
+{% endfor %}

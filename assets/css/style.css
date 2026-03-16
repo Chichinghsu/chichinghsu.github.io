@@ -1,0 +1,484 @@
+---
+---
+:root {
+    --primary-blue: #0077cc;
+    --primary-red: #b62323;
+    --sky-light: #f0f7ff;
+    --accent-gold: #c5a059; /* For a touch of luxury travel */
+    --text-main: #2d3436;
+    --text-muted: #636e72;
+    --bg-warm: #fdfdfd;
+    --glass: rgba(255, 255, 255, 0.85);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg-warm);
+    color: var(--text-main);
+    line-height: 1.8;
+}
+
+/* Glass-morphism Sticky Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 1rem 0;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: var(--primary-red);
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--primary-blue);
+}
+
+/* Professional Content Area */
+.container {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+/* Post Cards for your Travel Grid */
+.post-preview {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    transition: transform 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.category-tag {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--accent-gold);
+}
+
+/* Target the link specifically inside the category tag */
+.category-tag a {
+    text-decoration: none; /* This removes the blue underline */
+    color: inherit;        /* This makes the link the same color as the surrounding text */
+    display: inline-block;
+}
+
+.index-post-title a {
+    text-decoration: none; /* This removes the blue underline */
+    color: inherit;        /* This makes the link the same color as the surrounding text */
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    border-top: 1px solid #eee;
+}
+/* --- Mobile Responsive Rules --- */
+
+@media (max-width: 768px) {
+    /* Stack the Navbar */
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* Adjust Typography for smaller screens */
+    h1 {
+        font-size: 2rem; /* Shorter titles for mobile */
+    }
+
+    .container {
+        margin: 30px auto; /* Less white space on top/bottom */
+    }
+
+    /* Make cards take up full width minus padding */
+    .post-preview {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Makes travel photos look modern and soft */
+}
+/* Categories Page Styling */
+#archives {
+    margin-top: 40px;
+}
+
+.archive-group {
+    margin-bottom: 50px;
+}
+
+.category-head {
+    font-size: 1.8rem;
+    color: var(--primary-blue);
+    border-bottom: 2px solid var(--sky-light);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.archive-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.2s ease;
+}
+
+.archive-item:last-child {
+    border-bottom: none;
+}
+
+.archive-item h4 {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.archive-item a {
+    text-decoration: none;
+    color: var(--text-main);
+    display: flex;
+    gap: 20px; /* Space between date and title */
+}
+
+/* On mobile, stack the date and title */
+@media (max-width: 768px) {
+    .archive-item a {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+/* Post Card with Thumbnail */
+.post-card {
+    display: flex;
+    gap: 30px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    align-items: center; /* Centers text vertically against image */
+    transition: transform 0.2s ease;
+}
+
+.post-thumbnail {
+    flex: 0 0 250px; /* Fixed width for the image part */
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* This crops the image perfectly without stretching */
+    border-radius: 8px;
+}
+
+.post-content {
+    flex: 1; /* Takes up the remaining space */
+}
+
+/* Mobile: Stack image on top of text */
+@media (max-width: 768px) {
+    .post-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .post-thumbnail {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .post-thumbnail img {
+        height: 200px;
+    }
+}
+/* Tighter cards for the Archive/Category page */
+.archive-group .post-card {
+    margin-bottom: 20px;
+    padding: 15px; /* Slightly smaller padding than homepage */
+}
+
+.archive-group .post-thumbnail {
+    flex: 0 0 180px; /* Smaller thumbnails for the archive list */
+}
+
+.archive-group .post-thumbnail img {
+    height: 120px;
+}
+
+.category-head {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 4px solid var(--primary-blue);
+    font-weight: 800;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.2s ease;
+}
+
+.read-more:hover {
+    transform: translateX(5px);
+    color: var(--accent-gold);
+}
+/* Container & Width Fixes */
+.container {
+    max-width: 900px; /* Overall site width */
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.post-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Soft shadow for a "finished" feel */
+    margin-bottom: 40px;
+}
+
+/* Post Header Styling */
+.post-header {
+    border-bottom: 2px solid var(--sky-light);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-align: center; /* Centered titles look more professional for travel blogs */
+}
+
+.post-title-main {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+/* Content Styling (The actual blog text) */
+.post-content {
+    font-size: 1.0rem; /* Larger font for better reading */
+    color: #333;
+    line-height: 1.6;
+}
+
+.post-content p {
+    margin-bottom: 25px;
+}
+
+.post-content h2, .post-content h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Ensure images don't overflow the container */
+.post-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+/* Post Footer Styling */
+.post-divider {
+    border: 0;
+    border-top: 1px solid var(--sky-light);
+    margin: 40px 0 20px;
+}
+
+.post-categories-footer {
+    background: var(--sky-light);
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #666;
+    display: flex;
+    justify-content: center; /* Centers the footer text */
+}
+
+.category-link-footer {
+    color: var(--primary-blue);
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.category-link-footer:hover {
+    text-decoration: underline;
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* This stops the horizontal scroll */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    overflow-x: hidden; /* Extra safety for the main content area */
+}
+/* Responsive Iframe (Maps, YouTube, etc.) */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #eee;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important; /* Force it to stay inside the div */
+    height: 100% !important;
+    border: 0;
+}
+/* Sticky Footer Setup */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures footer stays at bottom on short pages */
+}
+
+main {
+    flex: 1;
+}
+
+/* Footer Styling */
+.site-footer {
+    background: #2c3e50; /* Elegant dark navy */
+    color: #ecf0f1;
+    padding: 50px 0 20px;
+    margin-top: 60px;
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-about {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-about h3 {
+    margin-bottom: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.footer-about p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #bdc3c7;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.footer-social a {
+    color: #bdc3c7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #95a5a6;
+}
+
+/* Mobile Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+}

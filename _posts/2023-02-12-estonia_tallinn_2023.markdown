@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "波羅的海三小國之愛沙尼亞雜談"
 date:   2023-02-12 10:00:00 +0200
-categories: Travel
+categories: travel
+thumbnail: /images/2023-02-12-estonia_tallinn_2023/4.png
 ---
 雖標題寫愛沙尼亞，其實也只去了首都塔林 Tallinn，以此文記之。波羅的海三小國 Baltic States，想必大家小時候地理課都有提過，上課時都會有諧音衝動。學生時期的諧音霸主，我個人會投給「作業剛交」、「第三小題」、「伊斯蘭教」、「應到未到」、「睡懶覺」等等，歡迎補充其他。小時候我以為波羅的海跟菠蘿麵包有關係，想說「波羅」應該是什麼神（太陽神？），有他自己的海還有自己的麵包，非常合理。
 
@@ -38,17 +38,5 @@ categories: Travel
 
 ![tallinn5](/images/2023-02-12-estonia_tallinn_2023/5.png)
 <p style="text-align: center;">退休的列寧們</p>
-
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  更多文章 in 分類： <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 
 [rail_baltica]: https://www.railbaltica.org/

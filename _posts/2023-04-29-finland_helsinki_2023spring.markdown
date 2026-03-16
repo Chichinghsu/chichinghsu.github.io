@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "芬蘭赫爾辛基 2023 年春"
 date:   2023-04-29 10:00:00 +0200
-categories: Travel
+categories: [travel, switzerland]
+thumbnail: /images/2023-04-29-finland_helsinki_2023spring/3.png
 ---
 芬蘭赫爾辛基 Helsinki 是世界上第二北的首都，北緯約 60 度左右（最北的是冰島雷克雅維克 Reykjavik 北緯 64 度左右）。芬蘭已經[連續六年蟬連世界上最快樂的國家][weforum]，瑞士第八名，至於什麼是快樂呢？我想去芬蘭尋找一下答案。
 
@@ -15,8 +15,9 @@ categories: Travel
 
 
 ### 芬蘭堡
-
+<div class="video-container">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15885.655395573121!2d24.954283713768476!3d60.152475210296394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920b8db8853885%3A0xc98ef166ae80717!2sSuomenlinna!5e0!3m2!1sde!2sch!4v1683362750467!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 芬蘭堡是種知名的芬蘭美食，非常特別的漢堡，我亂說的。芬蘭堡 Suomenlinna 為赫爾辛基東南方數個小島所組成之堡壘，以前似乎叫做瑞典堡，從某露天市集附近搭船約 15 分鐘可抵達，歷史我就不談了，基本上是為了防禦芬蘭東邊那個鄰居，怕。島上除了軍事要塞之外也有居民，如果是居民住宅，旁邊就立有牌子寫請尊重、友善、包容、勿吵。
 
@@ -36,15 +37,4 @@ categories: Travel
 ![helsinki3](/images/2023-04-29-finland_helsinki_2023spring/3.png)
 <p style="text-align: center;">Alvar Aalto 的事務所，他以前在這個空間做設計。我在裡面坐了好久好久，旅行的意義？</p>
 
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  更多文章 in 分類： <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 [weforum]: https://www.weforum.org/agenda/2023/03/charted-the-happiest-countries-in-the-world/
