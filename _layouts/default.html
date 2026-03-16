@@ -13,6 +13,9 @@
     </title>
     <link rel="icon" href="https://fav.farm/%F0%9F%A4%A1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% if jekyll.environment == "production" %}
+      {% include analytics.html %}
+    {% endif %}
 </head>
 <body>
     <nav class="navbar">
@@ -40,11 +43,10 @@
         <div class="footer-container">
             <div class="footer-about">
                 <h3>CCH 的疏離蘇黎世</h3>
-                <p>充滿廢文的地方 ... </p>
             </div>
             
             <div class="footer-social">
-                <a href="{{ '/about' | relative_url }}">你是誰？</a>
+                <a href="{{ '/about' | relative_url }}">我是誰？</a>
             </div>
 
         </div>

@@ -49,6 +49,8 @@ category_names:
   others: "隨筆"
   arch: "建築"
   data: "數據"
+
+google_analytics: G-XXXXXXXXX
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
