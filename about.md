@@ -11,3 +11,5 @@ permalink: /about/
 依然只有一大堆廢文
 
 Contact: chiching.hsu (at) hotmail.com
+
+<!-- 不知道要看哪篇的話： -->
