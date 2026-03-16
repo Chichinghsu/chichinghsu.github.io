@@ -7,7 +7,7 @@
         {% if site.category_names[page.title] %}
           {{ site.category_names[page.title] }} |
         {% else %}
-          {{ page.title }} | 
+          {{ page.title }}
         {% endif %}
         疏離蘇黎世
     </title>
@@ -21,6 +21,13 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="/" class="logo">疏離蘇黎世</a>
+
+            <button class="menu-toggle" aria-label="Open Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
             <ul class="nav-links">
                 <li><a href="{{ '/category/eth' | relative_url }}">碩博生活</a></li>
                 <li><a href="{{ '/category/flights' | relative_url }}">飛行紀錄</a></li>
@@ -52,6 +59,23 @@
 
         </div>
     </footer>
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
 
+    menuToggle.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevents the click from bubbling up
+        navLinks.classList.toggle('active');
+        menuToggle.classList.toggle('is-active');
+    });
+
+    // Close menu if clicking anywhere else on the screen
+    document.addEventListener('click', (e) => {
+        if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+            navLinks.classList.remove('active');
+            menuToggle.classList.remove('is-active');
+        }
+    });
+</script>
 </body>
 </html>
