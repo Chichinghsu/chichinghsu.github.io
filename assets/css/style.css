@@ -438,6 +438,32 @@ main {
     flex: 1;
 }
 
+.post-content blockquote {
+    margin: 30px 0;
+    padding: 20px 25px;
+    background-color: #f9f9f9; /* Very light gray */
+    border-left: 5px solid #2c3e50; /* A thick accent bar in your brand color */
+    border-radius: 0 8px 8px 0; /* Rounded corners on the right only */
+    color: #555;
+    line-height: 1.6;
+    position: relative;
+}
+
+/* Optional: Add a decorative quotation mark icon */
+.post-content blockquote::before {
+    content: "\201C"; /* Unicode for open quote */
+    font-family: serif;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.05); /* Very faint large quote mark */
+}
+
+.post-content blockquote p {
+    margin: 0; /* Removes extra spacing inside the quote box */
+}
+
 /* Footer Styling */
 .site-footer {
     background: #2c3e50; /* Elegant dark navy */
