@@ -8,14 +8,14 @@ description: "芬微軟共同創辦人 Paul Allen 書的讀書心得"
 
 這次來分享書名很長且含副標題之書，全名應是 Idea Man: A Memoir by the Cofounder of Microsoft，中文書名看起來是（至少我手上這個版本）[《我與微軟，以及我的夢想》][book_link]加上一段像是很久以前偶像劇的副標「一段永遠改變人類生活的創業傳奇；一個不斷為創意而奮鬥的驚奇人生」。
 
-
 此書是由微軟共同創辦人 [Paul Allen][paul_allen_wiki] （以下簡稱保羅哥）在他大概 55 歲時所寫的回憶錄。我覺得整本書讀起來略嫌冗長嘮叨，但畢竟是回憶錄，好像也很正常。書中詳細記錄了所有細節，但畢竟是本人所寫，內容是否真實就有疑慮（你看我都自己寫自己是金城武）。另外，本書翻譯品質普通，前面還可以，到中後段感覺放飛自我，甚至出現錯別字。不過，英文版可以免費在網路上欣賞，所以可以互相參照。
 
 提到微軟大家可能都只知道比爾蓋茲 Bill Gates（以下簡稱比爾哥），反之保羅哥好像沒有那麼有名。所以書中可以一直感受到作者對比爾哥的不爽，頗有想要寫此書為自己平反的意思：我也很重要，為什麼大家都不記得我？看完這篇之後請大家記得，除了比爾哥之外還有保羅哥。
 
-
-![geneva](/images/2023-04-10-paul_allen_book/1.png)
-<p style="text-align: center;">不知為何感覺要搭配一張日內瓦噴泉，蘇黎世金城武攝於日內瓦</p>
+<figure class="post-figure">
+  <img src="/images/2023-04-10-paul_allen_book/1.png" alt="曾經滄海">
+  <figcaption>不知為何感覺要搭配一張日內瓦噴泉，蘇黎世金城武攝於日內瓦</figcaption>
+</figure>
 
 ### 微軟為何叫微軟？
 保羅哥 1953 年生於西雅圖，從小就認識比爾哥，因為對電腦（當時甚至還沒有「電腦」）有濃厚的興趣，他們開始了一段永遠改變人類生活的創業傳奇。1975 年微軟在新墨西哥州阿布奎基 (Albuquerque, New Mexico) 創立，當時他才二十幾歲。總之，在此不說太多歷史，有興趣者可自行去看此書。比較意外的是，為什麼微軟叫做微軟 Microsoft，本來想說會有什麼自我爆料的故事，類似：「喔其實取名緣由是因為我們都微軟」，結果不是：
@@ -41,7 +41,9 @@ description: "芬微軟共同創辦人 Paul Allen 書的讀書心得"
 
 既然提到 1975 就來搭配一下 The 1975 之歌，據說他們會取這名字是因為其中一名團員在西班牙度假小島 Majorca 路邊與某素未謀面的別墅主人攀談，陰錯陽差之下受邀參觀別墅。臨走之際，別墅主人給了他許多書，但回英國之後其實一直沒有翻閱，直到約半年後某天無意間發現這堆書中有一段紀錄日期的文字： 1st June, The 1975。他被這個 The 震撼到，怎麼會有人這樣寫日期？因此就決定以此取名。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tGv7CUutzqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tGv7CUutzqU?si=mr-gHlITfYyqxqmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### 驀然回首
 > 多年以前，當 Google 還未坐大，我一再問比爾在搜尋引擎領域微軟要怎麼迎頭趕上，或者公司要不要考慮收購 Google。比爾沒把當時規模還很小的 Google 放在眼裡。「六個月之後，我們就能趕上他們。」他一直這樣說。
