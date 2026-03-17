@@ -8,7 +8,7 @@ thumbnail: /images/2025-12-12-pegasus-istanbul/3.webp
 此文記錄搭乘土耳其低成本航空霸主飛馬航空 (Pegasus Airlines) 的微心得加上伊斯坦堡小小遊記。土耳其航空直飛台北後加上旅行社的推波助瀾，似乎讓土耳其在台灣人（尤其是旅行團）間爆紅。
 
 <figure class="post-figure">
-  <img src="/images/2025-12-12-pegasus-istanbul/1.webp" alt="Istanbul Pegasus Flight">
+  <img src="/images/2025-12-12-pegasus-istanbul/1.webp" alt="伊斯坦堡書店的貓">
   <figcaption>被貓佔領之伊斯坦堡書店</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ SAW 機場好奇查了一下，是以 Sabiha Gökçen（聽廣播唸起來是薩
 至於為什麼是巴塞爾而不是蘇黎世飛呢？因為從蘇黎世飛的話要一百五十歐元，為了節省一百二十歐，決定從蘇黎世搭火車一小時到巴塞爾車站，再轉搭公車十五分鐘到機場，省了一百多歐，多花了一小時多。其實有點冗，路上看到許多草間彌生，因為巴塞爾有他的展。
 
 <figure class="post-figure">
-  <img src="/images/2025-12-12-pegasus-istanbul/3.webp" alt="Istanbul Pegasus Flight">
+  <img src="/images/2025-12-12-pegasus-istanbul/3.webp" alt="伊斯坦堡人很多的橋">
   <figcaption>到處滿滿的人，舉步維艱</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ SAW 機場好奇查了一下，是以 Sabiha Gökçen（聽廣播唸起來是薩
 先前有位傳奇室友是土耳其人，他可以看一眼 How I Met Your Mother 的畫面就跟你説這是第幾季第幾集。他之前提到伊斯坦堡時總透露出那種「非台北人提到台北的口氣」：人超爆多啊，就是大城市。他自己不喜歡，太多人了。根據隨便亂查，伊斯坦堡大概有一千五百萬人。由於我剛到時都在亞洲區閒晃，感覺還好，人多是多但沒有太誇張，還想說這位土耳其室友肯定是因為沒到過東亞見識過什麼叫做人多，但沒想到搭船過去歐洲側之後（幾乎所有觀光景點都在這），人真的是有點太多，擠到不行，隨處都是人。
 
 <figure class="post-figure">
-  <img src="/images/2025-12-12-pegasus-istanbul/3.webp" alt="Istanbul Pegasus Flight">
+  <img src="/images/2025-12-12-pegasus-istanbul/3.webp" alt="伊斯坦堡書店的貓">
   <figcaption>很多人之外也很多貓</figcaption>
 </figure>
 

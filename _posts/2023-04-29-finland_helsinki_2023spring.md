@@ -1,7 +1,7 @@
 ---
 title:  "芬蘭赫爾辛基 2023 年春"
 date:   2023-04-29 10:00:00 +0200
-categories: [travel, switzerland]
+categories: travel
 thumbnail: /images/2023-04-29-finland_helsinki_2023spring/3.png
 ---
 芬蘭赫爾辛基 Helsinki 是世界上第二北的首都，北緯約 60 度左右（最北的是冰島雷克雅維克 Reykjavik 北緯 64 度左右）。芬蘭已經[連續六年蟬連世界上最快樂的國家][weforum]，瑞士第八名，至於什麼是快樂呢？我想去芬蘭尋找一下答案。
