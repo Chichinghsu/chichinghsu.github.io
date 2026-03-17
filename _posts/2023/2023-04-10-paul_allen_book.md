@@ -3,7 +3,9 @@ title:  "微軟 Paul Allen 回憶錄 Idea Man"
 date:   2023-04-10 10:00:00 +0200
 categories: books
 thumbnail: /images/2023-04-10-paul_allen_book/1.png
+description: "芬微軟共同創辦人 Paul Allen 書的讀書心得"
 ---
+
 這次來分享書名很長且含副標題之書，全名應是 Idea Man: A Memoir by the Cofounder of Microsoft，中文書名看起來是（至少我手上這個版本）[《我與微軟，以及我的夢想》][book_link]加上一段像是很久以前偶像劇的副標「一段永遠改變人類生活的創業傳奇；一個不斷為創意而奮鬥的驚奇人生」。
 
 
