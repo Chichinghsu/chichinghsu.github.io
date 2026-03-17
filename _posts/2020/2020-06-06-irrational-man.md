@@ -15,7 +15,7 @@ description: "如果你是在考慮要不要看這部片然後 Google  到這篇
   <figcaption>不知道要放啥圖，放一張瑞士 Grindelwald 纜車上，愛的迫降</figcaption>
 </figure>
 
-回歸正題，這部是伍迪艾倫 (Woody Allen) 2015 年的片子，所以不太意外的會出現愛情、出軌、生與死以及許多微掉書袋的內容，加上本片主角是哲學系教授，演《雲端情人》(_Her_) 的 Joaquin Phoenix 大大，所以要有良好觀影體驗的話得先去上哲學概論。女主角是教授的正妹學生 Emma Stone，《樂來越愛你》(_La La Land_) 的那位水水，沒錯就是師生戀。先聲明我對哲學不是很熟，所以我決應採用 Cunningham’s Law（好像有點誤用就是了），歡迎大家來更正我。(Cunningham’s Law: the best way to get the right answer on the internet is not to ask a question; it’s to post the wrong answer.)
+回歸正題，這部是伍迪艾倫 (Woody Allen) 2015 年的片子，所以不太意外的會出現愛情、出軌、生與死以及許多微掉書袋的內容，加上本片主角是哲學系教授，演《雲端情人》(_Her_) 的 Joaquin Phoenix 大大，所以要有良好觀影體驗的話得先去上哲學概論。女主角是教授的正妹學生 Emma Stone，《樂來越愛你》(La La Land) 的那位水水，沒錯就是師生戀。先聲明我對哲學不是很熟，所以我決應採用 Cunningham’s Law（好像有點誤用就是了），歡迎大家來更正我。(Cunningham’s Law: the best way to get the right answer on the internet is not to ask a question; it’s to post the wrong answer.)
 
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/mGQLXRTl3Z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
