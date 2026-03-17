@@ -227,10 +227,6 @@ img {
     border-radius: 8px;
 }
 
-.post-content {
-    flex: 1; /* Takes up the remaining space */
-}
-
 /* Mobile: Stack image on top of text */
 @media (max-width: 768px) {
     .post-card {
@@ -321,6 +317,21 @@ img {
     font-size: 1.0rem; /* Larger font for better reading */
     color: #333;
     line-height: 1.6;
+    flex: 1; /* Takes up the remaining space */
+}
+
+.post-content a {
+    text-decoration: none;           /* Remove the old blue line */
+    color: #2c3e50;                  /* A dark, professional navy/black */
+    border-bottom: 2px solid rgba(44, 62, 80, 0.2); /* Soft, thick underline */
+    transition: all 0.3s ease;       /* Smooth hover effect */
+    padding-bottom: 1px;
+}
+
+.post-content a:hover {
+    color: var(--primary-red);      /* Change to your brand color on hover */
+    border-bottom: 2px solid var(--primary-red); /* Brighten the underline */
+    background-color: rgba(var(--primary-blue-rgb), 0.05); /* Very light highlight */
 }
 
 .post-content p {
@@ -339,6 +350,26 @@ img {
     border-radius: 8px;
     margin: 20px 0;
 }
+
+/* Target lists inside your blog posts only */
+.post-content ol {
+    padding-left: 40px;      /* Indent the whole list */
+    margin: 20px 0;          /* Space above and below the list */
+}
+
+.post-content ol li {
+    margin-bottom: 12px;     /* Space between each numbered item */
+    padding-left: 10px;      /* Space between the number and the text */
+    line-height: 1.6;        /* Better readability for long points */
+    color: #333;
+}
+
+/* Optional: Make the numbers a different color than the text */
+.post-content ol li::marker {
+    color: var(--primary-blue); /* Use your brand color for the numbers! */
+    font-weight: bold;
+}
+
 /* Post Footer Styling */
 .post-divider {
     border: 0;
@@ -511,6 +542,44 @@ main {
     /* The Magic Sauce: */
     width: 100%;       /* Default to full width for mobile */
     max-width: 500px;  /* Cap the size so it doesn't get huge on desktop */
+}
+
+.post-figure-extra-small {
+    text-align: center;      /* This centers the caption text */
+    margin: 20px auto;       /* Spacing around the figure */
+    display: block;
+}
+
+.post-figure-extra-small img {
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* The Magic Sauce: */
+    width: 100%;       /* Default to full width for mobile */
+    max-width: 200px;  /* Cap the size so it doesn't get huge on desktop */
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 600px;      /* Limits size on desktop */
+    margin: 30px auto;     /* Centers the video and adds vertical space */
+    border-radius: 12px;   /* Matches your modern image style */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* The Caption Text */

@@ -2,13 +2,16 @@
 title:  "芬蘭赫爾辛基 2023 年春"
 date:   2023-04-29 10:00:00 +0200
 categories: travel
-thumbnail: /images/2023-04-29-finland_helsinki_2023spring/3.png
+thumbnail: /images/2023-04-29-finland-helsinki-2023spring/3.png
 description: "芬蘭赫爾辛基世界上第二北的首都 2023 年春天遊記，最喜歡芬蘭堡。"
 ---
 芬蘭赫爾辛基 Helsinki 是世界上第二北的首都，北緯約 60 度左右（最北的是冰島雷克雅維克 Reykjavik 北緯 64 度左右）。芬蘭已經[連續六年蟬連世界上最快樂的國家][weforum]，瑞士第八名，至於什麼是快樂呢？我想去芬蘭尋找一下答案。
 
-![helsinki1](/images/2023-04-29-finland_helsinki_2023spring/1.png)
-<p style="text-align: center;">赫爾辛基一隅，左邊黃黃的是總統府，蘇黎世金城武攝於高處</p>
+<figure class="post-figure">
+  <img src="/images/2023-04-29-finland-helsinki-2023spring/1.png" alt="赫爾辛基一隅">
+  <figcaption>赫爾辛基一隅，左邊黃黃的是總統府，蘇黎世金城武攝於高處</figcaption>
+</figure>
+
 
 芬蘭國土巨大深入北極圈，約有九個台灣那麼大，不過人口只有約五百六十萬。其實一直到 1917 年芬蘭才獨立，算是相對年輕的國家。知名人士包含建築師 Alvar Aalto、Linux 系統創辦人 Linus Torvalds 還有西貝流士 Jean Sibelius 等等。從赫爾辛基跨過芬蘭灣 Gulf of Finland 往南就是愛沙尼亞的塔林，往東則是俄羅斯聖彼得堡。基本資料介紹完畢之後，此文就隨意寫一下赫爾辛基之旅。初踏上芬蘭土地，踏出飛機在空橋上看到玻璃外停機坪旁寫著北緯 60 度，東經 24 度，心中忍不住吶喊，真靠北！
 
@@ -26,16 +29,20 @@ description: "芬蘭赫爾辛基世界上第二北的首都 2023 年春天遊記
 
 我發現好像赫爾辛基人非常喜歡大自然（或說在神奇的野外席地而坐或躺），比如剛剛說的砲管旁邊，還有像是路邊空地一些岩石，甚至火車經過看起來杳無人煙之森林，也有人在裡面躺著。芬蘭堡另一頭佈滿石頭之海灘，也有人躺在那（天堂路？）。好吧，感覺越寫越像恐怖故事，總之這些人都是活人，只是躺著曬太陽（吧）。也許陽光對於北國而言真的太珍貴，查了一下赫爾辛基十二月平均整個月只有 29 小時日照，真難以想像怎麼快樂。
 
-![helsinki2](/images/2023-04-29-finland_helsinki_2023spring/2.png)
-<p style="text-align: center;">波光粼粼，太陽雖大但寒風刺骨，蘇黎世金城武攝於芬蘭堡</p>
+<figure class="post-figure">
+  <img src="/images/2023-04-29-finland-helsinki-2023spring/2.png" alt="赫爾辛基芬蘭堡">
+  <figcaption>波光粼粼，太陽雖大但寒風刺骨，蘇黎世金城武攝於芬蘭堡</figcaption>
+</figure>
 
 ### 我要快樂？
 張惠妹這首歌歌名有問號，大家別忘了。赫爾辛基四月路上依然佈滿碎石子，我想是因為冬天下很多雪需要碎石子讓你可以安心走路不滑倒，但小碎石實在太多，在沒雪的路上有點影響到走路舒適度。北國之旅對於來自北緯 23 度之我實在是大開眼界，儘管已經四月還是好冷，風大、太陽大（刺眼卻不熱），走在赫爾辛基街頭就像走在冰箱冷凍庫，還附有電風扇＋探照燈，此外，太陽真的太斜了。
 
 結果我在赫爾辛基信步閒晃，買了數日交通票券，都沒有被查到票，不過記得搭公車要揮手才會停，不然你就只能再等下一班，而且可能下一班也不會停，如果你還是沒揮手。本想尋找身為最快樂的國家背後的祕密，打算隨意問問路人，你快樂嗎？但過沒多久我就忘了這件事情，直到要離開之前再度想起這件事情時，已在機場。總而言之，這趟赫爾辛基之旅我應該還算十分快樂，也許當你沒有意識到快樂的時候，你就會快樂？
 
+<figure class="post-figure">
+  <img src="/images/2023-04-29-finland-helsinki-2023spring/3.png" alt="Alvar Aalto 的事務所">
+  <figcaption>Alvar Aalto 的事務所，他以前在這個空間做設計。我在裡面坐了好久好久，旅行的意義？</figcaption>
+</figure>
 
-![helsinki3](/images/2023-04-29-finland_helsinki_2023spring/3.png)
-<p style="text-align: center;">Alvar Aalto 的事務所，他以前在這個空間做設計。我在裡面坐了好久好久，旅行的意義？</p>
 
 [weforum]: https://www.weforum.org/agenda/2023/03/charted-the-happiest-countries-in-the-world/
