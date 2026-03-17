@@ -1,7 +1,7 @@
 ---
 title: 瑞士鐵路雜談
 date: '2024-02-27T21:55:10.883Z'
-categories: switzerland
+categories: switzerland others
 thumbnail: /images/2024-02-27-swiss-railway/1.webp
 description: "瑞士鐵路以準時聞名，但在準時的背後其實有些可能不為人知的故事。此文算是我近幾年搭車的心得、觀察（但不保證完全正確），與大家分享。鐵路在瑞士佔有非常重要的地位，應該可類比為汽車之於美國。"
 ---
