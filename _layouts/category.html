@@ -30,6 +30,8 @@ layout: default
         </h2>
         <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
         <p>{{ post.excerpt | strip_html | truncate: 90 }}</p>
+
+        <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
     </div>
 </div>
 {% endfor %}
