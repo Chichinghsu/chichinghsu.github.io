@@ -16,7 +16,7 @@ description: "英國作家克莉絲蒂 (Agatha Christie) 在 1937年的作品《
 
 [**尼羅河謀殺案：克莉絲蒂120誕辰紀念版**](https://www.books.com.tw/products/0010476627?sloc=main)
 
-#### 尼羅河有鱷魚
+## 尼羅河有鱷魚
 
 作者克莉絲蒂在 18歲時去埃及待了幾個月，加上她第二任老公是位考古學家，這可能都為他這本書帶來靈感（我亂猜的）。如同書名這個故事發生在埃及尼羅河，世界上最長的河流（有爭議，巴西覺得亞馬遜河才是），主要從南往北流，最後注入地中海。尼羅河有兩條主要的支流白尼羅河 (White Nile) 與青尼羅河 (Blue Nile)，匯集於蘇丹首都喀土穆 (Khartoum)。書名雖為《尼羅河謀殺案》但其實主要故事發生的地點都是在亞斯文 (Aswan) 附近的湖泊 Lake Nasser （在蘇丹稱 Lake Nubia）上，不過這湖就是尼羅河的一部分，所以也沒問題。
 
@@ -29,7 +29,7 @@ description: "英國作家克莉絲蒂 (Agatha Christie) 在 1937年的作品《
 
 另外 Lake Nasser 這個名字其實是來自埃及總統 Gamal Abdel Nasser ，1952年埃及國王被推翻之後，他在 1954年到 1970年間擔任埃及總統並主導了這個亞斯文高壩計畫。他可說是當時阿拉伯世界的領袖，呼風喚雨，鼓吹「泛阿拉伯主義 (Pan-Arabism)」，認為阿拉伯世界要團結起來。這些阿拉伯國家的國旗通常會有紅白黑這三種顏色，像是埃及🇪🇬、敘利亞🇸🇾、伊拉克🇮🇶等等（windows系統不支援國旗 emoji ❗️❓）。甚至在 1958年時敘利亞與埃及還共同組成「阿拉伯聯合共和國(United Arab Republic)」，雖然持續沒幾年， 1961年敘利亞政變就退出了。所以只有在埃及稱 Lake Nasser，但在蘇丹則稱 Lake Nubia。
 
-#### 回到故事本身
+## 回到故事本身
 
 故事大綱就是一群人在亞斯文的飯店度假，等著搭船遊尼羅河，船將從謝拉爾 (Shellal) 開往瓦迪哈法 (Wadi Halfa)（位於今天的蘇丹），基本上這段船程橫越了整座 Lake Nasser，從埃及進入蘇丹，請見下面 Google Maps，Shellal 位在亞斯文的下面一點點。故事從 Shellal 出發中途去著名的 Abu Simbel 神廟停留，可以在地圖上看到，非常順路，到達 Wadi Halfa 後，又搭回程回到 Shellal，結果就發生了一堆事情，故事最後在抵達 Shellal 畫下（完美並不美的）句點。
 
@@ -37,7 +37,7 @@ description: "英國作家克莉絲蒂 (Agatha Christie) 在 1937年的作品《
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68458.26970860308!2d31.35798455!3d21.795006599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x142571e21df93fa3%3A0xa9b7012da7d64f6!2sWadi%20Halfa%2C%20Sudan!5e1!3m2!1sen!2sch!4v1773760882179!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-#### 蘇丹與南蘇丹
+## 蘇丹與南蘇丹
 
 利用剩下的一點版面離題一下，南蘇丹這個全世界最年輕的國家，歷經兩次內戰之後在 2011年以超過 98% 贊成率公投獨立，人口約 1100萬人，首都為 Juba，位於白尼羅河畔，已加入聯合國成為會員國。所以你可以大聲的說，我出生的時候國家都還沒創立呢。蘇丹與南蘇丹這整塊巨大土地在獨立之前是由英國與埃及共管，後來他們從英國與埃及獨立之後陷入長年內戰。
 
@@ -51,7 +51,7 @@ description: "英國作家克莉絲蒂 (Agatha Christie) 在 1937年的作品《
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18192036.23094253!2d19.59614833709749!3d15.454580832770304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15d91cc41072b195%3A0xd2bf70462a612b37!2sSudan!5e1!3m2!1sen!2sus!4v1773760963834!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-#### 總而言之
+## 總而言之
 
 好像又離題的有點遠了，總之言之，還沒看過本書的人可以去看看，一樣的錯綜複雜、一樣的出乎意料。至少在這不能出國的日子裡，還可以跟著克莉絲蒂一起同遊埃及與蘇丹（雖然故事有點恐怖）。
 

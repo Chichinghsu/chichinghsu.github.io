@@ -493,6 +493,13 @@ main {
     letter-spacing: 2px;
 }
 
+.footer-about a {
+    color: #bdc3c7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
 .footer-about p {
     font-size: 0.9rem;
     line-height: 1.6;
