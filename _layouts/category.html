@@ -19,7 +19,11 @@ layout: default
     
     <div class="post-content">
         <span class="category-tag">
-            {{ site.category_names[page.title] | default: page.title }}
+            {% for category in post.categories %}
+            <a href="{{ category | prepend: '/category/' | relative_url }}">
+                {{ site.category_names[category] | default: category }}
+            </a>
+            {% endfor %}
         </span>
         <h2 class="index-post-title">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
