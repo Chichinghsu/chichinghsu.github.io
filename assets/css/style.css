@@ -495,6 +495,24 @@ main {
     max-width: 100%;
 }
 
+.post-figure-small {
+    text-align: center;      /* This centers the caption text */
+    margin: 20px auto;       /* Spacing around the figure */
+    display: block;
+}
+
+.post-figure-small img {
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* The Magic Sauce: */
+    width: 100%;       /* Default to full width for mobile */
+    max-width: 500px;  /* Cap the size so it doesn't get huge on desktop */
+}
+
 /* The Caption Text */
 figcaption {
     font-size: 0.9rem;
