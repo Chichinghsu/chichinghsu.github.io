@@ -8,7 +8,7 @@ description: "身為 YouTube 重度使用者，本文決定用 YouTube Data API 
 
 身為 YouTube 重度使用者，本文決定用 YouTube Data API 來撈阿滴英文從 2017以來連續三年的愚人節影片留言，看一下這三年留言趨勢有什麼變化。第一次嘗試寫技術性的內容，請多指教。懶得看細節可以直接拉到最下面看結論。
 
-### Introduction
+## Introduction
 
 [阿滴英文](https://www.youtube.com/channel/UCeo3JwE3HezUWFdVcehQk9Q)是台灣少數三個訂閱數量達 200萬的 YouTuber之一（今年年初時達 200萬訂閱），他們從 2016年起每年愚人節都有發布愚人節影片，十分有創意。在此用 [YouTube Data API](https://developers.google.com/youtube/v3/) 做個簡單小分析，分析這些愚人節影片的留言行為。這些愚人節影片的標題如下：
 
@@ -26,9 +26,9 @@ description: "身為 YouTube 重度使用者，本文決定用 YouTube Data API 
 
 此文將討論平均留言字數、留言粉絲人數、粉絲於不同年份的重疊數等等與留言相關的數據。有沒有人連續兩年都留言？甚至連續三年都留言？先說結論，有，但不多。本文使用的資料皆來自 [YouTube Data API](https://developers.google.com/youtube/v3/) ，撈出這三支影片中的所有留言資料，使用語言為 Python，通通撈起來！以下資料皆擷取於2019 年 04 月 13日。
 
-### Results
+## Results
 
-#### 留言者是否重疊？鐵粉？韓粉？
+### 留言者是否重疊？鐵粉？韓粉？
 
 這邊先假設會留言的人都是粉絲，那麼每年的粉絲相同嗎？是同樣的那群人（這群人？）嗎？有沒有人連續兩年都留言？甚至連續三年都留言？讓我們來看圖說故事。
 
@@ -65,7 +65,7 @@ description: "身為 YouTube 重度使用者，本文決定用 YouTube Data API 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mVehfzHZ2B4?si=eWd85rdwb0HqD4lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-#### 2019年補習班影片出現的 YouTuber，誰被提到比較多次？
+### 2019年補習班影片出現的 YouTuber，誰被提到比較多次？
 
 2019 的影片大致上是在說他開了一個補習班，裡面其他 YouTuber 擔任各科老師。我們把 2019這部影片的全部留言丟進「[結巴分詞](https://github.com/fxsjy/jieba)」（一個非常好用的中文分詞系統）裡面，然後再看這些詞出現的頻率，請見下圖。在此大膽宣布，女性聲量大於男性。這可能可以當作以後要找誰 Feat 你影片會比較有話題性的參考。
 
@@ -89,7 +89,7 @@ description: "身為 YouTube 重度使用者，本文決定用 YouTube Data API 
 '退訂', 120  
 '警察', 50
 
-#### 留言字數
+### 留言字數
 
 接著我們來看每年影片留言字數的變化，2017年平均留言字數為 18.18字，2018年為 19.78字，而今年則為 18.37字。須注意字數是用 Python的 len()去算的，所以例如英文 ‘Hello’ 會算 5個字，而「阿滴英文」則算 4個字，表情符號「😂」算一個字，空格也算 1個字。下圖可以看到不同年份留言字數的分布，下圖最大值只取到 60字，因為超過 60字的回覆並不常見，大多數的回應字數都集中在 3到 20字。這三年間留言字數趨勢並無太明顯的變化。
 
@@ -98,7 +98,7 @@ description: "身為 YouTube 重度使用者，本文決定用 YouTube Data API 
   <figcaption>不同年份留言字數分布，須注意 y軸留言次數的數值並不同；製圖：蘇黎世金城武本人</figcaption>
 </figure>
 
-#### 「總留言數」、「留言數」、「使用者數」、「平均留言字數」、「最長留言字數」
+### 「總留言數」、「留言數」、「使用者數」、「平均留言字數」、「最長留言字數」
 
 <figure class="post-figure">
   <img src="/images/2019-04-15-ray-du-data/5.webp" alt="不同年份留言字數分布">
@@ -114,7 +114,7 @@ description: "身為 YouTube 重度使用者，本文決定用 YouTube Data API 
 
 「使用者數」則為在「留言數」中不重複的的使用者，也就是說如果有個瘋狂粉絲留了 10則留言，留言數 = 10 但使用者數 = 1。依比例（半島）來看的話，這三年「留言數」比例 (0.264%, 0.292%, 0.415%) 呈現上升的趨勢（「總留言數」比例也是上升）。也就是說 2017年時每 1000個觀看次數會有 3.22 個人留言，2018年時有 3.6個人，2019年上升到 4.76個人，但每個人留言的字數在三年內並無太大變化。也就是說越來越多人願意留言，但他們的話並沒有比較多。
 
-### Conclusions
+## Conclusions
 
 1.  你還真的直接拉下來看結論，好吧，讓你看
 2.  會留言的人不到百分之一是菁英中的菁英，但會留言的人數逐年上漲中
