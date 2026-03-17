@@ -8,6 +8,10 @@ description: "我在香港機場 47號登機門旁的椅子上聽著 Cigarettes 
 
 我在香港機場 47號登機門旁的椅子上聽著 Cigarettes After Sex，47號登機門停靠的是飛往哈薩克阿拉木圖 (Almaty)的阿斯塔納航空 (Air Astana)。哈薩克，真是個既熟悉又陌生的地方啊，差不多有 75個台灣那麼大。身邊坐著一群穿著一樣衣服的學生，看似要去校外教學的樣子。「你去過哈薩克嗎？」旁邊學生集團的其中一人突然轉向我，帶著狐疑的眼神看著我。
 
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5soixb2U6xM?si=Uxh3cxpnPdiQaoHt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 「乾你屁事喔」我心裡想，但我說出口的卻是「沒有耶，你呢？」，他回答「我不是在跟你講話」。當大多數台灣人提到「亞洲」時，腦中並不會浮現敘利亞、伊拉克或者伊朗（亞洲舞王？亞洲天團？去黎巴嫩問問看有沒有人認識），更不用說中亞這個明明就在亞洲，卻在世界地圖上被遺忘的角落。
 
 <figure class="post-figure">
@@ -49,10 +53,10 @@ description: "我在香港機場 47號登機門旁的椅子上聽著 Cigarettes 
 
 看到這裡，你可能會覺得，黑人問號，誰他媽會發現這個奇怪的問題。這也是我在這邊讀書一陣子之後有的疑問，為什麼他們都可以發現隱藏在奇怪地方的不合理，而且這些地方又不是你一眼可以看出來。但你一旦你聽到問題之後就會覺得，還真的耶，這有問題。發現疑點的下一步就是會開始提出各種解釋，為什麼會這樣呢？
 
-> _解釋一：哈薩克阿拉木圖（北緯 43度）當地下午三點 (UTC+6) 就天黑了  
+> 解釋一：哈薩克阿拉木圖（北緯 43度）當地下午三點 (UTC+6) 就天黑了  
 > 解釋二：飛機 delay 超久，飛到哈薩克的時候都天黑了  
 > 解釋三：你根本沒去過哈薩克，網路上抓的照片  
-> 解釋四：乾我屁事喔_
+> 解釋四：乾我屁事喔
 
 <figure class="post-figure-small">
   <img src="/images/2019-03-11-air-astana-almaty/4.webp" alt="Khan Shatyr Entertainment Center">
