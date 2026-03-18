@@ -18,20 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CCHsu's Blog
+title: "疏離蘇黎世 | CCHsu's Blog"
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  充滿廢文
+description: "充滿廢文、飛行紀錄、建築、資料分析與瑞士碩博班生活"
+lang: "zh-Hant"
+
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /posts/:title/
+permalink: /posts/:year/:month/:day/:title/
 url: "https://chichinghsu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-lang: "zh-Hant"
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 7
+paginate_path: "/page:num/"
 
 defaults:
   - scope:

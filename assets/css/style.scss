@@ -244,6 +244,54 @@ img {
         height: 200px;
     }
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    gap: 10px;
+}
+
+.page-numbers {
+    display: flex;
+    gap: 5px;
+}
+
+.page-link {
+    padding: 8px 14px;
+    border: 1px solid #eee;
+    text-decoration: none;
+    color: #555;
+    border-radius: 4px;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+}
+
+.page-link:hover:not(.disabled) {
+    border-color: #e74c3c;
+    color: #e74c3c;
+    background-color: #fff5f4;
+}
+
+.page-link.active {
+    background-color: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+}
+
+.page-link.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+    border-color: #f9f9f9;
+}
+
+@media (max-width: 480px) {
+    .page-numbers {
+        display: none; /* Hide individual numbers on tiny mobile screens to save space */
+    }
+}
+
 /* Tighter cards for the Archive/Category page */
 .archive-group .post-card {
     margin-bottom: 20px;

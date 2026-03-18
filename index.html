@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+
+<div class="post-card">
+    {% if post.thumbnail %}
+    <div class="post-thumbnail">
+        <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+        </a>
+    </div>
+    {% endif %}
+    
+    <div class="post-content">
+        <span class="category-tag">
+        {% for category in post.categories %}
+        <a href="{{ category | prepend: '/category/' | relative_url }}">
+            {{ site.category_names[category] | default: category }}
+        </a>
+        {% endfor %}
+        </span>
+        <h2 class="index-post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        
+        <p>{{ post.content | strip_html | truncate: 90 }}</p>
+        
+        <a href="{{ post.url | relative_url }}" class="read-more">閱讀全文 →</a>
+    </div>
+</div>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="page-link">&laquo; 上一頁</a>
+  {% else %}
+    <span class="page-link disabled">&laquo; 上一頁</span>
+  {% endif %}
+
+  <div class="page-numbers">
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="page-link active">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ '/' | relative_url }}" class="page-link">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}" class="page-link">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="page-link">下一頁 &raquo;</a>
+  {% else %}
+    <span class="page-link disabled">下一頁 &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
