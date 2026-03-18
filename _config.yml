@@ -27,7 +27,7 @@ permalink: /posts/:title/
 url: "https://chichinghsu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-
+lang: "zh-Hant"
 # Build settings
 # theme: minima
 plugins:
