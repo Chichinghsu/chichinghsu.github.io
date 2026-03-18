@@ -329,6 +329,34 @@ img {
     transform: translateX(5px);
     color: var(--accent-gold);
 }
+
+.about-container {
+    display: flex;
+    flex-direction: column; /* Stack on mobile */
+    gap: 40px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about-image img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Makes it a circle - very "About Me" style */
+}
+
+.about-text {
+    flex: 1;
+}
+
+/* Desktop Version */
+@media (min-width: 768px) {
+    .about-container {
+        flex-direction: row; /* Side-by-side on desktop */
+        align-items: flex-start;
+    }
+}
+
 /* Container & Width Fixes */
 .container {
     max-width: 900px; /* Overall site width */
