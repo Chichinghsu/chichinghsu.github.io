@@ -4,6 +4,7 @@
     --primary-blue: #0077cc;
     --primary-red: #b62323;
     --sky-light: #f0f7ff;
+    --red-light: #fff2f0;
     --accent-gold: #c5a059; /* For a touch of luxury travel */
     --text-main: #2d3436;
     --text-muted: #636e72;
@@ -172,6 +173,28 @@ img {
     padding-bottom: 10px;
     margin-bottom: 20px;
     text-transform: capitalize;
+}
+
+/* Table Styling */
+table {
+    width: 40%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-family: var(--font-main);
+    text-align: center;
+}
+
+th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #000000; /* Your accent red */
+    padding: 12px;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
 }
 
 .archive-item {
@@ -460,7 +483,19 @@ img {
     font-size: 0.95rem;
     color: #666;
     display: flex;
-    justify-content: center; /* Centers the footer text */
+    justify-content: center; 
+}
+
+.post-categories-footer a {
+    color: var(--text-main);        
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.post-categories-footer a:hover {
+    color: var(--primary-red);        
+    text-decoration: none;
 }
 
 .category-link-footer {
