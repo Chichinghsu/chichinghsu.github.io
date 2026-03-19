@@ -1,0 +1,32 @@
+<div class="related-posts">
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+    <h3 style="margin-bottom: 25px; font-weight: 600;">你可能也想看...</h3>
+    
+    <div class="related-grid">
+      {% comment %} 1. Get all posts in current category, excluding current post {% endcomment %}
+      {% assign same_cat_posts = site.categories[page.categories.first] | where_exp: "item", "item.url != page.url" %}
+      
+      {% comment %} 2. Randomly sample up to 4 posts {% endcomment %}
+      {% assign random_posts = same_cat_posts | sample: 4 %}
+      
+      {% for post in random_posts %}
+        <div class="related-card">
+          <a href="{{ post.url | relative_url }}">
+            <div class="card-image">
+              {% if post.thumbnail %}
+                <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+              {% else %}
+                <div class="placeholder-image">-</div>
+              {% endif %}
+            </div>
+            <div class="card-content">
+              <h4>{{ post.title }}</h4>
+              <p class="card-excerpt">
+                {{ post.content | strip_html | truncate: 60 }}
+              </p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>

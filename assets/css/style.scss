@@ -766,6 +766,60 @@ figcaption {
     font-weight: 500;
 }
 
+/* Container for the related section */
+.related-posts a {
+    text-decoration: none !important; /* Removes all underlines */
+    color: inherit; /* Keeps text black/grey instead of blue */
+}
+
+.related-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.related-card {
+    flex: 0 1 calc(50% - 10px); 
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block; /* Removes weird bottom gap in some browsers */
+}
+
+.card-content h4 {
+    margin: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    /* Keeps titles to exactly 2 lines for symmetry */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 2.8em; 
+}
+
+.card-excerpt {
+    margin: 0 12px 15px 12px;
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .related-card {
+        flex: 0 1 100%; /* Single column on mobile */
+    }
+}
+
 @media (max-width: 768px) {
     .menu-toggle {
         display: flex;
