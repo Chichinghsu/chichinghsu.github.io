@@ -43,7 +43,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  
+default_thumbnail: /assets/img/og-default.jpg
+
 category_names:
   flights: "飛行紀錄"
   travel:  "遊記"
