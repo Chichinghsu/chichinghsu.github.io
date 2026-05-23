@@ -3,20 +3,86 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:image" content="{{ page.thumbnail | absolute_url }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
+
+    {%- assign page_title = page.title -%}
+    {%- if site.category_names[page.title] -%}
+      {%- assign page_title = site.category_names[page.title] -%}
+    {%- endif -%}
+    {%- assign page_description = page.description | default: site.description | strip_html | truncate: 160 -%}
+    {%- assign page_image = page.thumbnail | absolute_url | default: site.default_thumbnail | absolute_url -%}
+    {%- assign page_author = page.author | default: site.author | default: "CCH" -%}
+
+    <title>{{ page_title }} | 疏離蘇黎世</title>
+    <meta name="description" content="{{ page_description }}">
+    <meta name="author" content="{{ page_author }}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <!-- Open Graph -->
     <meta property="og:type" content="article">
-    <title>
-        {% if site.category_names[page.title] %}
-          {{ site.category_names[page.title] }} |
-        {% else %}
-          {{ page.title }} |
-        {% endif %}
-        疏離蘇黎世
-    </title>
+    <meta property="og:site_name" content="疏離蘇黎世">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:title" content="{{ page_title }} | 疏離蘇黎世">
+    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page_image }}">
+    <meta property="og:image:alt" content="{{ page_title }}">
+    {% if page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+    <meta property="article:author" content="{{ page_author }}">
+    {% if page.categories %}<meta property="article:section" content="{{ page.categories | first }}">{% endif %}
+    {% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title }} | 疏離蘇黎世">
+    <meta name="twitter:description" content="{{ page_description }}">
+    <meta name="twitter:image" content="{{ page_image }}">
+    <meta name="twitter:image:alt" content="{{ page_title }}">
+    {% if site.twitter_username %}<meta name="twitter:site" content="@{{ site.twitter_username }}">{% endif %}
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ page_title | jsonify }},
+      "description": {{ page_description | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      {% if page_image %}"image": {{ page_image | jsonify }},{% endif %}
+      {% if page.date %}
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      {% endif %}
+      {% if page.last_modified_at %}
+      "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+      {% else %}{% if page.date %}
+      "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
+      {% endif %}{% endif %}
+      "author": {
+        "@type": "Person",
+        "name": {{ page_author | jsonify }},
+        "url": {{ '/about/' | absolute_url | jsonify }}
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "疏離蘇黎世",
+        "url": {{ '/' | absolute_url | jsonify }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ '/assets/img/logo.png' | absolute_url | jsonify }}
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ page.url | absolute_url | jsonify }}
+      }
+      {% if page.tags and page.tags.size > 0 %}
+      ,"keywords": {{ page.tags | join: ", " | jsonify }}
+      {% endif %}
+    }
+    </script>
+
     <link rel="icon" href="https://fav.farm/%E2%9C%8F%EF%B8%8F">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% if jekyll.environment == "production" %}
