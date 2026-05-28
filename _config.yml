@@ -24,7 +24,7 @@ description: "充滿廢文、飛行紀錄、建築、資料分析與瑞士碩博
 lang: "zh-Hant"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /posts/:year/:month/:day/:title/
+permalink: /posts/:title/
 url: "https://cchsu.tw"
 # twitter_username: jekyllrb
 # github_username:  jekyll
