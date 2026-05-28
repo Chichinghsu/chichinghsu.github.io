@@ -33,6 +33,7 @@ url: "https://cchsu.tw"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 7
 paginate_path: "/page:num/"
