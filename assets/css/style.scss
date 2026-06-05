@@ -65,13 +65,18 @@ body {
     color: var(--primary-red);
 }
 
-/* Professional Content Area */
 .container {
     max-width: 850px;
     margin: 60px auto;
-    padding: 0 20px;
+    padding: 0 20px; /* Keep it nice and roomy on desktop screens */
 }
 
+@media (max-width: 600px) {
+    .container {
+        margin: 30px auto; /* Brings the top/bottom margin down a bit too so it fits mobile nicely */
+        padding: 0 8px;    /* Drastically reduces left/right padding so your title can spread out */
+    }
+}
 h1 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
@@ -389,9 +394,9 @@ td {
 
 .post-container {
     background: #ffffff;
-    padding: 40px;
+    padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Soft shadow for a "finished" feel */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     margin-bottom: 40px;
 }
 
@@ -907,3 +912,17 @@ figcaption {
         background-color: #e74c3c;
     }
 }
+.post-content table {
+    display: block !important; /* Forces the table layout to behave like a block */
+    width: 100% !important;
+    overflow-x: auto !important; /* Enables horizontal swipe on mobile */
+    -webkit-overflow-scrolling: touch;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  
+  .post-content table th,
+  .post-content table td {
+    white-space: nowrap !important;
+    padding: 10px 16px;
+  }
