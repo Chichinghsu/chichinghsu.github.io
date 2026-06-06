@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chi-Ching Hsu | Personal Website</title>
+<link rel="icon" href="https://fav.farm/%F0%9F%93%9A">
+<style>
+* { box-sizing: border-box; }
+
+body {
+  max-width: 860px;
+  margin: 56px auto;
+  padding: 0 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #222;
+}
+
+a {
+  color: #1a6bb5;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* ── Profile ── */
+.profile {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.profile img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.profile h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+.profile .role {
+  font-size: 15px;
+  color: #555;
+  margin: 0 0 16px;
+}
+
+/* ── Link pills ── */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 13px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #222;
+  font-size: 13.5px;
+  transition: background .15s, border-color .15s;
+}
+.links a:hover {
+  background: #f5f5f5;
+  border-color: #bbb;
+  text-decoration: none;
+}
+.links a svg { flex-shrink: 0; opacity: .7; }
+
+/* ── Sections ── */
+.sec { margin-top: 44px; }
+
+.sec h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  color: #111;
+}
+
+/* ── Education / Work / Thesis rows ── */
+.row-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.row-item:last-child { border-bottom: none; }
+
+.row-logo {
+  width: 92px;
+  height: 92px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  object-fit: contain;
+  padding: 5px;
+  background: #fff;
+}
+.row-logo-placeholder {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: #999;
+  text-align: center;
+  line-height: 1.2;
+}
+.row-body { flex: 1; min-width: 0; }
+.row-title { font-size: 14.5px; font-weight: 700; margin: 0 0 2px; }
+.row-sub   { font-size: 14px; color: #555; margin: 0 0 2px; }
+.row-date  { font-size: 13px; color: #999; margin: 0; }
+
+/* ── Publications ── */
+.pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.pub-item:last-child { border-bottom: none; }
+
+.pub-thumb {
+  width: 300px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  aspect-ratio: 16 / 10;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pub-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pub-thumb svg { opacity: .25; }
+
+.pub-body { flex: 1; min-width: 0; }
+.pub-title   { font-size: 14.5px; font-weight: 500; margin: 0 0 4px; line-height: 1.45; color: #111; }
+.pub-authors { font-size: 13px; color: #666; margin: 0 0 3px; }
+.pub-authors u { color: #222; text-decoration-color: #aaa; }
+.pub-venue   { font-size: 13px; font-weight: 600; color: #333; margin: 0 0 8px; }
+.pub-links   { display: flex; flex-wrap: wrap; align-items: center; gap: 0; font-size: 13px; }
+.pub-links a { color: #1a6bb5; }
+.pub-links a:hover { text-decoration: underline; }
+.pub-links .divider { color: #ccc; padding: 0 7px; user-select: none; }
+
+/* ── Misc ── */
+ul { padding-left: 20px; margin: 0; }
+ul li { margin-bottom: 6px; }
+
+.footer {
+  margin-top: 72px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  color: #aaa;
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .profile { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .profile img { width: 120px; height: 120px; }
+  .pub-thumb { width: 88px; }
+}
+
+.bib-toggle {
+  background: none; border: none; padding: 0;
+  font: inherit; font-size: 13px;
+  color: #1a6bb5; cursor: pointer;
+}
+.bib-toggle:hover { text-decoration: underline; }
+
+.bib-box { display: none; margin-top: 10px; }
+.bib-box.open { display: block; }
+.bib-box pre {
+  margin: 0; padding: 12px 14px;
+  background: #f7f7f7; border: 1px solid #e5e5e5;
+  border-radius: 6px; font-size: 12px;
+  font-family: "SF Mono", "Fira Code", monospace;
+  line-height: 1.6; overflow-x: auto;
+  color: #333; white-space: pre;
+}
+.bib-actions { display: flex; justify-content: flex-end; margin-top: 6px; }
+.bib-copy-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 4px 11px; font-size: 12px; font-family: inherit;
+  border-radius: 5px; border: 1px solid #ddd;
+  background: #fff; color: #333; cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.bib-copy-btn:hover { background: #f0f0f0; border-color: #bbb; }
+.bib-copy-btn.copied { border-color: #2e7d32; color: #2e7d32; background: #f0faf0; }
+</style>
+</head>
+<body>
+
+<!-- ── Profile ── -->
+<div class="profile">
+  <img src="/assets/img/cch.jpg" alt="Profile Photo">
+  <div>
+    <h1>Chi-Ching Hsu</h1>
+    <p class="role">
+      Research Scientist
+    </p>
+    <div class="links">
+      <a href="mailto:chiching.hsu@hotmail.com">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+        Email
+      </a>
+      <a href="https://scholar.google.com/citations?user=WclhnBkAAAAJ&hl=de&oi=ao">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L1 9l11 6 9-4.91V17M5 13.18v4L12 21l7-3.82v-4"/></svg>
+        Google Scholar
+      </a>
+      <a href="https://github.com/chichinghsu">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+        GitHub
+      </a>
+      <!-- <a href="/cv.pdf">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        CV
+      </a> -->
+      <a href="https://linkedin.com/in/chichinghsu">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ── About ── -->
+<div class="sec">
+  <h2>About Me</h2>
+  <p>I am open to work and collaborations. 
+    
+    I recently completed my doctoral degree at ETH Zurich, worked between <a href="https://hvl.ee.ethz.ch/">High Voltage Laboratory (HVL)</a>, ETH Zürich and <a href="https://www.epfl.ch/labs/imos/">Intelligent Maintenance and Operations Systems (IMOS)</a>, EPFL.
+    My doctoral reserach project <a href="https://www.aramis.admin.ch/Texte/?ProjectID=47345">INCITE – Intelligent maintenance of gas circuit breakers</a> was supervised by <a herf="https://hvl.ee.ethz.ch/people/person-detail.franck.html">Prof. Dr. Christian Franck</a> (HVL) and <a href="https://people.epfl.ch/olga.fink?lang=en">Prof. Dr. Olga Fink</a> (IMOS) and cooperated with BKW Energie, Hitachi Energy, and Swiss Federal Railway (SBB), where I developed machine learning algorithms and sensing platforms for monitoring critical infrastructure (high-voltage circuit breakers). In addition, I was a maintainer for an open source <a href="https://pypi.org/project/hvl-ccb/">Python Package HVL Common Code Base (hvl ccb)</a>, where we have setup test and CI/CD pipeline, ensuring having maintainable code, readability, and scalability.</p>
+    
+    <p>My work spans explainable AI, anomaly detection, industrial sensing, and real-world deployment of AI technologies. 
+    Outside of research, I enjoy building interesting software side projects, such as <a href="https://swisspro.tw">swisspro.tw</a> (a Swiss train ticket optimization planning engine) and Japanese Car Plate Collector (on <a href="https://apps.apple.com/tw/app/%E6%97%A5%E6%9C%AC%E8%BB%8A%E7%89%8C%E5%88%B6%E9%9C%B8/id6774146443">App Store</a>).
+    </p>
+</div>
+
+<!-- ── Research Interests ── -->
+<div class="sec">
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Condition monitoring and predictive maintenance for Industrial and Critical Infrastructure Systems</li>
+      <li>Anomaly detection</li>
+      <li>Explainable AI</li>
+      <li>Multimodal Sensing and Representation Learningy</li>
+      <li>IoT sensors and digital twins</li>
+    </ul>
+  </div>
+
+<!-- ── Education ── -->
+<div class="sec">
+  <h2>Education</h2>
+  <div class="row-item">
+    <img class="row-logo" src="/assets/img/logo_ethz.png" alt="ETH Zürich">
+    <div class="row-body">
+      <p class="row-title">Dr. sc. ETH Zürich</p>
+      <p class="row-sub">ETH Zürich</p>
+      <p class="row-date">2021 Nov. – 2025 Dec.</p>
+      <!-- <p class="row-sub">High Voltage Laboratory, Department of Information Technology and Electrical Engineering (D-ITET)</p> -->
+      <ul>
+        <li><p class="row-sub"><a href="https://hvl.ee.ethz.ch/">High Voltage Laboratory (HVL)</a>, ETH Zürich and <a href="https://www.epfl.ch/labs/imos/">Intelligent Maintenance and Operations Systems (IMOS)</a>, EPFL</p></li>      
+        <li><p class="row-sub">Advisors: Prof. Dr. Christian Franck (HVL) and Prof. Dr. Olga Fink (IMOS)</p></li>
+        <li><p class="row-sub">Project partners: BKW Energie, Hitachi Energy, Swiss Federal Railways (SBB)</p></li>
+    </div>
+  </div>
+  <div class="row-item">
+    <img class="row-logo" src="/assets/img/logo_ethz.png" alt="ETH Zürich logo">
+    <div class="row-body">
+      <p class="row-title">MSc. Robotics, Systems and Control</p>
+      <p class="row-sub">ETH Zürich</p>
+      <p class="row-date">2018 Sept. – 2021 Sept.</p>
+    </div>
+  </div>
+  <div class="row-item">
+    <img class="row-logo" src="https://upload.wikimedia.org/wikipedia/en/8/83/National_Cheng_Kung_University_logo.svg" alt="NKCU logo">
+    <div class="row-body">
+      <p class="row-title">BSc. in Mechanical Engineering</p>
+      <p class="row-sub">National Cheng Kung University</p>
+      <p class="row-date">2012 Sept. – 2017 June</p>
+    </div>
+  </div>
+  <div class="row-item">
+    <img class="row-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Logo_of_the_Technical_University_of_Munich.svg" alt="TUM logo">
+    <div class="row-body">
+      <p class="row-title">Exchange Student in Mechanical Engineering</p>
+      <p class="row-sub">Technical University of Munich (TUM)</p>
+      <p class="row-date">2015 Sept. – 2016 Sept.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ── Publications ── -->
+<div class="sec">
+  <h2>Publications</h2>
+  <div class="pub-item">
+    <div class="pub-thumb">
+      <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0951832025004004-gr10_lrg.jpg" alt="XAI paper thumbnail">
+    </div>
+    <div class="pub-body">
+      <p class="pub-title">Explainable AI guided unsupervised fault diagnostics for high-voltage circuit breakers</p>
+      <p class="pub-authors"><u>Chi-Ching Hsu</u>, Gaëtan Frusque, Florent Forest, Felipe Macedo, Christian M. Franck, Olga Fink</p>
+      <p class="pub-venue">Reliability Engineering & System Safety, Volume 263, 111199, 2025</p>
+      <div class="pub-links">
+        <a href="https://doi.org/10.1016/j.ress.2025.111199">Paper</a><span class="divider">|</span>
+        <!-- <a href="#">Project Page</a><span class="divider">|</span> -->
+        <!-- <a href="#">Code</a><span class="divider">|</span>
+        <a href="#">Video</a><span class="divider">|</span> -->
+        <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+    </div>
+    <div class="bib-box" id="bib-paper1">
+        <pre>@article{HSU2025111199,
+            title = {Explainable AI guided unsupervised fault diagnostics for high-voltage circuit breakers},
+            journal = {Reliability Engineering & System Safety},
+            volume = {263},
+            pages = {111199},
+            year = {2025},
+            issn = {0951-8320},
+            doi = {https://doi.org/10.1016/j.ress.2025.111199},
+            url = {https://www.sciencedirect.com/science/article/pii/S0951832025004004},
+            author = {Chi-Ching Hsu and Gaëtan Frusque and Florent Forest and Felipe Macedo and Christian M. Franck and Olga Fink},
+            keywords = {Condition monitoring, High-voltage circuit breaker, Fault detection, Fault segmentation, Fault diagnostics, Unsupervised clustering, Vibration signal, Convolutional autoencoder, Explainable artificial intelligence (XAI)},
+            abstract = {Commercial high-voltage circuit breaker (CB) condition monitoring systems rely on directly observable physical parameters such as gas filling pressure with pre-defined thresholds. While these parameters are crucial, they only cover a small subset of malfunctioning mechanisms and usually can be monitored only if the CB is disconnected from the grid. To facilitate online condition monitoring while CBs remain connected, non-intrusive measurement techniques such as vibration or acoustic signals are necessary. Currently, CB condition monitoring studies using these signals typically utilize supervised methods for fault diagnostics, where ground-truth fault types are known due to artificially introduced faults in laboratory settings. This supervised approach is however not feasible in real-world applications, where fault labels are unavailable. In this work, we propose a novel unsupervised fault detection and segmentation framework for CBs based on vibration and acoustic signals. This framework can detect deviations from the healthy state. The explainable artificial intelligence (XAI) approach is applied to the detected faults for fault diagnostics. The specific contributions are: (1) we propose an integrated unsupervised fault detection and segmentation framework that is capable of detecting faults and clustering different faults with only healthy data required during training (2) we provide an unsupervised explainability-guided fault diagnostics approach using XAI to offer domain experts potential indications of the aged or faulty components, achieving fault diagnostics without the prerequisite of ground-truth fault labels. These contributions are validated using an experimental dataset from a high-voltage CB under healthy and artificially introduced fault conditions, contributing to more reliable CB system operation.}
+            }</pre>
+          <div class="bib-actions">
+            <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-thumb">
+      <img src="/assets/img/thumbnail_ieee_access.gif" alt="Continuous monitoring paper thumbnail">
+    </div>
+    <div class="pub-body">
+      <p class="pub-title">Continuous Health State Monitoring of High-Voltage Circuit Breakers</p>
+      <p class="pub-authors"><u>Chi-Ching Hsu</u>, Gaëtan Frusque, Olga Fink, Christian M. Franck</p>
+      <p class="pub-venue">IEEE Access, Volume 13, 89819 - 89830, 2025</p>
+      <div class="pub-links">
+        <a href="https://doi.org/10.1109/ACCESS.2025.3570535">Paper</a><span class="divider">|</span>
+        <!-- <a href="#">Project Page</a><span class="divider">|</span> -->
+        <!-- <a href="#">Code</a><span class="divider">|</span>
+        <a href="#">Video</a><span class="divider">|</span> -->
+        <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+    </div>
+    <div class="bib-box" id="bib-paper2">
+        <pre>@ARTICLE{hsu2025continuous,
+            author={Hsu, Chi-Ching and Frusque, Gaetan and Fink, Olga and Franck, Christian M.},
+            journal={IEEE Access}, 
+            title={Continuous Health State Monitoring of High-Voltage Circuit Breakers}, 
+            year={2025},
+            volume={13},
+            number={},
+            pages={89819-89830},
+            keywords={Circuit breakers;Vibrations;Monitoring;Coils;Sensors;Degradation;Temperature sensors;Feature extraction;Vibration measurement;Motors;Condition monitoring;high-voltage circuit breaker;run-to-failure experiment;vibration signals},
+            doi={10.1109/ACCESS.2025.3570535}}
+          </pre>
+          <div class="bib-actions">
+            <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<div class="pub-item">
+    <div class="pub-thumb">
+      <img src="/assets/img/iot_system.jpg" alt="IoT paper thumbnail">
+    </div>
+  <div class="pub-body">
+    <p class="pub-title">An IoT Sensor Platform for Predictive Maintenance of High Voltage Circuit Breakers</p>
+    <p class="pub-authors">Zoltán Marcsek, Tino Gfrörer, Tommaso Polonelli, <u>Chi-Ching Hsu</u>, Michele Magno, Christian M. Franck</p>
+    <p class="pub-venue">2025 10th International Workshop on Advances in Sensors and Interfaces (IWASI), 2025</p>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1109/IWASI66786.2025.11121959">Paper</a><span class="divider">|</span>
+      <!-- <a href="#">Project Page</a><span class="divider">|</span> -->
+      <!-- <a href="#">Code</a><span class="divider">|</span>
+      <a href="#">Video</a><span class="divider">|</span> -->
+      <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+  </div>
+  <div class="bib-box" id="bib-paper3">
+      <pre>@INPROCEEDINGS{zoltan2025iot,
+        author={Marcsek, Zoltán and Gfrörer, Tino and Polonelli, Tommaso and Hsu, Chi-Ching and Magno, Michele and Franck, Christian M.},
+        booktitle={2025 10th International Workshop on Advances in Sensors and Interfaces (IWASI)}, 
+        title={An IoT Sensor Platform for Predictive Maintenance of High Voltage Circuit Breakers}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={1-6},
+        keywords={Coils;Vibrations;Substations;Circuit breakers;Current measurement;High-voltage techniques;Integrated circuit reliability;Wireless fidelity;Testing;Predictive maintenance},
+        doi={10.1109/IWASI66786.2025.11121959}}      
+        </pre>
+        <div class="bib-actions">
+          <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="pub-item">
+    <div class="pub-thumb">
+      <img src="/assets/img/thumbnail_phm.jpg" alt="PHM paper thumbnail">
+    </div>
+  <div class="pub-body">
+    <p class="pub-title">A Comparison of Residual-based Methods on Fault Detection</p>
+    <p class="pub-authors"><u>Chi-Ching Hsu</u>, Gaëtan Frusque, Olga Fink</p>
+    <p class="pub-venue">Proceedings of the Annual Conference of the PHM Society 2023 (Vol. 15, No. 1), PHM Society, 2023</p>
+    <div class="pub-links">
+      <a href="https://doi.org/10.36001/phmconf.2023.v15i1.3444">Paper</a><span class="divider">|</span>
+      <!-- <a href="#">Project Page</a><span class="divider">|</span> -->
+      <!-- <a href="#">Code</a><span class="divider">|</span>
+      <a href="#">Video</a><span class="divider">|</span> -->
+      <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+  </div>
+  <div class="bib-box" id="bib-paper3">
+      <pre>@inproceedings{hsu2023comparison,
+        title={A Comparison of Residual-based Methods on Fault Detection},
+        author={Hsu, Chi-Ching and Frusque, Ga{\"e}tan Michel and Fink, Olga},
+        booktitle={Proceedings of the Annual Conference of the PHM Society 2023},
+        volume={15},
+        number={1},
+        year={2023},
+        organization={PHM Society}
+      }
+        </pre>
+        <div class="bib-actions">
+          <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="pub-item">
+    <div class="pub-thumb">
+      <img src="/assets/img/ieee_p_and_e.png" alt="IoT paper thumbnail">
+    </div>
+  <div class="pub-body">
+    <p class="pub-title">Transmission and Distribution Equipment: Providing Intelligent Maintenance</p>
+    <p class="pub-authors">Christian M. Franck, <u>Chi-Ching Hsu</u>, Yu Xiao, Pascal Bleuler, Gaetan Frusque, Mahir Muratovic, Tommaso Polonelli</p>
+    <p class="pub-venue">IEEE Power and Energy Magazine, 2023</p>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1109/MPE.2022.3230968">Paper</a><span class="divider">|</span>
+      <!-- <a href="#">Project Page</a><span class="divider">|</span> -->
+      <!-- <a href="#">Code</a><span class="divider">|</span>
+      <a href="#">Video</a><span class="divider">|</span> -->
+      <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+  </div>
+  <div class="bib-box" id="bib-paper3">
+      <pre>@ARTICLE{10045627,
+        author={Franck, Christian Michael and Hsu, Chi-Ching and Xiao, Yu and Bleuler, Pascal and Frusque, Gaetan and Muratovic, Mahir and Polonelli, Tommaso},
+        journal={IEEE Power and Energy Magazine}, 
+        title={Transmission and Distribution Equipment: Providing Intelligent Maintenance}, 
+        year={2023},
+        volume={21},
+        number={2},
+        pages={18-29},
+        keywords={Maintenance engineering;Voltage control;Bidirectional power flow;Asset management;Power grids;Intelligent control;Power system planning;Renewable energy sources},
+        doi={10.1109/MPE.2022.3230968}}            
+        </pre>
+        <div class="bib-actions">
+          <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="pub-item">
+    <div class="pub-thumb">
+      <img src="/assets/img/experiment_setup.jpg" alt="VCB paper thumbnail">
+    </div>
+  <div class="pub-body">
+    <p class="pub-title">Vacuum Circuit Breaker Closing Time Key Moments Detection via Vibration Monitoring: A Run-to-Failure Study</p>
+    <p class="pub-authors"><u>Chi-Ching Hsu</u>, Gaetan Frusque, Mahir Muratovic, Christian M. Franck, Olga Fink</p>
+    <p class="pub-venue">2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2022</p>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1109/SMC53654.2022.9945354">Paper</a><span class="divider">|</span>
+      <!-- <a href="#">Project Page</a><span class="divider">|</span> -->
+      <!-- <a href="#">Code</a><span class="divider">|</span>
+      <a href="#">Video</a><span class="divider">|</span> -->
+      <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+  </div>
+  <div class="bib-box" id="bib-paper3">
+      <pre>@INPROCEEDINGS{9945354,
+        author={Hsu, Chi-Ching and Frusque, Gaetan and Muratovic, Mahir and Franck, Christian M. and Fink, Olga},
+        booktitle={2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC)}, 
+        title={Vacuum Circuit Breaker Closing Time Key Moments Detection via Vibration Monitoring: A Run-to-Failure Study}, 
+        year={2022},
+        volume={},
+        number={},
+        pages={254-260},
+        keywords={Vibrations;Vacuum systems;Circuit breakers;Power transmission;Life testing;Prediction algorithms;Time measurement;condition monitoring;vacuum circuit breakers;short-time energy;vibration signals;run-to-failure dataset},
+        doi={10.1109/SMC53654.2022.9945354}}            
+        </pre>
+        <div class="bib-actions">
+          <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- 
+<div class="sec">
+    <h2>Datasets</h2>
+    <div class="pub-item">
+      <div class="pub-thumb">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0951832025004004-gr10_lrg.jpg" alt="XAI paper thumbnail">
+      </div>
+      <div class="pub-body">
+        <p class="pub-title">Explainable AI guided unsupervised fault diagnostics for high-voltage circuit breakers</p>
+        <p class="pub-authors"><u>Chi-Ching Hsu</u>, Gaëtan Frusque, Florent Forest, Felipe Macedo, Christian M. Franck, Olga Fink</p>
+        <p class="pub-venue">Reliability Engineering & System Safety, Volume 263, 111199, 2025</p>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1016/j.ress.2025.111199">Paper</a><span class="divider">|</span>
+          <a href="#">Video</a><span class="divider">|</span>
+          <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+      </div>
+      <div class="bib-box" id="bib-paper1">
+          <pre>@article{HSU2025111199,
+              title = {Explainable AI guided unsupervised fault diagnostics for high-voltage circuit breakers},
+              journal = {Reliability Engineering & System Safety},
+              volume = {263},
+              pages = {111199},
+              year = {2025},
+              issn = {0951-8320},
+              doi = {https://doi.org/10.1016/j.ress.2025.111199},
+              url = {https://www.sciencedirect.com/science/article/pii/S0951832025004004},
+              author = {Chi-Ching Hsu and Gaëtan Frusque and Florent Forest and Felipe Macedo and Christian M. Franck and Olga Fink},
+              keywords = {Condition monitoring, High-voltage circuit breaker, Fault detection, Fault segmentation, Fault diagnostics, Unsupervised clustering, Vibration signal, Convolutional autoencoder, Explainable artificial intelligence (XAI)},
+              abstract = {Commercial high-voltage circuit breaker (CB) condition monitoring systems rely on directly observable physical parameters such as gas filling pressure with pre-defined thresholds. While these parameters are crucial, they only cover a small subset of malfunctioning mechanisms and usually can be monitored only if the CB is disconnected from the grid. To facilitate online condition monitoring while CBs remain connected, non-intrusive measurement techniques such as vibration or acoustic signals are necessary. Currently, CB condition monitoring studies using these signals typically utilize supervised methods for fault diagnostics, where ground-truth fault types are known due to artificially introduced faults in laboratory settings. This supervised approach is however not feasible in real-world applications, where fault labels are unavailable. In this work, we propose a novel unsupervised fault detection and segmentation framework for CBs based on vibration and acoustic signals. This framework can detect deviations from the healthy state. The explainable artificial intelligence (XAI) approach is applied to the detected faults for fault diagnostics. The specific contributions are: (1) we propose an integrated unsupervised fault detection and segmentation framework that is capable of detecting faults and clustering different faults with only healthy data required during training (2) we provide an unsupervised explainability-guided fault diagnostics approach using XAI to offer domain experts potential indications of the aged or faulty components, achieving fault diagnostics without the prerequisite of ground-truth fault labels. These contributions are validated using an experimental dataset from a high-voltage CB under healthy and artificially introduced fault conditions, contributing to more reliable CB system operation.}
+              }</pre>
+            <div class="bib-actions">
+              <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+            </div>
+          </div>
+      </div>
+    </div>
+</div> -->
+
+<!-- ── Work Experience ── -->
+<div class="sec">
+  <h2>Work Experience</h2>
+  <div class="row-item">
+    <img class="row-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/00/ABB_logo.svg" alt="ETH Zürich">
+    <div class="row-body">
+      <p class="row-title">Research And Development Internn</p>
+      <p class="row-sub">ABB Reserach Center, Baden-Dättwil, Switzerland</p>
+      <p class="row-date">2020 July – 2021 Jan.</p>
+      <p class="row-sub">Theoretical and Computational Methods Group</p>
+    </div>
+  </div>
+  <div class="row-item">
+    <img class="row-logo" src="/assets/img/logo_ethz.png" alt="ETH Zürich">
+    <div class="row-body">
+      <p class="row-title">Research Assistant</p>
+      <p class="row-sub">ETH Zürich, Zurich, Switzerland</p>
+      <p class="row-date">2019 Sept. – 2020 July</p>
+      <p class="row-sub">Chair of Intelligent Maintenance Systems</p>
+    </div>
+  </div>
+  <div class="row-item">
+    <img class="row-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Schneider_Electric_2007.svg" alt="Schneider Electric logo">
+    <div class="row-body">
+      <p class="row-title">Machine Learning Intern</p>
+      <p class="row-sub">Schneider Electric, Taipei, Taiwan</p>
+      <p class="row-date">2018 July – 2018 Sept.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ── Thesis ── -->
+<div class="sec">
+  <h2>Thesis</h2>
+  <div class="row-item">
+    <img class="row-logo" src="/assets/img/logo_ethz.png" alt="ETH Zürich">
+    <div class="row-body">
+      <p class="row-title"><a href="https://www.research-collection.ethz.ch/entities/publication/ecd84d6f-4115-408d-a621-2a03e0b79cc4">Intelligent Maintenance of Gas Circuit Breakers</a></p>
+      <p class="row-sub">Doctoral Thesis, ETH Zürich</p>
+      <p class="row-sub">Supervisor: Prof. Dr. Christian Franck and Prof. Dr. Olga Fink</p>
+      <p class="row-date">2025</p>
+      <div class="pub-links">
+          <button class="bib-toggle" onclick="toggleBib(this)">BibTeX</button>
+      </div>
+    <div class="bib-box" id="bib-paper66">
+        <pre>@phdthesis{hsu2025thesis,
+            copyright = {In Copyright - Non-Commercial Use Permitted},
+            year = {2025},
+            author = {Hsu, Chi-Ching},
+            title = {Intelligent Maintenance of Gas Circuit Breakers},
+            school = {ETH Zurich}</pre>
+          <div class="bib-actions">
+            <button class="bib-copy-btn" onclick="copyBib(this)">Copy</button>
+          </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="row-item">
+    <img class="row-logo" src="/assets/img/logo_ethz.png" alt="ETH Zürich">
+    <div class="row-body">
+      <p class="row-title">Data Acquisition and Machine Learning Algorithms for Predictive Monitoring of Circuit Breakers</p>
+      <p class="row-sub">Master Thesis, ETH Zürich</p>
+      <p class="row-sub">Supervisor: Prof. Dr. Christian Franck and Prof. Dr. Olga Fink</p>
+      <p class="row-date">2021</p>
+    </div>
+  </div>
+</div>
+
+<!-- ── Side Projects ── -->
+<div class="sec">
+  <h2>Side Projects</h2>
+  <div class="row-item">
+    <img class="row-logo" src="https://swisspro.tw/img/swisspro_logo_version2.png" alt="swisspro.tw logo">
+    <div class="row-body">
+      <p class="row-title"><a href="https://swisspro.tw/?utm_source=tool&utm_medium=cch_homepage&utm_campaign=cch_homepage">swisspro.tw 省瑞計劃</a></p>
+      <p class="row-sub">Founder</p>
+      <p class="row-sub">Travel ecosystem targeting Taiwanese tourists visiting Switzerland, optimizing their travel budgets and navigating through complicated Swiss ticket systems</p>
+      <p class="row-date">2026 - present</p>
+    </div>
+  </div>
+
+  <div class="row-item">
+    <img class="row-logo" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/78/e8/0378e89d-1dc3-377f-5d14-d2a1450e1c3e/Placeholder.mill/400x400bb-75.webp" alt="ETH Zürich">
+    <div class="row-body">
+      <p class="row-title">Japanese Car Plate Collector 日本車牌制霸</p>
+      <p class="row-sub">Developer</p>
+      <p class="row-sub">An mobile app for collecting Japanese car plates on the street</p>
+      <p class="row-date">2026 - present</p>
+        <a href="https://apps.apple.com/tw/app/%E6%97%A5%E6%9C%AC%E8%BB%8A%E7%89%8C%E5%88%B6%E9%9C%B8/id6774146443" target="_blank" rel="noopener noreferrer">
+            <img src="https://cchsu.tw/assets/img/app_store_badge_en.svg" alt="App Store Download" style="height: 40px;">
+        </a>
+    </div>
+  </div>
+  <div class="row-item">
+    <img class="row-logo" src="https://media.licdn.com/dms/image/v2/C4E0BAQE4_reML_PpEg/company-logo_200_200/company-logo_200_200/0/1676385889390/hvl_ethz_logo?e=2147483647&v=beta&t=sJXjtdoRa9V1Pn-kgeRfMr5T9Mf3Hh3VbLt1OCqwsmw" alt="ETH HVL">
+    <div class="row-body">
+      <p class="row-title">High Voltage Laboratory Kiosk</p>
+      <p class="row-sub">Developer and Maintainer</p>
+      <p class="row-sub">A kiosk system built with a Raspberry Pi, with a barcode scanning system, automated stock management, and transaction logging, </p>
+      <p class="row-date">2025</p>
+    </div>
+  </div>
+  <!-- <div class="row-item">
+    <img class="row-logo" src="https://media.licdn.com/dms/image/v2/C4E0BAQE4_reML_PpEg/company-logo_200_200/company-logo_200_200/0/1676385889390/hvl_ethz_logo?e=2147483647&v=beta&t=sJXjtdoRa9V1Pn-kgeRfMr5T9Mf3Hh3VbLt1OCqwsmw" alt="ETH HVL">
+    <div class="row-body">
+      <p class="row-title">Tram/Bus Timetable Mini Display</p>
+      <p class="row-sub">Developer</p>
+      <p class="row-sub">A kiosk system built with a Raspberry Pi, with a barcode scanning system, automated stock management, and transaction logging, </p>
+      <p class="row-date">2025</p>
+    </div>
+  </div> -->
+</div>
+
+<!-- ── Voluntary Experience ── -->
+<div class="sec">
+  <h2>Voluntary Experience</h2>
+  <div class="row-item">
+    <img class="row-logo" src="https://pypi.org/static/images/logo-small.8998e9d1.svg" alt="hvl ccb logo">
+    <div class="pub-body">
+      <p class="row-title"><a href="https://pypi.org/project/hvl-ccb/">Python Package HVL Common Code Base (hvl ccb)</a></p>
+      <p class="row-sub">Open Source Python Package Maintainer</p>
+      <p class="row-date">2021 - 2025</p>
+      <p class="row-sub">Python common code base to control devices, which are used in high-voltage research. All implemented devices are used and tested in the <a href="https://hvl.ee.ethz.ch/">High Voltage Laboratory (HVL)</a> of the ETH Zurich.</p>
+    </div>
+  </div>
+
+    <div class="row-item">
+        <img class="row-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/56/Ieee_blue.jpg" alt="IEEE logo">
+        <div class="row-body">
+          <p class="row-title"><a href="https://edu.ieee.org/ch-ethz/">IEEE Student Branch at ETH Zurich</a></p>
+          <p class="row-sub">Chair</p>
+          <p class="row-date">2019 - 2021</p>
+    </div>
+    </div>
+</div>
+
+<div class="footer">Last updated: June 2026</div>
+<script>
+    function toggleBib(btn) {
+    const box = btn.closest('.pub-body, .row-body').querySelector('.bib-box');
+    box.classList.toggle('open');
+    btn.textContent = box.classList.contains('open') ? 'Hide BibTeX' : 'BibTeX';
+    }
+    
+    function copyBib(btn) {
+      const text = btn.closest('.bib-box').querySelector('pre').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        btn.classList.add('copied');
+        btn.textContent = 'Copied!';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.textContent = 'Copy';
+        }, 2000);
+      });
+    }
+    </script>
+</body>
+</html>
