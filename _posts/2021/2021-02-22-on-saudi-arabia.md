@@ -61,6 +61,6 @@ description: "書名又很長的一本書《中東心臟：沙烏地阿拉伯的
 
 你可能也有興趣
 
-[**吉爾吉斯 (Kyrgyzstan)之旅**]({% post_url 2019-11-05-kyrgyzstan %})
+[**吉爾吉斯 (Kyrgyzstan)之旅**](/posts/kyrgyzstan)
 
-[**《尼羅河謀殺案》及蘇丹與南蘇丹的前世今生**]({% post_url 2020-12-07-death-on-the-nile %})
+[**《尼羅河謀殺案》及蘇丹與南蘇丹的前世今生**](/posts/death-on-the-nile)

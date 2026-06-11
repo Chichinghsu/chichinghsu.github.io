@@ -57,4 +57,4 @@ description: "英國作家克莉絲蒂 (Agatha Christie) 在 1937年的作品《
 
 如果你看到這邊的話，你可能也會喜歡
 
-[**東方快車謀殺案，真的有這條路線？跟著 Google Maps走一趟**]({% post_url 2019-01-08-orient-express %})
+[**東方快車謀殺案，真的有這條路線？跟著 Google Maps走一趟**](/posts/orient-express)

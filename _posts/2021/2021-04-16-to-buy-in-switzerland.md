@@ -28,7 +28,7 @@ thumbnail: /images/2021-04-16-to-buy-in-switzerland/1.webp
 
 最近聽說瑞士某 M 超市跟 Rivella 在吵架，好像價格談不好之類的，所以以後可能在這間超市就買不到某些特定顏色的 Rivella 了。對這間瑞士某 M超市有興趣的可以看看我以前寫的文章。
 
-[**瑞士超市裡的永續與環保**]({% post_url 2020-07-12-migros-data %})
+[**瑞士超市裡的永續與環保**](/posts/migros-data)
 
 ## 二、Knorr Aromat 調味料
 

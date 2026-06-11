@@ -40,4 +40,4 @@ thumbnail: /images/2022-08-28-swiss-hydro-power-plant/1.webp
 
 看完瑞士水力發電如果你還想看核能發電的話，請看此文。
 
-[**瑞士核電廠半日遊**]({% post_url 2021-11-20-nuclear-power-plant-visit %})
+[**瑞士核電廠半日遊**](/posts/nuclear-power-plant-visit)

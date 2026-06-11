@@ -21,4 +21,4 @@ description: "一個人旅行的時候，很少有需要開口說話的時刻，
   <figcaption>蘇黎世機場，好像回家又好像不是家，蘇黎世金城武攝於靠窗位</figcaption>
 </figure>
 
-[**我與台灣不相見已二年餘了**]({% post_url 2020-09-18-two-years-not-in-taiwan %})
+[**我與台灣不相見已二年餘了**](/posts/two-years-not-in-taiwan)

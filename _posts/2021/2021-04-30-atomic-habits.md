@@ -14,7 +14,7 @@ description: "我就爛？還是我就懶？我的筆電銀幕頗小，每日回
 
 ## 照慣例先離題
 
-上次提到關於免費仔的文章「[鮭魚廁所奇談]({% post_url 2021-03-28-salmon-in-toilet %})」中談到「改變我朋友一生的書」 [**Predictably Irrational: The Hidden Forces That Shape Our Decisions**](https://en.wikipedia.org/wiki/Predictably_Irrational) ，除了在上文中提到的免費仔故事之外，書中又提到另一個關於免費仔的故事，所以我決定再跟大家分享一下。
+上次提到關於免費仔的文章「[鮭魚廁所奇談](/posts/salmon-in-toilet)」中談到「改變我朋友一生的書」 [**Predictably Irrational: The Hidden Forces That Shape Our Decisions**](https://en.wikipedia.org/wiki/Predictably_Irrational) ，除了在上文中提到的免費仔故事之外，書中又提到另一個關於免費仔的故事，所以我決定再跟大家分享一下。
 
 我們社會的運作有兩種準則（我自己亂翻）「社交準則 (social norms)」 和 「市場準則 (market norms)」。如果你搞不清楚何時適用何種準則的話你可能會遇到一些問題。
 

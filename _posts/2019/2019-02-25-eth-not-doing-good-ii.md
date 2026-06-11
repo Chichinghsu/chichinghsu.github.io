@@ -3,7 +3,7 @@ title: 我在台灣的那套讀書方式派不上用場（二）被當啦
 date: '2019-02-25T16:26:35.340Z'
 categories: eth others
 thumbnail: /images/2019-02-25-eth-not-doing-good-ii/3.webp
-description: 
+description: "在蘇黎世聯邦理工就讀，並不是一件簡單的事情，第一學期就跌跌撞撞，被當的被當，重修就好。"
 ---
 
 有點久沒有更新了，因為上個學期成績終於在前幾天公布，沒想到居然被當了，微挫折。
@@ -12,7 +12,7 @@ description:
 
 上一篇文章（見下面連結）不知為何居然是觀看次數最高的一篇文章。在這邊跟各位報告一下近況，悲劇發生，我的讀書方式真的派不上用場。
 
-[**我在台灣的那套讀書方式派不上用場**]({% post_url 2019-01-17-eth-not-doing-good %})
+[**我在台灣的那套讀書方式派不上用場**](/posts/eth-not-doing-good)
 
 ## 莫內 (Claude Monet) 也幫不上忙
 

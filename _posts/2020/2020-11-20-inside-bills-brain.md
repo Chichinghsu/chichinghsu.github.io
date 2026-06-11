@@ -44,6 +44,6 @@ Bill 有一個包包裡面永遠裝滿了書，無時無刻都在看書，他家
 
 喜歡文章按讚訂閱分享開啟小鈴鐺，你可能也會喜歡
 
-[**拒絕承認人生沒有意義**]({% post_url 2019-03-21-of-human-bondage %})
+[**拒絕承認人生沒有意義**](/posts/of-human-bondage)
 
-[**Irrational Man 《愛情失控點》可以再失控一點**]({% post_url 2020-06-06-irrational-man %})
+[**Irrational Man 《愛情失控點》可以再失控一點**](/posts/irrational-man)

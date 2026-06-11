@@ -17,7 +17,7 @@ description: "先有雞還是先有蛋？答案是有機蛋。最近發現瑞士
 
 ### 雞蛋號碼
 
-在瑞士（歐盟也有）買的雞蛋蛋殼上都會有一組[雞蛋號碼](https://en.wikipedia.org/wiki/Egg_marking)（英文wiki），從雞蛋號碼可以看出養雞的方式、產地，有些甚至可以看出下蛋日期。第一個數字代表養雞的方式，總共有四種：0＝有機 (Bio)、1＝放牧(Freilandhaltung)、2＝平飼 (Bodenhaltung)、3＝格子籠 (Käfighaltung)。後面兩個字母為產地國簡寫，下圖的 BG為保加利亞，德國為 DE、法國為 FR、瑞士 CH（延伸閱讀：[為什麼瑞士簡寫CH？]({% post_url 2018-12-29-swiss-language %})）等等。後面的號碼就因國家而異，大部分是指雞舍代碼，德國的話可以看出是哪個邦 (Bundesland)出產的蛋。
+在瑞士（歐盟也有）買的雞蛋蛋殼上都會有一組[雞蛋號碼](https://en.wikipedia.org/wiki/Egg_marking)（英文wiki），從雞蛋號碼可以看出養雞的方式、產地，有些甚至可以看出下蛋日期。第一個數字代表養雞的方式，總共有四種：0＝有機 (Bio)、1＝放牧(Freilandhaltung)、2＝平飼 (Bodenhaltung)、3＝格子籠 (Käfighaltung)。後面兩個字母為產地國簡寫，下圖的 BG為保加利亞，德國為 DE、法國為 FR、瑞士 CH（延伸閱讀：[為什麼瑞士簡寫CH？](/posts/swiss-language)）等等。後面的號碼就因國家而異，大部分是指雞舍代碼，德國的話可以看出是哪個邦 (Bundesland)出產的蛋。
 
 <figure class="post-figure">
   <img src="/images/2019-01-01-swiss-eggs/2.webp" alt="請輸入驗證碼">
@@ -67,4 +67,4 @@ description: "先有雞還是先有蛋？答案是有機蛋。最近發現瑞士
 
 更多關於瑞士環保
 
-[**瑞士超市裡的永續與環保**]({% post_url 2020-07-12-migros-data %})
+[**瑞士超市裡的永續與環保**](/posts/migros-data)

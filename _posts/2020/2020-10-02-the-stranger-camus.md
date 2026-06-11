@@ -55,6 +55,6 @@ description: "幾乎快被談到爛掉的作品，又譯為《局外人》(The S
 
 如果你看到這邊的話，你可能也會有興趣：
 
-[**拒絕承認人生沒有意義**]({% post_url 2019-03-21-of-human-bondage %})
+[**拒絕承認人生沒有意義**](/posts/of-human-bondage)
 
-[**Irrational Man 《愛情失控點》可以再失控一點**]({% post_url 2020-06-06-irrational-man %})
+[**Irrational Man 《愛情失控點》可以再失控一點**](/posts/irrational-man)
