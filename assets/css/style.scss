@@ -935,3 +935,58 @@ figcaption {
     white-space: nowrap !important;
     padding: 10px 16px;
   }
+
+  /* Container Box */
+.toc-box {
+    background-color: var(--bg-secondary, #f8f9fa); /* Soft background block */
+    border-left: 4px solid #3182ce; /* Elegant accent border line on the left */
+    padding: 20px 25px;
+    margin: 30px 0;
+    border-radius: 4px;
+}
+
+/* Title Header */
+.toc-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--text-main, #2d3748);
+}
+
+/* The List Wrapper */
+.toc-box ul {
+    list-style: none; /* Removes the generic black dots */
+    padding-left: 5px; /* Adjust this to control your overall indent spacing */
+    margin: 0;
+}
+
+/* Individual List Items */
+.toc-box ul li {
+    position: relative;
+    padding-left: 20px; /* Space out room for a custom bullet arrow */
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+/* Custom Minimalist Bullet (Arrow) */
+.toc-box ul li::before {
+    content: "•"; /* Subtle round bullet, or change to "→" for an arrow design */
+    position: absolute;
+    left: 0;
+    color: #3182ce; /* Matches your accent color */
+    font-weight: bold;
+}
+
+/* Clean up the Anchor Links */
+.toc-box ul li a {
+    color: #4a5568;
+    text-decoration: none; /* Removes the clunky default browser underline */
+    transition: color 0.2s ease;
+}
+
+/* Smooth Interactive Hover State */
+.toc-box ul li a:hover {
+    color: #3182ce;
+    text-decoration: underline; /* Shows underline cleanly only when reader hovers */
+}
