@@ -436,7 +436,6 @@ td {
 .post-content a {
     text-decoration: none;           /* Remove the old blue line */
     color: #2c3e50;                  /* A dark, professional navy/black */
-    border-bottom: 2px solid rgba(44, 62, 80, 0.2); /* Soft, thick underline */
     transition: all 0.3s ease;       /* Smooth hover effect */
     padding-bottom: 1px;
 }
@@ -985,8 +984,72 @@ figcaption {
     transition: color 0.2s ease;
 }
 
-/* Smooth Interactive Hover State */
-.toc-box ul li a:hover {
-    color: #3182ce;
-    text-decoration: underline; /* Shows underline cleanly only when reader hovers */
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+.cta-button-kkday {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none !important;
+    background: #1a1a2e;
+    color: #fff !important;
+    padding: 16px 36px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cta-button-kkday,
+.cta-button-kkday:hover,
+.cta-button-kkday:visited,
+.cta-button-kkday:active,
+.cta-button-kkday:focus {
+  background: #1a1a2e !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  outline: none;
+}
+
+.cta-button-kkday .ti {
+    font-size: 20px;
+    opacity: 0.85;
+    color: #fff !important;
+}
+
+.cta-button-kkday .cta-arrow {
+    font-size: 16px;
+    opacity: 0.4;
+    margin-left: 4px;
+    color: #fff !important;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.cta-label {
+    font-size: 0.68rem;
+    color: rgba(255, 255, 255, 0.85) !important;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.cta-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+@media (max-width: 480px) {
+    .cta-button-kkday {
+        width: 100%;
+        padding: 14px 24px;
+    }
 }
