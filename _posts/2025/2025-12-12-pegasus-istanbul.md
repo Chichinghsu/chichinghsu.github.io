@@ -1,9 +1,9 @@
 ---
-title: "土耳其飛馬航空與伊斯坦堡"
+title: "【2025 土耳其飛馬航空】Pegasus 瑞士飛伊斯坦堡心得"
 date: 2025-12-12 02:56:01 +0200
 categories: [flights, travel]
 thumbnail: /images/2025-12-12-pegasus-istanbul/3.webp
-description: "伊斯坦堡遊記與土耳其飛馬航空飛行體驗。"
+description: "此文記錄搭乘土耳其低成本航空霸主飛馬航空 (Pegasus Airlines) 的微心得加上伊斯坦堡小小遊記。土耳其航空直飛台北後加上旅行社的推波助瀾，似乎讓土耳其在台灣人（尤其是旅行團）間爆紅。"
 ---
 
 此文記錄搭乘土耳其低成本航空霸主飛馬航空 (Pegasus Airlines) 的微心得加上伊斯坦堡小小遊記。土耳其航空直飛台北後加上旅行社的推波助瀾，似乎讓土耳其在台灣人（尤其是旅行團）間爆紅。
