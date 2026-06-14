@@ -25,7 +25,14 @@ title: CCH's Blog
         <h2 class="index-post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
         
-        <p>{{ post.content | strip_html | truncate: 90 }}</p>
+        <p>
+          {% assign desc_clean = post.description | strip_html %}
+          {% if desc_clean.size > 50 %}
+            {{ desc_clean | truncate: 90 }}
+          {% else %}
+            {{ post.content | strip_html | truncate: 90 }}
+          {% endif %}
+        </p>
         
         <a href="{{ post.url | relative_url }}" class="read-more">閱讀全文 →</a>
     </div>
