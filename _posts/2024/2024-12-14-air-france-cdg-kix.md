@@ -1,5 +1,5 @@
 ---
-title: 【2024 法國航空】巴黎 - 大阪關西經濟艙飛行紀錄
+title: 【2024 法國航空】AF292 巴黎 - 大阪關西經濟艙飛行紀錄
 date: '2024-12-14T12:27:32.161Z'
 categories: flights
 thumbnail: /images/2024-12-14-air-france-cdg-kix/2.webp
