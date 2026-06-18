@@ -1,5 +1,5 @@
 ---
-title: 學習德文心路歷程與 TestDaF 德福考試準備心得
+title: 【TestDaF 準備】學習德文心路歷程與 TestDaF 德福考試準備心得
 date: '2019-07-11T09:27:55.975Z'
 categories: others 
 thumbnail: /images/2019-07-11-how-to-german/1.webp
