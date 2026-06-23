@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-61JT1LW9PW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-61JT1LW9PW', {
+      'anonymize_ip': true
+    });
+  </script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI-Based Condition Monitoring for Swiss Federal Railways</title>
+
+<style>
+
+:root{
+    --primary:#0d47a1;
+    --secondary:#f5f7fb;
+    --text:#333;
+    --border:#e5e7eb;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.7;
+    color:var(--text);
+    max-width:1100px;
+    margin:auto;
+    padding:40px 24px;
+    background:white;
+}
+
+h1,h2,h3{
+    color:#1d3557;
+}
+
+h2{
+    margin-top:60px;
+    padding-bottom:8px;
+    border-bottom:2px solid #f0f0f0;
+}
+
+.hero{
+    background:linear-gradient(135deg,#f8fbff,#eef4ff);
+    padding:40px;
+    border-radius:18px;
+    margin-bottom:40px;
+}
+
+.tag{
+    display:inline-block;
+    background:var(--primary);
+    color:white;
+    padding:6px 14px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:18px;
+}
+
+.hero h1{
+    margin-top:0;
+    margin-bottom:15px;
+}
+
+.hero-subtitle{
+    font-size:1.15rem;
+    max-width:850px;
+    color:#555;
+}
+
+.metrics{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:16px;
+    margin-top:30px;
+}
+
+.metric-card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.06);
+}
+
+.metric-value{
+    font-size:2rem;
+    font-weight:700;
+    color:var(--primary);
+}
+
+.metric-label{
+    font-size:14px;
+    color:#666;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:24px;
+    align-items:stretch;
+}
+
+.gallery-item{
+    display:flex;
+    flex-direction:column;
+    background:#fafbfc;
+    border-radius:16px;
+    box-shadow:0 4px 16px rgba(15,23,42,.06);
+    overflow:hidden;
+}
+
+.gallery-thumb{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:300px;
+    padding:0 20px;
+    cursor:zoom-in;
+}
+
+.gallery-thumb img{
+    max-width:100%;
+    max-height:100%;
+    width:auto;
+    height:auto;
+    object-fit:contain;
+    display:block;
+    border-radius:6px;
+}
+
+.gallery-item figcaption{
+    padding:14px 18px;
+    font-size:14px;
+    color:#555;
+    border-top:1px solid #eef0f3;
+    background:white;
+}
+
+.lightbox{
+    display:none;
+    position:fixed;
+    inset:0;
+    z-index:1000;
+    background:rgba(15,23,42,.85);
+    align-items:center;
+    justify-content:center;
+    padding:40px;
+    cursor:zoom-out;
+}
+
+.lightbox.open{
+    display:flex;
+}
+
+.lightbox img{
+    max-width:92vw;
+    max-height:82vh;
+    object-fit:contain;
+    border-radius:8px;
+    box-shadow:0 20px 60px rgba(0,0,0,.5);
+}
+
+.lightbox-caption{
+    position:absolute;
+    bottom:24px;
+    left:0;
+    right:0;
+    text-align:center;
+    color:#f1f5f9;
+    font-size:15px;
+    padding:0 20px;
+}
+
+.lightbox-close{
+    position:absolute;
+    top:20px;
+    right:28px;
+    color:#fff;
+    font-size:36px;
+    line-height:1;
+    cursor:pointer;
+    background:none;
+    border:none;
+}
+
+.highlight-box{
+    background:#eef4ff;
+    border-left:5px solid var(--primary);
+    padding:20px;
+    border-radius:8px;
+}
+
+.team-box{
+    background:#fafafa;
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:24px;
+}
+
+ul li{
+    margin-bottom:10px;
+}
+
+.pub-card{
+    border:1px solid var(--border);
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.pub-content{
+    flex:1;
+    padding:20px;
+}
+
+.footer{
+    text-align:center;
+    margin-top:80px;
+    color:#888;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+<span class="tag">
+ETH Zürich × EPFL x SBB
+</span>
+
+<h1>
+AI-Powered Condition Monitoring for Critical Infrastructure
+</h1>
+
+<p class="hero-subtitle">
+Designed, deployed and operated an end-to-end monitoring system for
+four 132 kV circuit breakers in the Swiss Federal Railways (SBB)
+network. The project combines multimodal sensing, embedded systems,
+IoT connectivity, machine learning and anomaly detection to support
+maintenance decision-making in critical infrastructure.
+</p>
+
+<div class="metrics">
+
+<div class="metric-card">
+<div class="metric-value">4</div>
+<div class="metric-label">132 kV Breakers Monitored</div>
+</div>
+
+<div class="metric-card">
+<div class="metric-value">12+</div>
+<div class="metric-label">Months Continuous Operation</div>
+</div>
+
+<div class="metric-card">
+<div class="metric-value">30k+</div>
+<div class="metric-label">Laboratory Operations</div>
+</div>
+
+<div class="metric-card">
+<div class="metric-value">200+</div>
+<div class="metric-label">Field Operations</div>
+</div>
+
+</div>
+</div>
+
+<h2>Project Overview</h2>
+
+<p>
+This project was conducted during my PhD at ETH Zürich in collaboration
+with Swiss Federal Railways (SBB), Hitachi Energy, BKW Energie and EPFL.
+The objective was to develop a scalable condition monitoring framework
+capable of detecting abnormal behaviour in high-voltage circuit breakers
+before failures occur.
+</p>
+
+<h2>Project Gallery</h2>
+Click to enlarge 
+
+<div class="gallery">
+
+<figure class="gallery-item">
+    <div class="gallery-thumb">
+        <img src="/assets/img/sbb_setup.png"
+                alt="Field test setup on high-voltage circuit breaker">
+    </div>
+    <figcaption>Field test setup on a circuit breaker</figcaption>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-thumb">
+        <img src="/assets/img/sbb_thumbnail.png"
+                alt="IoT condition monitoring system architecture">
+    </div>
+    <figcaption>End-to-end condition monitoring system architecture</figcaption>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-thumb">
+        <img src="/assets/img/iot_box.webp"
+                alt="IoT condition monitoring box">
+    </div>
+    <figcaption>Custom embedded IoT data acquisition and transmission box</figcaption>
+</figure>
+
+</div>
+
+<h2>My Contributions</h2>
+
+<ul>
+
+<li>Project leadership and stakeholder coordination across ETH Zürich and SBB</li>
+
+<li>Requirements gathering, deployment planning and project management</li>
+
+<li>Design of sensing architecture and monitoring strategy</li>
+
+<li>Identify suitable sensors and installation locations</li>
+
+<li>Machine learning model development and validation</li>
+
+<li>Development of data engineering and preprocessing pipelines</li>
+
+<li>Dashboard development and monitoring software</li>
+
+<li>Design and execution of run-to-failure experiments</li>
+
+<li>Field installation coordination and long-term operation support</li>
+
+</ul>
+
+<h2>System Architecture</h2>
+
+<ul>
+
+<li>Multimodal sensor integration</li>
+
+<li>Embedded data acquisition platform</li>
+
+<li>Remote IoT data transmission infrastructure with WiFi</li>
+
+<li>Automated preprocessing and feature extraction pipelines</li>
+
+<li>Anomaly detection algorithms trained on the data collected in the first few months, assuming healthy</li>
+
+<li>Online monitoring dashboards and visualization tools</li>
+
+</ul>
+
+<h2>Field Deployment</h2>
+
+<ul>
+
+<li>Installed and commissioned monitoring systems on four 132 kV circuit breakers</li>
+
+<li>Deployment completed within a limited maintenance window of only a few hours</li>
+
+<li>Maintained stable operation for more than one year</li>
+
+<li>Collected operational data under real railway infrastructure conditions</li>
+
+</ul>
+
+<h2>Dataset Development</h2>
+
+<ul>
+
+<li>Designed and executed extensive run-to-failure experiments</li>
+
+<li>Collected a multimodal dataset comprising more than 30,000 laboratory switching operations</li>
+
+<li>Collected over 200 real-world switching events from circuit breakers in the substation</li>
+
+<li>Included current interruption events for model validation</li>
+
+</ul>
+
+<h2>Impact</h2>
+
+<div class="highlight-box">
+
+<ul>
+
+<li>Demonstrated successful deployment of AI-driven condition monitoring in a live substation environment</li>
+
+<li>Bridged research prototypes and operational infrastructure deployment</li>
+
+<li>Enabled long-term condition monitoring of critical infrastructure assets</li>
+
+<li>Created one of the largest multimodal datasets for circuit breaker condition monitoring research</li>
+
+<li>Established a scalable framework for future condition-based maintenance systems</li>
+
+</ul>
+
+</div>
+
+<h2>Project Team</h2>
+
+<div class="team-box">
+
+<ul>
+
+<li><strong>Chi-Ching Hsu</strong> — Project Lead, Machine Learning, Dashboard Development</li>
+
+<li><strong>Tino Gfrörer</strong> — Hardware System Design</li>
+
+<li><strong>Zoltán Marcsek</strong> — Firmware & Embedded Systems</li>
+
+<li><strong>Prof. Christian Franck</strong> — Academic Supervision</li>
+
+<li><strong>Prof. Olga Fink</strong> — Academic Supervision</li>
+
+</ul>
+
+</div>
+
+<h2>Publication</h2>
+
+<div class="pub-card">
+
+<div class="pub-content">
+
+<h3>
+An IoT Sensor Platform for Predictive Maintenance of High Voltage Circuit Breakers
+</h3>
+
+<p>
+    Zoltán Marcsek, Tino Gfrörer, Tommaso Polonelli, <u>Chi-Ching Hsu</u>, Michele Magno, Christian M. Franck
+</p>
+
+<p>
+    2025 10th International Workshop on Advances in Sensors and Interfaces (IWASI), 2025
+</p>
+
+<p>
+<a href="https://doi.org/10.1109/IWASI66786.2025.11121959" target="_blank" rel="noopener noreferrer">
+Paper Link
+</a>
+</p>
+
+</div>
+
+</div>
+
+<a href="/research/" target="_blank" rel="noopener noreferrer">Back to homepage</a>
+
+<div class="footer">
+Last updated: June 2026
+</div>
+
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="">
+    <div class="lightbox-caption"></div>
+</div>
+
+<script>
+(function(){
+    var lightbox = document.getElementById('lightbox');
+    var lbImg = lightbox.querySelector('img');
+    var lbCaption = lightbox.querySelector('.lightbox-caption');
+
+    document.querySelectorAll('.gallery-thumb').forEach(function(thumb){
+        thumb.addEventListener('click', function(){
+            var img = thumb.querySelector('img');
+            var caption = thumb.parentElement.querySelector('figcaption');
+            lbImg.src = img.src;
+            lbImg.alt = img.alt;
+            lbCaption.textContent = caption ? caption.textContent : '';
+            lightbox.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    function closeLightbox(){
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+    }
+
+    lightbox.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', function(e){
+        if(e.key === 'Escape') closeLightbox();
+    });
+})();
+</script>
+
+</body>
+</html>
