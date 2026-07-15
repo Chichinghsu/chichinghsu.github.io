@@ -264,6 +264,7 @@
       <button class="primary" type="submit">確定</button>
     </form>
     <div class="feedback" id="feedback"></div>
+    <div class="hint">輸入中文或英文（例如：台北車站 Taipei Main Station）</div>
 
     <div style="display:flex; gap:8px;">
       <button id="revealBtn" style="flex:1;">公布解答</button>
@@ -271,8 +272,6 @@
     </div>
 
     <div class="legend" id="legend"></div>
-
-    <div class="hint">輸入中文或英文（例如：台北車站 Taipei Main Station）</div>
 
     <div class="found-list" id="foundList">
       <h3>已找到的站</h3>
@@ -645,20 +644,54 @@ function init(DATA){
 
   const mapArea = document.getElementById('mapArea');
   let isPanning=false, start={x:0,y:0}, startVB=null;
+  const pointers = new Map();   // active touch/pointer positions
+  let pinch = null;             // {dist, cx, cy} in screen coords when pinch begins
   mapArea.addEventListener('pointerdown', e=>{
-    isPanning=true; start={x:e.clientX,y:e.clientY}; startVB={...vb};
+    pointers.set(e.pointerId, {x:e.clientX, y:e.clientY});
     mapArea.setPointerCapture(e.pointerId);
+    if(pointers.size === 1){
+      isPanning=true; start={x:e.clientX,y:e.clientY}; startVB={...vb};
+    } else if(pointers.size === 2){
+      isPanning=false;
+      pinch = pinchState();
+    }
   });
+  function pinchState(){
+    const pts = [...pointers.values()];
+    const dx = pts[0].x-pts[1].x, dy = pts[0].y-pts[1].y;
+    return { dist: Math.hypot(dx,dy), cx:(pts[0].x+pts[1].x)/2, cy:(pts[0].y+pts[1].y)/2 };
+  }
   mapArea.addEventListener('pointermove', e=>{
-    if(!isPanning) return;
+    if(!pointers.has(e.pointerId)) return;
+    pointers.set(e.pointerId, {x:e.clientX, y:e.clientY});
     const rect = mapArea.getBoundingClientRect();
+    if(pointers.size >= 2 && pinch){
+      const now = pinchState();
+      if(now.dist > 0){
+        const px = vb.x + (now.cx-rect.left)/rect.width*vb.w;
+        const py = vb.y + (now.cy-rect.top)/rect.height*vb.h;
+        zoomAt(pinch.dist/now.dist, px, py);
+      }
+      pinch = now;
+      return;
+    }
+    if(!isPanning) return;
     const scaleX = vb.w/rect.width, scaleY = vb.h/rect.height;
     vb.x = startVB.x - (e.clientX-start.x)*scaleX;
     vb.y = startVB.y - (e.clientY-start.y)*scaleY;
     applyVB();
   });
   ['pointerup','pointerleave','pointercancel'].forEach(ev=>{
-    mapArea.addEventListener(ev, ()=>{ isPanning=false; });
+    mapArea.addEventListener(ev, e=>{
+      pointers.delete(e.pointerId);
+      if(pointers.size < 2) pinch = null;
+      if(pointers.size === 1){
+        const p = [...pointers.values()][0];
+        isPanning=true; start={x:p.x, y:p.y}; startVB={...vb};
+      } else if(pointers.size === 0){
+        isPanning=false;
+      }
+    });
   });
   function zoomAt(factor, cx, cy){
     const nw = Math.max(60, Math.min(W*2.2, vb.w*factor));
