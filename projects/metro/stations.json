@@ -1,0 +1,1893 @@
+{
+    "stations": [
+      {
+        "id": "tamsui",
+        "en": "Tamsui",
+        "zh": "淡水",
+        "lat": 25.1696,
+        "lon": 121.4443,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "hongshulin",
+        "en": "Hongshulin",
+        "zh": "紅樹林",
+        "lat": 25.1586,
+        "lon": 121.4507,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhuwei",
+        "en": "Zhuwei",
+        "zh": "竹圍",
+        "lat": 25.1432,
+        "lon": 121.4614,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "guandu",
+        "en": "Guandu",
+        "zh": "關渡",
+        "lat": 25.1229,
+        "lon": 121.4696,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongyi",
+        "en": "Zhongyi",
+        "zh": "忠義",
+        "lat": 25.127,
+        "lon": 121.475,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "fuxinggang",
+        "en": "Fuxinggang",
+        "zh": "復興崗",
+        "lat": 25.1372,
+        "lon": 121.4786,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "beitou",
+        "en": "Beitou",
+        "zh": "北投",
+        "lat": 25.1327,
+        "lon": 121.5016,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "xinbeitou",
+        "en": "Xinbeitou",
+        "zh": "新北投",
+        "lat": 25.1369,
+        "lon": 121.5016,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "qiyan",
+        "en": "Qiyan",
+        "zh": "奇岩",
+        "lat": 25.1247,
+        "lon": 121.5027,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "qilian",
+        "en": "Qilian",
+        "zh": "唭哩岸",
+        "lat": 25.1156,
+        "lon": 121.5049,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "shipai",
+        "en": "Shipai",
+        "zh": "石牌",
+        "lat": 25.1075,
+        "lon": 121.5158,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "mingde",
+        "en": "Mingde",
+        "zh": "明德",
+        "lat": 25.1026,
+        "lon": 121.5203,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhishan",
+        "en": "Zhishan",
+        "zh": "芝山",
+        "lat": 25.0972,
+        "lon": 121.5237,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "shilin",
+        "en": "Shilin",
+        "zh": "士林",
+        "lat": 25.0937,
+        "lon": 121.5253,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "jiantan",
+        "en": "Jiantan",
+        "zh": "劍潭",
+        "lat": 25.0865,
+        "lon": 121.5251,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "yuanshan",
+        "en": "Yuanshan",
+        "zh": "圓山",
+        "lat": 25.0715,
+        "lon": 121.5211,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "minquanwrd",
+        "en": "Minquan W. Road",
+        "zh": "民權西路",
+        "lat": 25.0642,
+        "lon": 121.5205,
+        "lines": [
+          "O",
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "shuanglian",
+        "en": "Shuanglian",
+        "zh": "雙連",
+        "lat": 25.0586,
+        "lon": 121.5205,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongshan",
+        "en": "Zhongshan",
+        "zh": "中山",
+        "lat": 25.0526,
+        "lon": 121.5205,
+        "lines": [
+          "G",
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "taipeimain",
+        "en": "Taipei Main Station",
+        "zh": "台北車站",
+        "lat": 25.0478,
+        "lon": 121.517,
+        "lines": [
+          "A",
+          "BL",
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "ntuhospital",
+        "en": "NTU Hospital",
+        "zh": "台大醫院",
+        "lat": 25.0421,
+        "lon": 121.5163,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "cks",
+        "en": "Chiang Kai-Shek Memorial Hall",
+        "zh": "中正紀念堂",
+        "lat": 25.0344,
+        "lon": 121.5177,
+        "lines": [
+          "G",
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "dongmen",
+        "en": "Dongmen",
+        "zh": "東門",
+        "lat": 25.033,
+        "lon": 121.5251,
+        "lines": [
+          "O",
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "daanpark",
+        "en": "Daan Park",
+        "zh": "大安森林公園",
+        "lat": 25.033,
+        "lon": 121.5343,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "daan",
+        "en": "Daan",
+        "zh": "大安",
+        "lat": 25.033,
+        "lon": 121.5434,
+        "lines": [
+          "BR",
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "xinyianhe",
+        "en": "Xinyi Anhe",
+        "zh": "信義安和",
+        "lat": 25.033,
+        "lon": 121.554,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "taipei101",
+        "en": "Taipei 101/World Trade Center",
+        "zh": "台北101/世貿",
+        "lat": 25.033,
+        "lon": 121.5645,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "xiangshan",
+        "en": "Xiangshan",
+        "zh": "象山",
+        "lat": 25.033,
+        "lon": 121.5701,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
+        "id": "songshan",
+        "en": "Songshan",
+        "zh": "松山",
+        "lat": 25.0499,
+        "lon": 121.5776,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "nanjingsanmin",
+        "en": "Nanjing Sanmin",
+        "zh": "南京三民",
+        "lat": 25.0521,
+        "lon": 121.5701,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "taipeiarena",
+        "en": "Taipei Arena",
+        "zh": "臺北小巨蛋",
+        "lat": 25.0521,
+        "lon": 121.5599,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "nanjingfuxing",
+        "en": "Nanjing Fuxing",
+        "zh": "南京復興",
+        "lat": 25.0521,
+        "lon": 121.5434,
+        "lines": [
+          "BR",
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "songjiangnanjing",
+        "en": "Songjiang Nanjing",
+        "zh": "松江南京",
+        "lat": 25.0521,
+        "lon": 121.5335,
+        "lines": [
+          "G",
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "beimen",
+        "en": "Beimen",
+        "zh": "北門",
+        "lat": 25.0512,
+        "lon": 121.5109,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "ximen",
+        "en": "Ximen",
+        "zh": "西門",
+        "lat": 25.0421,
+        "lon": 121.5077,
+        "lines": [
+          "BL",
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "xiaonanmen",
+        "en": "Xiaonanmen",
+        "zh": "小南門",
+        "lat": 25.0362,
+        "lon": 121.5127,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "guting",
+        "en": "Guting",
+        "zh": "古亭",
+        "lat": 25.0261,
+        "lon": 121.5217,
+        "lines": [
+          "G",
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "taipowerbuilding",
+        "en": "Taipower Building",
+        "zh": "台電大樓",
+        "lat": 25.017,
+        "lon": 121.5289,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "gongguan",
+        "en": "Gongguan",
+        "zh": "公館",
+        "lat": 25.0138,
+        "lon": 121.5342,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "wanlong",
+        "en": "Wanlong",
+        "zh": "萬隆",
+        "lat": 25.0032,
+        "lon": 121.5342,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "jingmei",
+        "en": "Jingmei",
+        "zh": "景美",
+        "lat": 24.9902,
+        "lon": 121.538,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "dapinglin",
+        "en": "Dapinglin",
+        "zh": "大坪林",
+        "lat": 24.9822,
+        "lon": 121.5378,
+        "lines": [
+          "G",
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "qizhang",
+        "en": "Qizhang",
+        "zh": "七張",
+        "lat": 24.9756,
+        "lon": 121.5378,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "xiaobitan",
+        "en": "Xiaobitan",
+        "zh": "小碧潭",
+        "lat": 24.981,
+        "lon": 121.545,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "xindianofc",
+        "en": "Xindian District Office",
+        "zh": "新店區公所",
+        "lat": 24.967,
+        "lon": 121.5378,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "xindian",
+        "en": "Xindian",
+        "zh": "新店",
+        "lat": 24.9578,
+        "lon": 121.5378,
+        "lines": [
+          "G"
+        ],
+        "core": true
+      },
+      {
+        "id": "nanshijiao",
+        "en": "Nanshijiao",
+        "zh": "南勢角",
+        "lat": 24.9989,
+        "lon": 121.5157,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "jingan",
+        "en": "Jingan",
+        "zh": "景安",
+        "lat": 25.0032,
+        "lon": 121.5089,
+        "lines": [
+          "O",
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "yonganmarket",
+        "en": "Yongan Market",
+        "zh": "永安市場",
+        "lat": 25.0083,
+        "lon": 121.5077,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "dingxi",
+        "en": "Dingxi",
+        "zh": "頂溪",
+        "lat": 25.017,
+        "lon": 121.5077,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongxiaoxinsheng",
+        "en": "Zhongxiao Xinsheng",
+        "zh": "忠孝新生",
+        "lat": 25.0417,
+        "lon": 121.5335,
+        "lines": [
+          "BL",
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "xingtiantemple",
+        "en": "Xingtian Temple",
+        "zh": "行天宮",
+        "lat": 25.0602,
+        "lon": 121.5335,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongshanelementary",
+        "en": "Zhongshan Elementary School",
+        "zh": "中山國小",
+        "lat": 25.0621,
+        "lon": 121.5253,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "daqiaotou",
+        "en": "Daqiaotou",
+        "zh": "大橋頭",
+        "lat": 25.0692,
+        "lon": 121.5107,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "taipeibridge",
+        "en": "Taipei Bridge",
+        "zh": "台北橋",
+        "lat": 25.0708,
+        "lon": 121.4931,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "cailiao",
+        "en": "Cailiao",
+        "zh": "菜寮",
+        "lat": 25.0708,
+        "lon": 121.4839,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "sanchong",
+        "en": "Sanchong",
+        "zh": "三重",
+        "lat": 25.0637,
+        "lon": 121.4839,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "xiansetemple",
+        "en": "Xianse Temple",
+        "zh": "先嗇宮",
+        "lat": 25.0637,
+        "lon": 121.4744,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "touqianzhuang",
+        "en": "Touqianzhuang",
+        "zh": "頭前庄",
+        "lat": 25.0459,
+        "lon": 121.4562,
+        "lines": [
+          "O",
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "xinzhuang",
+        "en": "Xinzhuang",
+        "zh": "新莊",
+        "lat": 25.0362,
+        "lon": 121.4322,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "fujenuniv",
+        "en": "Fu Jen University",
+        "zh": "輔大",
+        "lat": 25.0362,
+        "lon": 121.4234,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "danfeng",
+        "en": "Danfeng",
+        "zh": "丹鳳",
+        "lat": 25.0459,
+        "lon": 121.4212,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "huilong",
+        "en": "Huilong",
+        "zh": "迴龍",
+        "lat": 25.0575,
+        "lon": 121.4212,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "sanchongelem",
+        "en": "Sanchong Elementary School",
+        "zh": "三重國小",
+        "lat": 25.0708,
+        "lon": 121.4744,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "sanhejr",
+        "en": "Sanhe Junior High School",
+        "zh": "三和國中",
+        "lat": 25.0779,
+        "lon": 121.4744,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "stignatius",
+        "en": "St. Ignatius High School",
+        "zh": "徐匯中學",
+        "lat": 25.0821,
+        "lon": 121.4744,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "sanminhigh",
+        "en": "Sanmin Senior High School",
+        "zh": "三民高中",
+        "lat": 25.089,
+        "lon": 121.4735,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "luzhou",
+        "en": "Luzhou",
+        "zh": "蘆洲",
+        "lat": 25.096,
+        "lon": 121.4735,
+        "lines": [
+          "O"
+        ],
+        "core": true
+      },
+      {
+        "id": "dingpu",
+        "en": "Dingpu",
+        "zh": "頂埔",
+        "lat": 24.97,
+        "lon": 121.4295,
+        "lines": [
+          "BL",
+          "LB"
+        ],
+        "core": true
+      },
+      {
+        "id": "yongning",
+        "en": "Yongning",
+        "zh": "永寧",
+        "lat": 24.9779,
+        "lon": 121.4368,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "tucheng",
+        "en": "Tucheng",
+        "zh": "土城",
+        "lat": 24.9821,
+        "lon": 121.4459,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "haishan",
+        "en": "Haishan",
+        "zh": "海山",
+        "lat": 24.9908,
+        "lon": 121.4506,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "fareasternhospital",
+        "en": "Far Eastern Hospital",
+        "zh": "亞東醫院",
+        "lat": 24.9989,
+        "lon": 121.4562,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "fuzhong",
+        "en": "Fuzhong",
+        "zh": "府中",
+        "lat": 25.0083,
+        "lon": 121.4589,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "banqiao",
+        "en": "Banqiao",
+        "zh": "板橋",
+        "lat": 25.014,
+        "lon": 121.4626,
+        "lines": [
+          "BL",
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "xinpu",
+        "en": "Xinpu",
+        "zh": "新埔",
+        "lat": 25.017,
+        "lon": 121.4703,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "jiangzicui",
+        "en": "Jiangzicui",
+        "zh": "江子翠",
+        "lat": 25.0281,
+        "lon": 121.4739,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "longshantemple",
+        "en": "Longshan Temple",
+        "zh": "龍山寺",
+        "lat": 25.0353,
+        "lon": 121.4998,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "shandaotemple",
+        "en": "Shandao Temple",
+        "zh": "善導寺",
+        "lat": 25.0453,
+        "lon": 121.5218,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongxiaofuxing",
+        "en": "Zhongxiao Fuxing",
+        "zh": "忠孝復興",
+        "lat": 25.0418,
+        "lon": 121.5434,
+        "lines": [
+          "BL",
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongxiaodunhua",
+        "en": "Zhongxiao Dunhua",
+        "zh": "忠孝敦化",
+        "lat": 25.0418,
+        "lon": 121.5533,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "sunyatsen",
+        "en": "Sun Yat-Sen Memorial Hall",
+        "zh": "國父紀念館",
+        "lat": 25.0398,
+        "lon": 121.5599,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "cityhall",
+        "en": "Taipei City Hall",
+        "zh": "市政府",
+        "lat": 25.0408,
+        "lon": 121.577,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "yongchun",
+        "en": "Yongchun",
+        "zh": "永春",
+        "lat": 25.044,
+        "lon": 121.58,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "houshanpi",
+        "en": "Houshanpi",
+        "zh": "後山埤",
+        "lat": 25.0439,
+        "lon": 121.5887,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "kunyang",
+        "en": "Kunyang",
+        "zh": "昆陽",
+        "lat": 25.0507,
+        "lon": 121.5958,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "nangang",
+        "en": "Nangang",
+        "zh": "南港",
+        "lat": 25.0533,
+        "lon": 121.6067,
+        "lines": [
+          "BL"
+        ],
+        "core": true
+      },
+      {
+        "id": "nangangexpo",
+        "en": "Taipei Nangang Exhibition Center",
+        "zh": "南港展覽館",
+        "lat": 25.0552,
+        "lon": 121.6167,
+        "lines": [
+          "BL",
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "taipeizoo",
+        "en": "Taipei Zoo",
+        "zh": "動物園",
+        "lat": 24.9986,
+        "lon": 121.5799,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "muzha",
+        "en": "Muzha",
+        "zh": "木柵",
+        "lat": 25.0006,
+        "lon": 121.5735,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "wanfangcommunity",
+        "en": "Wanfang Community",
+        "zh": "萬芳社區",
+        "lat": 25.0034,
+        "lon": 121.5675,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "wanfanghospital",
+        "en": "Wanfang Hospital",
+        "zh": "萬芳醫院",
+        "lat": 25.0083,
+        "lon": 121.5646,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "xinhai",
+        "en": "Xinhai",
+        "zh": "辛亥",
+        "lat": 25.014,
+        "lon": 121.5599,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "linguang",
+        "en": "Linguang",
+        "zh": "麟光",
+        "lat": 25.017,
+        "lon": 121.554,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "liuzhangli",
+        "en": "Liuzhangli",
+        "zh": "六張犁",
+        "lat": 25.0226,
+        "lon": 121.5487,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "technologybuilding",
+        "en": "Technology Building",
+        "zh": "科技大樓",
+        "lat": 25.0261,
+        "lon": 121.5434,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongshanjrhigh",
+        "en": "Zhongshan Junior High School",
+        "zh": "中山國中",
+        "lat": 25.0611,
+        "lon": 121.5434,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "songshanairport",
+        "en": "Songshan Airport",
+        "zh": "松山機場",
+        "lat": 25.0637,
+        "lon": 121.5522,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "dazhi",
+        "en": "Dazhi",
+        "zh": "大直",
+        "lat": 25.0685,
+        "lon": 121.558,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "jiannanroad",
+        "en": "Jiannan Road",
+        "zh": "劍南路",
+        "lat": 25.0785,
+        "lon": 121.558,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "xihu",
+        "en": "Xihu",
+        "zh": "西湖",
+        "lat": 25.0779,
+        "lon": 121.5675,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "gangqian",
+        "en": "Gangqian",
+        "zh": "港墘",
+        "lat": 25.0779,
+        "lon": 121.5751,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "wende",
+        "en": "Wende",
+        "zh": "文德",
+        "lat": 25.0803,
+        "lon": 121.581,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "neihu",
+        "en": "Neihu",
+        "zh": "內湖",
+        "lat": 25.0826,
+        "lon": 121.5885,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "dahupark",
+        "en": "Dahu Park",
+        "zh": "大湖公園",
+        "lat": 25.0847,
+        "lon": 121.594,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "huzhou",
+        "en": "Huzhou",
+        "zh": "葫洲",
+        "lat": 25.0668,
+        "lon": 121.601,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "donghu",
+        "en": "Donghu",
+        "zh": "東湖",
+        "lat": 25.0685,
+        "lon": 121.6067,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {
+        "id": "nangangsoftware",
+        "en": "Nangang Software Park",
+        "zh": "南港軟體園區",
+        "lat": 25.0575,
+        "lon": 121.6109,
+        "lines": [
+          "BR"
+        ],
+        "core": true
+      },
+      {        
+        "id": "shisizhang",
+        "en": "Shisizhang",
+        "zh": "十四張",
+        "lat": 24.985,
+        "lon": 121.535,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "xiulangbridge",
+        "en": "Xiulang Bridge",
+        "zh": "秀朗橋",
+        "lat": 24.990,
+        "lon": 121.525,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "jingping",
+        "en": "Jingping",
+        "zh": "景平",
+        "lat": 24.9945,
+        "lon": 121.5157,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhonghe",
+        "en": "Zhonghe",
+        "zh": "中和",
+        "lat": 25.0,
+        "lon": 121.4989,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "qiaohe",
+        "en": "Qiaohe",
+        "zh": "橋和",
+        "lat": 25.0083,
+        "lon": 121.4933,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "zhongyuan",
+        "en": "Zhongyuan",
+        "zh": "中原",
+        "lat": 25.0108,
+        "lon": 121.487,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "banxin",
+        "en": "Banxin",
+        "zh": "板新",
+        "lat": 25.014,
+        "lon": 121.4739,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "xinpuminsheng",
+        "en": "Xinpu Minsheng",
+        "zh": "新埔民生",
+        "lat": 25.02,
+        "lon": 121.4739,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "xingfu",
+        "en": "Xingfu",
+        "zh": "幸福",
+        "lat": 25.0459,
+        "lon": 121.4459,
+        "lines": [
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "ntpindustrialpark",
+        "en": "New Taipei Industrial Park",
+        "zh": "新北產業園區",
+        "lat": 25.0521,
+        "lon": 121.4459,
+        "lines": [
+          "A",
+          "Y"
+        ],
+        "core": true
+      },
+      {
+        "id": "a2sanchong",
+        "en": "Sanchong (Airport MRT)",
+        "zh": "三重",
+        "lat": 25.0637,
+        "lon": 121.488,
+        "lines": [
+          "A"
+        ],
+        "core": false
+      },
+      {
+        "id": "a4xinzhuangfdx",
+        "en": "Xinzhuang Fuduxin",
+        "zh": "新莊副都心",
+        "lat": 25.045,
+        "lon": 121.437,
+        "lines": [
+          "A"
+        ],
+        "core": false
+      },
+      {
+        "id": "a5taishan",
+        "en": "Taishan",
+        "zh": "泰山",
+        "lat": 25.06,
+        "lon": 121.423,
+        "lines": [
+          "A"
+        ],
+        "core": false
+      },
+      {
+        "id": "a6taishanguihe",
+        "en": "Taishan Guihe",
+        "zh": "泰山貴和",
+        "lat": 25.065,
+        "lon": 121.415,
+        "lines": [
+          "A"
+        ],
+        "core": false
+      },
+      {
+        "id": "a7utaipei",
+        "en": "University of Taipei",
+        "zh": "體育大學",
+        "lat": 25.066,
+        "lon": 121.405,
+        "lines": [
+          "A"
+        ],
+        "core": false
+      },
+      {
+        "id": "a8changgung",
+        "en": "Chang Gung Memorial Hospital",
+        "zh": "長庚醫院",
+        "lat": 25.067,
+        "lon": 121.395,
+        "lines": [
+          "A"
+        ],
+        "core": false
+      },
+      {
+        "id": "a9linkou",
+        "en": "Linkou",
+        "zh": "林口",
+        "lat": 25.068,
+        "lon": 121.385,
+        "lines": [
+          "A"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb02mazutian",
+        "en": "Mazutian",
+        "zh": "媽祖田",
+        "lat": 24.96,
+        "lon": 121.423,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb03wazi",
+        "en": "Wazi",
+        "zh": "挖子",
+        "lat": 24.95,
+        "lon": 121.415,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb04hengxi",
+        "en": "Hengxi",
+        "zh": "橫溪",
+        "lat": 24.935,
+        "lon": 121.41,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb05longpu",
+        "en": "Longpu",
+        "zh": "龍埔",
+        "lat": 24.928,
+        "lon": 121.4,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb06sanxia",
+        "en": "Sanxia",
+        "zh": "三峽",
+        "lat": 24.934,
+        "lon": 121.37,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb07ntpu",
+        "en": "Taipei University",
+        "zh": "臺北大學",
+        "lat": 24.945,
+        "lon": 121.36,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb08yingge",
+        "en": "Yingge Station",
+        "zh": "鶯歌車站",
+        "lat": 24.954,
+        "lon": 121.352,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb09ceramics",
+        "en": "Ceramics Old Street",
+        "zh": "陶瓷老街",
+        "lat": 24.958,
+        "lon": 121.354,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb10guohua",
+        "en": "Guohua",
+        "zh": "國華",
+        "lat": 24.962,
+        "lon": 121.356,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb11yongjipark",
+        "en": "Yongji Park",
+        "zh": "永吉公園",
+        "lat": 24.967,
+        "lon": 121.36,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+      {
+        "id": "lb12yingtaofude",
+        "en": "Yingtao Fude",
+        "zh": "鶯桃福德",
+        "lat": 24.97,
+        "lon": 121.365,
+        "lines": [
+          "LB"
+        ],
+        "core": false
+      },
+    {
+      "id": "a10shanbi",
+      "en": "Shanbi",
+      "zh": "山鼻",
+      "lat": 25.067,
+      "lon": 121.375,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a11kengkou",
+      "en": "Kengkou",
+      "zh": "坑口",
+      "lat": 25.0721,
+      "lon": 121.3645,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a12airportt1",
+      "en": "Airport Terminal 1",
+      "zh": "機場第一航廈",
+      "lat": 25.0772,
+      "lon": 121.2321,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a13airportt2",
+      "en": "Airport Terminal 2",
+      "zh": "機場第二航廈",
+      "lat": 25.0772,
+      "lon": 121.1292,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a14aairporthotel",
+      "en": "Airport Hotel",
+      "zh": "機場旅館",
+      "lat": 25.065,
+      "lon": 121.2137,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a15dayuan",
+      "en": "Dayuan",
+      "zh": "大園",
+      "lat": 25.0608,
+      "lon": 121.1973,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a16hengshan",
+      "en": "Hengshan",
+      "zh": "橫山",
+      "lat": 25.0482,
+      "lon": 121.1778,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a17linghang",
+      "en": "Linghang",
+      "zh": "領航",
+      "lat": 25.0356,
+      "lon": 121.1634,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a18hsrtaoyuan",
+      "en": "Taoyuan HSR",
+      "zh": "高鐵桃園",
+      "lat": 25.0143,
+      "lon": 121.2141,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a19taoyuansportspark",
+      "en": "Taoyuan Sports Park",
+      "zh": "桃園體育園區",
+      "lat": 24.9985,
+      "lon": 121.2412,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a20xingnan",
+      "en": "Xingnan",
+      "zh": "興南",
+      "lat": 24.9874,
+      "lon": 121.2623,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a21huanbei",
+      "en": "Huanbei",
+      "zh": "環北",
+      "lat": 24.9721,
+      "lon": 121.2965,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    },
+    {
+      "id": "a22laojiexi",
+      "en": "Laojie River",
+      "zh": "老街溪",
+      "lat": 24.9612,
+      "lon": 121.3178,
+      "lines": [
+        "A"
+      ],
+      "core": false
+    }
+    ],
+    "lines": {
+      "R": [
+        "tamsui",
+        "hongshulin",
+        "zhuwei",
+        "guandu",
+        "zhongyi",
+        "fuxinggang",
+        "beitou",
+        "qiyan",
+        "qilian",
+        "shipai",
+        "mingde",
+        "zhishan",
+        "shilin",
+        "jiantan",
+        "yuanshan",
+        "minquanwrd",
+        "shuanglian",
+        "zhongshan",
+        "taipeimain",
+        "ntuhospital",
+        "cks",
+        "dongmen",
+        "daanpark",
+        "daan",
+        "xinyianhe",
+        "taipei101",
+        "xiangshan"
+      ],
+      "R_branch": [
+        "beitou",
+        "xinbeitou"
+      ],
+      "G": [
+        "songshan",
+        "nanjingsanmin",
+        "taipeiarena",
+        "nanjingfuxing",
+        "songjiangnanjing",
+        "zhongshan",
+        "beimen",
+        "ximen",
+        "xiaonanmen",
+        "cks",
+        "guting",
+        "taipowerbuilding",
+        "gongguan",
+        "wanlong",
+        "jingmei",
+        "dapinglin",
+        "qizhang",
+        "xindianofc",
+        "xindian"
+      ],
+      "G_branch": [
+        "qizhang",
+        "xiaobitan"
+      ],
+      "O": [
+        "nanshijiao",
+        "jingan",
+        "yonganmarket",
+        "dingxi",
+        "guting",
+        "dongmen",
+        "zhongxiaoxinsheng",
+        "songjiangnanjing",
+        "xingtiantemple",
+        "zhongshanelementary",
+        "minquanwrd",
+        "daqiaotou",
+        "taipeibridge",
+        "cailiao",
+        "sanchong",
+        "xiansetemple",
+        "touqianzhuang",
+        "xinzhuang",
+        "fujenuniv",
+        "danfeng",
+        "huilong"
+      ],
+      "O_branch": [
+        "taipeibridge",
+        "sanchongelem",
+        "sanhejr",
+        "stignatius",
+        "sanminhigh",
+        "luzhou"
+      ],
+      "BL": [
+        "dingpu",
+        "yongning",
+        "tucheng",
+        "haishan",
+        "fareasternhospital",
+        "fuzhong",
+        "banqiao",
+        "xinpu",
+        "jiangzicui",
+        "longshantemple",
+        "ximen",
+        "taipeimain",
+        "shandaotemple",
+        "zhongxiaoxinsheng",
+        "zhongxiaofuxing",
+        "zhongxiaodunhua",
+        "sunyatsen",
+        "cityhall",
+        "yongchun",
+        "houshanpi",
+        "kunyang",
+        "nangang",
+        "nangangexpo"
+      ],
+      "BR": [
+        "taipeizoo",
+        "muzha",
+        "wanfangcommunity",
+        "wanfanghospital",
+        "xinhai",
+        "linguang",
+        "liuzhangli",
+        "technologybuilding",
+        "daan",
+        "zhongxiaofuxing",
+        "nanjingfuxing",
+        "zhongshanjrhigh",
+        "songshanairport",
+        "dazhi",
+        "jiannanroad",
+        "xihu",
+        "gangqian",
+        "wende",
+        "neihu",
+        "dahupark",
+        "huzhou",
+        "donghu",
+        "nangangsoftware",
+        "nangangexpo"
+      ],
+      "Y": [
+        "dapinglin",
+        "shisizhang",
+        "xiulangbridge",
+        "jingping",
+        "jingan",
+        "zhonghe",
+        "qiaohe",
+        "zhongyuan",
+        "banxin",
+        "banqiao",
+        "xinpuminsheng",
+        "touqianzhuang",
+        "xingfu",
+        "ntpindustrialpark"
+      ],
+      "A": [
+        "taipeimain",
+        "a2sanchong",
+        "ntpindustrialpark",
+        "a4xinzhuangfdx",
+        "a5taishan",
+        "a6taishanguihe",
+        "a7utaipei",
+        "a8changgung",
+        "a9linkou",
+        "a10shanbi",
+        "a11kengkou",
+        "a12airportt1",
+        "a13airportt2",
+        "a14aairporthotel",
+        "a15dayuan",
+        "a16hengshan",
+        "a17linghang",
+        "a18hsrtaoyuan",
+        "a19taoyuansportspark",
+        "a20xingnan",
+        "a21huanbei",
+        "a22laojiexi"
+      ],
+      "LB": [
+        "dingpu",
+        "lb02mazutian",
+        "lb03wazi",
+        "lb04hengxi",
+        "lb05longpu",
+        "lb06sanxia",
+        "lb07ntpu",
+        "lb08yingge",
+        "lb09ceramics",
+        "lb10guohua",
+        "lb11yongjipark",
+        "lb12yingtaofude"
+      ]
+    },
+    "lineMeta": {
+      "R": {
+        "name": "淡水信義線",
+        "color": "#e3002c"
+      },
+      "G": {
+        "name": "松山新店線",
+        "color": "#008659"
+      },
+      "O": {
+        "name": "中和新蘆線",
+        "color": "#f8b61c"
+      },
+      "BL": {
+        "name": "板南線",
+        "color": "#0070bd"
+      },
+      "BR": {
+        "name": "文湖線",
+        "color": "#c48c31"
+      },
+      "Y": {
+        "name": "環狀線",
+        "color": "#ffce00"
+      },
+      "A": {
+        "name": "機場捷運",
+        "color": "#8b3f97"
+      },
+      "LB": {
+        "name": "三鶯線",
+        "color": "#5fc9e8"
+      }
+    }
+  }
