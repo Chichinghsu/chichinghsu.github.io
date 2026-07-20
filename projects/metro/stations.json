@@ -1858,35 +1858,35 @@
     },
     "lineMeta": {
       "R": {
-        "name": "淡水信義線",
+        "name": "R 淡水信義線",
         "color": "#e3002c"
       },
       "G": {
-        "name": "松山新店線",
+        "name": "G 松山新店線",
         "color": "#008659"
       },
       "O": {
-        "name": "中和新蘆線",
+        "name": "O 中和新蘆線",
         "color": "#f8b61c"
       },
       "BL": {
-        "name": "板南線",
+        "name": "B 板南線",
         "color": "#0070bd"
       },
       "BR": {
-        "name": "文湖線",
+        "name": "BR 文湖線",
         "color": "#c48c31"
       },
       "Y": {
-        "name": "環狀線",
+        "name": "Y 環狀線",
         "color": "#ffce00"
       },
       "A": {
-        "name": "機場捷運",
+        "name": "A 機場捷運",
         "color": "#8b3f97"
       },
       "LB": {
-        "name": "三鶯線",
+        "name": "LB 三鶯線",
         "color": "#5fc9e8"
       }
     }

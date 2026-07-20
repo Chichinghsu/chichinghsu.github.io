@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Taipei Metro Memory</title>
+<title>雙北捷運大挑戰</title>
 <style>
   :root{
     --bg:#f4f5f7;
@@ -75,7 +75,7 @@
   .progressBar{
     height:100%;
     width:0%;
-    background:linear-gradient(90deg,#e3002c,#f8b61c,#008659,#0070bd,#c48c31,#ffce00);
+    background:var(--muted);
     transition:width .35s ease;
   }
 
@@ -224,7 +224,7 @@
   }
   .zoomctl button{ width:34px; height:34px; padding:0; font-size:16px; }
 
-  .hint{ font-size:11.5px; color:var(--muted); line-height:1.5; }
+  .hint{ font-size:12.5px; color:var(--ink); line-height:1.5; }
   .footer-note{ font-size:11px; color:#9098a3; margin-top:auto; padding-top:10px; }
 </style>
 </head>
@@ -232,11 +232,10 @@
 
 <div class="topbar">
   <div class="brand">
-    <div class="zh">快來挑戰</div>
     <h1>捷運車站你記得幾個？</h1>
   </div>
   <div class="stats">
-    <span>Found <b id="foundCount">0</b> / <span id="totalCount">0</span></span>
+    <span>解鎖 <b id="foundCount">0</b> / <span id="totalCount">0</span></span>
     <span class="pct"><b id="pctCount">0.0%</b></span>
   </div>
 </div>
@@ -264,7 +263,7 @@
       <button class="primary" type="submit">確定</button>
     </form>
     <div class="feedback" id="feedback"></div>
-    <div class="hint">輸入中文或英文（例如：台北車站 Taipei Main Station）</div>
+    <div class="hint">輸入中文或英文（例如：台北車站 Taipei Main Station）<br>重新整理就會全部消失，請記得截圖</div>
 
     <div style="display:flex; gap:8px;">
       <button id="revealBtn" style="flex:1;">公布解答</button>
@@ -593,11 +592,11 @@ function init(DATA){
       else if(res === null){ allAlready = allAlready && true; }
     });
     if(newlyFound.length){
-      feedback.textContent = '✓ ' + newlyFound.map(s=>s.en+' ('+s.zh+')').join('  +  ');
+      feedback.textContent = '✓ ' + newlyFound.map(s=>s.zh+' ('+s.en+')').join('  +  ');
       feedback.className = 'feedback ok';
       input.value='';
     } else {
-      feedback.textContent = 'Already found: '+ids.map(id=>byId[id].en).join(', ');
+      feedback.textContent = '已解鎖: '+ids.map(id=>byId[id].zh).join(', ');
       feedback.className = 'feedback no';
     }
     input.focus();
