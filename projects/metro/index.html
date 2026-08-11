@@ -668,7 +668,7 @@ function init(DATA){
     const n = norm(raw);
     const ids = aliasMap[n];
     if(!ids || !ids.length){
-      feedback.textContent = '"'+raw+'" — not a match. Try again.';
+      feedback.textContent = '"'+raw+'" — 沒有這站 QQ';
       feedback.className = 'feedback no';
       input.select();
       return;
