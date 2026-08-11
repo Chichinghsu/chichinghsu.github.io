@@ -251,7 +251,7 @@
         "id": "dongmen",
         "en": "Dongmen",
         "zh": "東門",
-        "lat": 25.033,
+        "lat": 25.038,
         "lon": 121.5251,
         "lines": [
           "O",
@@ -297,7 +297,7 @@
         "id": "taipei101",
         "en": "Taipei 101/World Trade Center",
         "zh": "台北101/世貿",
-        "lat": 25.033,
+        "lat": 25.028,
         "lon": 121.5645,
         "lines": [
           "R"
@@ -308,7 +308,7 @@
         "id": "xiangshan",
         "en": "Xiangshan",
         "zh": "象山",
-        "lat": 25.033,
+        "lat": 25.025,
         "lon": 121.5701,
         "lines": [
           "R"
@@ -635,9 +635,10 @@
         "en": "Sanchong",
         "zh": "三重",
         "lat": 25.0637,
-        "lon": 121.4839,
+        "lon": 121.4859,
         "lines": [
-          "O"
+          "O",
+          "A"
         ],
         "core": true
       },
@@ -936,7 +937,7 @@
         "en": "Yongchun",
         "zh": "永春",
         "lat": 25.044,
-        "lon": 121.58,
+        "lon": 121.585,
         "lines": [
           "BL"
         ],
@@ -947,7 +948,7 @@
         "en": "Houshanpi",
         "zh": "後山埤",
         "lat": 25.0439,
-        "lon": 121.5887,
+        "lon": 121.5946,
         "lines": [
           "BL"
         ],
@@ -1319,21 +1320,10 @@
         "core": true
       },
       {
-        "id": "a2sanchong",
-        "en": "Sanchong (Airport MRT)",
-        "zh": "三重",
-        "lat": 25.0637,
-        "lon": 121.488,
-        "lines": [
-          "A"
-        ],
-        "core": false
-      },
-      {
         "id": "a4xinzhuangfdx",
         "en": "Xinzhuang Fuduxin",
         "zh": "新莊副都心",
-        "lat": 25.045,
+        "lat": 25.055,
         "lon": 121.437,
         "lines": [
           "A"
@@ -1366,7 +1356,7 @@
         "id": "a7utaipei",
         "en": "University of Taipei",
         "zh": "體育大學",
-        "lat": 25.066,
+        "lat": 25.07,
         "lon": 121.405,
         "lines": [
           "A"
@@ -1377,7 +1367,7 @@
         "id": "a8changgung",
         "en": "Chang Gung Memorial Hospital",
         "zh": "長庚醫院",
-        "lat": 25.067,
+        "lat": 25.08,
         "lon": 121.395,
         "lines": [
           "A"
@@ -1388,7 +1378,7 @@
         "id": "a9linkou",
         "en": "Linkou",
         "zh": "林口",
-        "lat": 25.068,
+        "lat": 25.088,
         "lon": 121.385,
         "lines": [
           "A"
@@ -1520,7 +1510,7 @@
       "id": "a10shanbi",
       "en": "Shanbi",
       "zh": "山鼻",
-      "lat": 25.067,
+      "lat": 25.098,
       "lon": 121.375,
       "lines": [
         "A"
@@ -1531,8 +1521,8 @@
       "id": "a11kengkou",
       "en": "Kengkou",
       "zh": "坑口",
-      "lat": 25.0721,
-      "lon": 121.3645,
+      "lat": 25.0941,
+      "lon": 121.2545,
       "lines": [
         "A"
       ],
@@ -1542,7 +1532,7 @@
       "id": "a12airportt1",
       "en": "Airport Terminal 1",
       "zh": "機場第一航廈",
-      "lat": 25.0772,
+      "lat": 25.088,
       "lon": 121.2321,
       "lines": [
         "A"
@@ -1819,7 +1809,7 @@
       ],
       "A": [
         "taipeimain",
-        "a2sanchong",
+        "sanchong",
         "ntpindustrialpark",
         "a4xinzhuangfdx",
         "a5taishan",

@@ -100,13 +100,13 @@
     overflow:hidden;
     cursor:grab;
     background:
-      repeating-linear-gradient(0deg, rgba(20,30,45,.045) 0 1px, transparent 1px 42px),
-      repeating-linear-gradient(90deg, rgba(20,30,45,.045) 0 1px, transparent 1px 42px);
+      repeating-linear-gradient(0deg, rgba(20,30,45,.022) 0 1px, transparent 1px 42px),
+      repeating-linear-gradient(90deg, rgba(20,30,45,.022) 0 1px, transparent 1px 42px);
   }
   .mapArea:active{ cursor:grabbing; }
   svg{ width:100%; height:100%; display:block; touch-action:none; }
 
-  .station-dot-bg{ fill:#d7dce3; stroke:#aab3c0; stroke-width:1.4; }
+  .station-dot-bg{ fill:#ffffff; stroke:#98a1ad; stroke-width:1.2; }
   .station-dot-found{ stroke:#ffffff; stroke-width:1.6; }
   .station-label{
     font-family:"PingFang TC","Noto Sans TC","Iowan Old Style",serif;
@@ -234,6 +234,66 @@
   }
   .zoomctl button{ width:34px; height:34px; padding:0; font-size:16px; }
 
+  /* ---- 交卷 report card ---- */
+  .overlay{
+    position:fixed; inset:0; z-index:60;
+    background:rgba(20,30,45,.55);
+    display:none; align-items:center; justify-content:center;
+    padding:20px; overflow-y:auto;
+  }
+  .overlay.show{ display:flex; }
+  .report{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:14px;
+    box-shadow:0 18px 50px rgba(20,30,45,.28);
+    width:100%; max-width:380px;
+    padding:26px 24px 20px;
+    text-align:center;
+  }
+  .report .rp-kicker{
+    font-size:11px; letter-spacing:.2em; color:var(--muted);
+    font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  }
+  .report h2{
+    margin:6px 0 2px; font-size:23px; font-weight:600;
+    font-family:"PingFang TC","Noto Sans TC",serif;
+  }
+  .report .rp-sub{ font-size:11.5px; color:var(--muted); font-family:"SF Mono","Menlo",monospace; }
+  .report .rp-rank{
+    margin:18px 0 4px;
+    font-size:34px; font-weight:700; color:var(--accent);
+    font-family:"PingFang TC","Noto Sans TC",serif;
+    letter-spacing:.04em;
+  }
+  .report .rp-quip{ font-size:12.5px; color:var(--muted); font-family:"PingFang TC","Noto Sans TC",sans-serif; }
+  .report .rp-score{
+    margin:16px 0 4px;
+    font-size:44px; font-weight:600; color:var(--ink);
+    font-family:"SF Mono","Menlo",monospace; font-variant-numeric:tabular-nums;
+  }
+  .report .rp-count{ font-size:13px; color:var(--muted); font-family:"SF Mono","Menlo",monospace; }
+  .report .rp-bar{ height:6px; border-radius:3px; background:var(--line); margin:16px 0 18px; overflow:hidden; }
+  .report .rp-bar i{ display:block; height:100%; background:var(--accent); }
+  .report .rp-lines{
+    text-align:left; border-top:1px solid var(--line); padding-top:12px;
+    display:grid; grid-template-columns:1fr 1fr; gap:5px 14px;
+  }
+  .report .rp-line{
+    display:flex; align-items:center; gap:6px; font-size:11.5px; color:var(--muted);
+    font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  }
+  .report .rp-line .sw{ width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+  .report .rp-line .v{ margin-left:auto; font-family:"SF Mono","Menlo",monospace; color:var(--ink); }
+  .report .rp-share{
+    margin:18px 0 12px; font-size:12px; color:var(--ink); line-height:1.55;
+    font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  }
+  .report .rp-tag{ color:var(--accent); font-weight:600; }
+  .report .rp-actions{ display:flex; gap:8px; }
+  .report .rp-actions button{ flex:1; }
+  .report .rp-foot{ margin-top:12px; font-size:10.5px; color:#9098a3; }
+
   .hint{ font-size:12.5px; color:var(--ink); line-height:1.5; }
   .footer-note{ font-size:11px; color:#9098a3; margin-top:auto; padding-top:10px; }
 </style>
@@ -273,11 +333,11 @@
       <button class="primary" type="submit">確定</button>
     </form>
     <div class="feedback" id="feedback"></div>
-    <div class="hint">輸入中文或英文（例如：台北車站 Taipei Main Station）<br>重新整理就會全部消失，請記得截圖</div>
+    <div class="hint">輸入中文或英文（例如：台北車站 Taipei Main Station）<br>想不出來了就按「交卷」看成績單</div>
 
     <div style="display:flex; gap:8px;">
       <button id="revealBtn" style="flex:1;">公布解答</button>
-      <button id="resetBtn" style="flex:1;">重來</button>
+      <button id="submitBtn" class="primary" style="flex:1;">交卷</button>
     </div>
 
     <div class="legend" id="legend"></div>
@@ -288,6 +348,24 @@
     </div>
 
     <div class="footer-note">純屬好玩</div>
+  </div>
+</div>
+
+<div class="overlay" id="reportOverlay">
+  <div class="report" id="reportCard">
+    <h2>雙北捷運大挑戰</h2>
+    <div class="rp-sub" id="rpDate"></div>
+    <div class="rp-rank" id="rpRank">—</div>
+    <div class="rp-quip" id="rpQuip"></div>
+    <div class="rp-score" id="rpScore">0.0%</div>
+    <div class="rp-count" id="rpCount"></div>
+    <div class="rp-bar"><i id="rpBar" style="width:0%"></i></div>
+    <div class="rp-lines" id="rpLines"></div>
+    <div class="rp-share"><span class="rp-tag">#雙北捷運大挑戰 超級難記別小看</span></div>
+    <div class="rp-actions">
+      <button id="rpReveal">公布解答</button>
+      <button id="rpRestart" class="primary">再玩一次</button>
+    </div>
   </div>
 </div>
 
@@ -374,14 +452,15 @@ function init(DATA){
   const extra = {
     "cks":"cks","chiangkaishek":"cks","chiangkaishekmemorialhall":"cks",
     "ntuhospital":"ntuhospital","taidahospital":"ntuhospital","ntuh":"ntuhospital",
-    "taipei101":"taipei101","worldtradecenter":"taipei101","wtc":"taipei101",
+    "taipei101":"taipei101","台北101":"taipei101","worldtradecenter":"taipei101","wtc":"taipei101",
     "sysmemorialhall":"sunyatsen","sunyatsenmemorialhall":"sunyatsen",
     "cityhall":"cityhall","taipeicityhall":"cityhall",
     "mainstation":"taipeimain","taipeimainstation":"taipeimain","taipeistation":"taipeimain",
     "zoo":"taipeizoo","taipeizoo":"taipeizoo",
     "minquanwrd":"minquanwrd","minquanwestroad":"minquanwrd",
-    "sanchong":"sanchong", // orange-line 三重; a2sanchong is reachable via its own alias too
-    "taiwantaoyuanairportmrt":"a2sanchong","airportmrt":"a2sanchong",
+    // 三重 is a single interchange here: the Orange Line and Airport MRT
+    // stations are separate structures in reality, but merged for this quiz.
+    "sanchong":"sanchong","sanchongairportmrt":"sanchong",
   };
   Object.keys(extra).forEach(k=>{ addAlias(k, extra[k]); });
 
@@ -397,10 +476,10 @@ function init(DATA){
     pl.setAttribute('points', pts);
     pl.setAttribute('fill','none');
     pl.setAttribute('stroke', meta.color);
-    pl.setAttribute('stroke-width','2.6');
+    pl.setAttribute('stroke-width','3');
     pl.setAttribute('stroke-linecap','round');
     pl.setAttribute('stroke-linejoin','round');
-    pl.setAttribute('opacity','0.32');
+    pl.setAttribute('opacity','0.85');
     linesLayer.appendChild(pl);
   });
 
@@ -613,11 +692,91 @@ function init(DATA){
   });
 
   document.getElementById('revealBtn').addEventListener('click', function(){
-    if(confirm('Reveal all remaining stations?')) revealAllRemaining();
+    if(confirm('公布所有還沒解鎖的車站？')) revealAllRemaining();
   });
-  document.getElementById('resetBtn').addEventListener('click', function(){
-    if(confirm('Reset your progress?')) location.reload();
+
+  // ---- 交卷 / report card ----
+  // Ranks are checked top-down; the first threshold the score clears wins.
+  const RANKS = [
+    {min:90, title:'捷運大師',   quip:'雙北的路網都在你腦裡，如果沒有偷看，那真的很強。'},
+    {min:80, title:'捷運中師',   quip:'幾乎滴水不漏，可能就差三鶯線。'},
+    {min:70, title:'捷運小師',   quip:'主要幹線閉著眼都能背，猛。'},
+    {min:60, title:'捷運達人',   quip:'常搭的線路一站不漏，出了舒適圈就開始猜。'},
+    {min:50, title:'捷運熟客',   quip:'一半的雙北在你腦中，剩下一半靠 Google Maps。'},
+    {min:40, title:'捷運通勤族', quip:'家、公司、還有那間常去的餐廳，其他就先不管了。'},
+    {min:30, title:'捷運乘客',   quip:'兩點一線，其他不知道。'},
+    {min:20, title:'捷運觀光客', quip:'幾個知名景點站沒問題，其他很有問題。'},
+    {min:10, title:'捷運新手',   quip:'剛買了悠遊卡的那種程度，前途無量。'},
+    {min:5, title:'捷運路人丙',   quip:'看看解答，讀一下再考一次。'},
+    {min:1,  title:'捷運路人乙', quip:'有點太爛，加油好嗎？'},
+    {min:0,  title:'捷運路人甲', quip:'1%都沒有？你確定你住雙北嗎。'},
+  ];
+  function rankFor(pct){ return RANKS.find(r=>pct>=r.min) || RANKS[RANKS.length-1]; }
+
+  const overlay = document.getElementById('reportOverlay');
+  let submitted = false;
+
+  let finalScore = null; // snapshot taken at 交卷, so 公布解答 can't inflate it
+
+  function showReport(){
+    if(!finalScore){
+      finalScore = {
+        count: found.size,
+        perLine: Object.fromEntries(Object.keys(lineMeta).map(k=>{
+          let f = 0;
+          stations.forEach(s=>{ if(s.lines.includes(k) && found.has(s.id)) f++; });
+          return [k, f];
+        })),
+      };
+    }
+    const pctNum = finalScore.count/stations.length*100;
+    const pct = pctNum.toFixed(1);
+    const rank = rankFor(pctNum);
+    const d = new Date();
+    const dateStr = d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0')+'.'+String(d.getDate()).padStart(2,'0');
+    document.getElementById('rpDate').textContent = dateStr;
+    document.getElementById('rpRank').textContent = rank.title;
+    document.getElementById('rpQuip').textContent = rank.quip;
+    document.getElementById('rpScore').textContent = pct+'%';
+    document.getElementById('rpCount').textContent = finalScore.count+' / '+stations.length+' 站';
+    document.getElementById('rpBar').style.width = Math.max(pctNum,0.8)+'%';
+
+    const linesEl = document.getElementById('rpLines');
+    linesEl.innerHTML = Object.keys(lineMeta).map(k=>{
+      const tot = lineTotals[k];
+      const f = finalScore.perLine[k] || 0;
+      const lp = tot ? Math.round(f/tot*100) : 0;
+      return '<div class="rp-line"><span class="sw" style="background:'+lineMeta[k].color+
+        '"></span>'+lineMeta[k].name.replace(/\s*\(.*\)$/,'')+
+        '<span class="v">'+lp+'%</span></div>';
+    }).join('');
+
+    overlay.classList.add('show');
+  }
+
+  function endGame(){
+    submitted = true;
+    input.disabled = true;
+    input.placeholder = '已交卷';
+    form.querySelector('button[type=submit]').disabled = true;
+    document.getElementById('submitBtn').textContent = '看成績單';
+    feedback.textContent = '已交卷 — 成績已結算';
+    feedback.className = 'feedback ok';
+  }
+
+  document.getElementById('submitBtn').addEventListener('click', function(){
+    if(submitted){ showReport(); return; }
+    if(!confirm('確定交卷？交卷後就不能再作答了。')) return;
+    endGame();
+    showReport();
   });
+  document.getElementById('rpRestart').addEventListener('click', ()=> location.reload());
+  document.getElementById('rpReveal').addEventListener('click', function(){
+    overlay.classList.remove('show');
+    revealAllRemaining();
+  });
+  overlay.addEventListener('click', e=>{ if(e.target === overlay) overlay.classList.remove('show'); });
+  document.addEventListener('keydown', e=>{ if(e.key==='Escape') overlay.classList.remove('show'); });
 
   // ---- legend ----
   const legendEl = document.getElementById('legend');
