@@ -1397,9 +1397,9 @@
         "core": false
       },
       {
-        "id": "lb03wazi",
-        "en": "Wazi",
-        "zh": "挖子",
+        "id": "lb03Changshoushan",
+        "en": "Changshoushan",
+        "zh": "長壽山",
         "lat": 24.95,
         "lon": 121.415,
         "lines": [
@@ -1834,7 +1834,7 @@
       "LB": [
         "dingpu",
         "lb02mazutian",
-        "lb03wazi",
+        "lb03Changshoushan",
         "lb04hengxi",
         "lb05longpu",
         "lb06sanxia",
