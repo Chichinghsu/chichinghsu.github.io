@@ -180,7 +180,7 @@ function buildLayout(cfg){
   document.getElementById('switcher').innerHTML = '更多挑戰：' + GAMES
     .filter(g=>g.id!==cfg.id)
     .map(g=>`<a href="${g.path}">${g.title} →</a>`)
-    .join('');
+    .join('') + '<a href="https://apps.apple.com/ph/app/id6774146443" target="_blank" rel="nofollow noopener">日本車牌制霸 App (iOS) →</a>';
 }
 
 // -------------------------------------------------------------------- engine
