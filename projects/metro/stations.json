@@ -612,8 +612,8 @@
         "id": "taipeibridge",
         "en": "Taipei Bridge",
         "zh": "台北橋",
-        "lat": 25.0708,
-        "lon": 121.4931,
+        "lat": 25.0668,
+        "lon": 121.5031,
         "lines": [
           "O"
         ],
@@ -623,8 +623,8 @@
         "id": "cailiao",
         "en": "Cailiao",
         "zh": "菜寮",
-        "lat": 25.0708,
-        "lon": 121.4839,
+        "lat": 25.0658,
+        "lon": 121.4939,
         "lines": [
           "O"
         ],
@@ -714,7 +714,7 @@
         "en": "Sanchong Elementary School",
         "zh": "三重國小",
         "lat": 25.0708,
-        "lon": 121.4744,
+        "lon": 121.4844,
         "lines": [
           "O"
         ],
@@ -1733,7 +1733,7 @@
         "huilong"
       ],
       "O_branch": [
-        "taipeibridge",
+        "daqiaotou",
         "sanchongelem",
         "sanhejr",
         "stignatius",
