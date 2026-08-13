@@ -1,0 +1,260 @@
+/* Shared styling for the "how many stations do you remember?" quizzes.
+   Each game only overrides --accent (see quiz.js / GAMES). */
+:root{
+  --bg:#f4f5f7;
+  --panel:#ffffff;
+  --line:#e1e5eb;
+  --ink:#1c2530;
+  --muted:#697280;
+  --accent:#b8860b;
+  --lbl-zh:6.5px;
+  --lbl-en:4.6px;
+  --good:#188a54;
+  --bad:#c8402f;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;height:100%;}
+body{
+  background:
+    radial-gradient(1200px 600px at 15% -10%, #ffffff 0%, transparent 60%),
+    radial-gradient(1000px 500px at 100% 10%, #eef0f4 0%, transparent 55%),
+    var(--bg);
+  color:var(--ink);
+  font-family:"Iowan Old Style","Georgia",serif;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+.topbar{
+  padding:22px 24px 10px;
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:16px;
+  flex-wrap:wrap;
+  border-bottom:1px solid var(--line);
+}
+.brand{ display:flex; flex-direction:column; gap:4px; }
+.brand h1{
+  margin:0;
+  font-size:26px;
+  font-weight:600;
+  letter-spacing:.01em;
+}
+.switcher{
+  font-size:11.5px;
+  letter-spacing:.06em;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  color:var(--muted);
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.switcher a{ color:var(--accent); text-decoration:none; border-bottom:1px solid #d3d8e0; }
+.switcher a:hover{ border-bottom-color:var(--accent); }
+.stats{
+  font-family:"SF Mono","Menlo",monospace;
+  font-size:13px;
+  color:var(--muted);
+  display:flex;
+  gap:18px;
+  align-items:center;
+}
+.stats b{ color:var(--ink); font-size:20px; font-family:inherit; }
+.stats .pct{ color:var(--accent); }
+
+.progressWrap{ height:3px; background:var(--line); position:relative; overflow:hidden; }
+.progressBar{ height:100%; width:0%; background:var(--muted); transition:width .35s ease; }
+
+.main{ flex:1; display:flex; min-height:0; }
+.mapArea{
+  flex:1;
+  position:relative;
+  overflow:hidden;
+  cursor:grab;
+  background:
+    repeating-linear-gradient(0deg, rgba(20,30,45,.022) 0 1px, transparent 1px 42px),
+    repeating-linear-gradient(90deg, rgba(20,30,45,.022) 0 1px, transparent 1px 42px);
+}
+.mapArea:active{ cursor:grabbing; }
+svg{ width:100%; height:100%; display:block; touch-action:none; }
+
+.station-dot-bg{ fill:#ffffff; stroke:#98a1ad; stroke-width:1.2; }
+.station-dot-found{ stroke:#ffffff; stroke-width:1.6; }
+.island{ fill:#e9edf1; stroke:#c6ced8; stroke-width:1.6; }
+.station-label{
+  font-family:"PingFang TC","Noto Sans TC","Iowan Old Style",serif;
+  font-size:var(--lbl-zh);
+  fill:var(--ink);
+  paint-order:stroke;
+  stroke:#ffffff;
+  stroke-width:2.8px;
+  stroke-linejoin:round;
+  pointer-events:none;
+}
+.station-label.en{ font-size:var(--lbl-en); fill:var(--muted); stroke-width:2.4px; }
+.interchange-ring{ fill:none; stroke-width:1.1; opacity:.9; }
+
+.pop-anim{ animation: pop .45s cubic-bezier(.2,1.6,.4,1); }
+@keyframes pop{
+  0%{ transform:scale(0); opacity:0; }
+  60%{ transform:scale(1.5); opacity:1; }
+  100%{ transform:scale(1); }
+}
+
+.sidebar{
+  width:300px;
+  flex-shrink:0;
+  border-left:1px solid var(--line);
+  background:var(--panel);
+  display:flex;
+  flex-direction:column;
+  padding:20px;
+  gap:16px;
+  overflow-y:auto;
+}
+@media (max-width: 760px){
+  .sidebar{ width:100%; order:2; border-left:none; border-top:1px solid var(--line); max-height:42vh; }
+  .main{ flex-direction:column; }
+  .mapArea{ order:1; min-height:44vh; }
+}
+
+form{ display:flex; gap:8px; }
+input[type=text]{
+  flex:1;
+  background:#fbfbfc;
+  border:1px solid #cfd5dd;
+  color:var(--ink);
+  padding:11px 12px;
+  border-radius:8px;
+  font-size:15px;
+  font-family:"PingFang TC","Noto Sans TC","Iowan Old Style",serif;
+  outline:none;
+}
+input[type=text]:focus{ border-color:var(--accent); }
+button{
+  background:#eef0f3;
+  color:var(--ink);
+  border:1px solid #cfd5dd;
+  padding:11px 14px;
+  border-radius:8px;
+  font-size:13px;
+  font-family:inherit;
+  cursor:pointer;
+}
+button:hover{ border-color:var(--accent); }
+button.primary{ background:var(--accent); color:#fffdf8; border-color:var(--accent); font-weight:600; }
+button.primary:hover{ filter:brightness(1.1); }
+
+.feedback{ min-height:20px; font-size:13px; font-family:"SF Mono","Menlo",monospace; }
+.feedback.ok{ color:var(--good); }
+.feedback.no{ color:var(--bad); }
+
+.legend{ display:flex; flex-direction:column; gap:6px; font-size:12.5px; }
+.legend-row{ display:flex; align-items:center; gap:8px; color:var(--muted); }
+.legend-row .swatch{ width:16px; height:4px; border-radius:2px; flex-shrink:0; }
+.legend-row b{ color:var(--ink); font-weight:500; }
+.legend-row .legend-prog{ margin-left:auto; color:var(--muted); font-size:11.5px; font-variant-numeric:tabular-nums; }
+
+.found-list{
+  flex:1;
+  min-height:200px;
+  overflow-y:auto;
+  border-top:1px solid var(--line);
+  padding-top:12px;
+}
+.found-list h3{
+  margin:0 0 8px;
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  color:var(--muted);
+  font-weight:500;
+  font-family:sans-serif;
+}
+.found-item{
+  font-size:13.5px;
+  padding:4px 0;
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
+  border-bottom:1px dashed #e1e5eb;
+}
+.found-item .zh{ color:var(--muted); font-family:"PingFang TC","Noto Sans TC",sans-serif; font-size:12px; }
+.found-item.reveal{ opacity:.55; }
+.found-item .fi-name{ display:flex; align-items:center; gap:6px; }
+.line-badge{
+  width:16px; height:16px; border-radius:50%; flex-shrink:0;
+  display:inline-flex; align-items:center; justify-content:center;
+  color:#fff; font-size:10px; font-weight:700; cursor:default;
+  position:relative;
+}
+.line-badge .line-tip{
+  position:absolute; bottom:130%; left:50%; transform:translateX(-50%);
+  background:var(--ink); color:#fff; font-size:11px; font-weight:400;
+  padding:3px 7px; border-radius:5px; white-space:nowrap;
+  opacity:0; pointer-events:none; transition:opacity .12s; z-index:20;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.line-badge:hover .line-tip{ opacity:1; }
+
+.zoomctl{ position:absolute; right:14px; bottom:14px; display:flex; flex-direction:column; gap:6px; }
+.zoomctl button{ width:34px; height:34px; padding:0; font-size:16px; }
+
+/* ---- 交卷 report card ---- */
+.overlay{
+  position:fixed; inset:0; z-index:60;
+  background:rgba(20,30,45,.55);
+  display:none; align-items:center; justify-content:center;
+  padding:20px; overflow-y:auto;
+}
+.overlay.show{ display:flex; }
+.report{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:14px;
+  box-shadow:0 18px 50px rgba(20,30,45,.28);
+  width:100%; max-width:380px;
+  padding:26px 24px 20px;
+  text-align:center;
+}
+.report h2{
+  margin:6px 0 2px; font-size:23px; font-weight:600;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+}
+.report .rp-sub{ font-size:11.5px; color:var(--muted); font-family:"SF Mono","Menlo",monospace; }
+.report .rp-rank{
+  margin:18px 0 4px;
+  font-size:34px; font-weight:700; color:var(--accent);
+  font-family:"PingFang TC","Noto Sans TC",serif;
+  letter-spacing:.04em;
+}
+.report .rp-quip{ font-size:12.5px; color:var(--muted); font-family:"PingFang TC","Noto Sans TC",sans-serif; }
+.report .rp-score{
+  margin:16px 0 4px;
+  font-size:44px; font-weight:600; color:var(--ink);
+  font-family:"SF Mono","Menlo",monospace; font-variant-numeric:tabular-nums;
+}
+.report .rp-count{ font-size:13px; color:var(--muted); font-family:"SF Mono","Menlo",monospace; }
+.report .rp-bar{ height:6px; border-radius:3px; background:var(--line); margin:16px 0 18px; overflow:hidden; }
+.report .rp-bar i{ display:block; height:100%; background:var(--accent); }
+.report .rp-lines{
+  text-align:left; border-top:1px solid var(--line); padding-top:12px;
+  display:grid; grid-template-columns:1fr 1fr; gap:5px 14px;
+}
+.report .rp-line{
+  display:flex; align-items:center; gap:6px; font-size:11.5px; color:var(--muted);
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.report .rp-line .sw{ width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+.report .rp-line .v{ margin-left:auto; font-family:"SF Mono","Menlo",monospace; color:var(--ink); }
+.report .rp-share{
+  margin:18px 0 12px; font-size:12px; color:var(--ink); line-height:1.55;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.report .rp-tag{ color:var(--accent); font-weight:600; }
+.report .rp-actions{ display:flex; gap:8px; }
+.report .rp-actions button{ flex:1; }
+
+.hint{ font-size:12.5px; color:var(--ink); line-height:1.5; }
+.footer-note{ font-size:11px; color:#9098a3; margin-top:auto; padding-top:10px; }

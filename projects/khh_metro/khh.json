@@ -1,0 +1,931 @@
+{
+ "stations": [
+  {
+   "id": "siaogang",
+   "en": "Siaogang",
+   "zh": "小港",
+   "lat": 22.56451,
+   "lon": 120.35388,
+   "lines": [
+    "R"
+   ],
+   "ref": "R3"
+  },
+  {
+   "id": "kaohsiunginternationalairport",
+   "en": "Kaohsiung International Airport",
+   "zh": "高雄國際機場",
+   "lat": 22.57012,
+   "lon": 120.34163,
+   "lines": [
+    "R"
+   ],
+   "ref": "R4"
+  },
+  {
+   "id": "caoya",
+   "en": "Caoya",
+   "zh": "草衙",
+   "lat": 22.58055,
+   "lon": 120.32877,
+   "lines": [
+    "R"
+   ],
+   "ref": "R4A"
+  },
+  {
+   "id": "cianjhenseniorhighschool",
+   "en": "Cianjhen Senior High School",
+   "zh": "前鎮高中",
+   "lat": 22.58841,
+   "lon": 120.32174,
+   "lines": [
+    "R"
+   ],
+   "ref": "R5"
+  },
+  {
+   "id": "kaisyuan",
+   "en": "Kaisyuan",
+   "zh": "凱旋",
+   "lat": 22.59702,
+   "lon": 120.31511,
+   "lines": [
+    "R"
+   ],
+   "ref": "R6"
+  },
+  {
+   "id": "shihjia",
+   "en": "Shihjia",
+   "zh": "獅甲",
+   "lat": 22.60618,
+   "lon": 120.30788,
+   "lines": [
+    "R"
+   ],
+   "ref": "R7"
+  },
+  {
+   "id": "sanduoshoppingdistrict",
+   "en": "Sanduo Shopping District",
+   "zh": "三多商圈",
+   "lat": 22.61415,
+   "lon": 120.30442,
+   "lines": [
+    "R"
+   ],
+   "ref": "R8"
+  },
+  {
+   "id": "centralpark",
+   "en": "Central Park",
+   "zh": "中央公園",
+   "lat": 22.62487,
+   "lon": 120.30112,
+   "lines": [
+    "R"
+   ],
+   "ref": "R9"
+  },
+  {
+   "id": "formosaboulevard",
+   "en": "Formosa Boulevard",
+   "zh": "美麗島",
+   "lat": 22.63139,
+   "lon": 120.30186,
+   "lines": [
+    "R",
+    "O"
+   ],
+   "ref": "O5/R10"
+  },
+  {
+   "id": "kaohsiungmainstation",
+   "en": "Kaohsiung Main Station",
+   "zh": "高雄車站",
+   "lat": 22.63934,
+   "lon": 120.30265,
+   "lines": [
+    "R"
+   ],
+   "ref": "R11"
+  },
+  {
+   "id": "houyi",
+   "en": "Houyi",
+   "zh": "後驛",
+   "lat": 22.64774,
+   "lon": 120.30322,
+   "lines": [
+    "R"
+   ],
+   "ref": "R12"
+  },
+  {
+   "id": "aozihdi",
+   "en": "Aozihdi",
+   "zh": "凹子底",
+   "lat": 22.65712,
+   "lon": 120.30308,
+   "lines": [
+    "R"
+   ],
+   "ref": "R13"
+  },
+  {
+   "id": "kaohsiungarena",
+   "en": "Kaohsiung Arena",
+   "zh": "巨蛋",
+   "lat": 22.66562,
+   "lon": 120.30326,
+   "lines": [
+    "R"
+   ],
+   "ref": "R14"
+  },
+  {
+   "id": "ecologicaldistrict",
+   "en": "Ecological District",
+   "zh": "生態園區",
+   "lat": 22.67646,
+   "lon": 120.30634,
+   "lines": [
+    "R"
+   ],
+   "ref": "R15"
+  },
+  {
+   "id": "zuoying",
+   "en": "Zuoying",
+   "zh": "左營",
+   "lat": 22.68817,
+   "lon": 120.30902,
+   "lines": [
+    "R"
+   ],
+   "ref": "R16"
+  },
+  {
+   "id": "worldgames",
+   "en": "World Games",
+   "zh": "世運",
+   "lat": 22.70175,
+   "lon": 120.30251,
+   "lines": [
+    "R"
+   ],
+   "ref": "R17"
+  },
+  {
+   "id": "oilrefineryelementaryschool",
+   "en": "Oil Refinery Elementary School",
+   "zh": "油廠國小",
+   "lat": 22.70875,
+   "lon": 120.30231,
+   "lines": [
+    "R"
+   ],
+   "ref": "R18"
+  },
+  {
+   "id": "nanzihtechnologyindustrialpark",
+   "en": "Nanzih Technology Industrial Park",
+   "zh": "楠梓科技園區",
+   "lat": 22.71871,
+   "lon": 120.30717,
+   "lines": [
+    "R"
+   ],
+   "ref": "R19"
+  },
+  {
+   "id": "houjing",
+   "en": "Houjing",
+   "zh": "後勁",
+   "lat": 22.72235,
+   "lon": 120.31625,
+   "lines": [
+    "R"
+   ],
+   "ref": "R20"
+  },
+  {
+   "id": "metropolitanpark",
+   "en": "Metropolitan Park",
+   "zh": "都會公園",
+   "lat": 22.72961,
+   "lon": 120.32093,
+   "lines": [
+    "R"
+   ],
+   "ref": "R21"
+  },
+  {
+   "id": "cingpu",
+   "en": "Cingpu",
+   "zh": "青埔",
+   "lat": 22.74441,
+   "lon": 120.31772,
+   "lines": [
+    "R"
+   ],
+   "ref": "R22"
+  },
+  {
+   "id": "ciaotousugarrefinery",
+   "en": "Ciaotou Sugar Refinery",
+   "zh": "橋頭糖廠",
+   "lat": 22.75356,
+   "lon": 120.31455,
+   "lines": [
+    "R"
+   ],
+   "ref": "R22A"
+  },
+  {
+   "id": "ciaotoustation",
+   "en": "Ciaotou Station",
+   "zh": "橋頭火車站",
+   "lat": 22.76093,
+   "lon": 120.31069,
+   "lines": [
+    "R"
+   ],
+   "ref": "R23"
+  },
+  {
+   "id": "kaohsiungmedicaluniversitygangshanhospital",
+   "en": "Kaohsiung Medical University Gangshan Hospital",
+   "zh": "岡山高醫",
+   "lat": 22.78075,
+   "lon": 120.30173,
+   "lines": [
+    "R"
+   ],
+   "ref": "R24"
+  },
+  {
+   "id": "gangshanstation",
+   "en": "Gangshan Station",
+   "zh": "岡山車站",
+   "lat": 22.7926,
+   "lon": 120.29906,
+   "lines": [
+    "R"
+   ],
+   "ref": "RK1"
+  },
+  {
+   "id": "hamasen",
+   "en": "Hamasen",
+   "zh": "哈瑪星",
+   "lat": 22.62149,
+   "lon": 120.27532,
+   "lines": [
+    "O",
+    "C"
+   ],
+   "ref": "O1/C14"
+  },
+  {
+   "id": "yanchengpu",
+   "en": "Yanchengpu",
+   "zh": "鹽埕埔",
+   "lat": 22.62416,
+   "lon": 120.28408,
+   "lines": [
+    "O"
+   ],
+   "ref": "O2"
+  },
+  {
+   "id": "cianjin",
+   "en": "Cianjin",
+   "zh": "前金",
+   "lat": 22.62897,
+   "lon": 120.29463,
+   "lines": [
+    "O"
+   ],
+   "ref": "O4"
+  },
+  {
+   "id": "sinyielementaryschool",
+   "en": "Sinyi Elementary School",
+   "zh": "信義國小",
+   "lat": 22.63073,
+   "lon": 120.31145,
+   "lines": [
+    "O"
+   ],
+   "ref": "O6"
+  },
+  {
+   "id": "culturalcenter",
+   "en": "Cultural Center",
+   "zh": "文化中心",
+   "lat": 22.63027,
+   "lon": 120.31762,
+   "lines": [
+    "O"
+   ],
+   "ref": "O7"
+  },
+  {
+   "id": "wukuaicuo",
+   "en": "Wukuaicuo",
+   "zh": "五塊厝",
+   "lat": 22.62947,
+   "lon": 120.32765,
+   "lines": [
+    "O"
+   ],
+   "ref": "O8"
+  },
+  {
+   "id": "lingyasportspark",
+   "en": "Lingya Sports Park",
+   "zh": "苓雅運動園區",
+   "lat": 22.62725,
+   "lon": 120.33464,
+   "lines": [
+    "O"
+   ],
+   "ref": "O9"
+  },
+  {
+   "id": "weiwuying",
+   "en": "Weiwuying",
+   "zh": "衛武營",
+   "lat": 22.62519,
+   "lon": 120.3408,
+   "lines": [
+    "O"
+   ],
+   "ref": "O10"
+  },
+  {
+   "id": "fongshanwest",
+   "en": "Fongshan West",
+   "zh": "鳳山西站",
+   "lat": 22.62536,
+   "lon": 120.34805,
+   "lines": [
+    "O"
+   ],
+   "ref": "O11"
+  },
+  {
+   "id": "fongshan",
+   "en": "Fongshan",
+   "zh": "鳳山",
+   "lat": 22.62599,
+   "lon": 120.359,
+   "lines": [
+    "O"
+   ],
+   "ref": "O12"
+  },
+  {
+   "id": "dadong",
+   "en": "Dadong",
+   "zh": "大東",
+   "lat": 22.62519,
+   "lon": 120.369,
+   "lines": [
+    "O"
+   ],
+   "ref": "O13"
+  },
+  {
+   "id": "fongshanjuniorhighschool",
+   "en": "Fongshan Junior High School",
+   "zh": "鳳山國中",
+   "lat": 22.62463,
+   "lon": 120.3783,
+   "lines": [
+    "O"
+   ],
+   "ref": "O14"
+  },
+  {
+   "id": "daliao",
+   "en": "Daliao",
+   "zh": "大寮",
+   "lat": 22.62212,
+   "lon": 120.3859,
+   "lines": [
+    "O"
+   ],
+   "ref": "OT1"
+  },
+  {
+   "id": "lizihnei",
+   "en": "Lizihnei",
+   "zh": "籬仔內",
+   "lat": 22.60458,
+   "lon": 120.32461,
+   "lines": [
+    "C"
+   ],
+   "ref": "C1"
+  },
+  {
+   "id": "kaisyuanrueitian",
+   "en": "Kaisyuan Rueitian",
+   "zh": "凱旋瑞田",
+   "lat": 22.59957,
+   "lon": 120.3198,
+   "lines": [
+    "C"
+   ],
+   "ref": "C2"
+  },
+  {
+   "id": "cianjhenstar",
+   "en": "Cianjhen Star",
+   "zh": "前鎮之星",
+   "lat": 22.5955,
+   "lon": 120.31539,
+   "lines": [
+    "C"
+   ],
+   "ref": "C3"
+  },
+  {
+   "id": "kaisyuanjhonghua",
+   "en": "Kaisyuan Jhonghua",
+   "zh": "凱旋中華",
+   "lat": 22.590,
+   "lon": 120.31054,
+   "lines": [
+    "C"
+   ],
+   "ref": "C4"
+  },
+  {
+   "id": "dreammall",
+   "en": "Dream Mall",
+   "zh": "夢時代",
+   "lat": 22.59501,
+   "lon": 120.30491,
+   "lines": [
+    "C"
+   ],
+   "ref": "C5"
+  },
+  {
+   "id": "commerceandtradepark",
+   "en": "Commerce and Trade Park",
+   "zh": "經貿園區",
+   "lat": 22.6009,
+   "lon": 120.30264,
+   "lines": [
+    "C"
+   ],
+   "ref": "C6"
+  },
+  {
+   "id": "softwaretechnologypark",
+   "en": "Software Technology Park",
+   "zh": "軟體園區",
+   "lat": 22.60569,
+   "lon": 120.3008,
+   "lines": [
+    "C"
+   ],
+   "ref": "C7"
+  },
+  {
+   "id": "kaohsiungexhibitioncenter",
+   "en": "Kaohsiung Exhibition Center",
+   "zh": "高雄展覽館",
+   "lat": 22.61011,
+   "lon": 120.29801,
+   "lines": [
+    "C"
+   ],
+   "ref": "C8"
+  },
+  {
+   "id": "cruiseterminal",
+   "en": "Cruise Terminal",
+   "zh": "旅運中心",
+   "lat": 22.61164,
+   "lon": 120.29335,
+   "lines": [
+    "C"
+   ],
+   "ref": "C9"
+  },
+  {
+   "id": "glorypier",
+   "en": "Glory Pier",
+   "zh": "光榮碼頭",
+   "lat": 22.61669,
+   "lon": 120.29315,
+   "lines": [
+    "C"
+   ],
+   "ref": "C10"
+  },
+  {
+   "id": "lovepier",
+   "en": "Love Pier",
+   "zh": "真愛碼頭",
+   "lat": 22.61927,
+   "lon": 120.2826,
+   "lines": [
+    "C"
+   ],
+   "ref": "C11"
+  },
+  {
+   "id": "dayipier2",
+   "en": "Dayi Pier-2",
+   "zh": "駁二大義",
+   "lat": 22.6155,
+   "lon": 120.28022,
+   "lines": [
+    "C"
+   ],
+   "ref": "C12"
+  },
+  {
+   "id": "penglaipier2",
+   "en": "Penglai Pier-2",
+   "zh": "駁二蓬萊",
+   "lat": 22.62045,
+   "lon": 120.27572,
+   "lines": [
+    "C"
+   ],
+   "ref": "C13"
+  },
+  {
+   "id": "shoushanpark",
+   "en": "Shoushan Park",
+   "zh": "壽山公園",
+   "lat": 22.62653,
+   "lon": 120.27567,
+   "lines": [
+    "C"
+   ],
+   "ref": "C15"
+  },
+  {
+   "id": "wenwutemple",
+   "en": "Wenwu Temple",
+   "zh": "文武聖殿",
+   "lat": 22.62955,
+   "lon": 120.28073,
+   "lines": [
+    "C"
+   ],
+   "ref": "C16"
+  },
+  {
+   "id": "gushandistrictoffice",
+   "en": "Gushan District Office",
+   "zh": "鼓山區公所",
+   "lat": 22.63603,
+   "lon": 120.28259,
+   "lines": [
+    "C"
+   ],
+   "ref": "C17"
+  },
+  {
+   "id": "gushan",
+   "en": "Gushan",
+   "zh": "鼓山",
+   "lat": 22.64204,
+   "lon": 120.28109,
+   "lines": [
+    "C"
+   ],
+   "ref": "C18"
+  },
+  {
+   "id": "makadao",
+   "en": "Makadao",
+   "zh": "馬卡道",
+   "lat": 22.64704,
+   "lon": 120.28144,
+   "lines": [
+    "C"
+   ],
+   "ref": "C19"
+  },
+  {
+   "id": "trmuseumoffinearts",
+   "en": "TR Museum of Fine Arts",
+   "zh": "臺鐵美術館",
+   "lat": 22.65211,
+   "lon": 120.28175,
+   "lines": [
+    "C"
+   ],
+   "ref": "C20"
+  },
+  {
+   "id": "neiweiartscenter",
+   "en": "Neiwei Arts Center",
+   "zh": "內惟藝術中心",
+   "lat": 22.65497,
+   "lon": 120.28284,
+   "lines": [
+    "C"
+   ],
+   "ref": "C21A"
+  },
+  {
+   "id": "kaohsiungmuseumoffinearts",
+   "en": "Kaohsiung Museum of Fine Arts",
+   "zh": "美術館",
+   "lat": 22.6569,
+   "lon": 120.28725,
+   "lines": [
+    "C"
+   ],
+   "ref": "C21"
+  },
+  {
+   "id": "kaohsiungmunicipalunitedhospital",
+   "en": "Kaohsiung Municipal United Hospital",
+   "zh": "聯合醫院",
+   "lat": 22.6548,
+   "lon": 120.29109,
+   "lines": [
+    "C"
+   ],
+   "ref": "C22"
+  },
+  {
+   "id": "longhuaelementaryschool",
+   "en": "Longhua Elementary School",
+   "zh": "龍華國小",
+   "lat": 22.65048,
+   "lon": 120.29508,
+   "lines": [
+    "C"
+   ],
+   "ref": "C23"
+  },
+  {
+   "id": "heartofloveriver",
+   "en": "Heart of Love River",
+   "zh": "愛河之心",
+   "lat": 22.65617,
+   "lon": 120.30325,
+   "lines": [
+    "C"
+   ],
+   "ref": "C24"
+  },
+  {
+   "id": "sinshangelementaryschool",
+   "en": "Sinshang Elementary School",
+   "zh": "新上國小",
+   "lat": 22.65664,
+   "lon": 120.3098,
+   "lines": [
+    "C"
+   ],
+   "ref": "C25"
+  },
+  {
+   "id": "dashunminzu",
+   "en": "Dashun Minzu",
+   "zh": "大順民族",
+   "lat": 22.65548,
+   "lon": 120.31542,
+   "lines": [
+    "C"
+   ],
+   "ref": "C26"
+  },
+  {
+   "id": "wanzihnei",
+   "en": "Wanzihnei",
+   "zh": "灣仔內",
+   "lat": 22.65354,
+   "lon": 120.31888,
+   "lines": [
+    "C"
+   ],
+   "ref": "C27"
+  },
+  {
+   "id": "kaohsiungindustrialhighschool",
+   "en": "Kaohsiung Industrial High School",
+   "zh": "高雄高工",
+   "lat": 22.6498,
+   "lon": 120.32416,
+   "lines": [
+    "C"
+   ],
+   "ref": "C28"
+  },
+  {
+   "id": "shutehomeeconomicscommercialhighschool",
+   "en": "Shu-Te Home-Economics & Commercial High School",
+   "zh": "樹德家商",
+   "lat": 22.64382,
+   "lon": 120.32633,
+   "lines": [
+    "C"
+   ],
+   "ref": "C29"
+  },
+  {
+   "id": "scienceandtechnologymuseum",
+   "en": "Science and Technology Museum",
+   "zh": "科工館",
+   "lat": 22.63692,
+   "lon": 120.32714,
+   "lines": [
+    "C"
+   ],
+   "ref": "C30"
+  },
+  {
+   "id": "stjosephhospital",
+   "en": "St. Joseph Hospital",
+   "zh": "聖功醫院",
+   "lat": 22.6328,
+   "lon": 120.32561,
+   "lines": [
+    "C"
+   ],
+   "ref": "C31"
+  },
+  {
+   "id": "kaisyuanpark",
+   "en": "Kaisyuan Park",
+   "zh": "凱旋公園",
+   "lat": 22.62941,
+   "lon": 120.32282,
+   "lines": [
+    "C"
+   ],
+   "ref": "C32"
+  },
+  {
+   "id": "departmentofhealth",
+   "en": "Department of Health",
+   "zh": "衛生局",
+   "lat": 22.62518,
+   "lon": 120.32365,
+   "lines": [
+    "C"
+   ],
+   "ref": "C33"
+  },
+  {
+   "id": "wucyuanelementaryschool",
+   "en": "Wucyuan Elementary School",
+   "zh": "五權國小",
+   "lat": 22.62117,
+   "lon": 120.32518,
+   "lines": [
+    "C"
+   ],
+   "ref": "C34"
+  },
+  {
+   "id": "kaisyuanwuchang",
+   "en": "Kaisyuan Wuchang",
+   "zh": "凱旋武昌",
+   "lat": 22.61689,
+   "lon": 120.32683,
+   "lines": [
+    "C"
+   ],
+   "ref": "C35"
+  },
+  {
+   "id": "kaisyuanersheng",
+   "en": "Kaisyuan Ersheng",
+   "zh": "凱旋二聖",
+   "lat": 22.61251,
+   "lon": 120.32715,
+   "lines": [
+    "C"
+   ],
+   "ref": "C36"
+  },
+  {
+   "id": "lrtdepot",
+   "en": "LRT Depot",
+   "zh": "輕軌機廠",
+   "lat": 22.60848,
+   "lon": 120.32605,
+   "lines": [
+    "C"
+   ],
+   "ref": "C37"
+  }
+ ],
+ "lines": {
+  "R": [
+   "siaogang",
+   "kaohsiunginternationalairport",
+   "caoya",
+   "cianjhenseniorhighschool",
+   "kaisyuan",
+   "shihjia",
+   "sanduoshoppingdistrict",
+   "centralpark",
+   "formosaboulevard",
+   "kaohsiungmainstation",
+   "houyi",
+   "aozihdi",
+   "kaohsiungarena",
+   "ecologicaldistrict",
+   "zuoying",
+   "worldgames",
+   "oilrefineryelementaryschool",
+   "nanzihtechnologyindustrialpark",
+   "houjing",
+   "metropolitanpark",
+   "cingpu",
+   "ciaotousugarrefinery",
+   "ciaotoustation",
+   "kaohsiungmedicaluniversitygangshanhospital",
+   "gangshanstation"
+  ],
+  "O": [
+   "hamasen",
+   "yanchengpu",
+   "cianjin",
+   "formosaboulevard",
+   "sinyielementaryschool",
+   "culturalcenter",
+   "wukuaicuo",
+   "lingyasportspark",
+   "weiwuying",
+   "fongshanwest",
+   "fongshan",
+   "dadong",
+   "fongshanjuniorhighschool",
+   "daliao"
+  ],
+  "C": [
+   "lizihnei",
+   "kaisyuanrueitian",
+   "cianjhenstar",
+   "kaisyuanjhonghua",
+   "dreammall",
+   "commerceandtradepark",
+   "softwaretechnologypark",
+   "kaohsiungexhibitioncenter",
+   "cruiseterminal",
+   "glorypier",
+   "lovepier",
+   "dayipier2",
+   "penglaipier2",
+   "hamasen",
+   "shoushanpark",
+   "wenwutemple",
+   "gushandistrictoffice",
+   "gushan",
+   "makadao",
+   "trmuseumoffinearts",
+   "neiweiartscenter",
+   "kaohsiungmuseumoffinearts",
+   "kaohsiungmunicipalunitedhospital",
+   "longhuaelementaryschool",
+   "heartofloveriver",
+   "sinshangelementaryschool",
+   "dashunminzu",
+   "wanzihnei",
+   "kaohsiungindustrialhighschool",
+   "shutehomeeconomicscommercialhighschool",
+   "scienceandtechnologymuseum",
+   "stjosephhospital",
+   "kaisyuanpark",
+   "departmentofhealth",
+   "wucyuanelementaryschool",
+   "kaisyuanwuchang",
+   "kaisyuanersheng",
+   "lrtdepot",
+   "lizihnei"
+  ]
+ },
+ "lineMeta": {
+  "R": {
+   "name": "紅線",
+   "color": "#DE3B34"
+  },
+  "O": {
+   "name": "橘線",
+   "color": "#F5A81C"
+  },
+  "C": {
+   "name": "環狀輕軌",
+   "color": "#66B22E"
+  }
+ }
+}
