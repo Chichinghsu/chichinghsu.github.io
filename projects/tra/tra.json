@@ -569,7 +569,7 @@
       "lon": 120.5906,
       "lines": [
         "W",
-        "C"
+        "CZ"
       ]
     },
     {
@@ -579,7 +579,8 @@
       "lat": 24.0817,
       "lon": 120.5082,
       "lines": [
-        "W"
+        "W",
+        "C"
       ]
     },
     {
@@ -1267,9 +1268,10 @@
       "en": "Zhuifen",
       "zh": "追分",
       "lat": 24.1202,
-      "lon": 120.5701,
+      "lon": 120.501,
       "lines": [
-        "C"
+        "C",
+        "CZ"
       ]
     }
   ],
@@ -1405,7 +1407,11 @@
       "longjing",
       "dadu",
       "zhuifen",
-      "chenggong"
+      "changhua"
+    ],
+    "CZ": [
+      "chenggong",
+      "zhuifen"
     ]
   },
   "lineMeta": {
@@ -1416,6 +1422,10 @@
     "C": {
       "name": "海線",
       "color": "#00867d"
+    },
+    "CZ": {
+      "name": "成追線",
+      "color": "#0b4f9e"
     }
   },
   "outline": [
