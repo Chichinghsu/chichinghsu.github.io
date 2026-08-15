@@ -1,0 +1,29 @@
+[
+  { "id": 1,  "date": "2026-08-15",
+    "rows": ["occupation:政治人物", "occupation:醫師", "occupation:YouTuber"],
+    "columns": ["education:國立臺灣大學", "tags:離過婚", "special:1979前出生"] },
+
+  { "id": 2,  "date": "2026-08-16",
+    "rows": ["occupation:歌手", "occupation:運動員", "occupation:YouTuber"],
+    "columns": ["special:1980後出生", "tags:結過婚", "special:海外出生"] },
+
+  { "id": 3,  "date": "2026-08-17",
+    "rows": ["occupation:政治人物", "occupation:醫師", "education:國立臺灣大學"],
+    "columns": ["tags:結過婚", "tags:選過總統", "tags:當過市長"] },
+
+  { "id": 4,  "date": "2026-08-18",
+    "rows": ["occupation:歌手", "occupation:藝人", "occupation:主持人"],
+    "columns": ["award:金鐘獎", "tags:結過婚", "tags:離過婚"] },
+
+  { "id": 5,  "date": "2026-08-19",
+    "rows": ["gender:男性", "gender:女性", "tags:原住民"],
+    "columns": ["occupation:運動員", "occupation:歌手", "tags:奧運獎牌"] },
+
+  { "id": 6,  "date": "2026-08-20",
+    "rows": ["occupation:政治人物", "occupation:演員", "occupation:歌手"],
+    "columns": ["education:國立臺灣大學", "gender:男性", "birth_decade:1950年代"] },
+
+  { "id": 7,  "date": "2026-08-21",
+    "rows": ["occupation:歌手", "occupation:音樂家", "tags:樂團主唱"],
+    "columns": ["award:金曲獎", "gender:男性", "birth_decade:1980年代"] }
+]

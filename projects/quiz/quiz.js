@@ -11,6 +11,7 @@ export const GAMES = [
   { id:'metro', path:'/projects/metro/',     short:'雙北捷運',   title:'雙北捷運大挑戰',     accent:'#b8860b' },
   { id:'khh',   path:'/projects/khh_metro/', short:'高雄捷運',   title:'高雄捷運大挑戰',     accent:'#de3b34' },
   { id:'tra',   path:'/projects/tra/',       short:'台鐵西部幹線', title:'台鐵西部幹線大挑戰', accent:'#0b4f9e' },
+  { id:'taiwan-grid',   path:'/projects/taiwan-grid/',       short:'台灣九宮格',       title:'台灣九宮格',         accent:'#0f766e' },
 ];
 
 const SVGNS = 'http://www.w3.org/2000/svg';

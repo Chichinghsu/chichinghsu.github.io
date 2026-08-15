@@ -1,0 +1,57 @@
+{
+  "_note": "條件定義。key 格式為 <欄位>:<值>，遊戲以 people.json 的 properties 直接比對。出生地細節（縣市）僅用於「非台灣出生」判斷，不再單獨作為條件。若只知道某人生於台灣但不確定縣市，birth_city 可直接填「台灣」；留空則該人永遠不符合「非台灣出生」。mode: decadeRange 的 minDecade / maxDecade 填「年代的起始年」（maxDecade 1970 = 1970年代及更早，即1979年以前出生），因此分界點只能落在整十年。",
+  "taiwanPlaces": [
+    "台灣",
+    "台北市", "新北市", "基隆市", "桃園市", "新竹市", "新竹縣", "苗栗縣",
+    "台中市", "彰化縣", "南投縣", "雲林縣", "嘉義市", "嘉義縣",
+    "台南市", "高雄市", "屏東縣", "宜蘭縣", "花蓮縣", "台東縣",
+    "澎湖縣", "金門縣", "連江縣"
+  ],
+  "conditions": {
+    "occupation:歌手":     { "label": "歌手" },
+    "occupation:演員":     { "label": "演員" },
+    "occupation:政治人物": { "label": "政治人物" },
+    "occupation:運動員":   { "label": "運動員" },
+    "occupation:藝人":     { "label": "藝人" },
+    "occupation:主持人":   { "label": "主持人" },
+    "occupation:導演":     { "label": "導演" },
+    "occupation:作家":     { "label": "作家" },
+    "occupation:音樂家":   { "label": "音樂家" },
+    "occupation:醫師":     { "label": "醫師" },
+    "occupation:YouTuber":  { "label": "YouTuber" },
+
+    "gender:男性":         { "label": "男性" },
+    "gender:女性":         { "label": "女性" },
+
+    "birth_decade:1950年代": { "label": "1950-59出生" },
+    "birth_decade:1960年代": { "label": "1960-69出生" },
+    "birth_decade:1970年代": { "label": "1970-79出生" },
+    "birth_decade:1980年代": { "label": "1980-89出生" },
+    "birth_decade:1990年代": { "label": "1990-99出生" },
+
+    "special:1979前出生": { "label": "1979年前出生", "mode": "decadeRange", "maxDecade": 1970 },
+    "special:1980後出生": { "label": "1980年後出生", "mode": "decadeRange", "minDecade": 1980 },
+
+    "education:國立臺灣大學": { "label": "臺大畢業" },
+
+    "award:金曲獎": { "label": "金曲獎得主" },
+    "award:金鐘獎": { "label": "金鐘獎得主" },
+    "award:金馬獎": { "label": "金馬獎得主" },
+    "award:走鐘獎": { "label": "走鐘獎得主" },
+
+    "tags:結過婚":   { "label": "結過婚" },
+    "tags:離過婚":   { "label": "離過婚" },
+    "tags:原住民":   { "label": "原住民" },
+    "tags:奧運金牌": { "label": "奧運金牌" },
+    "tags:奧運獎牌": { "label": "奧運獎牌" },
+    "tags:當過總統": { "label": "當過總統" },
+    "tags:選過總統": { "label": "選過總統" },
+    "tags:當過市長": { "label": "當過市長" },
+    "tags:選秀出身": { "label": "選秀節目出身" },
+    "tags:台語歌手": { "label": "台語歌手" },
+    "tags:樂團主唱": { "label": "樂團主唱" },
+    "tags:被騙過錢": { "label": "被騙過錢" },
+
+    "special:海外出生": { "label": "非台灣出生", "mode": "foreign" }
+  }
+}
