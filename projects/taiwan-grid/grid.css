@@ -1,0 +1,491 @@
+:root{
+  --bg:#f4f5f7;
+  --panel:#ffffff;
+  --line:#e1e5eb;
+  --ink:#1c2530;
+  --muted:#697280;
+  --accent:#0f766e;
+  --good:#188a54;
+  --bad:#c8402f;
+}
+*{box-sizing:border-box; hyphens:none; -webkit-hyphens:none;}
+html,body{margin:0;height:100%;}
+body{
+  background:
+    radial-gradient(1200px 600px at 15% -10%, #ffffff 0%, transparent 60%),
+    radial-gradient(1000px 500px at 100% 10%, #eef0f4 0%, transparent 55%),
+    var(--bg);
+  color:var(--ink);
+  font-family:"Iowan Old Style","Georgia",serif;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  -webkit-text-size-adjust:100%;
+}
+
+/* ---------- header ---------- */
+.topbar{
+  padding:18px 20px 10px;
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  border-bottom:1px solid var(--line);
+}
+.brand{ display:flex; flex-direction:column; gap:4px; }
+.brand h1{
+  margin:0;
+  font-size:24px;
+  font-weight:600;
+  letter-spacing:.01em;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+}
+.brand h1 a{ color:inherit; text-decoration:none; }
+.switcher{
+  font-size:11.5px;
+  letter-spacing:.06em;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  color:var(--muted);
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.switcher a{ color:var(--accent); text-decoration:none; border-bottom:1px solid #d3d8e0; }
+.switcher a:hover{ border-bottom-color:var(--accent); }
+.stats{
+  font-family:"SF Mono","Menlo",monospace;
+  font-size:12.5px;
+  color:var(--muted);
+  display:flex;
+  gap:14px;
+  align-items:baseline;
+  font-variant-numeric:tabular-nums;
+}
+.stats b{ color:var(--ink); font-size:19px; font-family:inherit; }
+.stats .pct{ color:var(--accent); }
+
+.progressWrap{ height:3px; background:var(--line); position:relative; overflow:hidden; }
+.progressBar{ height:100%; width:0%; background:var(--accent); transition:width .35s ease; }
+
+/* ---------- main ---------- */
+.wrap{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:16px 14px 20px;
+  gap:12px;
+  width:100%;
+  max-width:560px;
+  margin:0 auto;
+}
+.tagline{
+  margin:0;
+  font-size:12.5px;
+  line-height:1.5;
+  color:var(--muted);
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  text-align:center;
+}
+
+/* ---------- 3x3 grid ---------- */
+.grid{
+  width:100%;
+  display:grid;
+  grid-template-columns:minmax(46px,.72fr) 1fr 1fr 1fr;
+  gap:5px;
+}
+.corner{
+  display:flex; align-items:center; justify-content:center;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  font-size:10px; letter-spacing:.1em; color:#aeb5bf;
+}
+.hd{
+  display:flex; align-items:center; justify-content:center;
+  text-align:center;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  font-size:12px; line-height:1.25; font-weight:600;
+  color:var(--ink);
+  background:#eef0f3;
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:6px 3px;
+  hyphens:none; word-break:break-word;
+}
+.hd.col{ min-height:44px; }
+.hd.row{ min-height:0; }
+
+.cell{
+  position:relative;
+  aspect-ratio:1;
+  display:flex; align-items:center; justify-content:center;
+  padding:4px;
+  background:#fbfbfc;
+  border:1px solid #cfd5dd;
+  border-radius:8px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  font-size:13px; line-height:1.2; text-align:center;
+  color:var(--ink);
+  cursor:pointer;
+  transition:background .15s, border-color .15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.cell:hover:not(.done):not(:disabled){ border-color:var(--accent); background:#fff; }
+.cell .plus{ font-size:22px; color:#c3c9d2; font-weight:300; }
+.cell.done{
+  background:rgba(24,138,84,.1);
+  border-color:var(--good);
+  color:#12603b;
+  font-weight:600;
+  cursor:default;
+}
+.cell.miss{
+  background:rgba(200,64,47,.08);
+  border-color:#e3b6af;
+  cursor:default;
+}
+.cell.miss .plus{ color:var(--bad); font-size:18px; }
+.cell.shake{ animation:shake .34s ease; border-color:var(--bad); background:rgba(200,64,47,.12); }
+@keyframes shake{
+  0%,100%{ transform:translateX(0); }
+  20%{ transform:translateX(-5px); }
+  40%{ transform:translateX(5px); }
+  60%{ transform:translateX(-3px); }
+  80%{ transform:translateX(3px); }
+}
+.pop-anim{ animation: pop .45s cubic-bezier(.2,1.6,.4,1); }
+@keyframes pop{
+  0%{ transform:scale(0); opacity:0; }
+  60%{ transform:scale(1.5); opacity:1; }
+  100%{ transform:scale(1); }
+}
+
+.feedback{
+  min-height:20px;
+  font-size:13px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  text-align:center;
+}
+.feedback.ok{ color:var(--good); }
+.feedback.no{ color:var(--bad); }
+
+/* ---------- buttons ---------- */
+button{
+  background:#eef0f3;
+  color:var(--ink);
+  border:1px solid #cfd5dd;
+  padding:11px 14px;
+  border-radius:8px;
+  font-size:13px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  cursor:pointer;
+}
+button:hover{ border-color:var(--accent); }
+button.primary{ background:var(--accent); color:#fffdf8; border-color:var(--accent); font-weight:600; }
+button.primary:hover{ filter:brightness(1.1); }
+button:disabled{ opacity:.5; cursor:default; }
+
+.footer-note{
+  font-size:11px; color:#9098a3; line-height:1.6;
+  margin:auto 0 0; padding-top:14px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  text-align:center;
+  max-width:420px;
+}
+
+/* ---------- bottom sheet ---------- */
+.sheet-bd{
+  position:fixed; inset:0; z-index:50;
+  background:rgba(20,30,45,.4);
+  display:none;
+}
+.sheet-bd.show{ display:block; }
+/* Centred rather than bottom-anchored: the grid stays visible above it and the
+   field lands where your eyes already are. */
+/* Anchored to a fixed distance from the top — NOT vertically centred. Centring
+   would re-centre the whole box every time the suggestion list grows or shrinks,
+   which drags the text field up and down under your finger while you type. */
+.sheet{
+  position:fixed; z-index:51;
+  left:50%; top:12vh;
+  transform:translate(-50%,-10px);
+  width:calc(100% - 32px); max-width:420px;
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:14px;
+  box-shadow:0 18px 50px rgba(20,30,45,.3);
+  padding:16px;
+  opacity:0; pointer-events:none;
+  transition:opacity .16s ease, transform .16s ease;
+  max-height:80vh;
+  display:flex; flex-direction:column;
+}
+.sheet.show{ opacity:1; pointer-events:auto; transform:translate(-50%,0); }
+.sheet-hd{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:10px; margin-bottom:12px;
+}
+.sheet-hd .conds{
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  font-size:15px; font-weight:600;
+}
+.sheet-hd .conds i{ color:var(--muted); font-style:normal; font-weight:400; margin:0 5px; }
+.sheet-hd .x{ padding:6px 10px; font-size:15px; line-height:1; }
+.sheet input[type=text]{
+  width:100%;
+  background:#fbfbfc;
+  border:1px solid #cfd5dd;
+  color:var(--ink);
+  padding:11px 12px;
+  border-radius:8px;
+  font-size:16px;
+  font-family:"PingFang TC","Noto Sans TC","Iowan Old Style",serif;
+  outline:none;
+}
+.sheet input[type=text]:focus{ border-color:var(--accent); }
+/* ~8 rows visible (each is about 44px), the rest scrolls. Capping this is what
+   keeps the box from growing past the viewport on long result lists. */
+.sugg{
+  margin-top:8px;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+  min-height:0;
+  max-height:min(352px, 46vh);
+}
+.sugg button{
+  display:block; width:100%; text-align:left;
+  background:none; border:none; border-bottom:1px dashed var(--line);
+  border-radius:0;
+  padding:11px 4px;
+  font-size:15px;
+}
+.sugg button:last-child{ border-bottom:none; }
+.sugg button:hover{ background:#f4f5f7; }
+.sugg button .sub{ color:var(--muted); font-size:11.5px; margin-left:8px; }
+.sugg .empty{
+  padding:14px 4px; font-size:13px; color:var(--muted);
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+
+/* ---------- result card ---------- */
+.overlay{
+  position:fixed; inset:0; z-index:60;
+  background:rgba(20,30,45,.55);
+  display:none; align-items:flex-start; justify-content:center;
+  padding:20px; overflow-y:auto;
+}
+.overlay.show{ display:flex; }
+.report{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:14px;
+  box-shadow:0 18px 50px rgba(20,30,45,.28);
+  width:100%; max-width:380px;
+  padding:24px 22px 18px;
+  text-align:center;
+  margin:auto;
+}
+.report h2{
+  margin:0;
+  font-size:20px; font-weight:600;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+}
+.report .rp-rank{
+  margin:14px 0 2px;
+  font-size:28px; font-weight:700; color:var(--accent);
+  font-family:"PingFang TC","Noto Sans TC",serif;
+  letter-spacing:.04em;
+}
+.report .rp-quip{
+  font-size:13px; color:var(--muted); line-height:1.55;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  margin:6px 0 0;
+}
+.report .rp-score{
+  margin:14px 0 2px;
+  font-size:40px; font-weight:600; color:var(--ink);
+  font-family:"SF Mono","Menlo",monospace; font-variant-numeric:tabular-nums;
+}
+.report .rp-emoji{
+  font-size:26px; line-height:1.35; letter-spacing:.12em;
+  margin:12px 0 4px;
+}
+.report .rp-bar{ height:6px; border-radius:3px; background:var(--line); margin:14px 0 16px; overflow:hidden; }
+.report .rp-bar i{ display:block; height:100%; background:var(--accent); }
+.report .rp-actions{ display:flex; gap:8px; margin-top:4px; }
+.report .rp-actions button{ flex:1; }
+.report .rp-more{ margin-top:8px; }
+.report .rp-more button{ width:100%; }
+.report .rp-tomorrow{
+  font-size:12px; color:var(--muted); margin:14px 0 0;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.ans-cond{ font-size:11.5px; color:var(--accent); letter-spacing:.02em; }
+.ans-list{ font-size:13px; line-height:1.6; margin-top:2px; }
+.ans-none{ font-size:13px; color:var(--muted); margin-top:2px; }
+
+/* ---------- archive banner + actions ---------- */
+.archive-banner{
+  width:100%;
+  background:rgba(15,118,110,.08);
+  border:1px solid rgba(15,118,110,.25);
+  border-radius:8px;
+  padding:8px 12px;
+  font-size:12.5px; line-height:1.5;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  color:var(--ink);
+  text-align:center;
+}
+.archive-banner a{ color:var(--accent); }
+.actions{ display:flex; gap:8px; width:100%; max-width:300px; }
+.actions button{ flex:1; }
+.archive-link{
+  font-size:12.5px; color:var(--accent); text-decoration:none;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  border-bottom:1px solid #d3d8e0; padding-bottom:1px;
+}
+.archive-link:hover{ border-bottom-color:var(--accent); }
+.sheet .skip{
+  margin-top:12px; width:100%;
+  font-size:12.5px; color:var(--muted);
+  background:none; border:1px dashed #cfd5dd;
+}
+.sheet .skip:hover{ color:var(--bad); border-color:var(--bad); }
+
+/* ---------- result card stacked actions ---------- */
+.report .rp-stack{ display:flex; flex-direction:column; gap:8px; }
+.report .rp-stack button{ width:100%; }
+
+/* ---------- wide panel (insights / other puzzles) ---------- */
+.overlay.wide{ padding:12px; }
+.panel{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:14px;
+  box-shadow:0 18px 50px rgba(20,30,45,.28);
+  width:100%; max-width:520px;
+  padding:18px 16px 16px;
+  margin:auto;
+}
+.panel-hd{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:10px; margin-bottom:12px;
+}
+.panel-hd h2{
+  margin:0; font-size:17px; font-weight:600;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+}
+.panel-hd .x{ padding:6px 10px; font-size:15px; line-height:1; }
+
+.tabs{ display:flex; gap:6px; margin-bottom:12px; }
+.tabs .tab{ flex:1; font-size:13px; }
+.tabs .tab.on{ background:var(--accent); color:#fffdf8; border-color:var(--accent); font-weight:600; }
+.tab-hint{
+  font-size:12.5px; color:var(--muted); margin:0 0 10px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif; line-height:1.5;
+}
+
+.cell.insight{ cursor:pointer; }
+.cell.insight .cnt{
+  font-size:12px; color:var(--muted);
+  font-family:"SF Mono","Menlo",monospace;
+}
+.cell.insight:not(:disabled):hover{ border-color:var(--accent); }
+.cell.insight:disabled{ cursor:default; opacity:1; }
+.cell.insight.wrong{
+  background:rgba(200,64,47,.1);
+  border-color:var(--bad);
+}
+.cell.insight.wrong .cnt{ color:var(--bad); }
+.cell.insight.blank{
+  background:#fbfbfc; border-color:#e1e5eb;
+}
+.cell.insight.blank .cnt{ color:#b8bfc9; }
+
+.wrongs{ font-family:"PingFang TC","Noto Sans TC",sans-serif; }
+.wr-row{
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:8px;
+  font-size:13px; padding:5px 0;
+  border-bottom:1px dashed var(--line);
+}
+.wr-row:last-child{ border-bottom:none; }
+.wr-row b{ min-width:66px; }
+.wr-row .y{ color:var(--good); font-size:12px; }
+.wr-row .n{ color:var(--bad); font-size:12px; }
+
+.other-h3{
+  margin:18px 0 8px; font-size:11px; text-transform:uppercase;
+  letter-spacing:.12em; color:var(--muted); font-weight:500; font-family:sans-serif;
+}
+.other-games{ display:flex; gap:8px; flex-wrap:wrap; }
+.gamecard{
+  flex:1; min-width:96px; text-align:center;
+  padding:11px 10px; border:1px solid #cfd5dd; border-radius:8px;
+  font-size:13px; color:var(--ink); text-decoration:none;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.gamecard:hover{ border-color:var(--accent); color:var(--accent); }
+
+#otList{ max-height:52vh; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+.plist{
+  display:flex; align-items:center; gap:10px; width:100%; text-align:left;
+  background:none; border:none; border-bottom:1px dashed var(--line);
+  border-radius:0; padding:10px 2px;
+}
+.plist:hover{ background:#f4f5f7; }
+.pl-no{
+  font-family:"SF Mono","Menlo",monospace; font-size:12px;
+  color:var(--accent); flex-shrink:0;
+}
+.pl-mid{ flex:1; min-width:0; display:flex; flex-direction:column; gap:2px; }
+.pl-date{ font-size:12.5px; }
+.pl-conds{
+  font-size:11px; color:var(--muted); line-height:1.35;
+  overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+}
+.pl-status{
+  font-family:"SF Mono","Menlo",monospace; font-size:12px;
+  color:var(--muted); flex-shrink:0;
+}
+.pl-status.done{ color:var(--good); }
+
+/* ---------- answers popover ---------- */
+.pop-bd{ position:fixed; inset:0; z-index:70; background:rgba(20,30,45,.45); display:none; }
+.pop-bd.show{ display:block; }
+.pop{
+  position:fixed; z-index:71; left:50%; top:50%;
+  transform:translate(-50%,-50%) scale(.96);
+  width:calc(100% - 40px); max-width:340px;
+  background:var(--panel); border:1px solid var(--line); border-radius:14px;
+  box-shadow:0 18px 50px rgba(20,30,45,.3);
+  padding:14px 16px 16px;
+  opacity:0; pointer-events:none;
+  transition:opacity .14s ease, transform .14s ease;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.pop.show{ opacity:1; pointer-events:auto; transform:translate(-50%,-50%) scale(1); }
+.pop-hd{
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  font-size:14px; font-weight:600; margin-bottom:8px;
+}
+.pop-hd .x{ padding:4px 8px; font-size:14px; line-height:1; }
+.pop-body{ max-height:52vh; overflow-y:auto; }
+.pop-mine{ margin:0 0 6px; font-size:12.5px; color:var(--good); }
+.pop-count{
+  margin:0 0 6px; font-size:11px; letter-spacing:.06em;
+  color:var(--muted); font-family:"SF Mono","Menlo",monospace;
+}
+.pop .ans-list{ font-size:13.5px; line-height:1.7; }
+.pop .ans-none{ font-size:13px; color:var(--muted); }
+
+@media (min-width:600px){
+  .brand h1{ font-size:26px; }
+  .hd{ font-size:13px; }
+  .cell{ font-size:14px; }
+}
+@media (max-width:359px){
+  .hd{ font-size:10.5px; }
+  .cell{ font-size:11.5px; }
+}

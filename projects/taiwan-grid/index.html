@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-61JT1LW9PW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-61JT1LW9PW', { 'anonymize_ip': true });
+  </script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>台灣九宮格 | CCH's Blog</title>
+<meta name="description" content="台灣九宮格：每天一題，用九次機會填滿 3×3 的名人格子。歌手、演員、政治人物、運動員，你認得幾個？" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CCH's Blog" />
+<meta property="og:title" content="台灣九宮格 | CCH's Blog" />
+<meta property="og:description" content="台灣九宮格：每天一題，用九次機會填滿 3×3 的名人格子。歌手、演員、政治人物、運動員，你認得幾個？" />
+<meta property="og:url" content="https://cchsu.tw/projects/taiwan-grid/" />
+<meta property="og:locale" content="zh_TW" />
+
+<link rel="stylesheet" href="/projects/taiwan-grid/grid.css" />
+</head>
+<body>
+<script type="module">
+import { mountGrid } from '/projects/taiwan-grid/grid.js';
+
+mountGrid({
+  shareTitle: '台灣九宮格',
+  shareUrl: 'https://cchsu.tw/projects/taiwan-grid/',
+  links: [
+    { href: '/projects/metro/',     text: '雙北捷運 →' },
+    { href: '/projects/khh_metro/', text: '高雄捷運 →' },
+    { href: '/projects/tra/',       text: '台鐵西部幹線 →' },
+    { href: 'https://apps.apple.com/ph/app/id6774146443',      text: '日本車牌制霸 App (iOS) →' },
+  ],
+});
+</script>
+</body>
+</html>
