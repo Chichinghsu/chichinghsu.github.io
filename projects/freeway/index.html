@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-61JT1LW9PW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-61JT1LW9PW', { 'anonymize_ip': true });
+  </script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>國道一號大挑戰 | CCH's Blog</title>
+<meta name="description" content="國道一號大挑戰，交流道、休息站，你記得幾個？" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CCH's Blog" />
+<meta property="og:title" content="國道一號大挑戰 | CCH's Blog" />
+<meta property="og:description" content="國道一號大挑戰，交流道、休息站，你記得幾個？" />
+<meta property="og:url" content="https://cchsu.tw/projects/freeway/" />
+<meta property="og:locale" content="zh_TW" />
+
+<link rel="stylesheet" href="/projects/quiz/quiz.css" />
+</head>
+<body>
+<script type="module">
+import { mountQuiz } from '/projects/quiz/quiz.js';
+
+mountQuiz({
+  id: 'freeway',
+  data: 'data.json',
+  heading: '國道一號沿路你記得多少？',
+  shareTitle: '國道一號大挑戰',
+  hashtag: '#國道一號大挑戰 交流道全部記看看',
+  hint: '輸入交流道（例如：五股）、系統交流道（例如：台南系統）、服務區（例如：中壢服務區）、端點（例如：基隆端）、還有轉接道。備註：「沒有」五楊高架。',
+  footer: '純屬好玩',
+  label: { zh:7, en:4.8 },
+  // Drawn to true proportions against the island outline, then de-clustered:
+  // the Taipei and Kaohsiung conurbations pack a dozen stations into a few
+  // kilometres, which is unreadable at true spacing.
+  layout: { mode:'island', pad:120, height:1500, minSep:18, spring:0.02, sideFirst:true, labelRings:4 },
+  // Interchanges get called by the road or the district they land in as often as
+  // by their signed name, and the two end points have several spoken forms.
+  aliases: {
+  },
+  ranks: [
+    {min:95, title:'國道之子',     quip:'連轉接道都記得，你是不是住在高速公路上。'},
+    {min:90, title:'國道大師',   quip:'我不是在高速公路上，就是在交流道上。'},
+    {min:80, title:'國道中師',   quip:'南北跑透透，就差幾個小交流道。'},
+    {min:70, title:'國道小師',     quip:'大交流道全記得，系統交流道也行？'},
+    {min:60, title:'國道達人',     quip:'主要城市一個不漏，中間路段有點模糊。'},
+    {min:50, title:'國道塞車',     quip:'每逢連假必塞在其中一段，記憶猶新。'},
+    {min:40, title:'週末駕駛',     quip:'常走的那段很熟，其他就交給導航。'},
+    {min:30, title:'服務區常客',   quip:'上車睡覺，下車尿尿。'},
+    {min:20, title:'副駕駛座',     quip:'上交流道下交流道，中間都在睡。'},
+    {min:10, title:'國道路人丙',   quip:'剛拿到駕照，不熟不熟。'},
+    {min:1,  title:'國道路人乙',   quip:'有點太少，加油好嗎？'},
+    {min:0,  title:'國道路人甲',   quip:'1%都沒有？你上過國道嗎。'},
+  ],
+});
+</script>
+</body>
+</html>

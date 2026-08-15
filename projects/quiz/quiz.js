@@ -8,9 +8,10 @@
 // ---- registry: powers the cross-quiz switcher in the header ----
  
 export const GAMES = [
-  { id:'metro', path:'/projects/metro/',     short:'雙北捷運',   title:'雙北捷運大挑戰',     accent:'#b8860b' },
-  { id:'khh',   path:'/projects/khh_metro/', short:'高雄捷運',   title:'高雄捷運大挑戰',     accent:'#de3b34' },
-  { id:'tra',   path:'/projects/tra/',       short:'台鐵西部幹線', title:'台鐵西部幹線大挑戰', accent:'#0b4f9e' },
+  { id:'metro', path:'/projects/metro/',     short:'雙北捷運',   title:'雙北捷運',     accent:'#b8860b' },
+  { id:'khh',   path:'/projects/khh_metro/', short:'高雄捷運',   title:'高雄捷運',     accent:'#de3b34' },
+  { id:'tra',   path:'/projects/tra/',       short:'台鐵西部幹線', title:'台鐵西部幹線', accent:'#0b4f9e' },
+  { id:'freeway', path:'/projects/freeway/',    short:'國道一號',   title:'國道一號',     accent:'#00703C' },
   { id:'taiwan-grid',   path:'/projects/taiwan-grid/',       short:'台灣九宮格',       title:'台灣九宮格',         accent:'#0f766e' },
 ];
 
@@ -132,7 +133,7 @@ function buildLayout(cfg){
 
   <div class="sidebar">
     <form id="guessForm" autocomplete="off">
-      <input id="guessInput" type="text" placeholder="輸入站名 ..." />
+      <input id="guessInput" type="text" placeholder="請輸入 ..." />
       <button class="primary" type="submit">確定</button>
     </form>
     <div class="feedback" id="feedback"></div>
@@ -195,6 +196,13 @@ function run(cfg, DATA){
   const stations = DATA.stations;
   const lines = DATA.lines;
   const lineMeta = DATA.lineMeta;
+  // The legend / report / dot colours are usually grouped by line, but a network
+  // that is a single line (國道1號) is better broken down some other way. Setting
+  // `groupBy: "type"` in the data buckets stations by that field instead, using
+  // `typeMeta` for the names and colours. Lines still drive the drawn polylines.
+  const groupBy = DATA.groupBy;
+  const groupMeta = (groupBy && DATA[groupBy+'Meta']) || lineMeta;
+  const groupsOf = s => groupBy ? [s[groupBy]] : s.lines;
   const layout = cfg.layout || {};
   const LBL_ZH = cfg.label?.zh ?? 6.5;
   const LBL_EN = cfg.label?.en ?? 4.6;
@@ -284,7 +292,7 @@ function run(cfg, DATA){
     return e.returnValue;
   });
 
-  const colorForStation = s => lineMeta[s.lines[0]].color;
+  const colorForStation = s => groupMeta[groupsOf(s)[0]].color;
 
   // Rough text width: CJK glyphs are ~1em square, Latin glyphs ~0.55em.
   function textWidth(str, fontSize){
@@ -296,6 +304,9 @@ function run(cfg, DATA){
     }
     return w;
   }
+  // Freeway data carries a milepost; on a road the distance marker is half the
+  // identity of an interchange ("71 楊梅端"), so prefix it onto the map label.
+  const labelZh = s => (s.km != null ? s.km+' '+s.zh : s.zh);
   const boxesOverlap = (a,b,pad) =>
     !(a.x2+pad < b.x1 || b.x2+pad < a.x1 || a.y2+pad < b.y1 || b.y2+pad < a.y1);
 
@@ -331,7 +342,7 @@ function run(cfg, DATA){
     const dx = c.dx*scaleUp;
     const dyZh = c.dyZh<0 ? c.dyZh*scaleUp : (c.dyZh===0 ? 0 : c.dyZh + ring*5.5);
     const dyEn = c.dyEn<0 ? c.dyEn*scaleUp : (c.dyEn===0 ? 0 : c.dyEn + ring*5.5);
-    const maxW = Math.max(textWidth(s.zh, LBL_ZH), textWidth(s.en, LBL_EN));
+    const maxW = Math.max(textWidth(labelZh(s), LBL_ZH), textWidth(s.en, LBL_EN));
     const x = s.x + dx;
     let x1, x2;
     if(c.anchor==='start'){ x1=x; x2=x+maxW; }
@@ -364,7 +375,7 @@ function run(cfg, DATA){
     const g = el('g', {});
     const zh = el('text', {x:s.x+box.dx, y:s.y+box.dyZh, 'text-anchor':box.anchor, class:'station-label'});
     if(muted) zh.setAttribute('fill', '#9098a3');
-    zh.textContent = s.zh;
+    zh.textContent = labelZh(s);
     g.appendChild(zh);
     if(!muted){
       const en = el('text', {x:s.x+box.dx, y:s.y+box.dyEn, 'text-anchor':box.anchor, class:'station-label en'});
@@ -428,9 +439,9 @@ function run(cfg, DATA){
   function snapshotScore(){
     return {
       count: found.size,
-      perLine: Object.fromEntries(Object.keys(lineMeta).map(k=>{
+      perLine: Object.fromEntries(Object.keys(groupMeta).map(k=>{
         let f = 0;
-        stations.forEach(s=>{ if(s.lines.includes(k) && found.has(s.id)) f++; });
+        stations.forEach(s=>{ if(groupsOf(s).includes(k) && found.has(s.id)) f++; });
         return [k, f];
       })),
     };
@@ -452,9 +463,9 @@ function run(cfg, DATA){
   function addFoundListItem(s, isGuess, isReveal=false){
     const row = document.createElement('div');
     row.className = 'found-item'+(isReveal?' reveal':'');
-    const badges = s.lines.map(lk=>{
-      const lm = lineMeta[lk];
-      return '<span class="line-badge" style="background:'+lm.color+'">'+lk+
+    const badges = groupsOf(s).map(lk=>{
+      const lm = groupMeta[lk];
+      return '<span class="line-badge" style="background:'+lm.color+'">'+(lm.short || lk)+
         '<span class="line-tip">'+lm.name+'</span></span>';
     }).join('');
     row.innerHTML = '<span class="fi-name">'+badges+s.zh+'</span><span class="zh">'+s.en+'</span>';
@@ -509,11 +520,11 @@ function run(cfg, DATA){
     document.getElementById('rpScore').textContent = pctNum.toFixed(1)+'%';
     document.getElementById('rpCount').textContent = finalScore.count+' / '+stations.length+' 站';
     document.getElementById('rpBar').style.width = Math.max(pctNum, 0.8)+'%';
-    document.getElementById('rpLines').innerHTML = Object.keys(lineMeta).map(k=>{
+    document.getElementById('rpLines').innerHTML = Object.keys(groupMeta).map(k=>{
       const tot = lineTotals[k];
       const lp = tot ? Math.round((finalScore.perLine[k]||0)/tot*100) : 0;
-      return '<div class="rp-line"><span class="sw" style="background:'+lineMeta[k].color+
-        '"></span>'+lineMeta[k].name.replace(/\s*\(.*\)$/,'')+'<span class="v">'+lp+'%</span></div>';
+      return '<div class="rp-line"><span class="sw" style="background:'+groupMeta[k].color+
+        '"></span>'+groupMeta[k].name.replace(/\s*\(.*\)$/,'')+'<span class="v">'+lp+'%</span></div>';
     }).join('');
     overlay.classList.add('show');
   }
@@ -538,20 +549,20 @@ function run(cfg, DATA){
   // ---- legend ----
   const legendEl = document.getElementById('legend');
   const lineTotals = {}, legendProgEls = {};
-  Object.keys(lineMeta).forEach(k=>{
-    lineTotals[k] = stations.filter(s=>s.lines.includes(k)).length;
+  Object.keys(groupMeta).forEach(k=>{
+    lineTotals[k] = stations.filter(s=>groupsOf(s).includes(k)).length;
     const row = document.createElement('div');
     row.className = 'legend-row';
-    row.innerHTML = '<span class="swatch" style="background:'+lineMeta[k].color+'"></span><b>'+
-      lineMeta[k].name+'</b><span class="legend-prog"></span>';
+    row.innerHTML = '<span class="swatch" style="background:'+groupMeta[k].color+'"></span><b>'+
+      groupMeta[k].name+'</b><span class="legend-prog"></span>';
     legendEl.appendChild(row);
     legendProgEls[k] = row.querySelector('.legend-prog');
   });
   function updateLegendProgress(){
-    Object.keys(lineMeta).forEach(k=>{
+    Object.keys(groupMeta).forEach(k=>{
       let f = 0;
       if(finalScore) f = finalScore.perLine[k] || 0;
-      else stations.forEach(s=>{ if(s.lines.includes(k) && found.has(s.id)) f++; });
+      else stations.forEach(s=>{ if(groupsOf(s).includes(k) && found.has(s.id)) f++; });
       const tot = lineTotals[k];
       legendProgEls[k].textContent = f+'/'+tot+' · '+(tot ? (f/tot*100).toFixed(0) : 0)+'%';
     });
