@@ -537,7 +537,7 @@ export async function mountGrid(cfg) {
     const quip = quipText();
     return `${title}\n\n${emojiRows().join('\n')}\n\n${solved()}/9` +
       (quip ? `\n${quip}` : '') +
-      `\n\n🔗 ${cfg.shareUrl}` + (isArchive ? `?p=${puzzle.id}` : '');
+      `\n\n🔗 ${cfg.shareUrl}` + `?p=${puzzle.id}`;
   };
 
   function showResult() {
