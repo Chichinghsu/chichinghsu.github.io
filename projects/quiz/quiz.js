@@ -151,7 +151,7 @@ function buildLayout(cfg){
       <div id="foundItems"></div>
     </div>
 
-    <div class="footer-note">${cfg.footer}</div>
+    <div class="footer-note">${cfg.footer} | 追蹤我的 <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a></div>
   </div>
 </div>
 
@@ -166,12 +166,47 @@ function buildLayout(cfg){
     <div class="rp-bar"><i id="rpBar" style="width:0%"></i></div>
     <div class="rp-lines" id="rpLines"></div>
     <div class="rp-share"><span class="rp-tag">${cfg.hashtag}</span></div>
+    <a class="rp-more" id="rpMore" href="#">看更多挑戰 →</a>
     <div class="rp-actions">
       <button id="rpReveal">公布解答</button>
       <button id="rpRestart" class="primary">再玩一次</button>
     </div>
+    <a class="rp-cta" href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">
+      <span class="rp-cta-main">👉 追蹤我的 Threads</span>
+    </a>
+  </div>
+</div>
+
+<div class="overlay" id="gamesOverlay">
+  <div class="report games-card">
+    <h2>更多挑戰</h2>
+    <div class="rp-sub"></div>
+    <div class="games-list">
+      ${GAMES.filter(g=>g.id!==cfg.id).map(g=>`
+      <a class="game-item" href="${g.path}">
+        <span class="sw" style="background:${g.accent}"></span>
+        <span class="nm">${g.title}</span>
+        <span class="go">→</span>
+      </a>`).join('')}
+      <a class="game-item" href="https://apps.apple.com/ph/app/id6774146443" target="_blank" rel="nofollow noopener">
+        <span class="sw" style="background:#333"></span>
+        <span class="nm">日本車牌制霸 App (iOS)</span>
+        <span class="go">→</span>
+      </a>
+    </div>
+    <div class="rp-actions"><button id="gamesClose" class="primary">關閉</button></div>
   </div>
 </div>`;
+
+  const gamesOverlay = document.getElementById('gamesOverlay');
+  document.getElementById('rpMore').addEventListener('click', e=>{
+    e.preventDefault();
+    gamesOverlay.classList.add('show');
+  });
+  document.getElementById('gamesClose').addEventListener('click', ()=> gamesOverlay.classList.remove('show'));
+  gamesOverlay.addEventListener('click', e=>{
+    if(e.target === gamesOverlay) gamesOverlay.classList.remove('show');
+  });
 
   const me = GAMES.find(g=>g.id===cfg.id);
   if(me) document.documentElement.style.setProperty('--accent', me.accent);
