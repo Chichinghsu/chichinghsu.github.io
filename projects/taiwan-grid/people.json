@@ -1308,7 +1308,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["主持人","藝人","演員"],
+      "occupation": ["主持人","藝人","演員","歌手"],
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1970年代"],
@@ -1322,7 +1322,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["主持人","藝人"],
+      "occupation": ["主持人","藝人","歌手"],
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1970年代"],
@@ -1415,8 +1415,8 @@
   },
   {
     "id": "tw-a024",
-    "name": "林郁智",
-    "aka": ["納豆"],
+    "name": "納豆",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1430,7 +1430,7 @@
   {
     "id": "tw-a025",
     "name": "林志玲",
-    "aka": ["志玲姊姊","Lin Chi-ling"],
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -1630,11 +1630,11 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
-      "occupation": ["演員","導演"],
+      "occupation": ["演員","導演","歌手"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1950年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1690,7 +1690,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1985,6 +1985,34 @@
       "award": ["走鐘獎"],
       "birth_decade": ["1980年代"],
       "tags": []
+    }
+  },
+  {
+    "id": "tw-d065",
+    "name": "9m88",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-d066",
+    "name": "黄路梓茵",
+    "aka": ["Lulu"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","演員","主持人"],
+      "education": ["國立臺灣藝術大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["結過婚","原住民"]
     }
   },
   {
