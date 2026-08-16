@@ -171,7 +171,7 @@
   },
   {
    "id": "wuguconnector",
-   "en": "Wugu Connector",
+   "en": "Wugu Intermediate Transfer Connection",
    "zh": "五股轉接道",
    "lat": 25.084,
    "lon": 121.437,
@@ -197,9 +197,9 @@
   },
   {
    "id": "taishanconnector",
-   "en": "Taishan Connector",
+   "en": "Taishan Intermediate Transfer Connection",
    "zh": "泰山轉接道",
-   "lat": 24.95,
+   "lat": 24.9,
    "lon": 121.4,
    "lines": [
     "N1"
