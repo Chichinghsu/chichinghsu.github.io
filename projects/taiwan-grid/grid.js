@@ -196,7 +196,7 @@ export async function mountGrid(cfg) {
     <div class="switcher" id="switcher"></div>
   </div>
   <div class="stats">
-    <span>答題次數 <b id="left">9</b> / ${MAX_GUESSES}</span>
+    <span>答題次數剩 <b id="left">9</b> / ${MAX_GUESSES}</span>
     <span>答對 <b class="pct" id="hit">0</b> / 9</span>
   </div>
 </div>

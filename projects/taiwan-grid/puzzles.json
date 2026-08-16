@@ -12,11 +12,11 @@
     "columns": ["tags:結過婚", "tags:選過總統", "tags:當過市長"] },
 
   { "id": 4,  "date": "2026-08-18",
-    "rows": ["occupation:歌手", "occupation:藝人", "occupation:主持人"],
+    "rows": ["occupation:演員", "occupation:藝人", "occupation:主持人"],
     "columns": ["award:金鐘獎", "tags:結過婚", "tags:離過婚"] },
 
   { "id": 5,  "date": "2026-08-19",
-    "rows": ["gender:男性", "gender:女性", "tags:原住民"],
+    "rows": ["special:1980後出生", "gender:女性", "tags:原住民"],
     "columns": ["occupation:運動員", "occupation:歌手", "tags:奧運獎牌"] },
 
   { "id": 6,  "date": "2026-08-20",
