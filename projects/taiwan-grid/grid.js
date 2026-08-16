@@ -5,7 +5,9 @@
 //          /projects/taiwan-grid/?p=7    → puzzle with permanent id 7
 
 const MAX_GUESSES = 11;
-const STORE_KEY = 'twgrid.v2';
+// v3 — people.json ids were renumbered to tw-NNN, orphaning v2's saved games.
+// Saved games key on person id, so any id change needs a bump here.
+const STORE_KEY = 'twgrid.v3';
 const TAIPEI_OFFSET_MIN = 8 * 60;   // UTC+8, no DST — Taiwan has never observed it since 1980
 
 // ── DEBUG ────────────────────────────────────────────────────────────────────
@@ -67,7 +69,7 @@ function readStore() {
     const obj = raw ? JSON.parse(raw) : null;
     if (obj && obj.games) return obj;
   } catch (e) { /* ignore */ }
-  return { v: 2, games: {} };
+  return { v: 3, games: {} };
 }
 
 function writeStore(obj) {
@@ -144,6 +146,9 @@ export async function mountGrid(cfg) {
   const matches = makeMatcher(condDefs);
   const label = key => (condDefs.conditions[key] || {}).label || key;
   const byId = new Map(people.map(p => [p.id, p]));
+  // Saved games hold person ids. If an id ever disappears from people.json the
+  // stored id is all we have left — show it rather than throwing on undefined.
+  const nameOf = pid => (byId.get(pid) || {}).name || pid;
   const byPuzzleId = new Map(puzzles.map(p => [p.id, p]));
   const firstDate = puzzles[0].date;
 
@@ -374,7 +379,7 @@ export async function mountGrid(cfg) {
       const pid = state.cells[i];
       if (pid) {
         el.className = 'cell done';
-        el.innerHTML = `<span>${esc(byId.has(pid) ? byId.get(pid).name : pid)}</span>`;
+        el.innerHTML = `<span>${esc(nameOf(pid))}</span>`;
         el.disabled = true;
       } else if (state.skipped[i] || isOver()) {
         el.className = 'cell miss';
@@ -563,7 +568,7 @@ export async function mountGrid(cfg) {
       el.disabled = false;
       if (pid) {
         el.className = 'cell insight done';
-        el.innerHTML = `<span>${esc(byId.get(pid).name)}</span>`;
+        el.innerHTML = `<span>${esc(nameOf(pid))}</span>`;
       } else {
         el.className = 'cell insight miss';
         el.innerHTML = `<span class="cnt">${solutions[i].length} 人</span>`;
@@ -595,7 +600,7 @@ export async function mountGrid(cfg) {
         el.disabled = false;
       } else if (state.cells[i]) {
         el.className = 'cell insight done';
-        el.innerHTML = `<span>${esc(byId.get(state.cells[i]).name)}</span>`;
+        el.innerHTML = `<span>${esc(nameOf(state.cells[i]))}</span>`;
         el.disabled = true;
       } else {
         el.className = 'cell insight blank';
@@ -619,12 +624,12 @@ export async function mountGrid(cfg) {
       }).join('');
       $('popBody').innerHTML =
         `<p class="pop-count">你在這格猜錯 ${state.misses[i].length} 次</p><div class="wrongs">${rows}</div>` +
-        (state.cells[i] ? `<p class="pop-mine">最後答對了：<b>${esc(byId.get(state.cells[i]).name)}</b> ✓</p>` : '');
+        (state.cells[i] ? `<p class="pop-mine">最後答對了：<b>${esc(nameOf(state.cells[i]))}</b> ✓</p>` : '');
     } else {
       const names = solutions[i].map(p => p.name);
       const mine = state.cells[i];
       $('popBody').innerHTML =
-        (mine ? `<p class="pop-mine">你填的是 <b>${esc(byId.get(mine).name)}</b> ✓</p>` : '') +
+        (mine ? `<p class="pop-mine">你填的是 <b>${esc(nameOf(mine))}</b> ✓</p>` : '') +
         (names.length
           ? `<p class="pop-count">共 ${names.length} 個可能答案</p><div class="ans-list">${esc(names.join('、'))}</div>`
           : '<div class="ans-none">（資料庫中暫無符合的人物）</div>');
@@ -782,7 +787,7 @@ export async function mountGrid(cfg) {
     get state() { return state; },
     get puzzle() { return puzzle; },
     replay() { delete store.games[String(puzzle.id)]; writeStore(store); location.reload(); },
-    replayAll() { store = { v: 2, games: {} }; writeStore(store); location.reload(); },
+    replayAll() { store = { v: 3, games: {} }; writeStore(store); location.reload(); },
     answers() {
       cellConds.forEach(({ row, col }, i) =>
         console.log(`${i} ${label(row)} × ${label(col)}:`, solutions[i].map(p => p.name).join('、')));

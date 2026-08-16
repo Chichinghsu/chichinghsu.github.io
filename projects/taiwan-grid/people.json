@@ -1,12 +1,13 @@
 [
   {
-    "id": "Q43414",
+    "id": "tw-001",
     "name": "周杰倫",
-    "aka": ["Jay Chou","周董"],
+    "wikidata": "Q238819",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","演員","音樂家","導演"],
+      "occupation": ["歌手","演員","藝人","導演"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -14,9 +15,10 @@
     }
   },
   {
-    "id": "Q17517",
+    "id": "tw-002",
     "name": "蔡依林",
-    "aka": ["Jolin","Jolin Tsai"],
+    "wikidata": "Q51101",
+    "aka": ["Jolin"],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["新北市"],
@@ -28,13 +30,14 @@
     }
   },
   {
-    "id": "Q46964",
+    "id": "tw-003",
     "name": "陳綺貞",
-    "aka": ["Cheer Chen"],
+    "wikidata": "Q710513",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": ["國立政治大學"],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -42,9 +45,10 @@
     }
   },
   {
-    "id": "Q47065",
+    "id": "tw-004",
     "name": "梁靜茹",
-    "aka": ["Fish Leong"],
+    "wikidata": "Q707199",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["馬來西亞"],
@@ -56,9 +60,10 @@
     }
   },
   {
-    "id": "Q52460",
+    "id": "tw-005",
     "name": "柯文哲",
-    "aka": ["柯P"],
+    "wikidata": "Q18113714",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["新竹市"],
@@ -70,8 +75,9 @@
     }
   },
   {
-    "id": "Q108765",
+    "id": "tw-006",
     "name": "蔣萬安",
+    "wikidata": "Q15920021",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -84,8 +90,9 @@
     }
   },
   {
-    "id": "Q333662",
+    "id": "tw-007",
     "name": "賴清德",
+    "wikidata": "Q3847080",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -98,13 +105,29 @@
     }
   },
   {
-    "id": "tw-s001",
+    "id": "tw-008",
+    "name": "陳玉珍",
+    "wikidata": "Q48896684",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["金門縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-009",
     "name": "林俊傑",
-    "aka": ["JJ","JJ Lin"],
+    "wikidata": "Q716022",
+    "aka": ["JJ"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["新加坡"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -112,9 +135,25 @@
     }
   },
   {
-    "id": "tw-s002",
+    "id": "tw-010",
+    "name": "李玟",
+    "wikidata": "Q703216",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["香港"],
+      "occupation": ["歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-011",
     "name": "張惠妹",
-    "aka": ["阿妹","A-Mei"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台東縣"],
@@ -126,23 +165,25 @@
     }
   },
   {
-    "id": "tw-s003",
+    "id": "tw-012",
     "name": "蕭敬騰",
-    "aka": ["老蕭"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家","主持人"],
+      "occupation": ["歌手","藝人","主持人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
-      "tags": ["選秀出身"]
+      "tags": ["選秀出身","結過婚"]
     }
   },
   {
-    "id": "tw-s004",
+    "id": "tw-013",
     "name": "楊丞琳",
-    "aka": ["Rainie"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -154,8 +195,9 @@
     }
   },
   {
-    "id": "tw-s005",
+    "id": "tw-014",
     "name": "田馥甄",
+    "wikidata": "",
     "aka": ["Hebe"],
     "properties": {
       "gender": ["女性"],
@@ -168,8 +210,9 @@
     }
   },
   {
-    "id": "tw-s006",
+    "id": "tw-015",
     "name": "陳嘉樺",
+    "wikidata": "",
     "aka": ["Ella"],
     "properties": {
       "gender": ["女性"],
@@ -182,8 +225,9 @@
     }
   },
   {
-    "id": "tw-s007",
+    "id": "tw-016",
     "name": "任家萱",
+    "wikidata": "",
     "aka": ["Selina"],
     "properties": {
       "gender": ["女性"],
@@ -196,9 +240,10 @@
     }
   },
   {
-    "id": "tw-s008",
+    "id": "tw-017",
     "name": "羅志祥",
-    "aka": ["小豬","Show Lo"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -210,13 +255,14 @@
     }
   },
   {
-    "id": "tw-s009",
+    "id": "tw-018",
     "name": "王力宏",
-    "aka": ["Leehom","Leehom Wang"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["美國"],
-      "occupation": ["歌手","音樂家","演員"],
+      "occupation": ["歌手","藝人","演員"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -224,13 +270,14 @@
     }
   },
   {
-    "id": "tw-s010",
+    "id": "tw-019",
     "name": "陶喆",
-    "aka": ["David Tao"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
@@ -238,13 +285,14 @@
     }
   },
   {
-    "id": "tw-s011",
+    "id": "tw-020",
     "name": "蔡健雅",
-    "aka": ["Tanya"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["新加坡"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -252,9 +300,10 @@
     }
   },
   {
-    "id": "tw-s012",
+    "id": "tw-021",
     "name": "孫燕姿",
-    "aka": ["Stefanie Sun"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["新加坡"],
@@ -266,13 +315,14 @@
     }
   },
   {
-    "id": "tw-s013",
+    "id": "tw-022",
     "name": "伍佰",
+    "wikidata": "",
     "aka": ["吳俊霖"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["嘉義縣"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
@@ -280,27 +330,29 @@
     }
   },
   {
-    "id": "tw-s014",
+    "id": "tw-023",
     "name": "張震嶽",
-    "aka": ["阿嶽"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["宜蘭縣"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
-      "tags": ["樂團主唱"]
+      "tags": ["樂團主唱","原住民","結過婚"]
     }
   },
   {
-    "id": "tw-s015",
+    "id": "tw-024",
     "name": "陳昇",
-    "aka": ["陳志昇"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["彰化縣"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1950年代"],
@@ -308,13 +360,14 @@
     }
   },
   {
-    "id": "tw-s016",
+    "id": "tw-025",
     "name": "江蕙",
+    "wikidata": "",
     "aka": ["二姊"],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["嘉義縣"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
@@ -322,9 +375,10 @@
     }
   },
   {
-    "id": "tw-s017",
+    "id": "tw-026",
     "name": "費玉清",
-    "aka": ["小哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -336,8 +390,9 @@
     }
   },
   {
-    "id": "tw-s018",
+    "id": "tw-027",
     "name": "張清芳",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -350,8 +405,9 @@
     }
   },
   {
-    "id": "tw-s019",
+    "id": "tw-028",
     "name": "蘇慧倫",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -364,13 +420,14 @@
     }
   },
   {
-    "id": "tw-s020",
+    "id": "tw-029",
     "name": "徐佳瑩",
+    "wikidata": "",
     "aka": ["Lala"],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台中市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -378,27 +435,29 @@
     }
   },
   {
-    "id": "tw-s021",
+    "id": "tw-030",
     "name": "魏如萱",
-    "aka": ["娃娃"],
-    "properties": {
-      "gender": ["女性"],
-      "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家"],
-      "education": [],
-      "award": ["金曲獎"],
-      "birth_decade": ["1980年代"],
-      "tags": []
-    }
-  },
-  {
-    "id": "tw-s022",
-    "name": "艾怡良",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-031",
+    "name": "艾怡良",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -406,13 +465,14 @@
     }
   },
   {
-    "id": "tw-s023",
+    "id": "tw-032",
     "name": "盧廣仲",
-    "aka": ["Crowd Lu"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台南市"],
-      "occupation": ["歌手","音樂家","演員"],
+      "occupation": ["歌手","藝人","演員"],
       "education": [],
       "award": ["金曲獎","金鐘獎"],
       "birth_decade": ["1980年代"],
@@ -420,13 +480,14 @@
     }
   },
   {
-    "id": "tw-s024",
+    "id": "tw-033",
     "name": "韋禮安",
-    "aka": ["Weibird"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台中市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": ["國立臺灣大學"],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -434,13 +495,14 @@
     }
   },
   {
-    "id": "tw-s025",
+    "id": "tw-034",
     "name": "吳青峰",
-    "aka": ["青峰","蘇打綠"],
+    "wikidata": "",
+    "aka": ["青峰"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": ["國立政治大學"],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -448,13 +510,14 @@
     }
   },
   {
-    "id": "tw-s026",
+    "id": "tw-035",
     "name": "陳信宏",
+    "wikidata": "",
     "aka": ["阿信","五月天阿信"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -462,27 +525,29 @@
     }
   },
   {
-    "id": "tw-s027",
+    "id": "tw-036",
     "name": "鄭宜農",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家","演員"],
+      "occupation": ["歌手","藝人","演員"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
-      "tags": ["樂團主唱"]
+      "tags": ["樂團主唱","結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-s028",
+    "id": "tw-037",
     "name": "周華健",
-    "aka": ["Emil Chau"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
@@ -490,13 +555,14 @@
     }
   },
   {
-    "id": "tw-s029",
+    "id": "tw-038",
     "name": "庾澄慶",
+    "wikidata": "",
     "aka": ["哈林"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家","主持人","藝人"],
+      "occupation": ["歌手","主持人","藝人"],
       "education": [],
       "award": ["金曲獎","金鐘獎"],
       "birth_decade": ["1960年代"],
@@ -504,27 +570,29 @@
     }
   },
   {
-    "id": "tw-s030",
+    "id": "tw-039",
     "name": "張雨生",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["澎湖縣"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手"],
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
-      "tags": []
+      "tags": ["已故"]
     }
   },
   {
-    "id": "tw-s031",
+    "id": "tw-040",
     "name": "齊秦",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台中市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
@@ -532,9 +600,10 @@
     }
   },
   {
-    "id": "tw-s032",
+    "id": "tw-041",
     "name": "林憶蓮",
-    "aka": ["Sandy Lam"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["香港"],
@@ -546,9 +615,10 @@
     }
   },
   {
-    "id": "tw-s033",
+    "id": "tw-042",
     "name": "莫文蔚",
-    "aka": ["Karen Mok"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["香港"],
@@ -560,13 +630,14 @@
     }
   },
   {
-    "id": "tw-s034",
+    "id": "tw-043",
     "name": "周興哲",
-    "aka": ["Eric"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
@@ -574,9 +645,10 @@
     }
   },
   {
-    "id": "tw-s035",
+    "id": "tw-044",
     "name": "林宥嘉",
-    "aka": ["Yoga Lin"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["屏東縣"],
@@ -588,8 +660,9 @@
     }
   },
   {
-    "id": "tw-s036",
+    "id": "tw-045",
     "name": "楊乃文",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -602,9 +675,10 @@
     }
   },
   {
-    "id": "tw-s037",
-    "name": "黃麗玲",
-    "aka": ["A-Lin"],
+    "id": "tw-046",
+    "name": "A-Lin",
+    "wikidata": "",
+    "aka": ["黃麗玲"],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台東縣"],
@@ -616,9 +690,10 @@
     }
   },
   {
-    "id": "tw-s038",
+    "id": "tw-047",
     "name": "蕭亞軒",
-    "aka": ["Elva"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -630,9 +705,10 @@
     }
   },
   {
-    "id": "tw-s039",
+    "id": "tw-048",
     "name": "王心凌",
-    "aka": ["Cyndi Wang"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台中市"],
@@ -644,9 +720,10 @@
     }
   },
   {
-    "id": "tw-s040",
+    "id": "tw-049",
     "name": "潘瑋柏",
-    "aka": ["Will Pan"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["美國"],
@@ -658,9 +735,10 @@
     }
   },
   {
-    "id": "tw-s041",
+    "id": "tw-050",
     "name": "鄧麗君",
-    "aka": ["Teresa Teng"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["雲林縣"],
@@ -672,8 +750,9 @@
     }
   },
   {
-    "id": "tw-s042",
+    "id": "tw-051",
     "name": "鳳飛飛",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -686,8 +765,9 @@
     }
   },
   {
-    "id": "tw-s043",
+    "id": "tw-052",
     "name": "蘇芮",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -700,8 +780,9 @@
     }
   },
   {
-    "id": "tw-s044",
+    "id": "tw-053",
     "name": "黃小琥",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -714,8 +795,9 @@
     }
   },
   {
-    "id": "tw-s045",
+    "id": "tw-054",
     "name": "彭佳慧",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -728,8 +810,9 @@
     }
   },
   {
-    "id": "tw-s046",
+    "id": "tw-055",
     "name": "戴愛玲",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -742,9 +825,10 @@
     }
   },
   {
-    "id": "tw-s047",
+    "id": "tw-056",
     "name": "陳奕迅",
-    "aka": ["Eason","Eason Chan"],
+    "wikidata": "",
+    "aka": ["Eason"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
@@ -756,9 +840,10 @@
     }
   },
   {
-    "id": "tw-s048",
+    "id": "tw-057",
     "name": "張學友",
-    "aka": ["Jacky Cheung","歌神"],
+    "wikidata": "",
+    "aka": ["Jacky Cheung"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
@@ -770,9 +855,10 @@
     }
   },
   {
-    "id": "tw-s049",
+    "id": "tw-058",
     "name": "劉德華",
-    "aka": ["Andy Lau","華仔"],
+    "wikidata": "",
+    "aka": ["Andy Lau"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
@@ -784,13 +870,14 @@
     }
   },
   {
-    "id": "tw-s050",
+    "id": "tw-059",
     "name": "鄧紫棋",
-    "aka": ["G.E.M."],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
-      "birth_city": ["上海"],
-      "occupation": ["歌手","音樂家"],
+      "birth_city": ["中國"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
@@ -798,13 +885,14 @@
     }
   },
   {
-    "id": "tw-s051",
+    "id": "tw-060",
     "name": "李榮浩",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["中國"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -812,9 +900,10 @@
     }
   },
   {
-    "id": "tw-s052",
+    "id": "tw-061",
     "name": "周子瑜",
-    "aka": ["Tzuyu","子瑜"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台南市"],
@@ -826,9 +915,10 @@
     }
   },
   {
-    "id": "tw-s053",
+    "id": "tw-062",
     "name": "蔡振南",
-    "aka": ["南哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["嘉義市"],
@@ -840,13 +930,14 @@
     }
   },
   {
-    "id": "tw-s054",
+    "id": "tw-063",
     "name": "羅大佑",
-    "aka": ["羅大佑"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家","醫師"],
+      "occupation": ["歌手","醫師"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1950年代"],
@@ -854,13 +945,14 @@
     }
   },
   {
-    "id": "tw-s055",
+    "id": "tw-064",
     "name": "李宗盛",
-    "aka": ["大哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","音樂家"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1950年代"],
@@ -868,8 +960,9 @@
     }
   },
   {
-    "id": "tw-s056",
+    "id": "tw-065",
     "name": "周慧敏",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -882,8 +975,9 @@
     }
   },
   {
-    "id": "tw-s057",
+    "id": "tw-066",
     "name": "陳嫺靜",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -896,8 +990,9 @@
     }
   },
   {
-    "id": "tw-s058",
+    "id": "tw-067",
     "name": "許茹芸",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -906,12 +1001,13 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
-    "id": "tw-s059",
+    "id": "tw-068",
     "name": "范逸臣",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -924,8 +1020,9 @@
     }
   },
   {
-    "id": "tw-s060",
+    "id": "tw-069",
     "name": "林志炫",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -938,8 +1035,9 @@
     }
   },
   {
-    "id": "tw-s061",
+    "id": "tw-070",
     "name": "張韶涵",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -952,8 +1050,9 @@
     }
   },
   {
-    "id": "tw-s062",
+    "id": "tw-071",
     "name": "曾沛慈",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -966,8 +1065,9 @@
     }
   },
   {
-    "id": "tw-s063",
+    "id": "tw-072",
     "name": "郭書瑤",
+    "wikidata": "",
     "aka": ["瑤瑤"],
     "properties": {
       "gender": ["女性"],
@@ -980,8 +1080,9 @@
     }
   },
   {
-    "id": "tw-s064",
+    "id": "tw-073",
     "name": "李千娜",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -994,9 +1095,10 @@
     }
   },
   {
-    "id": "tw-s065",
+    "id": "tw-074",
     "name": "謝金燕",
-    "aka": ["姊姊"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -1008,8 +1110,9 @@
     }
   },
   {
-    "id": "tw-s066",
+    "id": "tw-075",
     "name": "白冰冰",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1022,9 +1125,10 @@
     }
   },
   {
-    "id": "tw-s067",
+    "id": "tw-076",
     "name": "任賢齊",
-    "aka": ["小齊"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["彰化縣"],
@@ -1036,8 +1140,9 @@
     }
   },
   {
-    "id": "tw-s068",
+    "id": "tw-077",
     "name": "王大陸",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1050,13 +1155,14 @@
     }
   },
   {
-    "id": "tw-s069",
+    "id": "tw-078",
     "name": "李多慧",
-    "aka": ["다혜"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["韓國"],
-      "occupation": ["藝人", "YouTuber","啦啦隊"],
+      "occupation": ["藝人","YouTuber","啦啦隊"],
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
@@ -1064,8 +1170,9 @@
     }
   },
   {
-    "id": "tw-s070",
+    "id": "tw-079",
     "name": "宋芸樺",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1078,9 +1185,10 @@
     }
   },
   {
-    "id": "tw-s071",
+    "id": "tw-080",
     "name": "羅時豐",
-    "aka": ["大牛哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1092,9 +1200,40 @@
     }
   },
   {
-    "id": "tw-a001",
+    "id": "tw-081",
+    "name": "周傳雄",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-082",
+    "name": "阿杜",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新加坡"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-083",
     "name": "舒淇",
-    "aka": ["Shu Qi"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -1106,8 +1245,9 @@
     }
   },
   {
-    "id": "tw-a002",
+    "id": "tw-084",
     "name": "桂綸鎂",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1120,8 +1260,9 @@
     }
   },
   {
-    "id": "tw-a003",
+    "id": "tw-085",
     "name": "張震",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1134,8 +1275,9 @@
     }
   },
   {
-    "id": "tw-a004",
+    "id": "tw-086",
     "name": "陳意涵",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1148,9 +1290,10 @@
     }
   },
   {
-    "id": "tw-a005",
+    "id": "tw-087",
     "name": "林依晨",
-    "aka": ["Ariel Lin"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -1162,9 +1305,10 @@
     }
   },
   {
-    "id": "tw-a006",
+    "id": "tw-088",
     "name": "陳柏霖",
-    "aka": ["大仁哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1176,8 +1320,9 @@
     }
   },
   {
-    "id": "tw-a007",
+    "id": "tw-089",
     "name": "柯震東",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1190,9 +1335,10 @@
     }
   },
   {
-    "id": "tw-a008",
+    "id": "tw-090",
     "name": "彭于晏",
-    "aka": ["Eddie Peng"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1204,8 +1350,9 @@
     }
   },
   {
-    "id": "tw-a009",
+    "id": "tw-091",
     "name": "楊祐寧",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1218,9 +1365,10 @@
     }
   },
   {
-    "id": "tw-a010",
+    "id": "tw-092",
     "name": "阮經天",
-    "aka": ["小天"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1232,8 +1380,9 @@
     }
   },
   {
-    "id": "tw-a011",
+    "id": "tw-093",
     "name": "趙又廷",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1246,8 +1395,9 @@
     }
   },
   {
-    "id": "tw-a012",
+    "id": "tw-094",
     "name": "吳慷仁",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1260,8 +1410,9 @@
     }
   },
   {
-    "id": "tw-a013",
+    "id": "tw-095",
     "name": "謝盈萱",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1274,8 +1425,9 @@
     }
   },
   {
-    "id": "tw-a014",
+    "id": "tw-096",
     "name": "賈靜雯",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1288,8 +1440,9 @@
     }
   },
   {
-    "id": "tw-a015",
+    "id": "tw-097",
     "name": "林心如",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1302,8 +1455,9 @@
     }
   },
   {
-    "id": "tw-a016",
+    "id": "tw-098",
     "name": "徐熙媛",
+    "wikidata": "",
     "aka": ["大S"],
     "properties": {
       "gender": ["女性"],
@@ -1316,8 +1470,9 @@
     }
   },
   {
-    "id": "tw-a017",
+    "id": "tw-099",
     "name": "徐熙娣",
+    "wikidata": "",
     "aka": ["小S"],
     "properties": {
       "gender": ["女性"],
@@ -1330,9 +1485,10 @@
     }
   },
   {
-    "id": "tw-a018",
+    "id": "tw-100",
     "name": "蔡康永",
-    "aka": ["康永哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1344,9 +1500,10 @@
     }
   },
   {
-    "id": "tw-a019",
+    "id": "tw-101",
     "name": "吳宗憲",
-    "aka": ["憲哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台南市"],
@@ -1358,9 +1515,10 @@
     }
   },
   {
-    "id": "tw-a020",
+    "id": "tw-102",
     "name": "張小燕",
-    "aka": ["燕姐"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["上海"],
@@ -1372,13 +1530,14 @@
     }
   },
   {
-    "id": "tw-a021",
+    "id": "tw-103",
     "name": "胡瓜",
-    "aka": ["瓜哥","胡自雄"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["主持人","藝人"],
+      "occupation": ["主持人","藝人","YouTuber"],
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1950年代"],
@@ -1386,8 +1545,9 @@
     }
   },
   {
-    "id": "tw-a022",
+    "id": "tw-104",
     "name": "曾國城",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1400,13 +1560,14 @@
     }
   },
   {
-    "id": "tw-a023",
+    "id": "tw-105",
     "name": "沈玉琳",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["主持人","藝人"],
+      "occupation": ["主持人","藝人","YouTuber"],
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
@@ -1414,8 +1575,9 @@
     }
   },
   {
-    "id": "tw-a024",
+    "id": "tw-106",
     "name": "納豆",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1428,8 +1590,9 @@
     }
   },
   {
-    "id": "tw-a025",
+    "id": "tw-107",
     "name": "林志玲",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1442,8 +1605,9 @@
     }
   },
   {
-    "id": "tw-a026",
+    "id": "tw-108",
     "name": "隋棠",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1456,8 +1620,9 @@
     }
   },
   {
-    "id": "tw-a027",
+    "id": "tw-109",
     "name": "許光漢",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1470,8 +1635,9 @@
     }
   },
   {
-    "id": "tw-a028",
+    "id": "tw-110",
     "name": "柯佳嬿",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1484,8 +1650,9 @@
     }
   },
   {
-    "id": "tw-a029",
+    "id": "tw-111",
     "name": "邵雨薇",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1498,8 +1665,9 @@
     }
   },
   {
-    "id": "tw-a030",
+    "id": "tw-112",
     "name": "李康生",
+    "wikidata": "",
     "aka": ["小康"],
     "properties": {
       "gender": ["男性"],
@@ -1512,8 +1680,9 @@
     }
   },
   {
-    "id": "tw-a031",
+    "id": "tw-113",
     "name": "陳淑芳",
+    "wikidata": "",
     "aka": ["國民阿嬤"],
     "properties": {
       "gender": ["女性"],
@@ -1526,8 +1695,9 @@
     }
   },
   {
-    "id": "tw-a032",
+    "id": "tw-114",
     "name": "高捷",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1540,8 +1710,9 @@
     }
   },
   {
-    "id": "tw-a033",
+    "id": "tw-115",
     "name": "鳳小岳",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1554,8 +1725,9 @@
     }
   },
   {
-    "id": "tw-a034",
+    "id": "tw-116",
     "name": "張鈞甯",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1568,8 +1740,9 @@
     }
   },
   {
-    "id": "tw-a035",
+    "id": "tw-117",
     "name": "楊謹華",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1582,9 +1755,10 @@
     }
   },
   {
-    "id": "tw-a036",
+    "id": "tw-118",
     "name": "金城武",
-    "aka": ["Takeshi Kaneshiro"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["日本"],
@@ -1596,9 +1770,10 @@
     }
   },
   {
-    "id": "tw-a037",
+    "id": "tw-119",
     "name": "梁朝偉",
-    "aka": ["Tony Leung"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
@@ -1610,9 +1785,10 @@
     }
   },
   {
-    "id": "tw-a038",
+    "id": "tw-120",
     "name": "周星馳",
-    "aka": ["星爺","Stephen Chow"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
@@ -1624,9 +1800,10 @@
     }
   },
   {
-    "id": "tw-a039",
+    "id": "tw-121",
     "name": "成龍",
-    "aka": ["Jackie Chan"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
@@ -1638,9 +1815,10 @@
     }
   },
   {
-    "id": "tw-a040",
+    "id": "tw-122",
     "name": "林青霞",
-    "aka": ["Brigitte Lin"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["新北市"],
@@ -1652,9 +1830,10 @@
     }
   },
   {
-    "id": "tw-a041",
+    "id": "tw-123",
     "name": "楊紫瓊",
-    "aka": ["Michelle Yeoh"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["馬來西亞"],
@@ -1666,9 +1845,10 @@
     }
   },
   {
-    "id": "tw-a042",
+    "id": "tw-124",
     "name": "劉若英",
-    "aka": ["奶茶"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -1680,8 +1860,9 @@
     }
   },
   {
-    "id": "tw-a043",
+    "id": "tw-125",
     "name": "唐從聖",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1694,8 +1875,9 @@
     }
   },
   {
-    "id": "tw-a044",
+    "id": "tw-126",
     "name": "李烈",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1708,8 +1890,9 @@
     }
   },
   {
-    "id": "tw-a045",
+    "id": "tw-127",
     "name": "楊貴媚",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1722,8 +1905,9 @@
     }
   },
   {
-    "id": "tw-a046",
+    "id": "tw-128",
     "name": "陸小芬",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1736,8 +1920,9 @@
     }
   },
   {
-    "id": "tw-a047",
+    "id": "tw-129",
     "name": "馬志翔",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1750,8 +1935,9 @@
     }
   },
   {
-    "id": "tw-a048",
+    "id": "tw-130",
     "name": "藍正龍",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1764,8 +1950,9 @@
     }
   },
   {
-    "id": "tw-a049",
+    "id": "tw-131",
     "name": "郭子乾",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1778,8 +1965,9 @@
     }
   },
   {
-    "id": "tw-a050",
+    "id": "tw-132",
     "name": "九孔",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1792,8 +1980,9 @@
     }
   },
   {
-    "id": "tw-a051",
+    "id": "tw-133",
     "name": "許效舜",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1806,9 +1995,10 @@
     }
   },
   {
-    "id": "tw-a052",
+    "id": "tw-134",
     "name": "澎恰恰",
-    "aka": ["澎澎"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台南市"],
@@ -1820,8 +2010,9 @@
     }
   },
   {
-    "id": "tw-a053",
+    "id": "tw-135",
     "name": "小鐘",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1834,22 +2025,24 @@
     }
   },
   {
-    "id": "tw-a054",
+    "id": "tw-136",
     "name": "蔡阿嘎",
+    "wikidata": "",
     "aka": ["蔡緯嘉"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["嘉義縣"],
-      "occupation": ["YouTuber"],
+      "occupation": ["YouTuber","作家"],
       "education": [],
       "award": ["走鐘獎"],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚","被騙過錢", "被炎上過"]
+      "tags": ["結過婚","被騙過錢","被炎上過"]
     }
   },
   {
-    "id": "tw-a055",
+    "id": "tw-137",
     "name": "陳漢典",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1862,8 +2055,9 @@
     }
   },
   {
-    "id": "tw-a056",
+    "id": "tw-138",
     "name": "阿翔",
+    "wikidata": "",
     "aka": ["陳秉立"],
     "properties": {
       "gender": ["男性"],
@@ -1876,9 +2070,10 @@
     }
   },
   {
-    "id": "tw-a057",
+    "id": "tw-139",
     "name": "吳姍儒",
-    "aka": ["Sandy"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -1890,9 +2085,10 @@
     }
   },
   {
-    "id": "tw-a058",
+    "id": "tw-140",
     "name": "陶晶瑩",
-    "aka": ["陶子"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -1904,8 +2100,9 @@
     }
   },
   {
-    "id": "tw-a059",
+    "id": "tw-141",
     "name": "利菁",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -1918,8 +2115,9 @@
     }
   },
   {
-    "id": "tw-a060",
+    "id": "tw-142",
     "name": "黃子佼",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1932,9 +2130,10 @@
     }
   },
   {
-    "id": "tw-d061",
+    "id": "tw-143",
     "name": "邰智源",
-    "aka": ["邰哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1942,13 +2141,14 @@
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
-      "tags": ["會開公車", "結過婚"]
+      "tags": ["會開公車","結過婚"]
     }
   },
   {
-    "id": "tw-d062",
+    "id": "tw-144",
     "name": "徐乃麟",
-    "aka": ["乃哥"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
@@ -1960,8 +2160,9 @@
     }
   },
   {
-    "id": "tw-d063",
+    "id": "tw-145",
     "name": "李進良",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -1970,12 +2171,13 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": ["結過婚", "離過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-d064",
+    "id": "tw-146",
     "name": "黃明志",
+    "wikidata": "",
     "aka": ["Namewee"],
     "properties": {
       "gender": ["男性"],
@@ -1988,8 +2190,9 @@
     }
   },
   {
-    "id": "tw-d065",
+    "id": "tw-147",
     "name": "9m88",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2002,8 +2205,9 @@
     }
   },
   {
-    "id": "tw-d066",
+    "id": "tw-148",
     "name": "黄路梓茵",
+    "wikidata": "",
     "aka": ["Lulu"],
     "properties": {
       "gender": ["女性"],
@@ -2016,8 +2220,9 @@
     }
   },
   {
-    "id": "tw-d001",
+    "id": "tw-149",
     "name": "李安",
+    "wikidata": "",
     "aka": ["Ang Lee"],
     "properties": {
       "gender": ["男性"],
@@ -2030,8 +2235,9 @@
     }
   },
   {
-    "id": "tw-d002",
+    "id": "tw-150",
     "name": "侯孝賢",
+    "wikidata": "",
     "aka": ["侯導"],
     "properties": {
       "gender": ["男性"],
@@ -2044,8 +2250,9 @@
     }
   },
   {
-    "id": "tw-d003",
+    "id": "tw-151",
     "name": "楊德昌",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2058,8 +2265,9 @@
     }
   },
   {
-    "id": "tw-d004",
+    "id": "tw-152",
     "name": "蔡明亮",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2072,8 +2280,9 @@
     }
   },
   {
-    "id": "tw-d005",
+    "id": "tw-153",
     "name": "魏德聖",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2086,8 +2295,9 @@
     }
   },
   {
-    "id": "tw-d006",
+    "id": "tw-154",
     "name": "陳玉勳",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2100,8 +2310,9 @@
     }
   },
   {
-    "id": "tw-d007",
+    "id": "tw-155",
     "name": "王小棣",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2114,8 +2325,9 @@
     }
   },
   {
-    "id": "tw-d008",
+    "id": "tw-156",
     "name": "賴聲川",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2128,8 +2340,9 @@
     }
   },
   {
-    "id": "tw-d009",
+    "id": "tw-157",
     "name": "吳念真",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2142,8 +2355,9 @@
     }
   },
   {
-    "id": "tw-d010",
+    "id": "tw-158",
     "name": "九把刀",
+    "wikidata": "",
     "aka": ["柯景騰"],
     "properties": {
       "gender": ["男性"],
@@ -2156,8 +2370,9 @@
     }
   },
   {
-    "id": "tw-d011",
+    "id": "tw-159",
     "name": "宮崎駿",
+    "wikidata": "",
     "aka": ["Hayao Miyazaki"],
     "properties": {
       "gender": ["男性"],
@@ -2170,8 +2385,9 @@
     }
   },
   {
-    "id": "tw-d012",
+    "id": "tw-160",
     "name": "楊雅喆",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2184,8 +2400,9 @@
     }
   },
   {
-    "id": "tw-d013",
+    "id": "tw-161",
     "name": "戴立忍",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2198,8 +2415,9 @@
     }
   },
   {
-    "id": "tw-d014",
+    "id": "tw-162",
     "name": "鈕承澤",
+    "wikidata": "",
     "aka": ["豆導"],
     "properties": {
       "gender": ["男性"],
@@ -2212,8 +2430,9 @@
     }
   },
   {
-    "id": "tw-p001",
+    "id": "tw-163",
     "name": "蔡英文",
+    "wikidata": "",
     "aka": ["小英"],
     "properties": {
       "gender": ["女性"],
@@ -2226,8 +2445,9 @@
     }
   },
   {
-    "id": "tw-p002",
+    "id": "tw-164",
     "name": "馬英九",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2240,8 +2460,9 @@
     }
   },
   {
-    "id": "tw-p003",
+    "id": "tw-165",
     "name": "陳水扁",
+    "wikidata": "",
     "aka": ["阿扁"],
     "properties": {
       "gender": ["男性"],
@@ -2250,12 +2471,13 @@
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1950年代"],
-      "tags": ["當過總統","選過總統","當過市長","結過婚"]
+      "tags": ["當過總統","選過總統","當過市長","結過婚","中過槍"]
     }
   },
   {
-    "id": "tw-p004",
+    "id": "tw-166",
     "name": "李登輝",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2268,8 +2490,9 @@
     }
   },
   {
-    "id": "tw-p005",
+    "id": "tw-167",
     "name": "韓國瑜",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2282,8 +2505,9 @@
     }
   },
   {
-    "id": "tw-p006",
+    "id": "tw-168",
     "name": "侯友宜",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2296,8 +2520,9 @@
     }
   },
   {
-    "id": "tw-p007",
+    "id": "tw-169",
     "name": "盧秀燕",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2310,8 +2535,9 @@
     }
   },
   {
-    "id": "tw-p008",
+    "id": "tw-170",
     "name": "黃偉哲",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2324,8 +2550,9 @@
     }
   },
   {
-    "id": "tw-p009",
+    "id": "tw-171",
     "name": "陳其邁",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2338,8 +2565,9 @@
     }
   },
   {
-    "id": "tw-p010",
+    "id": "tw-172",
     "name": "鄭文燦",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2352,8 +2580,9 @@
     }
   },
   {
-    "id": "tw-p011",
+    "id": "tw-173",
     "name": "張善政",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2366,8 +2595,9 @@
     }
   },
   {
-    "id": "tw-p012",
+    "id": "tw-174",
     "name": "朱立倫",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2380,8 +2610,9 @@
     }
   },
   {
-    "id": "tw-p013",
+    "id": "tw-175",
     "name": "王金平",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2394,8 +2625,9 @@
     }
   },
   {
-    "id": "tw-p014",
+    "id": "tw-176",
     "name": "蘇貞昌",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2408,8 +2640,9 @@
     }
   },
   {
-    "id": "tw-p015",
+    "id": "tw-177",
     "name": "游錫堃",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2422,8 +2655,9 @@
     }
   },
   {
-    "id": "tw-p016",
+    "id": "tw-178",
     "name": "呂秀蓮",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2436,8 +2670,9 @@
     }
   },
   {
-    "id": "tw-p017",
+    "id": "tw-179",
     "name": "宋楚瑜",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2446,12 +2681,13 @@
       "education": ["國立政治大學"],
       "award": [],
       "birth_decade": ["1940年代"],
-      "tags": ["選過總統", "結過婚"]
+      "tags": ["選過總統","結過婚"]
     }
   },
   {
-    "id": "tw-p018",
+    "id": "tw-180",
     "name": "連戰",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2464,8 +2700,9 @@
     }
   },
   {
-    "id": "tw-p019",
+    "id": "tw-181",
     "name": "陳菊",
+    "wikidata": "",
     "aka": ["花媽"],
     "properties": {
       "gender": ["女性"],
@@ -2474,12 +2711,13 @@
       "education": [],
       "award": [],
       "birth_decade": ["1950年代"],
-      "tags": ["當過市長", "被關過"]
+      "tags": ["當過市長","被關過"]
     }
   },
   {
-    "id": "tw-p020",
+    "id": "tw-182",
     "name": "黃國昌",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2492,8 +2730,9 @@
     }
   },
   {
-    "id": "tw-p021",
+    "id": "tw-183",
     "name": "高虹安",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2506,8 +2745,9 @@
     }
   },
   {
-    "id": "tw-p022",
+    "id": "tw-184",
     "name": "蕭美琴",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2520,8 +2760,9 @@
     }
   },
   {
-    "id": "tw-p023",
+    "id": "tw-185",
     "name": "唐鳳",
+    "wikidata": "",
     "aka": ["Audrey Tang"],
     "properties": {
       "gender": ["女性"],
@@ -2534,8 +2775,9 @@
     }
   },
   {
-    "id": "tw-p024",
+    "id": "tw-186",
     "name": "王世堅",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2548,8 +2790,9 @@
     }
   },
   {
-    "id": "tw-p025",
+    "id": "tw-187",
     "name": "蔣經國",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2562,8 +2805,9 @@
     }
   },
   {
-    "id": "tw-p026",
+    "id": "tw-188",
     "name": "蔣中正",
+    "wikidata": "",
     "aka": ["蔣介石"],
     "properties": {
       "gender": ["男性"],
@@ -2576,8 +2820,9 @@
     }
   },
   {
-    "id": "tw-p027",
+    "id": "tw-189",
     "name": "林右昌",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2590,8 +2835,9 @@
     }
   },
   {
-    "id": "tw-p028",
+    "id": "tw-190",
     "name": "林佳龍",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2604,8 +2850,9 @@
     }
   },
   {
-    "id": "tw-p029",
+    "id": "tw-191",
     "name": "卓榮泰",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2618,8 +2865,9 @@
     }
   },
   {
-    "id": "tw-p030",
+    "id": "tw-192",
     "name": "陳建仁",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2632,8 +2880,9 @@
     }
   },
   {
-    "id": "tw-p031",
+    "id": "tw-193",
     "name": "郝龍斌",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2646,8 +2895,9 @@
     }
   },
   {
-    "id": "tw-p032",
+    "id": "tw-194",
     "name": "謝長廷",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2660,8 +2910,9 @@
     }
   },
   {
-    "id": "tw-p033",
+    "id": "tw-195",
     "name": "黃仁勳",
+    "wikidata": "",
     "aka": ["Jensen Huang"],
     "properties": {
       "gender": ["男性"],
@@ -2674,8 +2925,9 @@
     }
   },
   {
-    "id": "tw-p034",
+    "id": "tw-196",
     "name": "郭台銘",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2688,8 +2940,9 @@
     }
   },
   {
-    "id": "tw-p035",
+    "id": "tw-197",
     "name": "張忠謀",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2702,8 +2955,9 @@
     }
   },
   {
-    "id": "tw-p036",
+    "id": "tw-198",
     "name": "王永慶",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2716,8 +2970,9 @@
     }
   },
   {
-    "id": "tw-p037",
+    "id": "tw-199",
     "name": "李遠哲",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2730,8 +2985,9 @@
     }
   },
   {
-    "id": "tw-p038",
+    "id": "tw-200",
     "name": "吳寶春",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2744,13 +3000,14 @@
     }
   },
   {
-    "id": "tw-p039",
+    "id": "tw-201",
     "name": "陳柏惟",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["高雄市"],
-      "occupation": ["政治人物", "YouTuber"],
+      "occupation": ["政治人物","YouTuber"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -2758,13 +3015,14 @@
     }
   },
   {
-    "id": "tw-p040",
+    "id": "tw-202",
     "name": "黃珊珊",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台中市"],
-      "occupation": ["政治人物", "立法委員","律師"],
+      "occupation": ["政治人物","立法委員","律師"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1960年代"],
@@ -2772,8 +3030,9 @@
     }
   },
   {
-    "id": "tw-p041",
+    "id": "tw-203",
     "name": "周玉蔻",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2786,8 +3045,9 @@
     }
   },
   {
-    "id": "tw-p042",
+    "id": "tw-204",
     "name": "徐永明",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2800,8 +3060,9 @@
     }
   },
   {
-    "id": "tw-p043",
+    "id": "tw-205",
     "name": "張俊雄",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2814,8 +3075,9 @@
     }
   },
   {
-    "id": "tw-t001",
+    "id": "tw-206",
     "name": "王建民",
+    "wikidata": "",
     "aka": ["建仔"],
     "properties": {
       "gender": ["男性"],
@@ -2828,8 +3090,9 @@
     }
   },
   {
-    "id": "tw-t002",
+    "id": "tw-207",
     "name": "陳金鋒",
+    "wikidata": "",
     "aka": ["鋒哥"],
     "properties": {
       "gender": ["男性"],
@@ -2842,8 +3105,9 @@
     }
   },
   {
-    "id": "tw-t003",
+    "id": "tw-208",
     "name": "郭泓志",
+    "wikidata": "",
     "aka": ["小小郭"],
     "properties": {
       "gender": ["男性"],
@@ -2856,8 +3120,9 @@
     }
   },
   {
-    "id": "tw-t004",
+    "id": "tw-209",
     "name": "陳偉殷",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2870,8 +3135,9 @@
     }
   },
   {
-    "id": "tw-t005",
+    "id": "tw-210",
     "name": "林書豪",
+    "wikidata": "",
     "aka": ["Jeremy Lin"],
     "properties": {
       "gender": ["男性"],
@@ -2884,8 +3150,9 @@
     }
   },
   {
-    "id": "tw-t006",
+    "id": "tw-211",
     "name": "戴資穎",
+    "wikidata": "",
     "aka": ["小戴"],
     "properties": {
       "gender": ["女性"],
@@ -2898,8 +3165,9 @@
     }
   },
   {
-    "id": "tw-t007",
+    "id": "tw-212",
     "name": "周天成",
+    "wikidata": "",
     "aka": ["小天"],
     "properties": {
       "gender": ["男性"],
@@ -2912,8 +3180,9 @@
     }
   },
   {
-    "id": "tw-t008",
+    "id": "tw-213",
     "name": "王齊麟",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2926,8 +3195,9 @@
     }
   },
   {
-    "id": "tw-t009",
+    "id": "tw-214",
     "name": "李洋",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2940,8 +3210,9 @@
     }
   },
   {
-    "id": "tw-t010",
+    "id": "tw-215",
     "name": "郭婞淳",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -2954,8 +3225,9 @@
     }
   },
   {
-    "id": "tw-t011",
+    "id": "tw-216",
     "name": "楊勇緯",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2968,8 +3240,9 @@
     }
   },
   {
-    "id": "tw-t012",
+    "id": "tw-217",
     "name": "曾雅妮",
+    "wikidata": "",
     "aka": ["Yani Tseng"],
     "properties": {
       "gender": ["女性"],
@@ -2982,8 +3255,9 @@
     }
   },
   {
-    "id": "tw-t013",
+    "id": "tw-218",
     "name": "盧彥勳",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2996,8 +3270,9 @@
     }
   },
   {
-    "id": "tw-t014",
+    "id": "tw-219",
     "name": "謝淑薇",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -3010,8 +3285,9 @@
     }
   },
   {
-    "id": "tw-t015",
+    "id": "tw-220",
     "name": "紀政",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -3024,9 +3300,10 @@
     }
   },
   {
-    "id": "tw-t016",
+    "id": "tw-221",
     "name": "楊傳廣",
-    "aka": ["亞洲鐵人"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台東縣"],
@@ -3038,8 +3315,9 @@
     }
   },
   {
-    "id": "tw-t017",
+    "id": "tw-222",
     "name": "江坤宇",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3052,8 +3330,9 @@
     }
   },
   {
-    "id": "tw-t018",
+    "id": "tw-223",
     "name": "張育成",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3066,8 +3345,9 @@
     }
   },
   {
-    "id": "tw-t019",
+    "id": "tw-224",
     "name": "大谷翔平",
+    "wikidata": "",
     "aka": ["Shohei Ohtani"],
     "properties": {
       "gender": ["男性"],
@@ -3080,8 +3360,9 @@
     }
   },
   {
-    "id": "tw-t020",
+    "id": "tw-225",
     "name": "鈴木一朗",
+    "wikidata": "",
     "aka": ["Ichiro"],
     "properties": {
       "gender": ["男性"],
@@ -3094,13 +3375,14 @@
     }
   },
   {
-    "id": "tw-t021",
+    "id": "tw-226",
     "name": "林昀儒",
-    "aka": ["小林同學"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": [],
-      "occupation": ["運動員", "桌球選手"],
+      "occupation": ["運動員","桌球選手"],
       "education": [],
       "award": [],
       "birth_decade": ["2000年代"],
@@ -3108,27 +3390,29 @@
     }
   },
   {
-    "id": "tw-t022",
+    "id": "tw-227",
     "name": "陳詩欣",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["運動員", "跆拳道選手"],
+      "occupation": ["運動員","跆拳道選手"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": ["奧運金牌","奧運獎牌", "離過婚"]
+      "tags": ["奧運金牌","奧運獎牌","離過婚"]
     }
   },
   {
-    "id": "tw-t023",
+    "id": "tw-228",
     "name": "朱木炎",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["桃園市"],
-      "occupation": ["運動員", "跆拳道選手"],
+      "occupation": ["運動員","跆拳道選手"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -3136,8 +3420,9 @@
     }
   },
   {
-    "id": "tw-t024",
+    "id": "tw-229",
     "name": "許淑淨",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -3150,8 +3435,9 @@
     }
   },
   {
-    "id": "tw-t025",
+    "id": "tw-230",
     "name": "潘政琮",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3164,13 +3450,14 @@
     }
   },
   {
-    "id": "tw-t026",
+    "id": "tw-231",
     "name": "林智勝",
-    "aka": ["大師兄"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": [],
-      "occupation": ["運動員", "棒球選手"],
+      "occupation": ["運動員","棒球選手"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -3178,13 +3465,14 @@
     }
   },
   {
-    "id": "tw-t027",
+    "id": "tw-232",
     "name": "彭政閔",
-    "aka": ["恰恰"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["高雄市"],
-      "occupation": ["運動員", "棒球選手"],
+      "occupation": ["運動員","棒球選手"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -3192,13 +3480,14 @@
     }
   },
   {
-    "id": "tw-t028",
+    "id": "tw-233",
     "name": "陳傑憲",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台南市"],
-      "occupation": ["運動員", "棒球選手"],
+      "occupation": ["運動員","棒球選手"],
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
@@ -3206,36 +3495,54 @@
     }
   },
   {
-    "id": "tw-t029",
+    "id": "tw-234",
     "name": "江宏傑",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["新竹市"],
-      "occupation": ["運動員", "桌球選手"],
+      "occupation": ["運動員","桌球選手"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚", "離過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-t030",
+    "id": "tw-235",
     "name": "福原愛",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["日本"],
-      "occupation": ["運動員", "桌球選手"],
+      "occupation": ["運動員","桌球選手"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚", "離過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-w002",
+    "id": "tw-236",
+    "name": "張愛玲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["中國"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1920年代"],
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-237",
     "name": "三毛",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -3248,8 +3555,9 @@
     }
   },
   {
-    "id": "tw-w003",
+    "id": "tw-238",
     "name": "白先勇",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3262,8 +3570,9 @@
     }
   },
   {
-    "id": "tw-w004",
+    "id": "tw-239",
     "name": "余光中",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3276,8 +3585,9 @@
     }
   },
   {
-    "id": "tw-w005",
+    "id": "tw-240",
     "name": "蔣勳",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3290,8 +3600,9 @@
     }
   },
   {
-    "id": "tw-w006",
+    "id": "tw-241",
     "name": "侯文詠",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3304,8 +3615,9 @@
     }
   },
   {
-    "id": "tw-w007",
+    "id": "tw-242",
     "name": "張大春",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3318,8 +3630,9 @@
     }
   },
   {
-    "id": "tw-w008",
+    "id": "tw-243",
     "name": "劉墉",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3332,8 +3645,9 @@
     }
   },
   {
-    "id": "tw-w009",
+    "id": "tw-244",
     "name": "吳明益",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3346,8 +3660,9 @@
     }
   },
   {
-    "id": "tw-w010",
+    "id": "tw-245",
     "name": "金庸",
+    "wikidata": "",
     "aka": ["查良鏞"],
     "properties": {
       "gender": ["男性"],
@@ -3360,8 +3675,9 @@
     }
   },
   {
-    "id": "tw-w011",
+    "id": "tw-246",
     "name": "瓊瑤",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -3374,8 +3690,9 @@
     }
   },
   {
-    "id": "tw-w012",
+    "id": "tw-247",
     "name": "朱天心",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -3388,9 +3705,10 @@
     }
   },
   {
-    "id": "tw-w013",
+    "id": "tw-248",
     "name": "林懷民",
-    "aka": ["雲門舞集"],
+    "wikidata": "",
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["嘉義縣"],
@@ -3402,8 +3720,24 @@
     }
   },
   {
-    "id": "tw-o001",
+    "id": "tw-249",
+    "name": "黃山料",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["金門縣"],
+      "occupation": ["作家","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-250",
     "name": "多米多羅",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3416,13 +3750,14 @@
     }
   },
   {
-    "id": "tw-o002",
+    "id": "tw-251",
     "name": "呱吉",
+    "wikidata": "",
     "aka": ["邱威傑"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台灣"],
-      "occupation": ["YouTuber", "政治人物"],
+      "occupation": ["YouTuber","政治人物"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -3430,8 +3765,9 @@
     }
   },
   {
-    "id": "tw-o003",
+    "id": "tw-252",
     "name": "陳幸妤",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
@@ -3440,12 +3776,13 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": ["結過婚", "離過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-o004",
+    "id": "tw-253",
     "name": "趙建銘",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3454,12 +3791,13 @@
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": ["結過婚", "離過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-o005",
+    "id": "tw-254",
     "name": "Andy 老師",
+    "wikidata": "",
     "aka": ["王崇睿"],
     "properties": {
       "gender": ["男性"],
@@ -3472,8 +3810,9 @@
     }
   },
   {
-    "id": "tw-o006",
+    "id": "tw-255",
     "name": "台南 Josh",
+    "wikidata": "",
     "aka": ["Josh"],
     "properties": {
       "gender": ["男性"],
@@ -3486,8 +3825,9 @@
     }
   },
   {
-    "id": "tw-o007",
+    "id": "tw-256",
     "name": "曾博恩",
+    "wikidata": "",
     "aka": ["博恩"],
     "properties": {
       "gender": ["男性"],
@@ -3500,8 +3840,9 @@
     }
   },
   {
-    "id": "tw-o008",
+    "id": "tw-257",
     "name": "金針菇",
+    "wikidata": "",
     "aka": [""],
     "properties": {
       "gender": ["女性"],
@@ -3514,8 +3855,9 @@
     }
   },
   {
-    "id": "tw-o009",
+    "id": "tw-258",
     "name": "理科太太",
+    "wikidata": "",
     "aka": [""],
     "properties": {
       "gender": ["女性"],
@@ -3524,12 +3866,13 @@
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚", "離過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-o010",
+    "id": "tw-259",
     "name": "Ryu",
+    "wikidata": "",
     "aka": [""],
     "properties": {
       "gender": ["男性"],
@@ -3538,12 +3881,13 @@
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
-      "tags": ["結過婚", "離過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
-    "id": "tw-o011",
+    "id": "tw-260",
     "name": "HOOK",
+    "wikidata": "",
     "aka": [""],
     "properties": {
       "gender": ["女性"],
@@ -3556,8 +3900,9 @@
     }
   },
   {
-    "id": "tw-o012",
+    "id": "tw-261",
     "name": "Joeman",
+    "wikidata": "",
     "aka": ["joeman"],
     "properties": {
       "gender": ["男性"],
@@ -3570,8 +3915,9 @@
     }
   },
   {
-    "id": "tw-o013",
+    "id": "tw-262",
     "name": "小尾巴",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3584,8 +3930,9 @@
     }
   },
   {
-    "id": "tw-o014",
+    "id": "tw-263",
     "name": "HowHow",
+    "wikidata": "",
     "aka": ["陳孜昊"],
     "properties": {
       "gender": ["男性"],
@@ -3598,8 +3945,9 @@
     }
   },
   {
-    "id": "tw-o015",
+    "id": "tw-264",
     "name": "阿翰",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -3612,13 +3960,14 @@
     }
   },
   {
-    "id": "tw-o016",
+    "id": "tw-265",
     "name": "蒼藍鴿",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台中市"],
-      "occupation": ["YouTuber", "醫師"],
+      "occupation": ["YouTuber","醫師"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1990年代"],
@@ -3626,13 +3975,14 @@
     }
   },
   {
-    "id": "tw-o017",
+    "id": "tw-266",
     "name": "77老大",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": [],
-      "occupation": ["YouTuber", "醫師"],
+      "occupation": ["YouTuber","醫師"],
       "education": ["長庚大學"],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -3640,15 +3990,91 @@
     }
   },
   {
-    "id": "tw-o018",
+    "id": "tw-267",
     "name": "阿部瑪利亞",
+    "wikidata": "",
     "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["日本"],
-      "occupation": ["YouTuber", "歌手","藝人","主持人"],
+      "occupation": ["YouTuber","歌手","藝人","主持人"],
       "education": [],
       "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-268",
+    "name": "統神",
+    "wikidata": "",
+    "aka": ["張嘉航"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-269",
+    "name": "國動",
+    "wikidata": "",
+    "aka": ["張葦航"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["YouTuber"],
+      "education": ["國立成功大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-270",
+    "name": "館長",
+    "wikidata": "",
+    "aka": ["陳之漢"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚","中過槍"]
+    }
+  },
+  {
+    "id": "tw-271",
+    "name": "阿滴",
+    "wikidata": "",
+    "aka": ["都省瑞"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-272",
+    "name": "滴妹",
+    "wikidata": "",
+    "aka": ["都冠伶"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["YouTuber","作家"],
+      "education": ["輔仁大學"],
+      "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
       "tags": []
     }
