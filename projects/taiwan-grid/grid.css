@@ -193,6 +193,12 @@ button:disabled{ opacity:.5; cursor:default; }
   text-align:center;
   max-width:420px;
 }
+/* empty until VERSION loads, so the footer must not reserve space for it */
+.footer-note .ver{
+  color:#b3bac4;
+  font-variant-numeric:tabular-nums;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
 
 /* ---------- bottom sheet ---------- */
 .sheet-bd{

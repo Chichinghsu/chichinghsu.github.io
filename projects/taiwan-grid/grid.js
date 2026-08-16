@@ -214,7 +214,7 @@ export async function mountGrid(cfg) {
   <a href="#" class="archive-link" id="archiveLink">挑戰以前的題目</a>
   <p class="footer-note">
     資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>
-    純屬好玩
+    純屬好玩<span class="ver" id="ver"></span>
   </p>
 </div>
 
@@ -294,6 +294,17 @@ export async function mountGrid(cfg) {
     .map(l => `<a href="${l.href}">${esc(l.text)}</a>`).join('');
   $('otGames').innerHTML = (cfg.links || [])
     .map(l => `<a class="gamecard" href="${l.href}">${esc(l.text)}</a>`).join('');
+
+  // VERSION is the single source of truth for the version number (see HISTORY.md).
+  // Fetched separately from the game data so a missing or unreadable file leaves the
+  // footer blank instead of blocking the board.
+  fetch('VERSION')
+    .then(r => (r.ok ? r.text() : Promise.reject()))
+    .then(t => {
+      const v = t.trim();
+      if (/^\d+\.\d+\.\d+/.test(v)) $('ver').textContent = ` · v${v}`;
+    })
+    .catch(() => { /* no version shown */ });
 
   /* ---------- per-puzzle state ---------- */
 
@@ -616,8 +627,11 @@ export async function mountGrid(cfg) {
     const { row, col } = cellConds[i];
     $('popCond').textContent = `${label(row)} × ${label(col)}`;
     if (mode === 'wrong') {
+      // matches() needs the whole person, so a wrong guess whose id has since left
+      // people.json can't be explained — drop the row rather than render a broken one.
       const rows = state.misses[i].map(pid => {
         const p = byId.get(pid);
+        if (!p) return '';
         const mark = key => `<span class="${matches(key, p) ? 'y' : 'n'}">` +
           `${matches(key, p) ? '✓' : '✗'} ${esc(label(key))}</span>`;
         return `<div class="wr-row"><b>${esc(p.name)}</b>${mark(row)}${mark(col)}</div>`;
