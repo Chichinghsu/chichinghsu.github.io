@@ -202,41 +202,41 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["新竹縣"],
-      "occupation": ["歌手","演員"],
+      "occupation": ["歌手","演員","藝人","主持人"],
       "education": [],
-      "award": ["金曲獎"],
+      "award": ["金曲獎","金鐘獎"],
       "birth_decade": ["1980年代"],
       "tags": []
     }
   },
   {
     "id": "tw-015",
-    "name": "陳嘉樺",
+    "name": "Ella",
     "wikidata": "",
-    "aka": ["Ella"],
+    "aka": ["陳嘉樺"],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["屏東縣"],
-      "occupation": ["歌手","演員","藝人"],
+      "occupation": ["歌手","演員","藝人","主持人"],
       "education": [],
-      "award": [],
+      "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "tags": ["結過婚"]
     }
   },
   {
     "id": "tw-016",
-    "name": "任家萱",
+    "name": "Selina",
     "wikidata": "",
-    "aka": ["Selina"],
+    "aka": ["任家萱"],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
       "occupation": ["歌手","演員","主持人","藝人"],
       "education": [],
-      "award": [],
+      "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
@@ -294,7 +294,7 @@
       "birth_city": ["新加坡"],
       "occupation": ["歌手","藝人"],
       "education": [],
-      "award": ["金曲獎"],
+      "award": ["金曲獎","金鐘獎"],
       "birth_decade": ["1970年代"],
       "tags": []
     }
@@ -457,9 +457,9 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","藝人"],
-      "education": [],
-      "award": ["金曲獎"],
+      "occupation": ["歌手","藝人","演員"],
+      "education": ["國立臺灣藝術大學"],
+      "award": ["金曲獎","金馬獎"],
       "birth_decade": ["1980年代"],
       "tags": ["選秀出身"]
     }
@@ -474,7 +474,7 @@
       "birth_city": ["台南市"],
       "occupation": ["歌手","藝人","演員"],
       "education": [],
-      "award": ["金曲獎","金鐘獎"],
+      "award": ["金曲獎","金鐘獎","金馬獎"],
       "birth_decade": ["1980年代"],
       "tags": []
     }
@@ -924,7 +924,7 @@
       "birth_city": ["嘉義市"],
       "occupation": ["歌手","演員"],
       "education": [],
-      "award": ["金馬獎"],
+      "award": ["金馬獎","金曲獎","金鐘獎"],
       "birth_decade": ["1950年代"],
       "tags": ["台語歌手"]
     }
@@ -1584,9 +1584,9 @@
       "birth_city": ["台北市"],
       "occupation": ["藝人","演員","主持人"],
       "education": [],
-      "award": [],
+      "award": ["金馬獎"],
       "birth_decade": ["1980年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1731,8 +1731,8 @@
     "aka": [],
     "properties": {
       "gender": ["女性"],
-      "birth_city": ["台中市"],
-      "occupation": ["演員"],
+      "birth_city": ["德國"],
+      "occupation": ["演員","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -1761,10 +1761,10 @@
     "aka": [],
     "properties": {
       "gender": ["男性"],
-      "birth_city": ["日本"],
-      "occupation": ["演員","歌手"],
+      "birth_city": ["台北市"],
+      "occupation": ["演員","歌手","藝人"],
       "education": [],
-      "award": [],
+      "award": ["金馬獎"],
       "birth_decade": ["1970年代"],
       "tags": []
     }
@@ -1946,7 +1946,7 @@
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
@@ -2347,9 +2347,9 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["新北市"],
-      "occupation": ["導演","作家","演員"],
+      "occupation": ["導演","作家","演員","主持人"],
       "education": [],
-      "award": ["金馬獎"],
+      "award": ["金馬獎","金曲獎","金鐘獎"],
       "birth_decade": ["1950年代"],
       "tags": ["結過婚"]
     }
@@ -2418,15 +2418,15 @@
     "id": "tw-162",
     "name": "鈕承澤",
     "wikidata": "",
-    "aka": ["豆導"],
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
       "occupation": ["導演","演員"],
       "education": [],
-      "award": [],
+      "award": ["金馬獎"],
       "birth_decade": ["1960年代"],
-      "tags": []
+      "tags": ["被關過"]
     }
   },
   {
@@ -5277,6 +5277,171 @@
       "award": [],
       "birth_decade": ["1990年代"],
       "tags": ["奧運獎牌"]
+    }
+  },
+  {
+    "id": "tw-353",
+    "name": "畢書盡",
+    "wikidata": "",
+    "aka": ["Bii"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["韓國"],
+      "occupation": ["歌手","演員","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-354",
+    "name": "巫建和",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["演員","藝人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-355",
+    "name": "許瑋甯",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["演員","藝人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-356",
+    "name": "邱澤",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["演員","藝人","運動員","排球選手","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-357",
+    "name": "林生祥",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","歌手"],
+      "education": ["淡江大學"],
+      "award": ["金曲獎","金馬獎"],
+      "birth_decade": ["1970年代"],
+      "tags": ["客語歌手"]
+    }
+  },
+  {
+    "id": "tw-358",
+    "name": "張國榮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["香港"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": ["金馬獎"],
+      "birth_decade": ["1950年代"],
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-359",
+    "name": "張棟樑",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-360",
+    "name": "光良",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-361",
+    "name": "品冠",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-362",
+    "name": "曹格",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-363",
+    "name": "蘇姿丰",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["企業家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
     }
   }
 ]
