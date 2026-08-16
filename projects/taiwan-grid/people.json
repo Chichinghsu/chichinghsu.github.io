@@ -2032,11 +2032,11 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["嘉義縣"],
-      "occupation": ["YouTuber","作家"],
+      "occupation": ["YouTuber","作家","歌手"],
       "education": [],
       "award": ["走鐘獎"],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚","被騙過錢","被炎上過"]
+      "tags": ["結過婚","被騙過錢","被炎上過","樂團主唱"]
     }
   },
   {
@@ -2507,7 +2507,7 @@
   {
     "id": "tw-168",
     "name": "侯友宜",
-    "wikidata": "",
+    "wikidata": "Q9187249",
     "aka": [],
     "properties": {
       "gender": ["男性"],
@@ -2516,7 +2516,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1950年代"],
-      "tags": ["選過總統","當過市長"]
+      "tags": ["選過總統","當過市長","結過婚"]
     }
   },
   {
@@ -2527,8 +2527,8 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["政治人物"],
-      "education": [],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立政治大學"],
       "award": [],
       "birth_decade": ["1960年代"],
       "tags": ["當過市長","結過婚"]
@@ -4076,6 +4076,456 @@
       "education": ["輔仁大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-273",
+    "name": "Toyz",
+    "wikidata": "",
+    "aka": ["劉偉健"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["香港"],
+      "occupation": ["YouTuber","電競選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["被關過"]
+    }
+  },
+  {
+    "id": "tw-274",
+    "name": "爆哥 Neal",
+    "wikidata": "",
+    "aka": ["劉昶亨"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["YouTuber","電競選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-275",
+    "name": "酷",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["法國"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-276",
+    "name": "千千",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["YouTuber","護理師","演員"],
+      "education": [],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-277",
+    "name": "張志祺",
+    "wikidata": "",
+    "aka": ["志祺"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新竹市"],
+      "occupation": ["YouTuber","作家"],
+      "education": ["國立成功大學"],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-278",
+    "name": "白癡公主",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["YouTuber"],
+      "education": ["國立臺灣藝術大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-279",
+    "name": "啾啾鞋",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["YouTuber"],
+      "education": ["國立中央大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-280",
+    "name": "三原慧悟",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["日本"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-281",
+    "name": "蔡哥",
+    "wikidata": "",
+    "aka": ["蔡宜紘"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["YouTuber"],
+      "education": ["淡江大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-282",
+    "name": "趙少康",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-283",
+    "name": "黃大洲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["政治人物"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1930年代"],
+      "tags": ["結過婚","當過市長"]
+    }
+  },
+  {
+    "id": "tw-284",
+    "name": "許淑華",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["南投縣"],
+      "occupation": ["政治人物"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["當過市長"]
+    }
+  },
+  {
+    "id": "tw-285",
+    "name": "涂醒哲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["政治人物","立法委員","醫師"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "tags": ["當過市長","結過婚"]
+    }
+  },
+  {
+    "id": "tw-286",
+    "name": "黃宏成台灣阿成世界偉人財神總統",
+    "wikidata": "",
+    "aka": ["黃宏成"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["政治人物"],
+      "education": ["東吳大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-287",
+    "name": "謝哲青",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["作家","主持人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-288",
+    "name": "浩子",
+    "wikidata": "",
+    "aka": ["謝炘昊"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["演員","主持人","藝人","歌手"],
+      "education": ["國立中央大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-289",
+    "name": "修杰楷",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["演員","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-290",
+    "name": "孫淑媚",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["演員","藝人","主持人","歌手"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["台語歌手"]
+    }
+  },
+  {
+    "id": "tw-291",
+    "name": "楊大正",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["演員","藝人","歌手"],
+      "education": [],
+      "award": ["金曲獎","金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["樂團主唱"]
+    }
+  },
+  {
+    "id": "tw-292",
+    "name": "黃奇斌",
+    "wikidata": "",
+    "aka": ["阿斌"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["演員","藝人","歌手"],
+      "education": ["國立政治大學"],
+      "award": ["金曲獎"],
+      "birth_decade": ["1990年代"],
+      "tags": ["樂團主唱","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-293",
+    "name": "王彩樺",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["演員","藝人","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-294",
+    "name": "康康",
+    "wikidata": "",
+    "aka": ["康晋榮"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["演員","藝人","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚","被騙過錢"]
+    }
+  },
+  {
+    "id": "tw-295",
+    "name": "卓文萱",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["演員","藝人","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-296",
+    "name": "汪東城",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["演員","藝人","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-297",
+    "name": "黃鴻升",
+    "wikidata": "",
+    "aka": ["小鬼"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["演員","藝人","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-298",
+    "name": "黃國倫",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","歌手","主持人"],
+      "education": [],
+      "award": ["金馬獎"],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-299",
+    "name": "張信哲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-300",
+    "name": "Albee",
+    "wikidata": "",
+    "aka": ["范乙霏"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": ["世新大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-301",
+    "name": "伊能靜",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-302",
+    "name": "谷阿莫",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["YouTuber","政治人物"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
       "tags": []
     }
   }
