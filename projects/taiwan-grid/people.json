@@ -682,7 +682,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台東縣"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -697,7 +697,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -712,7 +712,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台中市"],
-      "occupation": ["歌手","演員"],
+      "occupation": ["歌手","演員","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -742,11 +742,11 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["雲林縣"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1950年代"],
-      "tags": []
+      "tags": ["已故"]
     }
   },
   {
@@ -772,7 +772,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1950年代"],
@@ -787,7 +787,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
@@ -802,7 +802,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -817,7 +817,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["屏東縣"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -832,7 +832,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
-      "occupation": ["歌手","演員"],
+      "occupation": ["歌手","演員","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -847,7 +847,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
-      "occupation": ["歌手","演員"],
+      "occupation": ["歌手","演員","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
@@ -862,7 +862,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
-      "occupation": ["歌手","演員"],
+      "occupation": ["歌手","演員","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
@@ -5997,6 +5997,66 @@
       "award": [],
       "birth_decade": ["1980年代"],
       "tags": ["大聯盟"]
+    }
+  },
+  {
+    "id": "tw-401",
+    "name": "吳映潔",
+    "wikidata": "",
+    "aka": ["鬼鬼"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["歌手","主持人","藝人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-402",
+    "name": "敖犬",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","主持人","藝人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-403",
+    "name": "阿本",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["歌手","主持人","藝人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-404",
+    "name": "邱勝翊",
+    "wikidata": "",
+    "aka": ["王子"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","主持人","藝人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": []
     }
   }
 ]
