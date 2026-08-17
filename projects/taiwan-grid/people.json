@@ -6088,5 +6088,20 @@
       "birth_decade": ["1980年代"],
       "tags": ["結過婚"]
     }
+  },
+  {
+    "id": "tw-407",
+    "name": "楊文科",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新竹縣"],
+      "occupation": ["政治人物"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "tags": ["結過婚","當過市長"]
+    }
   }
 ]
