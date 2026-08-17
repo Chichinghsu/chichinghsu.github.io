@@ -415,8 +415,8 @@
       "occupation": ["歌手","演員"],
       "education": [],
       "award": [],
-      "birth_decade": ["1960年代"],
-      "tags": []
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚"]
     }
   },
   {
@@ -594,9 +594,9 @@
       "birth_city": ["台中市"],
       "occupation": ["歌手","藝人"],
       "education": [],
-      "award": [],
+      "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -607,7 +607,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["香港"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","演員","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
@@ -667,7 +667,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","演員","模特兒","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
@@ -892,7 +892,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["中國"],
-      "occupation": ["歌手","藝人"],
+      "occupation": ["歌手","藝人","演員"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -1132,11 +1132,11 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["彰化縣"],
-      "occupation": ["歌手","演員"],
-      "education": [],
+      "occupation": ["歌手","演員","導演"],
+      "education": ["文化大學"],
       "award": [],
       "birth_decade": ["1960年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1237,11 +1237,11 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員"],
+      "occupation": ["演員","模特兒","主持人","導演"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1271,7 +1271,7 @@
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1341,8 +1341,8 @@
     "aka": [],
     "properties": {
       "gender": ["男性"],
-      "birth_city": ["台北市"],
-      "occupation": ["演員"],
+      "birth_city": ["澎湖縣"],
+      "occupation": ["演員","模特兒"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -1597,7 +1597,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["藝人","主持人"],
+      "occupation": ["藝人","主持人","模特兒"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -1612,7 +1612,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員","藝人"],
+      "occupation": ["演員","藝人","模特兒"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -1747,11 +1747,11 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員","藝人"],
+      "occupation": ["演員","藝人","模特兒"],
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -3108,11 +3108,11 @@
     "id": "tw-208",
     "name": "郭泓志",
     "wikidata": "",
-    "aka": ["小小郭"],
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台南市"],
-      "occupation": ["運動員","棒球選手"],
+      "occupation": ["運動員","棒球選手","YouTuber"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -3832,7 +3832,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["YouTuber"],
+      "occupation": ["YouTuber","喜劇演員","主持人"],
       "education": ["國立臺灣大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
@@ -4103,7 +4103,7 @@
       "gender": ["男性"],
       "birth_city": ["彰化縣"],
       "occupation": ["YouTuber","電競選手"],
-      "education": [],
+      "education": ["南臺科技大學"],
       "award": [],
       "birth_decade": ["1990年代"],
       "tags": []
@@ -5442,6 +5442,486 @@
       "award": [],
       "birth_decade": ["1960年代"],
       "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-364",
+    "name": "犬青",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["樂團主唱"]
+    }
+  },
+  {
+    "id": "tw-365",
+    "name": "吳卓源",
+    "wikidata": "",
+    "aka": ["Julia"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["中國"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-366",
+    "name": "艾薇",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-367",
+    "name": "喬瑟夫",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["喜劇演員","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-368",
+    "name": "賀瓏",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["喜劇演員","YouTuber","主持人"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-369",
+    "name": "林柏昇",
+    "wikidata": "",
+    "aka": ["KID"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["演員","藝人","歌手","YouTuber","主持人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-370",
+    "name": "王仁甫",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台東縣"],
+      "occupation": ["演員","藝人","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-371",
+    "name": "孫協志",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["演員","藝人","歌手","主持人","作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-372",
+    "name": "許孟哲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["演員","藝人","歌手","主持人","運動員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-373",
+    "name": "趙孟姿",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","模特兒"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-374",
+    "name": "謝坤達",
+    "wikidata": "",
+    "aka": ["坤達"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","主持人","歌手","演員"],
+      "education": ["淡江大學"],
+      "award": ["金曲獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-375",
+    "name": "丁噹",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["中國"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-376",
+    "name": "安心亞",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","歌手","主持人","演員","模特兒"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-377",
+    "name": "巫苡萱",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","YouTuber","主持人","啦啦隊","模特兒"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-378",
+    "name": "柯有倫",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-379",
+    "name": "陳怡叡",
+    "wikidata": "",
+    "aka": ["Yuri"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["藝人","演員","啦啦隊","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-380",
+    "name": "短今",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["藝人","模特兒","啦啦隊","YouTuber","歌手"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-381",
+    "name": "峮峮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["藝人","啦啦隊","YouTuber","主持人"],
+      "education": ["南臺科技大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-382",
+    "name": "邊荷律",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["韓國"],
+      "occupation": ["藝人","啦啦隊","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-383",
+    "name": "蔡黃汝",
+    "wikidata": "",
+    "aka": ["豆花妹"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","主持人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-384",
+    "name": "陽帆",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-385",
+    "name": "楊繡惠",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","主持人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-386",
+    "name": "張立東",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-387",
+    "name": "莎莎",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-388",
+    "name": "風田",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["日本"],
+      "occupation": ["藝人","主持人","演員","歌手","模特兒"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-389",
+    "name": "愷樂",
+    "wikidata": "",
+    "aka": ["蝴蝶姐姐"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-390",
+    "name": "歐漢聲",
+    "wikidata": "",
+    "aka": ["歐弟"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-391",
+    "name": "陳為民",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["藝人","主持人","演員","作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-392",
+    "name": "黃韻玲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-393",
+    "name": "萬芳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金曲獎","金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-394",
+    "name": "周蕙",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-395",
+    "name": "李佳薇",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["藝人","演員","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["選秀出身"]
     }
   }
 ]

@@ -21,9 +21,9 @@
 
   { "id": 6,  "date": "2026-08-20",
     "rows": ["occupation:政治人物", "occupation:演員", "occupation:歌手"],
-    "columns": ["education:國立臺灣大學", "gender:男性", "birth_decade:1950年代"] },
+    "columns": ["tags:結過婚", "gender:女性", "birth_decade:1970年代"] },
 
   { "id": 7,  "date": "2026-08-21",
-    "rows": ["occupation:歌手", "occupation:音樂家", "tags:樂團主唱"],
+    "rows": ["occupation:歌手", "occupation:主持人", "tags:樂團主唱"],
     "columns": ["award:金曲獎", "gender:男性", "birth_decade:1980年代"] }
 ]
