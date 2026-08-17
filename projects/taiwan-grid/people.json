@@ -1597,7 +1597,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["藝人","主持人","模特兒"],
+      "occupation": ["藝人","主持人","模特兒","演員","歌手"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -1882,11 +1882,11 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員"],
+      "occupation": ["演員","藝人"],
       "education": [],
-      "award": [],
+      "award": ["金鐘獎","金馬獎"],
       "birth_decade": ["1950年代"],
-      "tags": []
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
@@ -1899,7 +1899,7 @@
       "birth_city": ["台北市"],
       "occupation": ["演員"],
       "education": [],
-      "award": ["金馬獎"],
+      "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1950年代"],
       "tags": []
     }
@@ -1912,7 +1912,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": [],
-      "occupation": ["演員"],
+      "occupation": ["演員","藝人","歌手"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1950年代"],
@@ -1972,11 +1972,11 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["藝人","演員"],
+      "occupation": ["藝人","演員","主持人"],
       "education": [],
       "award": [],
-      "birth_decade": ["1970年代"],
-      "tags": []
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1991,7 +1991,7 @@
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1960年代"],
-      "tags": []
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
@@ -2223,7 +2223,7 @@
     "id": "tw-149",
     "name": "李安",
     "wikidata": "",
-    "aka": ["Ang Lee"],
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["屏東縣"],
@@ -2238,7 +2238,7 @@
     "id": "tw-150",
     "name": "侯孝賢",
     "wikidata": "",
-    "aka": ["侯導"],
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["中國"],
@@ -2433,7 +2433,7 @@
     "id": "tw-163",
     "name": "蔡英文",
     "wikidata": "",
-    "aka": ["小英"],
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -2763,7 +2763,7 @@
     "id": "tw-185",
     "name": "唐鳳",
     "wikidata": "",
-    "aka": ["Audrey Tang"],
+    "aka": [],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
@@ -6057,6 +6057,36 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "tags": []
+    }
+  },
+  {
+    "id": "tw-405",
+    "name": "洪都拉斯",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["主持人","藝人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-406",
+    "name": "黃豪平",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["主持人","藝人","歌手","喜劇演員"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
     }
   }
 ]
