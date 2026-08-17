@@ -686,7 +686,7 @@
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
-      "tags": ["原住民"]
+      "tags": ["原住民","結過婚"]
     }
   },
   {
@@ -836,7 +836,7 @@
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -3078,7 +3078,7 @@
     "id": "tw-206",
     "name": "王建民",
     "wikidata": "",
-    "aka": ["建仔"],
+    "aka": [],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台南市"],
@@ -3086,7 +3086,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","大聯盟"]
     }
   },
   {
@@ -3101,7 +3101,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","大聯盟"]
     }
   },
   {
@@ -3116,7 +3116,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","大聯盟"]
     }
   },
   {
@@ -3131,7 +3131,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","大聯盟"]
     }
   },
   {
@@ -3326,7 +3326,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["2000年代"],
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -3341,7 +3341,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
-      "tags": ["原住民"]
+      "tags": ["原住民","結過婚","大聯盟"]
     }
   },
   {
@@ -5922,6 +5922,81 @@
       "award": [],
       "birth_decade": ["1980年代"],
       "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-396",
+    "name": "王柏融",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-397",
+    "name": "林哲瑄",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["大聯盟"]
+    }
+  },
+  {
+    "id": "tw-398",
+    "name": "林立",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-399",
+    "name": "周思齊",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-400",
+    "name": "胡金龍",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["大聯盟"]
     }
   }
 ]
