@@ -17,7 +17,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CCH's Blog" />
 <meta property="og:title" content="台灣大挑戰 | CCH's Blog" />
-<meta property="og:description" content="台灣大挑戰：捷運、國道、台鐵、九宮格。純靠記憶，你能填滿幾個？" />
+<meta property="og:description" content="台灣大挑戰：捷運、國道、台鐵、九宮格。你能想起幾個？" />
 <meta property="og:url" content="https://cchsu.tw/projects/" />
 <meta property="og:locale" content="zh_TW" />
 <link rel="icon" href="https://cchsu.tw/projects/img/logo.png" />
@@ -82,54 +82,10 @@ body > .nav, body > .hero, body > main, body > footer{position:relative; z-index
   .bg-tw.ghost{display:none;}
 }
 
-/* ---- nav ---- */
-.nav{
-  position:sticky; top:0; z-index:50;
-  height:var(--nav-h);
-  display:flex; align-items:center; gap:12px;
-  padding:0 14px;
-  background:var(--navy);
-  border-bottom:3px solid var(--green);
-}
-.nav .brand{display:flex; align-items:center; gap:9px; flex:0 0 auto;}
-.nav .brand img{height:34px; width:auto; display:block;}
-.nav .brand b{font-size:16px; font-weight:800; letter-spacing:.05em; white-space:nowrap;}
-.nav .spacer{flex:1;}
-
-/* Game picker: a plain <details> menu, so it works with no framework and
-   keyboard-closes on Esc. */
-.picker{position:relative; flex:0 0 auto;}
-.picker > summary{
-  list-style:none; cursor:pointer;
-  display:flex; align-items:center; gap:7px;
-  font-size:14px; font-weight:800; letter-spacing:.03em;
-  padding:8px 13px; border-radius:8px;
-  background:var(--green); color:#fff;
-}
-.picker > summary::-webkit-details-marker{display:none;}
-.picker > summary::after{content:"▾"; font-size:12px;}
-.picker[open] > summary{background:#00b866;}
-.picker-menu{
-  position:absolute; right:0; top:calc(100% + 8px);
-  min-width:230px; padding:6px;
-  background:var(--navy); border:2px solid rgba(255,255,255,.16); border-radius:10px;
-  box-shadow:0 14px 34px rgba(0,0,0,.55); 
-}
-.picker-menu .grp{
-  font-size:11px; font-weight:800; letter-spacing:.1em; color:var(--muted);
-  padding:8px 10px 4px;
-}
-.picker-menu a{
-  display:flex; align-items:center; gap:9px;
-  padding:9px 10px; border-radius:7px; font-size:14px; font-weight:600;
-}
-.picker-menu a .sw{width:9px; height:9px; border-radius:2px; flex:0 0 auto;}
-.picker-menu a:active{background:rgba(255,255,255,.10);}
-
 /* ---- hero ---- */
 .hero{padding:30px 18px 4px; text-align:center;}
 .hero h1{font-size:clamp(21px,5.6vw,30px); margin:0 0 8px; font-weight:800; letter-spacing:.05em;}
-.hero p{margin:0 auto; max-width:32em; color:var(--muted); font-size:14.5px;}
+.hero p{margin:0 auto; max-width:32em; color:var(--ink); font-size:14.5px;}
 
 /* ---- rows ---- */
 main{max-width:1100px; margin:0 auto; padding:4px 14px 52px;}
@@ -176,7 +132,7 @@ main{max-width:1100px; margin:0 auto; padding:4px 14px 52px;}
   font-size:28px; line-height:1; opacity:.5;
 }
 .card h3{margin:26px 0 5px; font-size:17px; font-weight:800; letter-spacing:.02em;}
-.card p{margin:0; font-size:13px; line-height:1.45; color:#b9c9e2;}
+.card p{margin:0; font-size:13px; line-height:1.45; color:--ink;}
 .card .go{
   margin-top:10px; font-size:11px; font-weight:800; letter-spacing:.12em;
   font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
