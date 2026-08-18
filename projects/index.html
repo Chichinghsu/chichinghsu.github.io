@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-61JT1LW9PW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-61JT1LW9PW', { 'anonymize_ip': true });
+</script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>台灣大挑戰 | CCH's Blog</title>
+<link rel="icon" type="image/x-icon" href="https://cchsu.tw/projects/img/logo.png">
+<meta name="description" content="台灣大挑戰：捷運、國道、台鐵、九宮格。純靠記憶，你能填滿幾個？" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CCH's Blog" />
+<meta property="og:title" content="台灣大挑戰 | CCH's Blog" />
+<meta property="og:description" content="台灣大挑戰：捷運、國道、台鐵、九宮格。純靠記憶，你能填滿幾個？" />
+<meta property="og:url" content="https://cchsu.tw/projects/" />
+<meta property="og:locale" content="zh_TW" />
+<link rel="icon" href="https://cchsu.tw/projects/img/logo.png" />
+
+<style>
+/* Palette lifted from the 台灣大挑戰 logo: navy field, and the four transport
+   accents (blue rail / green road / yellow HSR / red pin) reused as the card
+   category colours so a row is recognisable before you read its title.
+   Cards are flat single-colour blocks — no gradients, no hover states. */
+:root{
+  --navy:#0d2350;
+  --navy-deep:#081737;
+  --blue:#1a6fd4;
+  --green:#00a05a;
+  --yellow:#f5b800;
+  --red:#e8312f;
+  --ink:#f4f7fb;
+  --muted:#9db0cd;
+  --nav-h:56px;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  /* Navy field with a soft bloom behind the nav, so the top isn't flat. */
+  background:
+    radial-gradient(120% 60% at 50% -10%, #16305f 0%, transparent 60%),
+    var(--navy-deep);
+  background-attachment:fixed;
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  line-height:1.5;
+}
+a{color:inherit;text-decoration:none;}
+
+/* ---- background: the island itself ----
+   Fixed behind everything, bleeding off the top and bottom of the viewport, so
+   scrolling the cards reads as travelling down the island. The faint lat/lon
+   graticule gives the empty navy some structure. */
+.bg{
+  position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none;
+  background:
+    repeating-linear-gradient(to right, rgba(255,255,255,.022) 0 1px, transparent 1px 68px),
+    repeating-linear-gradient(to bottom, rgba(255,255,255,.022) 0 1px, transparent 1px 68px);
+}
+.bg-tw{
+  position:absolute; top:-6vh; right:-4vw; height:112vh; width:auto;
+  filter:drop-shadow(0 0 44px rgba(0,160,90,.35));
+}
+/* A second, offset copy of the same outline — a hard "sticker" shadow that
+   keeps the shape legible where it overlaps the cards. */
+.bg-tw.ghost{
+  right:-6vw; top:-4vh;
+  filter:none; opacity:.5;
+}
+body > .nav, body > .hero, body > main, body > footer{position:relative; z-index:1;}
+
+@media (max-width:700px){
+  /* On a phone the island would sit right under the cards, so push it out to
+     the edge and shrink it into a watermark. */
+  .bg-tw{height:88vh; top:auto; bottom:-8vh; right:-22vw;}
+  .bg-tw.ghost{display:none;}
+}
+
+/* ---- nav ---- */
+.nav{
+  position:sticky; top:0; z-index:50;
+  height:var(--nav-h);
+  display:flex; align-items:center; gap:12px;
+  padding:0 14px;
+  background:var(--navy);
+  border-bottom:3px solid var(--green);
+}
+.nav .brand{display:flex; align-items:center; gap:9px; flex:0 0 auto;}
+.nav .brand img{height:34px; width:auto; display:block;}
+.nav .brand b{font-size:16px; font-weight:800; letter-spacing:.05em; white-space:nowrap;}
+.nav .spacer{flex:1;}
+
+/* Game picker: a plain <details> menu, so it works with no framework and
+   keyboard-closes on Esc. */
+.picker{position:relative; flex:0 0 auto;}
+.picker > summary{
+  list-style:none; cursor:pointer;
+  display:flex; align-items:center; gap:7px;
+  font-size:14px; font-weight:800; letter-spacing:.03em;
+  padding:8px 13px; border-radius:8px;
+  background:var(--green); color:#fff;
+}
+.picker > summary::-webkit-details-marker{display:none;}
+.picker > summary::after{content:"▾"; font-size:12px;}
+.picker[open] > summary{background:#00b866;}
+.picker-menu{
+  position:absolute; right:0; top:calc(100% + 8px);
+  min-width:230px; padding:6px;
+  background:var(--navy); border:2px solid rgba(255,255,255,.16); border-radius:10px;
+  box-shadow:0 14px 34px rgba(0,0,0,.55); 
+}
+.picker-menu .grp{
+  font-size:11px; font-weight:800; letter-spacing:.1em; color:var(--muted);
+  padding:8px 10px 4px;
+}
+.picker-menu a{
+  display:flex; align-items:center; gap:9px;
+  padding:9px 10px; border-radius:7px; font-size:14px; font-weight:600;
+}
+.picker-menu a .sw{width:9px; height:9px; border-radius:2px; flex:0 0 auto;}
+.picker-menu a:active{background:rgba(255,255,255,.10);}
+
+/* ---- hero ---- */
+.hero{padding:30px 18px 4px; text-align:center;}
+.hero h1{font-size:clamp(21px,5.6vw,30px); margin:0 0 8px; font-weight:800; letter-spacing:.05em;}
+.hero p{margin:0 auto; max-width:32em; color:var(--muted); font-size:14.5px;}
+
+/* ---- rows ---- */
+main{max-width:1100px; margin:0 auto; padding:4px 14px 52px;}
+.row{margin:28px 0 0;}
+.row-head{display:flex; align-items:center; gap:9px; margin:0 2px 11px;}
+.row-head h2{font-size:16px; margin:0; font-weight:800; letter-spacing:.04em;}
+.row-head .bar{width:5px; height:18px; border-radius:2px; background:var(--rc);}
+.row-head .count{font-size:12px; color:var(--muted);}
+
+.cards{display:grid; gap:12px; grid-template-columns:repeat(auto-fill, minmax(228px,1fr));}
+
+/* Translucent HUD panel: the row colour only tints the glass and lights the
+   edges, so weight comes from the outline and the grid, not a colour fill. */
+.card{
+  position:relative; display:flex; flex-direction:column; justify-content:flex-end;
+  min-height:132px; padding:14px;
+  color:#eef3fa;
+  border:1px solid color-mix(in srgb, var(--rc) 55%, transparent);
+  border-radius:10px;
+  background:
+    rgba(10,26,56,.55);
+  -webkit-backdrop-filter:blur(6px);
+  backdrop-filter:blur(6px);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, var(--rc) 45%, transparent),
+    0 0 0 1px rgba(0,0,0,.35),
+    0 8px 22px rgba(0,0,0,.35);
+  overflow:hidden;
+  isolation:isolate;
+}
+/* Faint circuit grid + a colour bloom in the corner. Both sit behind content. */
+.card::before{
+  content:""; position:absolute; inset:0; z-index:-1;
+  background:rgba(10,26,56,.55);
+}
+/* Bracket in the top-left corner — the HUD tell. */
+.card::after{
+  content:""; position:absolute; top:9px; left:9px; width:13px; height:13px;
+  border-top:2px solid var(--rc); border-left:2px solid var(--rc);
+  border-top-left-radius:3px; opacity:.9;
+}
+.card .glyph{
+  position:absolute; top:9px; right:11px;
+  font-size:28px; line-height:1; opacity:.5;
+}
+.card h3{margin:26px 0 5px; font-size:17px; font-weight:800; letter-spacing:.02em;}
+.card p{margin:0; font-size:13px; line-height:1.45; color:#b9c9e2;}
+.card .go{
+  margin-top:10px; font-size:11px; font-weight:800; letter-spacing:.12em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--rc);
+  filter:brightness(1.35);
+}
+.card .badge{
+  position:absolute; top:10px; left:28px;
+  font-size:10px; font-weight:800; letter-spacing:.14em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  padding:2px 6px; border-radius:3px;
+  border:1px solid color-mix(in srgb, var(--rc) 70%, transparent);
+  background:color-mix(in srgb, var(--rc) 22%, transparent);
+  color:#fff;
+}
+.card:active{border-color:var(--rc);}
+.card:focus-visible{outline:2px solid #fff; outline-offset:2px;}
+
+footer{text-align:center; padding:0 20px 40px; color:var(--muted); font-size:13px;}
+footer a{text-decoration:underline; text-underline-offset:3px;}
+
+@media (max-width:560px){
+  .nav .brand b{display:none;}
+  .cards{grid-template-columns:repeat(2,1fr); gap:10px;}
+  .card{min-height:114px; padding:12px;}
+  .card h3{font-size:15px;}
+  .card p{font-size:12px;}
+  .card .glyph{font-size:24px;}
+}
+</style>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <svg class="bg-tw ghost" viewBox="0 0 528.4 1000" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <path d="M501.4 99.7 L482.2 122.9 L479.2 127.9 L476.7 134.7 L475.2 142.5 L474.6 150.3 L474.9 157.9 L478.3 173.7 L478.1 177.8 L476.6 181.8 L476.9 190.1 L480.4 196.5 L487.1 200.6 L494.9 202.0 L491.6 203.5 L488.4 203.9 L485.8 204.7 L486.5 211.2 L487.9 217.8 L487.1 223.6 L480.9 227.1 L480.5 229.6 L481.3 232.6 L483.0 235.4 L483.6 238.3 L481.0 240.7 L474.6 244.4 L467.4 252.7 L467.1 255.9 L467.6 263.0 L466.4 265.8 L465.1 268.1 L464.3 271.4 L463.7 277.9 L462.1 280.9 L462.7 284.0 L464.5 286.5 L465.4 289.2 L464.0 291.6 L458.0 297.4 L451.5 306.3 L446.8 310.1 L446.0 314.3 L438.3 321.0 L435.7 323.5 L432.8 329.7 L429.9 342.2 L422.2 353.3 L420.7 357.8 L420.9 362.7 L422.7 368.1 L424.3 370.3 L426.5 372.8 L426.6 376.1 L425.5 379.9 L421.7 385.7 L420.9 389.3 L420.5 395.9 L417.2 412.6 L410.7 430.2 L402.4 471.4 L397.5 481.5 L386.1 547.5 L381.4 574.8 L379.1 579.8 L371.8 589.5 L369.1 594.6 L367.0 600.9 L365.5 612.7 L365.6 623.2 L364.6 633.2 L359.6 643.5 L357.5 645.7 L352.5 649.3 L350.4 651.6 L349.3 653.9 L347.6 659.9 L342.6 668.6 L339.6 682.2 L337.4 688.2 L326.8 703.6 L325.5 706.4 L311.2 718.6 L307.8 722.5 L307.4 725.3 L308.0 731.8 L307.8 734.7 L306.6 738.0 L304.4 741.6 L299.5 747.9 L294.6 752.5 L278.1 763.7 L266.9 776.0 L264.2 777.4 L262.0 780.3 L256.7 794.2 L254.0 799.4 L245.7 809.9 L242.4 816.1 L240.4 828.8 L235.5 846.3 L225.7 863.6 L224.3 869.5 L222.5 886.3 L222.8 901.5 L223.7 955.3 L222.1 962.9 L219.5 969.2 L216.0 971.7 L211.9 975.6 L212.1 984.3 L213.5 993.8 L213.2 1000.0 L208.5 992.9 L201.6 987.5 L193.4 983.8 L185.3 981.8 L185.0 988.7 L182.6 991.2 L179.1 990.3 L175.3 987.1 L175.1 984.6 L176.4 977.3 L170.7 967.7 L170.3 965.1 L170.7 959.6 L170.7 948.4 L171.3 945.1 L173.8 941.5 L174.4 938.3 L153.9 884.6 L152.2 881.6 L146.5 874.5 L142.0 864.3 L140.0 861.3 L131.6 854.6 L128.2 852.7 L126.0 851.5 L125.0 847.6 L119.8 843.3 L109.5 838.3 L104.9 835.0 L99.9 830.7 L97.6 829.2 L94.6 827.9 L91.1 828.7 L75.4 818.2 L63.0 800.3 L76.1 816.3 L74.6 808.7 L72.4 804.5 L70.6 801.2 L65.2 794.9 L55.9 786.3 L52.3 781.9 L50.6 777.0 L52.9 772.2 L54.0 767.9 L52.5 761.9 L49.7 756.0 L44.7 748.1 L39.9 737.5 L38.9 732.9 L39.0 729.8 L40.5 726.1 L40.9 723.6 L39.0 721.3 L37.0 717.5 L34.1 712.5 L31.1 696.3 L30.1 689.8 L28.3 686.1 L24.3 682.0 L29.2 678.5 L31.9 672.2 L30.8 666.8 L24.3 665.9 L21.9 671.3 L20.1 674.1 L16.7 673.9 L15.3 671.6 L15.9 664.4 L15.0 661.8 L10.8 660.0 L8.5 662.1 L6.6 665.1 L3.8 665.9 L0.8 663.3 L0.0 659.7 L0.7 656.1 L1.9 653.7 L4.9 652.2 L8.7 651.6 L11.9 650.6 L13.0 647.5 L1.9 643.5 L10.0 641.4 L9.2 638.7 L4.8 634.9 L1.9 631.5 L2.6 627.4 L5.2 625.9 L8.0 625.0 L9.3 622.4 L8.5 618.3 L7.1 615.0 L8.1 611.9 L9.5 608.1 L11.8 605.4 L11.8 600.7 L15.3 591.4 L19.6 589.0 L15.7 586.4 L17.3 582.2 L21.3 581.9 L24.7 580.4 L25.3 577.7 L23.0 579.3 L18.5 578.7 L18.5 575.3 L21.0 569.5 L24.8 569.2 L30.4 569.3 L26.6 558.5 L22.3 550.2 L24.3 546.4 L21.1 542.9 L23.3 538.9 L24.3 536.3 L28.4 530.9 L19.6 531.5 L19.5 522.5 L24.2 517.2 L23.9 500.2 L24.7 487.6 L27.5 477.5 L32.0 469.6 L33.3 459.3 L35.7 450.2 L37.0 447.1 L43.4 438.7 L44.4 436.0 L50.9 430.0 L52.6 426.9 L54.2 419.6 L55.5 416.5 L62.8 409.5 L64.9 406.6 L67.7 398.6 L71.9 390.7 L77.8 374.1 L80.6 369.3 L83.7 366.2 L86.3 364.5 L90.1 361.9 L90.8 358.9 L92.0 356.1 L97.3 351.9 L98.5 348.8 L99.1 338.4 L100.0 335.6 L102.8 332.9 L114.4 319.4 L115.8 315.2 L119.3 312.4 L121.5 305.8 L124.3 293.2 L133.9 276.7 L136.8 266.5 L140.2 260.9 L153.9 245.8 L161.4 237.5 L163.3 233.4 L164.2 226.6 L166.5 220.9 L172.6 210.3 L174.2 203.9 L175.8 201.1 L182.8 199.1 L184.7 196.9 L185.9 194.2 L187.3 191.7 L191.6 187.2 L196.3 183.8 L202.1 182.3 L209.5 183.7 L208.5 178.1 L211.3 174.3 L215.1 170.5 L217.0 164.6 L221.5 160.9 L223.1 155.3 L228.8 143.7 L231.0 140.7 L231.7 137.4 L230.0 133.2 L231.5 130.2 L233.3 128.3 L234.9 125.9 L235.5 122.0 L236.3 119.0 L238.5 116.1 L241.2 113.9 L243.8 113.0 L244.3 108.8 L246.6 102.6 L248.7 99.2 L257.9 84.8 L265.0 76.3 L272.4 70.1 L291.4 63.9 L295.8 61.2 L299.6 57.9 L304.2 55.4 L313.4 52.1 L334.1 48.4 L345.7 46.3 L350.6 44.4 L357.0 39.2 L361.2 37.9 L364.3 37.8 L367.9 39.0 L369.8 41.7 L371.1 44.5 L376.3 44.6 L372.6 38.8 L366.6 32.9 L363.4 30.9 L364.3 28.2 L368.2 25.7 L371.1 19.5 L374.4 13.6 L381.2 7.5 L391.0 2.5 L402.4 0.0 L413.5 1.3 L418.1 4.7 L428.4 19.1 L432.1 26.7 L436.1 25.4 L439.3 25.1 L441.4 26.6 L439.3 29.7 L440.5 33.2 L444.3 35.9 L446.8 38.6 L450.8 40.0 L497.9 51.3 L501.2 53.4 L499.6 57.2 L499.1 60.2 L499.8 65.4 L502.3 74.3 L505.0 78.5 L514.4 78.3 L518.1 78.7 L522.5 79.9 L526.3 81.8 L528.4 84.4 L507.1 94.8 L501.4 99.7 Z" fill="rgba(0,0,0,.30)" stroke="none"/>
+  </svg>
+  <svg class="bg-tw" viewBox="0 0 528.4 1000" preserveAspectRatio="xMidYMid meet" focusable="false">
+    <defs>
+      <linearGradient id="twFill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="#00a05a" stop-opacity=".26"/>
+        <stop offset="42%"  stop-color="#00a05a" stop-opacity=".22"/>
+        <stop offset="100%" stop-color="#00a05a" stop-opacity=".14"/>
+      </linearGradient>
+    </defs>
+    <!-- Same island outline the quizzes draw their maps on (projects/*/data.json). -->
+    <path d="M501.4 99.7 L482.2 122.9 L479.2 127.9 L476.7 134.7 L475.2 142.5 L474.6 150.3 L474.9 157.9 L478.3 173.7 L478.1 177.8 L476.6 181.8 L476.9 190.1 L480.4 196.5 L487.1 200.6 L494.9 202.0 L491.6 203.5 L488.4 203.9 L485.8 204.7 L486.5 211.2 L487.9 217.8 L487.1 223.6 L480.9 227.1 L480.5 229.6 L481.3 232.6 L483.0 235.4 L483.6 238.3 L481.0 240.7 L474.6 244.4 L467.4 252.7 L467.1 255.9 L467.6 263.0 L466.4 265.8 L465.1 268.1 L464.3 271.4 L463.7 277.9 L462.1 280.9 L462.7 284.0 L464.5 286.5 L465.4 289.2 L464.0 291.6 L458.0 297.4 L451.5 306.3 L446.8 310.1 L446.0 314.3 L438.3 321.0 L435.7 323.5 L432.8 329.7 L429.9 342.2 L422.2 353.3 L420.7 357.8 L420.9 362.7 L422.7 368.1 L424.3 370.3 L426.5 372.8 L426.6 376.1 L425.5 379.9 L421.7 385.7 L420.9 389.3 L420.5 395.9 L417.2 412.6 L410.7 430.2 L402.4 471.4 L397.5 481.5 L386.1 547.5 L381.4 574.8 L379.1 579.8 L371.8 589.5 L369.1 594.6 L367.0 600.9 L365.5 612.7 L365.6 623.2 L364.6 633.2 L359.6 643.5 L357.5 645.7 L352.5 649.3 L350.4 651.6 L349.3 653.9 L347.6 659.9 L342.6 668.6 L339.6 682.2 L337.4 688.2 L326.8 703.6 L325.5 706.4 L311.2 718.6 L307.8 722.5 L307.4 725.3 L308.0 731.8 L307.8 734.7 L306.6 738.0 L304.4 741.6 L299.5 747.9 L294.6 752.5 L278.1 763.7 L266.9 776.0 L264.2 777.4 L262.0 780.3 L256.7 794.2 L254.0 799.4 L245.7 809.9 L242.4 816.1 L240.4 828.8 L235.5 846.3 L225.7 863.6 L224.3 869.5 L222.5 886.3 L222.8 901.5 L223.7 955.3 L222.1 962.9 L219.5 969.2 L216.0 971.7 L211.9 975.6 L212.1 984.3 L213.5 993.8 L213.2 1000.0 L208.5 992.9 L201.6 987.5 L193.4 983.8 L185.3 981.8 L185.0 988.7 L182.6 991.2 L179.1 990.3 L175.3 987.1 L175.1 984.6 L176.4 977.3 L170.7 967.7 L170.3 965.1 L170.7 959.6 L170.7 948.4 L171.3 945.1 L173.8 941.5 L174.4 938.3 L153.9 884.6 L152.2 881.6 L146.5 874.5 L142.0 864.3 L140.0 861.3 L131.6 854.6 L128.2 852.7 L126.0 851.5 L125.0 847.6 L119.8 843.3 L109.5 838.3 L104.9 835.0 L99.9 830.7 L97.6 829.2 L94.6 827.9 L91.1 828.7 L75.4 818.2 L63.0 800.3 L76.1 816.3 L74.6 808.7 L72.4 804.5 L70.6 801.2 L65.2 794.9 L55.9 786.3 L52.3 781.9 L50.6 777.0 L52.9 772.2 L54.0 767.9 L52.5 761.9 L49.7 756.0 L44.7 748.1 L39.9 737.5 L38.9 732.9 L39.0 729.8 L40.5 726.1 L40.9 723.6 L39.0 721.3 L37.0 717.5 L34.1 712.5 L31.1 696.3 L30.1 689.8 L28.3 686.1 L24.3 682.0 L29.2 678.5 L31.9 672.2 L30.8 666.8 L24.3 665.9 L21.9 671.3 L20.1 674.1 L16.7 673.9 L15.3 671.6 L15.9 664.4 L15.0 661.8 L10.8 660.0 L8.5 662.1 L6.6 665.1 L3.8 665.9 L0.8 663.3 L0.0 659.7 L0.7 656.1 L1.9 653.7 L4.9 652.2 L8.7 651.6 L11.9 650.6 L13.0 647.5 L1.9 643.5 L10.0 641.4 L9.2 638.7 L4.8 634.9 L1.9 631.5 L2.6 627.4 L5.2 625.9 L8.0 625.0 L9.3 622.4 L8.5 618.3 L7.1 615.0 L8.1 611.9 L9.5 608.1 L11.8 605.4 L11.8 600.7 L15.3 591.4 L19.6 589.0 L15.7 586.4 L17.3 582.2 L21.3 581.9 L24.7 580.4 L25.3 577.7 L23.0 579.3 L18.5 578.7 L18.5 575.3 L21.0 569.5 L24.8 569.2 L30.4 569.3 L26.6 558.5 L22.3 550.2 L24.3 546.4 L21.1 542.9 L23.3 538.9 L24.3 536.3 L28.4 530.9 L19.6 531.5 L19.5 522.5 L24.2 517.2 L23.9 500.2 L24.7 487.6 L27.5 477.5 L32.0 469.6 L33.3 459.3 L35.7 450.2 L37.0 447.1 L43.4 438.7 L44.4 436.0 L50.9 430.0 L52.6 426.9 L54.2 419.6 L55.5 416.5 L62.8 409.5 L64.9 406.6 L67.7 398.6 L71.9 390.7 L77.8 374.1 L80.6 369.3 L83.7 366.2 L86.3 364.5 L90.1 361.9 L90.8 358.9 L92.0 356.1 L97.3 351.9 L98.5 348.8 L99.1 338.4 L100.0 335.6 L102.8 332.9 L114.4 319.4 L115.8 315.2 L119.3 312.4 L121.5 305.8 L124.3 293.2 L133.9 276.7 L136.8 266.5 L140.2 260.9 L153.9 245.8 L161.4 237.5 L163.3 233.4 L164.2 226.6 L166.5 220.9 L172.6 210.3 L174.2 203.9 L175.8 201.1 L182.8 199.1 L184.7 196.9 L185.9 194.2 L187.3 191.7 L191.6 187.2 L196.3 183.8 L202.1 182.3 L209.5 183.7 L208.5 178.1 L211.3 174.3 L215.1 170.5 L217.0 164.6 L221.5 160.9 L223.1 155.3 L228.8 143.7 L231.0 140.7 L231.7 137.4 L230.0 133.2 L231.5 130.2 L233.3 128.3 L234.9 125.9 L235.5 122.0 L236.3 119.0 L238.5 116.1 L241.2 113.9 L243.8 113.0 L244.3 108.8 L246.6 102.6 L248.7 99.2 L257.9 84.8 L265.0 76.3 L272.4 70.1 L291.4 63.9 L295.8 61.2 L299.6 57.9 L304.2 55.4 L313.4 52.1 L334.1 48.4 L345.7 46.3 L350.6 44.4 L357.0 39.2 L361.2 37.9 L364.3 37.8 L367.9 39.0 L369.8 41.7 L371.1 44.5 L376.3 44.6 L372.6 38.8 L366.6 32.9 L363.4 30.9 L364.3 28.2 L368.2 25.7 L371.1 19.5 L374.4 13.6 L381.2 7.5 L391.0 2.5 L402.4 0.0 L413.5 1.3 L418.1 4.7 L428.4 19.1 L432.1 26.7 L436.1 25.4 L439.3 25.1 L441.4 26.6 L439.3 29.7 L440.5 33.2 L444.3 35.9 L446.8 38.6 L450.8 40.0 L497.9 51.3 L501.2 53.4 L499.6 57.2 L499.1 60.2 L499.8 65.4 L502.3 74.3 L505.0 78.5 L514.4 78.3 L518.1 78.7 L522.5 79.9 L526.3 81.8 L528.4 84.4 L507.1 94.8 L501.4 99.7 Z" fill="url(#twFill)" stroke="rgba(255,255,255,.20)" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+  </svg>
+</div>
+
+<header class="hero">
+<h1 style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+    <img src="/projects/img/logo.png" alt="台灣大挑戰" width="64" height="64" onerror="this.remove()"/>
+    <span>台灣大挑戰</span>
+</h1>
+<p>你對台灣多了解？馬上開始挑戰</p>
+</header>
+
+<main id="rows"></main>
+
+<footer>
+  純屬好玩，資料難免有誤。歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a>。
+</footer>
+
+<script>
+// One place to add a new game: append to the right row and it shows up in both
+// the nav picker and the card grid.
+const ROWS = [
+  { title:'捷運挑戰', color:'var(--blue)', games:[
+    { title:'雙北捷運',   teaser:'紅橘藍綠棕加環狀線，一百多站你記得幾個？', path:'/projects/metro/',      glyph:'🚇' },
+    { title:'高雄捷運',   teaser:'紅線、橘線，再加上環狀輕軌一圈。',         path:'/projects/khh_metro/',  glyph:'🚈' },
+  ]},
+  { title:'國道挑戰', color:'var(--green)', games:[
+    { title:'國道一號',   teaser:'中山高速公路，交流道、系統、服務區。',   path:'/projects/freeway/',    glyph:'🛣️', badge:'NEW' },
+    { title:'國道三號',   teaser:'福爾摩沙高速公路，交流道、系統、服務區。',           path:'/projects/freeway3/',   glyph:'🛣️', badge:'NEW' },
+  ]},
+  { title:'鐵路挑戰', color:'var(--yellow)', games:[
+    { title:'台鐵西部幹線', teaser:'山線海線一百多個站，基隆到屏東。',     path:'/projects/tra/',        glyph:'🚆' },
+    // { title:'台鐵東部幹線', teaser:'宜蘭、花東縱谷、南迴，一路到屏東。',     path:'/projects/tra-east/',   glyph:'🚂', badge:'NEW' },
+  ]},
+  { title:'其他挑戰', color:'var(--red)', games:[
+    { title:'台灣九宮格', teaser:'每天一題，回答 3×3 在台灣有名的人九宮格。', path:'/projects/taiwan-grid/', glyph:'📍' },
+    { title:'日本車牌制霸 App', teaser:'蒐集日本各地車牌的 iOS App。',          path:'https://apps.apple.com/ph/app/id6774146443', glyph:'🚗', external:true },
+  ]},
+];
+
+const attrs = g => g.external ? ' target="_blank" rel="nofollow noopener"' : '';
+
+document.getElementById('rows').innerHTML = ROWS.map(row => `
+  <section class="row" style="--rc:${row.color}">
+    <div class="row-head">
+      <span class="bar"></span>
+      <h2>${row.title}</h2>
+    </div>
+    <div class="cards">
+      ${row.games.map(g => `
+        <a class="card" href="${g.path}"${attrs(g)}>
+          <span class="glyph" aria-hidden="true">${g.glyph}</span>
+          ${g.badge ? `<span class="badge">${g.badge}</span>` : ''}
+          <h3>${g.title}</h3>
+          <p>${g.teaser}</p>
+          <span class="go">${g.external ? 'App Store →' : '開始挑戰 →'}</span>
+        </a>`).join('')}
+    </div>
+  </section>`).join('');
+</script>
+
+</body>
+</html>
