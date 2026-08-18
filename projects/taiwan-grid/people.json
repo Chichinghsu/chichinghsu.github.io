@@ -6103,5 +6103,65 @@
       "birth_decade": ["1950年代"],
       "tags": ["結過婚","當過市長"]
     }
+  },
+  {
+    "id": "tw-408",
+    "name": "周渝民",
+    "wikidata": "",
+    "aka": ["仔仔"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["藝人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-409",
+    "name": "言承旭",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["藝人","演員","歌手","模特兒"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-410",
+    "name": "朱孝天",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["原住民","結過婚"]
+    }
+  },
+  {
+    "id": "tw-411",
+    "name": "吳建豪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["美國"],
+      "occupation": ["藝人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["離過婚","結過婚"]
+    }
   }
 ]
