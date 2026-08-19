@@ -1733,7 +1733,7 @@
       "gender": ["女性"],
       "birth_city": ["德國"],
       "occupation": ["演員","藝人"],
-      "education": [],
+      "education": ["國立臺北大學"],
       "award": [],
       "birth_decade": ["1980年代"],
       "tags": []
@@ -6390,6 +6390,21 @@
     }
   },
   {
+    "id": "tw-427",
+    "name": "陳亭妃",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
     "id": "tw-428",
     "name": "陳妤",
     "wikidata": "",
@@ -6876,12 +6891,117 @@
     "aka": [],
     "properties": {
       "gender": ["男性"],
-      "birth_city": ["高雄是"],
+      "birth_city": ["高雄市"],
       "occupation": ["主持人","體育主播","藝人"],
       "education": ["文化大學"],
       "award": [],
       "birth_decade": ["1970年代"],
       "tags": ["離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-461",
+    "name": "藍又時",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["演員","歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-462",
+    "name": "葉舒華",
+    "wikidata": "",
+    "aka": ["舒華"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["演員","歌手","藝人","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["2000年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-463",
+    "name": "辛曉琪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","藝人","作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-464",
+    "name": "張宇",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","藝人","主持人"],
+      "education": ["逢甲大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-465",
+    "name": "陳美鳳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["歌手","演員","藝人","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-466",
+    "name": "徐巧芯",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-467",
+    "name": "洪秀柱",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1940年代"],
+      "tags": ["結過婚"]
     }
   }
 ]
