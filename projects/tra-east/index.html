@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-61JT1LW9PW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-61JT1LW9PW', { 'anonymize_ip': true });
+  </script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>台鐵東部幹線大挑戰 | 台灣大挑戰</title>
+<meta name="description" content="台鐵東部幹線大挑戰，北迴南迴宜蘭台東線，你記得幾個？" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="台灣大挑戰" />
+<meta property="og:title" content="台鐵東部幹線大挑戰 | 台灣大挑戰" />
+<meta property="og:description" content="台鐵東部幹線大挑戰，北迴南迴宜蘭台東線，你記得幾個？" />
+<meta property="og:image" content="https://cchsu.tw/projects/tra-east/img/og-image.webp" />
+<meta property="og:url" content="https://cchsu.tw/projects/tra-east/" />
+<meta property="og:locale" content="zh_TW" />
+
+<link rel="stylesheet" href="/projects/quiz/quiz.css" />
+</head>
+<body>
+<script type="module">
+import { mountQuiz } from '/projects/quiz/quiz.js';
+
+mountQuiz({
+  id: 'tra-east',
+  data: 'tra.json',
+  heading: '台鐵東部車站你記得幾個？',
+  shareTitle: '台鐵東部幹線大挑戰',
+  hashtag: '#台鐵東部幹線大挑戰 北迴南迴線我全都忘',
+  hint: '輸入中文或英文（例如：宜蘭 Yilan），範圍從八堵到屏東，含宜蘭線、北迴線、台東線、南迴線、屏東線（含新馬站）',
+  footer: '純屬好玩',
+  label: { zh:7, en:4.8 },
+  // Drawn to true proportions against the island outline, then de-clustered:
+  // the Taipei and Kaohsiung conurbations pack a dozen stations into a few
+  // kilometres, which is unreadable at true spacing.
+  layout: { mode:'island', pad:120, height:1500, minSep:18, spring:0.02, sideFirst:true, labelRings:4 },
+  // Directional stations are commonly romanized either way (North Hsinchu /
+  // Beixinzhu), and a few names have well-known alternates.
+  aliases: {
+  },
+  ranks: [
+    {min:95, title:'台鐵大師',   quip:'東部車站倒背如流，太強了。'},
+    {min:90, title:'台鐵員工',   quip:'台鐵要招你了，環島半圈都熟悉。'},
+    {min:80, title:'區間車本人',   quip:'你根本就是區間車，就差幾個小小站。'},
+    {min:70, title:'台鐵達人', quip:'大站小站都有印象，區間車也常搭吧。'},
+    {min:60, title:'區間車乘客', quip:'主要城市一站不漏，南迴北迴小站有點難。'},
+    {min:50, title:'台鐵通勤族', quip:'本次列車沿途停靠，你都知道。'},
+    {min:40, title:'返鄉旅客',   quip:'家鄉那段背得很熟，其他就交給廣播。'},
+    {min:30, title:'自強號乘客',   quip:'我是自強號，小站我都不認識。'},
+    {min:20, title:'台鐵路人丁',     quip:'上車下車兩個站，中間都在睡。'},
+    {min:10, title:'台鐵路人丙',   quip:'剛學會用台鐵App訂票。'},
+    {min:1,  title:'台鐵路人乙',     quip:'有點太少，加油好嗎？'},
+    {min:0,  title:'台鐵路人甲',     quip:'1%都沒有？你搭過火車嗎。'},
+  ],
+});
+</script>
+</body>
+</html>

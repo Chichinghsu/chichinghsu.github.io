@@ -8,9 +8,11 @@
 // ---- registry: powers the cross-quiz switcher in the header ----
  
 export const GAMES = [
+  { id:'homepage', path:'/projects/',     short:'看所有挑戰',   title:'看所有挑戰',     accent:'#b8860b' },
   { id:'metro', path:'/projects/metro/',     short:'雙北捷運',   title:'雙北捷運',     accent:'#b8860b' },
   { id:'khh',   path:'/projects/khh_metro/', short:'高雄捷運',   title:'高雄捷運',     accent:'#de3b34' },
-  { id:'tra',   path:'/projects/tra/',       short:'台鐵西部幹線', title:'台鐵西部幹線', accent:'#0b4f9e' },
+  { id:'tra',   path:'/projects/tra/',       short:'台鐵西部', title:'台鐵西部', accent:'#0b4f9e' },
+  { id:'tra-east',   path:'/projects/tra-east/',       short:'台鐵東部', title:'台鐵東部', accent:'#0b4f9e' },
   { id:'freeway', path:'/projects/freeway/',    short:'國道一號',   title:'國道一號',     accent:'#00703C' },
   { id:'freeway3', path:'/projects/freeway3/',    short:'國道三號',   title:'國道三號',     accent:'#00703C' },
   { id:'taiwan-grid',   path:'/projects/taiwan-grid/',       short:'台灣九宮格',       title:'台灣九宮格',         accent:'#0f766e' },
