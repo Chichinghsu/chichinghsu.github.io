@@ -251,7 +251,7 @@
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1970年代"],
-      "tags": ["原住民"]
+      "tags": ["原住民","外遇或劈腿過"]
     }
   },
   {
@@ -266,7 +266,7 @@
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
-      "tags": ["離過婚","結過婚"]
+      "tags": ["離過婚","結過婚","外遇或劈腿過"]
     }
   },
   {
@@ -281,7 +281,7 @@
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","外遇或劈腿過"]
     }
   },
   {
@@ -956,7 +956,7 @@
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1950年代"],
-      "tags": ["離過婚","結過婚"]
+      "tags": ["離過婚","結過婚","外遇或劈腿過"]
     }
   },
   {
@@ -1376,7 +1376,7 @@
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1980年代"],
-      "tags": []
+      "tags": ["外遇或劈腿過"]
     }
   },
   {
@@ -1511,7 +1511,7 @@
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1960年代"],
-      "tags": ["結過婚","離過婚"]
+      "tags": ["結過婚","離過婚","外遇或劈腿過"]
     }
   },
   {
@@ -1811,7 +1811,7 @@
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1950年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","外遇或劈腿過"]
     }
   },
   {
@@ -2066,7 +2066,7 @@
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
-      "tags": ["外遇過","結過婚"]
+      "tags": ["外遇或劈腿過","結過婚"]
     }
   },
   {
@@ -2171,7 +2171,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": ["結過婚","離過婚"]
+      "tags": ["結過婚","離過婚","外遇或劈腿過"]
     }
   },
   {
@@ -2366,7 +2366,7 @@
       "education": ["國立交通大學"],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["外遇或劈腿過"]
     }
   },
   {
@@ -2426,7 +2426,7 @@
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1960年代"],
-      "tags": ["被關過"]
+      "tags": ["被關過","外遇或劈腿過"]
     }
   },
   {
@@ -3086,7 +3086,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚","大聯盟"]
+      "tags": ["結過婚","大聯盟","外遇或劈腿過"]
     }
   },
   {
@@ -3521,7 +3521,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
-      "tags": ["結過婚","離過婚"]
+      "tags": ["結過婚","離過婚","外遇或劈腿過"]
     }
   },
   {
@@ -3911,7 +3911,7 @@
       "education": ["國立交通大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1980年代"],
-      "tags": []
+      "tags": ["外遇或劈腿過"]
     }
   },
   {
@@ -4511,7 +4511,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
-      "tags": ["結過婚","離過婚"]
+      "tags": ["結過婚","離過婚","外遇或劈腿過"]
     }
   },
   {
@@ -5516,7 +5516,7 @@
       "education": ["國立政治大學"],
       "award": [],
       "birth_decade": ["1990年代"],
-      "tags": []
+      "tags": ["外遇或劈腿過"]
     }
   },
   {
@@ -6056,7 +6056,7 @@
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
-      "tags": []
+      "tags": ["外遇或劈腿過"]
     }
   },
   {
@@ -6762,6 +6762,126 @@
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
       "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-453",
+    "name": "陳建州",
+    "wikidata": "",
+    "aka": ["黑人"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","主持人","運動員","籃球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-454",
+    "name": "范瑋琪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["美國"],
+      "occupation": ["藝人","主持人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-455",
+    "name": "阿基師",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["廚師"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1950年代"],
+      "tags": ["外遇或劈腿過","結過婚"]
+    }
+  },
+  {
+    "id": "tw-456",
+    "name": "吳鳳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["土耳其"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-457",
+    "name": "詹姆士（廚師）",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新竹市"],
+      "occupation": ["藝人","主持人","廚師","YouTuber"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-458",
+    "name": "詹姆士（機師）",
+    "wikidata": "",
+    "aka": ["型男機長瘋狂詹姆士"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新竹市"],
+      "occupation": ["機師","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-459",
+    "name": "粿粿",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["啦啦隊","藝人","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["外遇或劈腿過","結過婚"]
+    }
+  },
+  {
+    "id": "tw-460",
+    "name": "徐展元",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄是"],
+      "occupation": ["主持人","體育主播","藝人"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["離過婚","結過婚"]
     }
   }
 ]
