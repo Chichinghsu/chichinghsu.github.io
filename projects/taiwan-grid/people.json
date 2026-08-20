@@ -801,7 +801,7 @@
     "aka": [],
     "properties": {
       "gender": ["女性"],
-      "birth_city": ["台北市"],
+      "birth_city": ["屏東縣"],
       "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
@@ -1031,7 +1031,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1960年代"],
-      "tags": []
+      "tags": ["樂團主唱"]
     }
   },
   {
@@ -5396,7 +5396,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["樂團主唱"]
     }
   },
   {
@@ -5411,7 +5411,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": ["結過婚"]
+      "tags": ["結過婚","樂團主唱"]
     }
   },
   {
@@ -6866,7 +6866,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
-      "tags": []
+      "tags": ["離過婚","結過婚"]
     }
   },
   {
@@ -7001,6 +7001,231 @@
       "education": [],
       "award": [],
       "birth_decade": ["1940年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-468",
+    "name": "信",
+    "wikidata": "",
+    "aka": ["蘇見信"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["樂團主唱"]
+    }
+  },
+  {
+    "id": "tw-469",
+    "name": "阿璞",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["樂團主唱"]
+    }
+  },
+  {
+    "id": "tw-470",
+    "name": "潘雲安",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "tags": ["樂團主唱"]
+    }
+  },
+  {
+    "id": "tw-471",
+    "name": "小球",
+    "wikidata": "",
+    "aka": ["莊鵑瑛"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["樂團主唱"]
+    }
+  },
+  {
+    "id": "tw-472",
+    "name": "沈聖哲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-473",
+    "name": "尤秋興",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1960年代"],
+      "tags": ["原住民","樂團主唱","結過婚"]
+    }
+  },
+  {
+    "id": "tw-474",
+    "name": "顏志琳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1960年代"],
+      "tags": ["原住民","樂團主唱","結過婚"]
+    }
+  },
+  {
+    "id": "tw-475",
+    "name": "林昶佐",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","藝人","政治人物","立法委員"],
+      "education": ["國立臺北大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["樂團主唱","結過婚"]
+    }
+  },
+  {
+    "id": "tw-476",
+    "name": "辰亦儒",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","藝人","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-477",
+    "name": "吳尊",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["汶萊"],
+      "occupation": ["歌手","藝人","演員","模特兒"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-478",
+    "name": "梁心頤",
+    "wikidata": "",
+    "aka": ["Lara"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["美國"],
+      "occupation": ["歌手","藝人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-479",
+    "name": "陳勢安",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-480",
+    "name": "戴佩妮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎","金馬獎"],
+      "birth_decade": ["1970年代"],
+      "tags": ["樂團主唱","結過婚"]
+    }
+  },
+  {
+    "id": "tw-481",
+    "name": "順子",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["中國"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1970年代"],
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-482",
+    "name": "陳珊妮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["菲律賓"],
+      "occupation": ["歌手","藝人","導演","作家"],
+      "education": ["國立政治大學"],
+      "award": ["金曲獎"],
+      "birth_decade": ["1970年代"],
       "tags": ["結過婚"]
     }
   }
