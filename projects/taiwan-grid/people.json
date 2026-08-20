@@ -7228,5 +7228,50 @@
       "birth_decade": ["1970年代"],
       "tags": ["結過婚"]
     }
+  },
+  {
+    "id": "tw-483",
+    "name": "楊双子",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-484",
+    "name": "朱宥勳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["作家","YouTuber","Podcast"],
+      "education": ["國立清華大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-485",
+    "name": "朱家安",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "tags": []
+    }
   }
 ]
