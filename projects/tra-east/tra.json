@@ -1068,23 +1068,28 @@
     "lineMeta": {
      "YI": {
       "name": "宜蘭線",
-      "color": "#0b4f9e"
+      "color": "#0b4f9e",
+      "short": "宜"
      },
      "NORTHLINK": {
       "name": "北迴線",
-      "color": "#00867d"
+      "color": "#00867d",
+      "short": "北"
      },
      "EAST": {
       "name": "台東線",
-      "color": "#0b4f9e"
+      "color": "#0b4f9e",
+      "short": "東"
      },
      "SOUTHLINK": {
       "name": "南迴線",
-      "color": "#00867d"
+      "color": "#00867d",
+      "short": "南"
      },
      "PT": {
       "name": "屏東線",
-      "color": "#0b4f9e"
+      "color": "#0b4f9e",
+      "short": "屏"
      }
     },
     "outline": [

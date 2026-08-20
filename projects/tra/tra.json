@@ -1417,15 +1417,18 @@
   "lineMeta": {
     "W": {
       "name": "西部幹線",
-      "color": "#0b4f9e"
+      "color": "#0b4f9e",
+      "short": "西"
     },
     "C": {
       "name": "海線",
-      "color": "#00867d"
+      "color": "#00867d",
+      "short": "海"
     },
     "CZ": {
       "name": "成追線",
-      "color": "#0b4f9e"
+      "color": "#0b4f9e",
+      "short": "追"
     }
   },
   "outline": [
