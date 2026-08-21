@@ -15,6 +15,7 @@ export const GAMES = [
   { id:'tra-east',   path:'/projects/tra-east/',       short:'台鐵東部', title:'台鐵東部', accent:'#0b4f9e' },
   { id:'freeway', path:'/projects/freeway/',    short:'國道一號',   title:'國道一號',     accent:'#00703C' },
   { id:'freeway3', path:'/projects/freeway3/',    short:'國道三號',   title:'國道三號',     accent:'#00703C' },
+  { id:'who-is-older', path:'/projects/who-is-older/',    short:'博愛座',   title:'博愛座',     accent:'#0f766e' },
   { id:'taiwan-grid',   path:'/projects/taiwan-grid/',       short:'台灣九宮格',       title:'台灣九宮格',         accent:'#0f766e' },
 ];
 
