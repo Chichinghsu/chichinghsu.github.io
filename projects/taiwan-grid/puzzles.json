@@ -33,6 +33,25 @@
 
   { "id": 9,  "date": "2026-08-23",
     "rows": ["occupation:政治人物", "education:國立臺灣大學", "occupation:立法委員"],
-    "columns": ["tags:離過婚", "tags:當過市長", "birth_decade:1960年代"] }
+    "columns": ["tags:離過婚", "tags:當過市長", "birth_decade:1960年代"] },
 
+  { "id": 10,  "date": "2026-08-24",
+  "rows": ["occupation:藝人", "occupation:歌手", "occupation:導演"],
+  "columns": ["tags:結過婚", "special:海外出生", "birth_decade:1970年代"] },
+
+  { "id": 11,  "date": "2026-08-25",
+  "rows": ["occupation:藝人", "occupation:主持人", "occupation:演員"],
+  "columns": ["award:金鐘獎", "award:金曲獎", "special:1979前出生"] },
+
+  { "id": 12,  "date": "2026-08-26",
+  "rows": ["occupation:作家", "occupation:藝人", "occupation:YouTuber"],
+  "columns": ["tags:離過婚", "tags:結過婚", "birth_decade:1990年代"] },
+
+  { "id": 13,  "date": "2026-08-27",
+  "rows": ["occupation:政治人物", "occupation:主持人", "occupation:藝人"],
+  "columns": ["tags:原住民", "special:海外出生", "birth_decade:1980年代"] },
+
+  { "id": 14,  "date": "2026-08-28",
+  "rows": ["occupation:YouTuber", "occupation:主持人", "occupation:運動員"],
+  "columns": ["gender:女性", "gender:男性", "birth_decade:1980年代"] }
 ]

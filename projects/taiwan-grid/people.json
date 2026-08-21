@@ -251,6 +251,7 @@
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
+      "birthday": "1981/10/31",
       "tags": ["結過婚","離過婚"]
     }
   },
@@ -1688,6 +1689,7 @@
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1980年代"],
+      "birthday": "1981/1/7",
       "tags": ["結過婚"]
     }
   },
@@ -3414,6 +3416,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
+      "birthday": "1995/8/12",
       "tags": ["奧運金牌","奧運獎牌"]
     }
   },
@@ -3987,6 +3990,7 @@
       "education": [],
       "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
+      "birthday":"1997/9/19",
       "tags": []
     }
   },
@@ -4708,7 +4712,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員","藝人","歌手","主持人"],
+      "occupation": ["藝人","演員","歌手","主持人"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -4834,7 +4838,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["主持人","歌手","藝人","演員"],
+      "occupation": ["藝人","主持人","歌手","演員"],
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
@@ -7827,6 +7831,54 @@
       "birth_decade": ["1940年代"],
       "birthday": "1946/12/6",
       "tags": ["已故","離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-492",
+    "name": "高金素梅",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","立法委員","藝人","演員","歌手"],
+      "education": ["國立中央大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1965/9/21",
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-493",
+    "name": "伍麗華",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/8/12",
+      "tags": ["原住民","結過婚"]
+    }
+  },
+  {
+    "id": "tw-494",
+    "name": "王婉諭",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["苗栗縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/4/26",
+      "tags": ["結過婚"]
     }
   }
 ]
