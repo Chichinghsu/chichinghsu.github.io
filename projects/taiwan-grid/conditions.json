@@ -30,6 +30,7 @@
     "birth_decade:1970年代": { "label": "1970-79出生" },
     "birth_decade:1980年代": { "label": "1980-89出生" },
     "birth_decade:1990年代": { "label": "1990-99出生" },
+    "birth_decade:2000年代": { "label": "2000-09出生" },
 
     "special:1979前出生": { "label": "1979年前出生", "mode": "decadeRange", "maxDecade": 1970 },
     "special:1980後出生": { "label": "1980年後出生", "mode": "decadeRange", "minDecade": 1980 },

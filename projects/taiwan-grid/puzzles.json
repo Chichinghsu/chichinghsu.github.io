@@ -44,14 +44,26 @@
   "columns": ["award:金鐘獎", "award:金曲獎", "special:1979前出生"] },
 
   { "id": 12,  "date": "2026-08-26",
-  "rows": ["occupation:作家", "occupation:藝人", "occupation:YouTuber"],
-  "columns": ["tags:離過婚", "tags:結過婚", "birth_decade:1990年代"] },
+  "rows": ["occupation:政治人物", "occupation:藝人", "occupation:YouTuber"],
+  "columns": ["tags:離過婚", "tags:結過婚", "birth_decade:1980年代"] },
 
   { "id": 13,  "date": "2026-08-27",
+  "rows": ["occupation:YouTuber", "occupation:歌手", "occupation:運動員"],
+  "columns": ["birth_decade:1970年代", "birth_decade:1980年代", "birth_decade:1990年代"] },
+
+  { "id": 14,  "date": "2026-08-28",
   "rows": ["occupation:政治人物", "occupation:主持人", "occupation:藝人"],
   "columns": ["tags:原住民", "special:海外出生", "birth_decade:1980年代"] },
 
-  { "id": 14,  "date": "2026-08-28",
+  { "id": 15,  "date": "2026-08-29",
   "rows": ["occupation:YouTuber", "occupation:主持人", "occupation:運動員"],
-  "columns": ["gender:女性", "gender:男性", "birth_decade:1980年代"] }
+  "columns": ["special:1979前出生", "gender:男性", "birth_decade:1980年代"] },
+
+  { "id": 16,  "date": "2026-08-30",
+  "rows": ["occupation:藝人", "occupation:演員", "occupation:政治人物"],
+  "columns": ["birth_decade:1960年代", "birth_decade:1970年代", "birth_decade:1980年代"] },
+
+  { "id": 17,  "date": "2026-08-31",
+  "rows": ["occupation:歌手", "occupation:藝人", "gender:女性"],
+  "columns": ["tags:選秀出身", "birth_decade:1980年代", "birth_decade:1990年代"] }
 ]

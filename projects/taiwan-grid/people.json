@@ -1527,7 +1527,7 @@
       "birth_city": ["台北市"],
       "occupation": ["演員","藝人"],
       "education": [],
-      "award": ["金鐘獎"],
+      "award": ["金鐘獎","金馬獎"],
       "birth_decade": ["1970年代"],
       "birthday": "1974/10/7",
       "tags": ["離過婚","結過婚"]
@@ -7987,7 +7987,7 @@
       "birth_city": ["高雄市"],
       "occupation": ["藝人","歌手"],
       "education": ["國立臺灣藝術大學"],
-      "award": ["金曲獎","金馬"],
+      "award": ["金曲獎","金馬獎"],
       "birth_decade": ["1990年代"],
       "birthday": "1993/12/10",
       "tags": []
@@ -8294,6 +8294,38 @@
       "award": [],
       "birth_decade": ["1960年代"],
       "birthday": "1961/10/3",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-521",
+    "name": "蔡頤榛",
+    "wikidata": "",
+    "aka": ["五熊"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/8/23",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-522",
+    "name": "詹子晴",
+    "wikidata": "",
+    "aka": ["丫頭"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/4/11",
       "tags": ["結過婚"]
     }
   }
