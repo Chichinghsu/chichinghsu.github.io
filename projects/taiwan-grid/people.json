@@ -201,7 +201,7 @@
       "birth_city": ["台北市"],
       "occupation": ["歌手","演員","藝人"],
       "education": [],
-      "award": [],
+      "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1984/6/4",
       "tags": ["結過婚"]
@@ -1127,7 +1127,7 @@
       "birth_city": ["高雄市"],
       "occupation": ["歌手","演員","藝人"],
       "education": [],
-      "award": [],
+      "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1984/10/21",
       "tags": ["選秀出身"]
@@ -1815,10 +1815,10 @@
       "birth_city": ["高雄市"],
       "occupation": ["演員"],
       "education": [],
-      "award": [],
+      "award": ["金鐘獎"],
       "birth_decade": ["1950年代"],
       "birthday": "1958/4/23",
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1975,7 +1975,7 @@
       "birth_city": ["台北市"],
       "occupation": ["演員","歌手","導演"],
       "education": [],
-      "award": ["金馬獎"],
+      "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1960年代"],
       "birthday": "1969/6/1",
       "tags": ["結過婚"]
@@ -8327,6 +8327,166 @@
       "birth_decade": ["1980年代"],
       "birthday": "1988/4/11",
       "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-523",
+    "name": "鍾欣凌",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1972/8/12",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-524",
+    "name": "苗可麗",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1971/1/13",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-525",
+    "name": "馬力歐",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1971/7/27",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-526",
+    "name": "温昇豪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","主持人","演員","歌手","模特兒"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1978/2/22",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-527",
+    "name": "賀一航",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1950年代"],
+      "birthday": "1954/7/31",
+      "tags": ["結過婚","離過婚","已故"]
+    }
+  },
+  {
+    "id": "tw-528",
+    "name": "楊小黎",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": ["國立政治大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/11/6",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-529",
+    "name": "劉品言",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": ["國立政治大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/8/8",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-530",
+    "name": "林美秀",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎","金馬獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1967/6/6",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-531",
+    "name": "朱芯儀",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","演員","模特兒"],
+      "education": ["淡江大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/3/8",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-532",
+    "name": "謝瓊煖",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["苗栗縣"],
+      "occupation": ["藝人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1971/10/7",
+      "tags": ["結過婚","離過婚"]
     }
   }
 ]
