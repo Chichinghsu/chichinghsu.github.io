@@ -773,12 +773,12 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["美國"],
-      "occupation": ["歌手","主持人","藝人"],
+      "occupation": ["歌手","主持人","藝人","演員"],
       "education": [],
-      "award": ["金曲獎"],
+      "award": ["金曲獎","金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1980/8/6",
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -1413,7 +1413,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員"],
+      "occupation": ["演員","藝人"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1990年代"],
@@ -1429,7 +1429,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["澎湖縣"],
-      "occupation": ["演員","模特兒"],
+      "occupation": ["演員","模特兒","藝人"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -1445,7 +1445,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員"],
+      "occupation": ["演員","藝人"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1980年代"],
@@ -1461,7 +1461,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員"],
+      "occupation": ["演員","藝人"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1980年代"],
@@ -1477,9 +1477,9 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["演員"],
+      "occupation": ["演員","藝人"],
       "education": [],
-      "award": ["金馬獎"],
+      "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1984/9/25",
       "tags": ["結過婚"]
@@ -2422,7 +2422,7 @@
       "birth_city": ["馬來西亞"],
       "occupation": ["導演"],
       "education": [],
-      "award": ["金馬獎"],
+      "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1950年代"],
       "birthday": "1957/10/27",
       "tags": []
@@ -2549,8 +2549,8 @@
       "gender": ["男性"],
       "birth_city": ["台北市"],
       "occupation": ["導演","作家"],
-      "education": [],
-      "award": ["金馬獎"],
+      "education": ["淡江大學"],
+      "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1970年代"],
       "birthday": "1971/7/17",
       "tags": []
@@ -8487,6 +8487,182 @@
       "birth_decade": ["1970年代"],
       "birthday": "1971/10/7",
       "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-533",
+    "name": "陳亞蘭",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["澎湖縣"],
+      "occupation": ["藝人","演員","主持人","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1965/11/8",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-534",
+    "name": "庹宗華",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1962/10/10",
+      "tags": ["離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-535",
+    "name": "庹宗康",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","演員","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/7/30",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-536",
+    "name": "小嫻",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["藝人","演員","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1980/3/9",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-537",
+    "name": "何守正",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["籃球選手","運動員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1983/2/15",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-538",
+    "name": "金剛",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","演員","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/1/19",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-539",
+    "name": "王思佳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","演員","模特兒"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1982/8/18",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-540",
+    "name": "許富翔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["導演"],
+      "education": ["國立臺北藝術大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/7/14",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-541",
+    "name": "蔡岳勳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["導演"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/9/27",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-542",
+    "name": "洪智育",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["導演"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/3/10",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-543",
+    "name": "何潤東",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["美國"],
+      "occupation": ["導演","模特兒","歌手","演員","藝人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/9/13",
+      "tags": []
     }
   }
 ]
