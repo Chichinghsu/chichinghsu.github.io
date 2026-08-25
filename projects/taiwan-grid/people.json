@@ -1658,7 +1658,7 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1960年代"],
       "birthday": "1968/1/29",
-      "tags": ["古蹟抽煙"]
+      "tags": ["古蹟抽煙","結過婚"]
     }
   },
   {
@@ -6397,7 +6397,7 @@
     "id": "tw-402",
     "name": "敖犬",
     "wikidata": "",
-    "aka": [],
+    "aka": ["莊濠全"],
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台中市"],
@@ -8662,6 +8662,22 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1970年代"],
       "birthday": "1975/9/13",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-544",
+    "name": "蔡尚樺",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["主持人","藝人","新聞主播"],
+      "education": ["國立政治大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1989/6/7",
       "tags": []
     }
   }
