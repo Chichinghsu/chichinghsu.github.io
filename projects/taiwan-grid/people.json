@@ -8760,5 +8760,69 @@
       "birthday": "1970/5/28",
       "tags": ["結過婚","離過婚","台語歌手"]
     }
+  },
+  {
+    "id": "tw-550",
+    "name": "張家浩",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["棒球選手", "運動員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1976/10/31",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-551",
+    "name": "Junior",
+    "wikidata": "",
+    "aka": ["韓宜邦"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["主持人", "藝人", "演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/2/25",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-552",
+    "name": "蔡燦得",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["主持人", "藝人", "演員","作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/5/3",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-553",
+    "name": "樊光耀",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人", "演員"],
+      "education": ["文化大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/5/3",
+      "tags": ["結過婚"]
+    }
   }
 ]
