@@ -34,8 +34,12 @@
 
     "special:1979前出生": { "label": "1979年前出生", "mode": "decadeRange", "maxDecade": 1970 },
     "special:1980後出生": { "label": "1980年後出生", "mode": "decadeRange", "minDecade": 1980 },
+    "special:1989前出生": { "label": "1989年前出生", "mode": "decadeRange", "maxDecade": 1980 },
+    "special:1990後出生": { "label": "1990年後出生", "mode": "decadeRange", "minDecade": 1990 },
+
 
     "education:國立臺灣大學": { "label": "臺大畢業" },
+    "education:國立政治大學": { "label": "政大畢業" },
 
     "award:金曲獎": { "label": "金曲獎得主" },
     "award:金鐘獎": { "label": "金鐘獎得主" },
