@@ -8744,5 +8744,21 @@
       "birthday": "1989/1/23",
       "tags": []
     }
+  },
+  {
+    "id": "tw-549",
+    "name": "張秀卿",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["藝人", "歌手"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1970/5/28",
+      "tags": ["結過婚","離過婚","台語歌手"]
+    }
   }
 ]
