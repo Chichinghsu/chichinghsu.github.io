@@ -4189,7 +4189,7 @@
       "gender": ["男性"],
       "birth_city": [],
       "occupation": ["YouTuber"],
-      "education": [],
+      "education": ["國立政治大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1989/4/20",
@@ -6465,7 +6465,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["新北市"],
-      "occupation": ["主持人","藝人","歌手","喜劇演員"],
+      "occupation": ["主持人","藝人","歌手","喜劇演員","YouTuber"],
       "education": ["國立政治大學"],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -8678,6 +8678,70 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1989/6/7",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-545",
+    "name": "黃大謙",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["YouTuber","歌手"],
+      "education": ["國立政治大學"],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1997/2/74",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-546",
+    "name": "藍亦明",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["YouTuber"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-547",
+    "name": "王彥之",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["YouTuber", "Podcast", "歌手"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1989/1/23",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-548",
+    "name": "王虹之",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["YouTuber", "Podcast", "歌手"],
+      "education": ["國立清華大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1989/1/23",
       "tags": []
     }
   }

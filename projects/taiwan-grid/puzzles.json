@@ -52,8 +52,8 @@
   "columns": ["birth_decade:1970年代", "birth_decade:1980年代", "birth_decade:1990年代"] },
 
   { "id": 14,  "date": "2026-08-28",
-  "rows": ["occupation:政治人物", "occupation:主持人", "occupation:藝人"],
-  "columns": ["tags:原住民", "special:海外出生", "birth_decade:1980年代"] },
+  "rows": ["occupation:主持人", "occupation:YouTuber", "occupation:政治人物"],
+  "columns": ["education:國立政治大學", "education:國立臺灣大學", "birth_decade:1980年代"] },
 
   { "id": 15,  "date": "2026-08-29",
   "rows": ["occupation:YouTuber", "occupation:主持人", "occupation:運動員"],
@@ -64,6 +64,11 @@
   "columns": ["birth_decade:1960年代", "birth_decade:1970年代", "birth_decade:1980年代"] },
 
   { "id": 17,  "date": "2026-08-31",
+  "rows": ["occupation:歌手", "occupation:藝人", "gender:男性"],
+  "columns": ["tags:離過婚", "special:1979前出生", "special:1980後出生"] },
+
+  { "id": 18,  "date": "2026-09-01",
   "rows": ["occupation:歌手", "occupation:藝人", "gender:女性"],
   "columns": ["tags:選秀出身", "birth_decade:1980年代", "birth_decade:1990年代"] }
+
 ]
