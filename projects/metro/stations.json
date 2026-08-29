@@ -316,6 +316,17 @@
         "core": true
       },
       {
+        "id": "guangci",
+        "en": "Guangci/Fengtian Temple Station",
+        "zh": "廣慈/奉天宮",
+        "lat": 25.025,
+        "lon": 121.58,
+        "lines": [
+          "R"
+        ],
+        "core": true
+      },
+      {
         "id": "songshan",
         "en": "Songshan",
         "zh": "松山",
@@ -1678,7 +1689,8 @@
         "daan",
         "xinyianhe",
         "taipei101",
-        "xiangshan"
+        "xiangshan",
+        "guangci"
       ],
       "R_branch": [
         "beitou",
