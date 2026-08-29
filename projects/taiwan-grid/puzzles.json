@@ -69,6 +69,14 @@
 
   { "id": 18,  "date": "2026-09-01",
   "rows": ["occupation:歌手", "occupation:藝人", "gender:女性"],
-  "columns": ["tags:選秀出身", "birth_decade:1980年代", "birth_decade:1990年代"] }
+  "columns": ["tags:選秀出身", "birth_decade:1980年代", "birth_decade:1990年代"] },
+
+  { "id": 19,  "date": "2026-09-02",
+  "rows": ["occupation:藝人", "occupation:主持人", "occupation:演員"],
+  "columns": ["award:金馬獎", "award:金曲獎", "birth_decade:1990年代"] },
+
+  { "id": 20,  "date": "2026-09-03",
+  "rows": ["occupation:運動員", "occupation:歌手", "occupation:演員"],
+  "columns": ["tags:原住民", "birth_decade:1970年代", "birth_decade:1980年代"] }
 
 ]

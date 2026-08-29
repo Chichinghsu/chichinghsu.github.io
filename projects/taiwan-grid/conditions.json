@@ -21,6 +21,7 @@
     "occupation:YouTuber":  { "label": "YouTuber" },
     "occupation:立法委員": { "label": "立法委員" },
     "occupation:啦啦隊": { "label": "啦啦隊" },
+    "occupation:棒球選手": { "label": "棒球選手" },
 
     "gender:男性":         { "label": "男性" },
     "gender:女性":         { "label": "女性" },

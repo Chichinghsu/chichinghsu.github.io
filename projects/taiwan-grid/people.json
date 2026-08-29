@@ -8824,5 +8824,101 @@
       "birthday": "1975/5/3",
       "tags": ["結過婚"]
     }
+  },
+  {
+    "id": "tw-554",
+    "name": "高嘉瑜",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["政治人物", "立法委員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1980/10/17",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-555",
+    "name": "耿葳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","議員"],
+      "education": ["國立臺灣師範大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/10/31",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-556",
+    "name": "應曉薇",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["政治人物","演員","藝人","議員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/9/14",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-557",
+    "name": "林亮君",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["政治人物","議員"],
+      "education": ["國立臺灣師範大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1989/12/25",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-558",
+    "name": "侯漢廷",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","議員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/10/30",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-559",
+    "name": "林穎孟",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","議員"],
+      "education": ["國立清華大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1983/10/20",
+      "tags": ["結過婚","離過婚"]
+    }
   }
 ]
