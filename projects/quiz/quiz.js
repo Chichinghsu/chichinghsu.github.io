@@ -17,6 +17,7 @@ export const GAMES = [
   { id:'freeway3', path:'/projects/freeway3/',    short:'國道三號',   title:'國道三號',     accent:'#00703C' },
   { id:'who-is-older', path:'/projects/who-is-older/',    short:'博愛座',   title:'博愛座',     accent:'#0f766e' },
   { id:'taiwan-grid',   path:'/projects/taiwan-grid/',       short:'台灣九宮格',       title:'台灣九宮格',         accent:'#0f766e' },
+  { id:'taipei-cities', path:'/projects/taipei-cities/',     short:'雙北區',   title:'雙北區',     accent:'#7c3aed' },
 ];
 
 const SVGNS = 'http://www.w3.org/2000/svg';

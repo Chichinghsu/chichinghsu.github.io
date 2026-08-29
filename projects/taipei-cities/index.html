@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-61JT1LW9PW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-61JT1LW9PW', { 'anonymize_ip': true });
+  </script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>雙北行政區大挑戰 | 台灣大挑戰</title>
+<link rel="icon" type="image/x-icon" href="https://cchsu.tw/projects/img/logo.png">
+<meta name="description" content="臺北市 12 區、新北市 29 區，共 41 區，你記得幾個？趕快來挑戰！" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="台灣大挑戰" />
+<meta property="og:title" content="雙北行政區大挑戰 | 台灣大挑戰" />
+<meta property="og:description" content="臺北市 12 區、新北市 29 區，共 41 區，你記得幾個？趕快來挑戰！" />
+<meta property="og:image" content="https://cchsu.tw/projects/taipei-cities/img/og-image.webp" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://cchsu.tw/projects/taipei-cities/" />
+<meta property="og:locale" content="zh_TW" />
+
+<link rel="stylesheet" href="/projects/quiz/quiz.css" />
+<link rel="stylesheet" href="/projects/taipei-cities/cities.css" />
+</head>
+<body>
+<script type="module">
+import { mountCities } from '/projects/taipei-cities/cities.js';
+
+mountCities({
+  id: 'taipei-cities',
+  data: 'districts.json',
+  heading: '雙北的區你記得幾個？',
+  shareTitle: '雙北行政區大挑戰',
+  hashtag: '#雙北行政區大挑戰 蔣友宜還是侯萬安',
+  hint: '輸入區名（例如：板橋）。臺北市 12 區 + 新北市 29 區，共 41 區',
+  footer: '純屬好玩',
+  // v1 always boots 雙北 together — no picker, just start typing. Add ?c=ntpc
+  // to play a subset; see the cities[] list in districts.json.
+  defaultCities: ['tpe', 'ntpc'],
+  ranks: [
+    {min:100, title:'雙北市長',   quip:'你是蔣友宜還是侯萬安？'},
+    {min:90,  title:'戶政事務所', quip:'可以去選市長了'},
+    {min:80,  title:'雙北在地人', quip:'可能山區的忘了'},
+    {min:70,  title:'捷運族',     quip:'捷運沒到的我都不知道'},
+    {min:60,  title:'及格',   quip:''},
+    {min:50,  title:'一半一半', quip:''},
+    {min:40,  title:'南部人',   quip:'北部我都不熟'},
+    {min:30,  title:'加油好嗎',   quip:''},
+    {min:20,  title:'要加油',     quip:''},
+    {min:10,  title:'快點學一下',   quip:'快按下方公布解答，記一下再考一次'},
+    {min:0,   title:'問號',     quip:'快按下方公布解答，記一下再考一次'},
+  ],
+});
+</script>
+</body>
+</html>
