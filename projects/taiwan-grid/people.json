@@ -87,7 +87,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["政治人物","律師"],
+      "occupation": ["政治人物","律師","立法委員"],
       "education": ["國立政治大學"],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -172,7 +172,7 @@
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
       "birthday": "1972/8/9",
-      "tags": ["原住民"]
+      "tags": ["原住民","選秀出身"]
     }
   },
   {
@@ -220,7 +220,7 @@
       "award": ["金曲獎","金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1983/3/30",
-      "tags": []
+      "tags": ["選秀出身"]
     }
   },
   {
@@ -236,7 +236,7 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1981/6/18",
-      "tags": ["結過婚"]
+      "tags": ["結過婚","選秀出身"]
     }
   },
   {
@@ -252,7 +252,7 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1981/10/31",
-      "tags": ["結過婚","離過婚"]
+      "tags": ["結過婚","離過婚","選秀出身"]
     }
   },
   {
@@ -524,7 +524,7 @@
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1987/3/5",
-      "tags": ["結過婚"]
+      "tags": ["結過婚","選秀出身"]
     }
   },
   {
@@ -694,7 +694,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["屏東縣"],
-      "occupation": ["歌手"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
@@ -970,7 +970,7 @@
       "award": [],
       "birth_decade": ["1990年代"],
       "birthday": "1999/6/14",
-      "tags": []
+      "tags": ["選秀出身"]
     }
   },
   {
@@ -1159,10 +1159,10 @@
       "birth_city": ["高雄市"],
       "occupation": ["歌手","演員","藝人"],
       "education": [],
-      "award": [],
+      "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1984/11/22",
-      "tags": ["原住民"]
+      "tags": ["原住民","選秀出身","結過婚","離過婚"]
     }
   },
   {
@@ -1274,7 +1274,7 @@
       "award": ["金曲獎","金鐘獎"],
       "birth_decade": ["1960年代"],
       "birthday": "1968/7/22",
-      "tags": ["台語歌手","結過婚"]
+      "tags": ["台語歌手","結過婚","選秀出身"]
     }
   },
   {
@@ -1754,7 +1754,7 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1985/1/10",
-      "tags": ["結過婚"]
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
@@ -1796,13 +1796,13 @@
     "aka": [],
     "properties": {
       "gender": ["女性"],
-      "birth_city": ["台南市"],
+      "birth_city": [],
       "occupation": ["演員","藝人"],
       "education": [],
       "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1930年代"],
       "birthday": "1939/7/2",
-      "tags": []
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
@@ -1940,8 +1940,8 @@
     "aka": [],
     "properties": {
       "gender": ["女性"],
-      "birth_city": ["新北市"],
-      "occupation": ["演員"],
+      "birth_city": [],
+      "occupation": ["演員","藝人"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1950年代"],
@@ -2665,7 +2665,7 @@
       "award": [],
       "birth_decade": ["1950年代"],
       "birthday": "1957/6/17",
-      "tags": ["選過總統","當過市長","結過婚","當過立法院院長"]
+      "tags": ["選過總統","當過市長","結過婚","當過立法院院長","被罷免過"]
     }
   },
   {
@@ -2916,7 +2916,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["政治人物"],
+      "occupation": ["政治人物","立法委員"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -3204,12 +3204,12 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["高雄市"],
-      "occupation": ["政治人物","YouTuber"],
+      "occupation": ["政治人物","YouTuber","立法委員"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
       "birthday": "1985/7/10",
-      "tags": []
+      "tags": ["被罷免過"]
     }
   },
   {
@@ -4174,7 +4174,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": [],
-      "occupation": ["YouTuber"],
+      "occupation": ["YouTuber","歌手"],
       "education": [],
       "award": ["走鐘獎"],
       "birth_decade": ["1980年代"],
@@ -5284,7 +5284,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": [],
-      "occupation": ["YouTuber"],
+      "occupation": ["YouTuber","畫家"],
       "education": ["中原大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
@@ -5879,7 +5879,7 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1984/2/21",
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -6951,7 +6951,7 @@
       "award": [],
       "birth_decade": ["1990年代"],
       "birthday": "1997/9/8",
-      "tags": []
+      "tags": ["結過婚","離過婚"]
     }
   },
   {
@@ -7923,7 +7923,7 @@
       "gender": ["男性"],
       "birth_city": ["台南市"],
       "occupation": ["演員","藝人","歌手","主持人"],
-      "education": [],
+      "education": ["國立臺灣師範大學"],
       "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1988/1/27",
@@ -9016,6 +9016,342 @@
       "birth_decade": ["1980年代"],
       "birthday": "1986/4/10",
       "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-566",
+    "name": "陳子見",
+    "wikidata": "",
+    "aka": ["視網膜"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["南投縣"],
+      "occupation": ["YouTuber","主持人","新聞主播"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1994/5/8",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-567",
+    "name": "波特王",
+    "wikidata": "",
+    "aka": ["陳加晉"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/7/12",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-568",
+    "name": "金魚腦",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1995/8/17",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-569",
+    "name": "許藍方",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["YouTuber","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/2/6",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-570",
+    "name": "泱泱",
+    "wikidata": "",
+    "aka": ["吳泱潾"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["YouTuber","主持人","藝人","模特兒","啦啦隊"],
+      "education": ["國立臺灣師範大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1991/2/19",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-571",
+    "name": "張家寧",
+    "wikidata": "",
+    "aka": ["家寧"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1993/3/9",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-572",
+    "name": "賴銘偉",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/6/25",
+      "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-573",
+    "name": "謝震廷",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1993/10/10",
+      "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-574",
+    "name": "孫盛希",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["韓國"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/11/13",
+      "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-575",
+    "name": "李佳歡",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1995/1/31",
+      "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-576",
+    "name": "林強",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": ["金曲獎","金馬獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/6/7",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-577",
+    "name": "張艾嘉",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["藝人","歌手","演員","導演"],
+      "education": [],
+      "award": ["金馬獎"],
+      "birth_decade": ["1950年代"],
+      "birthday": "1953/7/21",
+      "tags": ["離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-578",
+    "name": "沈伯洋",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員","律師"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1982/6/7",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-579",
+    "name": "黃捷",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員","議員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1993/1/19",
+      "tags": ["被罷免過"]
+    }
+  },
+  {
+    "id": "tw-580",
+    "name": "羅廷瑋",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","立法委員","議員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1989/11/22",
+      "tags": ["結過婚","被罷免過"]
+    }
+  },
+  {
+    "id": "tw-581",
+    "name": "葛如鈞",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["淡江大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/7/28",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-582",
+    "name": "吳沛憶",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["政治人物","立法委員","議員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/1/20",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-583",
+    "name": "傅崐萁",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["淡江大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1962/5/8",
+      "tags": ["當過市長","離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-584",
+    "name": "張麗善",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/1/1",
+      "tags": ["當過市長","結過婚"]
+    }
+  },
+  {
+    "id": "tw-585",
+    "name": "王惠美",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["東海大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/11/22",
+      "tags": ["當過市長","結過婚"]
+    }
+  },
+  {
+    "id": "tw-586",
+    "name": "蘇治芬",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1953/7/10",
+      "tags": ["當過市長","結過婚"]
     }
   }
 ]

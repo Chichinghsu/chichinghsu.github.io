@@ -77,6 +77,13 @@
 
   { "id": 20,  "date": "2026-09-03",
   "rows": ["occupation:運動員", "occupation:歌手", "occupation:演員"],
-  "columns": ["tags:原住民", "birth_decade:1970年代", "birth_decade:1980年代"] }
+  "columns": ["tags:原住民", "birth_decade:1970年代", "birth_decade:1980年代"] },
 
+  { "id": 21,  "date": "2026-09-04",
+  "rows": ["occupation:政治人物", "education:國立政治大學", "occupation:立法委員"],
+  "columns": ["special:1979前出生", "tags:當過市長", "birth_decade:1980年代"] },
+
+  { "id": 22,  "date": "2026-09-05",
+  "rows": ["occupation:YouTuber", "occupation:運動員", "occupation:立法委員"],
+  "columns": ["gender:女性", "special:1980後出生", "tags:結過婚"] }
 ]
