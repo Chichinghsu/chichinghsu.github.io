@@ -3975,6 +3975,7 @@
       "education": [],
       "award": [],
       "birth_decade": ["1990年代"],
+      "birthday": "1992/5/3",
       "tags": []
     }
   },
@@ -8693,7 +8694,7 @@
       "education": ["國立政治大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
-      "birthday": "1997/2/74",
+      "birthday": "1997/2/4",
       "tags": []
     }
   },
@@ -9008,8 +9009,8 @@
     "aka": [],
     "properties": {
       "gender": ["男性"],
-      "birth_city": ["台中市"],
-      "occupation": ["政治人物","立法委員"],
+      "birth_city": ["新北市"],
+      "occupation": ["政治人物","議員"],
       "education": [],
       "award": [],
       "birth_decade": ["1980年代"],
