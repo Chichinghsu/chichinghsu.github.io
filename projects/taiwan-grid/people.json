@@ -8920,5 +8920,101 @@
       "birthday": "1983/10/20",
       "tags": ["結過婚","離過婚"]
     }
+  },
+  {
+    "id": "tw-560",
+    "name": "張景森",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["政治人物"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1959/10/8",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-561",
+    "name": "吳釗燮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["政治人物"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1954/10/31",
+      "tags": ["結過婚","當過外交部部長"]
+    }
+  },
+  {
+    "id": "tw-562",
+    "name": "徐國勇",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["政治人物","律師","立法委員","議員","主持人"],
+      "education": ["國立中興大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1958/6/7",
+      "tags": ["結過婚","當過內政部部長"]
+    }
+  },
+  {
+    "id": "tw-563",
+    "name": "賴瑞隆",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["東吳大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1973/11/15",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-564",
+    "name": "洪慈庸",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1982/12/20",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-565",
+    "name": "卓冠廷",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/4/10",
+      "tags": ["結過婚"]
+    }
   }
 ]
