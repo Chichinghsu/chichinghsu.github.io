@@ -10,14 +10,14 @@
   </script>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>雙北行政區大挑戰 | 台灣大挑戰</title>
+<title>六都行政區大挑戰 | 台灣大挑戰</title>
 <link rel="icon" type="image/x-icon" href="https://cchsu.tw/projects/img/logo.png">
-<meta name="description" content="臺北市 12 區、新北市 29 區，共 41 區，你記得幾個？趕快來挑戰！" />
+<meta name="description" content="臺北 12、新北 29、桃園 13、臺中 29、臺南 37、高雄 38，六都共 158 區。挑一個都或全部一起考，你記得幾個？" />
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="台灣大挑戰" />
-<meta property="og:title" content="雙北行政區大挑戰 | 台灣大挑戰" />
-<meta property="og:description" content="臺北市 12 區、新北市 29 區，共 41 區，你記得幾個？趕快來挑戰！" />
+<meta property="og:title" content="六都行政區大挑戰 | 台灣大挑戰" />
+<meta property="og:description" content="臺北 12、新北 29、桃園 13、臺中 29、臺南 37、高雄 38，六都共 158 區。挑一個都或全部一起，你記得幾個？" />
 <meta property="og:image" content="https://cchsu.tw/projects/taipei-cities/img/og-image.webp" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -34,27 +34,83 @@ import { mountCities } from '/projects/taipei-cities/cities.js';
 mountCities({
   id: 'taipei-cities',
   data: 'districts.json',
-  heading: '雙北的區你記得幾個？',
-  shareTitle: '雙北行政區大挑戰',
-  hashtag: '#雙北行政區大挑戰 蔣友宜還是侯萬安',
-  hint: '輸入區名（例如：板橋）。臺北市 12 區 + 新北市 29 區，共 41 區',
+  heading: '的行政區你記得幾個？',
+  shareTitle: '六都行政區大挑戰',
+  hashtag: '#六都行政區大挑戰',
+  hint: '輸入區名（例如：板橋），同名的區（例如：東區）會一次解鎖，想指定就打「臺中東區」',
   footer: '純屬好玩，不代表官方。歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰',
-  // v1 always boots 雙北 together — no picker, just start typing. Add ?c=ntpc
-  // to play a subset; see the cities[] list in districts.json.
+  // Shown on the picker screen and in the share text when every city is ticked.
+  allLabel: '六都',
+  // Pre-ticked on the picker, and the fallback for an unrecognised ?c=.
   defaultCities: ['tpe', 'ntpc'],
+
+  // Generic ladder: any combination of 都 can land here, so nothing city-specific.
   ranks: [
-    {min:100, title:'雙北市長',   quip:'你是蔣友宜還是侯萬安？'},
-    {min:90,  title:'戶政事務所', quip:'可以去選市長了'},
-    {min:80,  title:'雙北在地人', quip:'可能山區的忘了'},
-    {min:70,  title:'捷運族',     quip:'捷運沒到的我都不知道'},
-    {min:60,  title:'及格',   quip:''},
-    {min:50,  title:'一半一半', quip:''},
-    {min:40,  title:'南部人',   quip:'北部我都不熟'},
+    {min:100, title:'行政區之神', quip:'一區都沒漏，你是不是戶政事務所的？'},
+    {min:90,  title:'戶政事務所', quip:'這也太熟了吧'},
+    {min:80,  title:'地理課代表', quip:'大概只漏了幾個山區'},
+    {min:70,  title:'在地人',     quip:'偏遠的那幾區忘了'},
+    {min:60,  title:'及格',       quip:''},
+    {min:50,  title:'一半一半',   quip:''},
+    {min:40,  title:'路過的',     quip:'這裡我不太熟'},
     {min:30,  title:'加油好嗎',   quip:''},
     {min:20,  title:'要加油',     quip:''},
-    {min:10,  title:'快點學一下',   quip:'快按下方公布解答，記一下再考一次'},
-    {min:0,   title:'問號',     quip:'快按下方公布解答，記一下再考一次'},
+    {min:10,  title:'快點學一下', quip:'快按下方公布解答，記一下再考一次'},
+    {min:0,   title:'問號',       quip:'快按下方公布解答，記一下再考一次'},
   ],
+
+  // Used only when exactly ONE city is in play — which is the most common way
+  // to play, and the only case where a themed ladder makes sense.
+  rankSets: {
+    tpe: [
+      {min:100, title:'臺北市長',   quip:'12 區全記得，可以去選了'},
+      {min:80,  title:'天龍國人',   quip:'就差那一兩區'},
+      {min:60,  title:'捷運族',     quip:'捷運有到的我都知道'},
+      {min:40,  title:'觀光客',     quip:'只記得逛過的'},
+      {min:20,  title:'要加油',     quip:''},
+      {min:0,   title:'問號',       quip:'快按下方公布解答，記一下再考一次'},
+    ],
+    ntpc: [
+      {min:100, title:'新北市長',   quip:'沒什麼好說，太猛了'},
+      {min:80,  title:'新北在地人', quip:'可能山區的忘了'},
+      {min:60,  title:'捷運族',     quip:'捷運沒到的我都不知道'},
+      {min:40,  title:'只記得蛋黃區', quip:'板橋三重中和永和以外就…'},
+      {min:20,  title:'要加油',     quip:''},
+      {min:0,   title:'問號',       quip:'快按下方公布解答，記一下再考一次'},
+    ],
+    tyc: [
+      {min:100, title:'桃園市長',   quip:'13 區全記得'},
+      {min:80,  title:'桃園在地人', quip:'就差復興區之類的'},
+      {min:60,  title:'中壢選民',   quip:'中壢其實不在桃園'},
+      {min:40,  title:'轉機而已',   quip:'我只知道桃園機場'},
+      {min:20,  title:'要加油',     quip:''},
+      {min:0,   title:'問號',       quip:'快按下方公布解答，記一下再考一次'},
+    ],
+    tcc: [
+      {min:100, title:'臺中市長',   quip:'29 區全記得'},
+      {min:80,  title:'臺中在地人', quip:'山線海線都難不倒你'},
+      {min:60,  title:'市區熟',     quip:'山線海線就有點模糊'},
+      {min:40,  title:'逢甲夜市', quip:''},
+      {min:20,  title:'要加油',     quip:''},
+      {min:0,   title:'問號',       quip:'快按下方公布解答，記一下再考一次'},
+    ],
+    tnn: [
+      {min:100, title:'臺南市長',   quip:'37 區全記得，太扯了'},
+      {min:80,  title:'臺南在地人', quip:'溪北溪南都清楚'},
+      {min:60,  title:'府城通',     quip:'市區很熟，溪北就還好'},
+      {min:40,  title:'來吃美食的', quip:'只記得中西區跟安平'},
+      {min:20,  title:'要加油',     quip:''},
+      {min:0,   title:'問號',       quip:'快按下方公布解答，記一下再考一次'},
+    ],
+    khh: [
+      {min:100, title:'高雄市長',   quip:'38 區全記得'},
+      {min:80,  title:'高雄在地人', quip:'可能山區的那幾區忘了'},
+      {min:60,  title:'捷運台鐵族', quip:'原高雄市的我都知道'},
+      {min:40,  title:'路過而已', quip:'只記得市區那幾區'},
+      {min:20,  title:'要加油',     quip:''},
+      {min:0,   title:'問號',       quip:'快按下方公布解答，記一下再考一次'},
+    ],
+  },
 });
 </script>
 </body>

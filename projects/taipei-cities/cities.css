@@ -28,6 +28,35 @@
   user-select:none;
 }
 
+/* Pre-game city picker. Sits in a .overlay > .report card from quiz.css, so
+   only the checklist itself needs styling here. */
+.pick-card{ max-width:420px; }
+.pick-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:8px;
+  margin:14px 0 10px;
+  text-align:left;
+}
+.pick-item{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:10px 12px;
+  border:1px solid #dfe3e9;
+  border-radius:10px;
+  cursor:pointer;
+  user-select:none;
+}
+.pick-item:has(input:checked){ border-color:var(--accent); background:#f7f8fa; }
+.pick-item input{ accent-color:var(--accent); width:16px; height:16px; flex:none; }
+.pick-item .sw{ width:10px; height:10px; border-radius:3px; flex:none; }
+.pick-item .nm{ font-weight:600; }
+.pick-item .ct{ margin-left:auto; color:#6c7480; font-size:13px; }
+.pick-total{ color:#6c7480; font-size:14px; }
+.pick-quick{ display:flex; gap:8px; justify-content:center; margin:10px 0 2px; }
+.pick-quick button{ flex:1; }
+
 @keyframes distPop{
   0%{ opacity:.25; }
   60%{ opacity:1; }

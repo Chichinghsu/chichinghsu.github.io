@@ -1,41 +1,39 @@
-// One-off data prep: 鄉鎮市區界線 GeoJSON  ->  districts.json
+// One-off data prep: 鄉鎮市區界線 TopoJSON  ->  districts.json
 //
-//   curl -sLO https://raw.githubusercontent.com/g0v/twgeojson/master/json/twTown1982.geo.json
-//   node prep.js twTown1982.geo.json > districts.json
+//   curl -sLO https://cdn.jsdelivr.net/npm/taiwan-atlas/towns-10t.json
+//   node prep.js towns-10t.json > districts.json
 //
-// The source is ~20 MB of full-resolution coastline. We only need silhouettes
-// that a player can recognise, so every ring is projected, Douglas-Peucker'd,
-// and rounded to 2 decimals (~2 m at this scale). Specks smaller than a pixel
-// on screen are dropped — except a city's largest ring, which always survives.
+// Source: dkaoster/taiwan-atlas, built from 內政部 鄉鎮市區界線 (TWD97 經緯度).
+// It carries all 368 鄉鎮市區 with official romanisation in TOWNENG, so there is
+// no hand-maintained name table here. We previously used g0v/twgeojson's
+// twTown1982.geo.json; it was dropped because it still calls 桃園 a 縣 with
+// pre-2014 鄉鎮市 names, carries duplicate "(海)" reclamation features for
+// 台中/台南/高雄, and is missing 那瑪夏區 entirely.
 //
-// Output paths live in ONE all-Taiwan projected frame, so adding 桃園/台中/…
+// The 10t build is already quantised and simplified, so what's left to do is
+// project it, thin it a little more, and round to 2 decimals (~2 m at this
+// scale). Specks smaller than a pixel on screen are dropped — except a
+// district's largest ring, which always survives.
+//
+// Output paths live in ONE all-Taiwan projected frame, so adding 基隆/新竹/…
 // later is a matter of listing them in CITIES; nothing needs re-projecting.
 
 const fs = require('fs');
 
 // ---------------------------------------------------------------- registry
-// COUNTYNAME in the source uses 台, not 臺. `name` is what we display.
+// `src` is matched against COUNTYNAME with 臺 folded to 台, since the source
+// mixes the two. `name` is what we display.
 const CITIES = [
   { id:'tpe',  src:'台北市', name:'臺北市', accent:'#b8860b' },
   { id:'ntpc', src:'新北市', name:'新北市', accent:'#0f766e' },
-  // Extension: add { id:'kee', src:'基隆市', name:'基隆市', accent:'#... ' } etc.
+  { id:'tyc',  src:'桃園市', name:'桃園市', accent:'#c2410c' },
+  { id:'tcc',  src:'台中市', name:'臺中市', accent:'#1d4ed8' },
+  { id:'tnn',  src:'台南市', name:'臺南市', accent:'#9333ea' },
+  { id:'khh',  src:'高雄市', name:'高雄市', accent:'#be123c' },
+  // Extension: add { id:'kee', src:'基隆市', name:'基隆市', accent:'#...' } etc.
 ];
 
-const EN = {
-  // 臺北市
-  中正區:'Zhongzheng', 大同區:'Datong', 中山區:'Zhongshan', 松山區:'Songshan',
-  大安區:'Da’an', 萬華區:'Wanhua', 信義區:'Xinyi', 士林區:'Shilin',
-  北投區:'Beitou', 內湖區:'Neihu', 南港區:'Nangang', 文山區:'Wenshan',
-  // 新北市
-  板橋區:'Banqiao', 三重區:'Sanchong', 中和區:'Zhonghe', 永和區:'Yonghe',
-  新莊區:'Xinzhuang', 新店區:'Xindian', 土城區:'Tucheng', 蘆洲區:'Luzhou',
-  汐止區:'Xizhi', 樹林區:'Shulin', 鶯歌區:'Yingge', 三峽區:'Sanxia',
-  淡水區:'Tamsui', 瑞芳區:'Ruifang', 五股區:'Wugu', 泰山區:'Taishan',
-  林口區:'Linkou', 深坑區:'Shenkeng', 石碇區:'Shiding', 坪林區:'Pinglin',
-  三芝區:'Sanzhi', 石門區:'Shimen', 八里區:'Bali', 平溪區:'Pingxi',
-  雙溪區:'Shuangxi', 貢寮區:'Gongliao', 金山區:'Jinshan', 萬里區:'Wanli',
-  烏來區:'Wulai',
-};
+const fold = s => s.replace(/臺/g, '台');
 
 // -------------------------------------------------------------- projection
 // Equirectangular, x stretched by cos(24°) so the island isn't squashed.
@@ -46,6 +44,37 @@ const py = lat => (LAT0 - lat) * K;
 
 const TOL  = 0.35;  // Douglas-Peucker tolerance, projected units (~35 m)
 const MIN_AREA = 1.5; // drop rings smaller than this (projected units²)
+
+// ------------------------------------------------------------- topojson
+// Inlining the decode instead of depending on topojson-client: it is two
+// transforms (delta-decode, then affine) plus arc stitching, and this script
+// is meant to run with bare `node` and no install step.
+function decodeArcs(topo) {
+  const [sx, sy] = topo.transform.scale, [tx, ty] = topo.transform.translate;
+  return topo.arcs.map(arc => {
+    let x = 0, y = 0;
+    return arc.map(([dx, dy]) => {
+      x += dx; y += dy;
+      return [x * sx + tx, y * sy + ty];
+    });
+  });
+}
+
+// A ring is a list of arc indices; a negative index i means arc ~i, reversed.
+// Consecutive arcs share an endpoint, so drop the first point of every arc
+// after the first.
+function ringCoords(idxs, arcs) {
+  const out = [];
+  for (const i of idxs) {
+    const a = i < 0 ? arcs[~i].slice().reverse() : arcs[i];
+    for (let k = out.length ? 1 : 0; k < a.length; k++) out.push(a[k]);
+  }
+  return out;
+}
+
+// Outer rings only; holes are invisible at this simplification level.
+const outerRings = (geom, arcs) =>
+  (geom.type === 'Polygon' ? [geom.arcs] : geom.arcs).map(p => ringCoords(p[0], arcs));
 
 // ------------------------------------------------------------------ helpers
 function simplify(pts, tol) {
@@ -126,21 +155,20 @@ function labelPoint(ring) {
 const r2 = n => Math.round(n * 100) / 100;
 
 // --------------------------------------------------------------------- main
-const src = JSON.parse(fs.readFileSync(process.argv[2] || 'twTown1982.geo.json', 'utf8'));
+const topo = JSON.parse(fs.readFileSync(process.argv[2] || 'towns-10t.json', 'utf8'));
+const arcs = decodeArcs(topo);
+const geoms = topo.objects.towns.geometries;
 const districts = [];
 
 for (const city of CITIES) {
-  const feats = src.features.filter(f => f.properties.COUNTYNAME === city.src);
+  const feats = geoms.filter(g => fold(g.properties.COUNTYNAME) === fold(city.src));
   if (!feats.length) throw new Error(`no features for ${city.src}`);
 
   for (const f of feats) {
     const name = f.properties.TOWNNAME;
-    const polys = f.geometry.type === 'Polygon'
-      ? [f.geometry.coordinates] : f.geometry.coordinates;
 
-    // Outer rings only; holes are invisible at this simplification level.
-    let rings = polys
-      .map(p => simplify(p[0].map(([lon, lat]) => [px(lon), py(lat)]), TOL))
+    let rings = outerRings(f, arcs)
+      .map(r => simplify(r.map(([lon, lat]) => [px(lon), py(lat)]), TOL))
       .filter(r => r.length > 3)
       .map(r => ({ r, a: ringArea(r) }))
       .sort((x, y) => y.a - x.a);
@@ -161,7 +189,8 @@ for (const city of CITIES) {
       city: city.id,
       name,
       short: name.replace(/[區市鎮鄉]$/, ''),
-      en: EN[name] || '',
+      // "Banqiao District" / "Chenggong Township" -> "Banqiao" / "Chenggong".
+      en: (f.properties.TOWNENG || '').replace(/\s+(District|Township|City)$/, ''),
       d,
       lx: r2(lx), ly: r2(ly),
       bbox: [r2(x0), r2(y0), r2(x1), r2(y1)],
@@ -179,5 +208,5 @@ const out = {
 
 const missingEn = districts.filter(d => !d.en).map(d => d.name);
 if (missingEn.length) console.error('missing EN:', missingEn.join(' '));
-console.error(out.cities.map(c => `${c.name} ${c.count}`).join(' | '));
+console.error(out.cities.map(c => `${c.name} ${c.count}`).join(' | '), '| total', districts.length);
 process.stdout.write(JSON.stringify(out));

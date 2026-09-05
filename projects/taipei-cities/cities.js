@@ -6,10 +6,12 @@
 // same layout, the same #rp* report card, the same 交卷 / 公布解答 flow, and the
 // same quiz.css. Only the middle layer (dots -> paths) differs.
 //
-// Multi-city is baked in even though v1 always boots 臺北市 + 新北市: the active
-// set comes from cfg.defaultCities (overridable with ?c=tpe,ntpc) and drives the
-// district filter, the viewBox fit, the legend and the per-city score rows. A
-// city picker is markup plus one listener away.
+// The active city set is chosen on a pre-game picker and recorded in ?c=, and
+// it drives everything downstream: the district filter, the viewBox fit, the
+// type scale, the legend, the per-city score rows and the share text. Any
+// combination of the six is playable, so nothing here may assume a fixed set —
+// in particular the score is a percentage of whatever was selected, and the
+// rank ladder is generic unless exactly one city is in play.
 
 import { GAMES } from '/projects/quiz/quiz.js';
 
@@ -20,12 +22,78 @@ const el = (tag, attrs) => {
   return n;
 };
 
+// A short name for the chosen set, used in the heading and the share text so
+// two different games don't post identical results: 六都 / 臺中+高雄 / 臺北.
+const setLabel = (cfg, cities, all) => cities.length === all.length
+  ? cfg.allLabel
+  : cities.map(c => c.name.replace(/[市縣]$/, '')).join('+');
+
+// -------------------------------------------------------------------- picker
+// Gate the game on a city choice rather than booting a fixed set. The chosen
+// ids go into ?c= before mounting, so a result is shareable, bookmarkable, and
+// survives 再玩一次 (which is a location.reload) instead of dumping the player
+// back here.
+function showPicker(cfg, DATA, onStart) {
+  document.body.innerHTML = `
+<div class="overlay show">
+  <div class="report pick-card">
+    <h2>${cfg.shareTitle}</h2>
+    <div class="rp-sub">選擇想挑戰的縣市，可以複選</div>
+    <div class="pick-list">${DATA.cities.map(c => `
+      <label class="pick-item">
+        <input type="checkbox" value="${c.id}"${cfg.defaultCities.includes(c.id) ? ' checked' : ''}/>
+        <span class="sw" style="background:${c.accent}"></span>
+        <span class="nm">${c.name}</span>
+        <span class="ct">${c.count} 區</span>
+      </label>`).join('')}</div>
+    <div class="pick-total">共 <b id="pickTotal">0</b> 區</div>
+    <div class="pick-quick">
+      <button type="button" id="pickAll">全選</button>
+      <button type="button" id="pickNone">清除</button>
+      <button type="button" id="pickRandom">隨機一都</button>
+    </div>
+    <div class="rp-actions"><button id="pickStart" class="primary">開始挑戰</button></div>
+  </div>
+</div>`;
+
+  const boxes = [...document.querySelectorAll('.pick-item input')];
+  const startBtn = document.getElementById('pickStart');
+  const totalEl = document.getElementById('pickTotal');
+  const countOf = id => DATA.cities.find(c => c.id === id).count;
+  const chosen = () => boxes.filter(b => b.checked).map(b => b.value);
+
+  function sync() {
+    const ids = chosen();
+    totalEl.textContent = ids.reduce((n, id) => n + countOf(id), 0);
+    startBtn.disabled = !ids.length;
+  }
+  const setAll = fn => { boxes.forEach((b, i) => { b.checked = fn(b, i); }); sync(); };
+
+  boxes.forEach(b => b.addEventListener('change', sync));
+  document.getElementById('pickAll').addEventListener('click', () => setAll(() => true));
+  document.getElementById('pickNone').addEventListener('click', () => setAll(() => false));
+  // One random 都, not a random subset: "臺南+桃園" is an arbitrary pairing,
+  // whereas "you got 高雄" is a challenge.
+  document.getElementById('pickRandom').addEventListener('click', () => {
+    const pick = Math.floor(Math.random() * boxes.length);
+    setAll((_, i) => i === pick);
+  });
+  startBtn.addEventListener('click', () => {
+    gtag('event', 'city_selected', {
+      cities: chosen().join(','),
+      city_count: chosen().length
+    });
+    onStart(chosen());
+  });
+  sync();
+}
+
 // ---------------------------------------------------------------------- DOM
-function buildLayout(cfg) {
+function buildLayout(cfg, label) {
   document.body.innerHTML = `
 <div class="topbar">
   <div class="brand">
-    <h1>${cfg.heading}</h1>
+    <h1>${label}${cfg.heading}</h1>
     <div class="switcher" id="switcher"></div>
   </div>
   <div class="stats">
@@ -56,7 +124,8 @@ function buildLayout(cfg) {
       <button class="primary" type="submit">確定</button>
     </form>
     <div class="feedback" id="feedback"></div>
-    <div class="hint">${cfg.hint}<br>想不出來了就按「交卷」看成績單</div>
+    <div class="hint">${cfg.hint}<br>想不出來了就按「交卷」看成績單
+      <br><a href="${location.pathname}">← 換其他縣市</a></div>
 
     <div style="display:flex; gap:8px;">
       <button id="revealBtn" style="flex:1;">公布解答</button>
@@ -84,7 +153,7 @@ function buildLayout(cfg) {
     <div class="rp-count" id="rpCount"></div>
     <div class="rp-bar"><i id="rpBar" style="width:0%"></i></div>
     <div class="rp-lines" id="rpLines"></div>
-    <div class="rp-share"><span class="rp-tag">${cfg.hashtag}</span></div>
+    <div class="rp-share"><span class="rp-tag">${cfg.hashtag} ${label}</span></div>
     <a class="rp-more" id="rpMore" href="#">看更多挑戰 →</a>
     <div class="rp-actions">
       <button id="rpReveal">公布解答</button>
@@ -141,17 +210,30 @@ function buildLayout(cfg) {
 
 // -------------------------------------------------------------------- mount
 export async function mountCities(cfg) {
-  buildLayout(cfg);
   const DATA = await (await fetch(cfg.data)).json();
-  run(cfg, DATA);
+
+  function start(ids, { push = false } = {}) {
+    // Filter DATA.cities rather than map the ids, so the legend and report card
+    // always read north-to-south regardless of what order they were ticked in.
+    const cities = DATA.cities.filter(c => ids.includes(c.id));
+    if (push) history.replaceState(null, '', '?c=' + cities.map(c => c.id).join(','));
+    const label = setLabel(cfg, cities, DATA.cities);
+    buildLayout(cfg, label);
+    run(cfg, DATA, cities, label);
+  }
+
+  // ?c= skips the picker entirely — that's what makes a shared result replayable.
+  const wanted = new URLSearchParams(location.search).get('c');
+  if (wanted) {
+    const ids = wanted.split(',').map(s => s.trim());
+    const known = DATA.cities.filter(c => ids.includes(c.id)).map(c => c.id);
+    start(known.length ? known : cfg.defaultCities);
+    return;
+  }
+  showPicker(cfg, DATA, ids => start(ids, { push: true }));
 }
 
-function run(cfg, DATA) {
-  // ---- which cities are in play ----
-  const wanted = new URLSearchParams(location.search).get('c');
-  const requested = wanted ? wanted.split(',').map(s => s.trim()) : cfg.defaultCities;
-  let cities = DATA.cities.filter(c => requested.includes(c.id));
-  if (!cities.length) cities = DATA.cities.filter(c => cfg.defaultCities.includes(c.id));
+function run(cfg, DATA, cities, label) {
   const cityIds = new Set(cities.map(c => c.id));
   const cityById = Object.fromEntries(cities.map(c => [c.id, c]));
 
@@ -166,9 +248,17 @@ function run(cfg, DATA) {
   ], [Infinity, Infinity, -Infinity, -Infinity]);
   const PAD = Math.max(bb[2] - bb[0], bb[3] - bb[1]) * 0.04;
   const HOME = { x: bb[0] - PAD, y: bb[1] - PAD, w: bb[2] - bb[0] + PAD * 2, h: bb[3] - bb[1] + PAD * 2 };
-  // Label sizes in quiz.css are px-on-a-100-unit-canvas; ours is ~700 units
-  // wide, so scale the type to the frame instead of hard-coding a size.
-  const S = HOME.w / 100;
+
+  // Type and border widths are anchored to the DISTRICTS, not the frame.
+  // Frame width runs 191 units (臺北 alone) to 1809 (六都) — a 9x spread — but
+  // 永和 is the same 16 units across either way. Sizing off the frame meant a
+  // 六都 board drew 永和 with a label wider than the district and a border
+  // thicker than it, i.e. it broke exactly where the map is densest. The median
+  // minor-axis is stable (48-75) across every city combination, so use that.
+  const minorAxis = d => Math.min(d.bbox[2] - d.bbox[0], d.bbox[3] - d.bbox[1]);
+  const REF = [...districts].map(minorAxis).sort((a, b) => a - b)[districts.length >> 1];
+  // Ratios chosen to reproduce the previous 雙北 rendering to within a hair.
+  const STROKE = REF * 0.05;
 
   // ---- normalization / matching ----
   // 臺 and 台 are interchangeable, and a trailing 區/市/鎮/鄉 is noise: 新北's
@@ -192,10 +282,15 @@ function run(cfg, DATA) {
     aliasMap[n] = [...new Set(aliasMap[n])];
   }
   districts.forEach(d => {
+    const city = cityById[d.city].name;
     addAlias(d.name, d.id);
     addAlias(d.short, d.id);
     addAlias(d.en, d.id);
-    addAlias(cityById[d.city].name + d.name, d.id);
+    // Both 臺中市東區 and 臺中東區: 東/南/北區 exist in two 都 each and 大安區
+    // in two, so the qualified form is the only way to claim just one — and
+    // nobody types the 市. norm() strips the trailing 區, not an internal 市.
+    addAlias(city + d.name, d.id);
+    addAlias(city.replace(/[市縣]$/, '') + d.name, d.id);
   });
   Object.entries(cfg.aliases || {}).forEach(([k, v]) => {
     (Array.isArray(v) ? v : [v]).forEach(id => addAlias(k, id));
@@ -212,7 +307,7 @@ function run(cfg, DATA) {
     // geometry; per-district strokes just thicken every internal border.)
     // Fill goes through style, not the `fill` attribute: .dist in cities.css
     // sets a fill, and a stylesheet rule always beats a presentation attribute.
-    const p = el('path', { d: d.d, class: 'dist', 'stroke-width': 0.5 * S });
+    const p = el('path', { d: d.d, class: 'dist', 'stroke-width': STROKE });
     p.style.fill = `color-mix(in srgb, ${cityById[d.city].accent} 12%, #dfe3e9)`;
     fillLayer.appendChild(p);
     pathEls[d.id] = p;
@@ -222,8 +317,7 @@ function run(cfg, DATA) {
   // order of magnitude in area, and one shared size either overflows the small
   // ones or vanishes in the big ones.
   const clamp = (lo, v, hi) => Math.max(lo, Math.min(hi, v));
-  const fontFor = d => clamp(1.05 * S,
-    Math.min(d.bbox[2] - d.bbox[0], d.bbox[3] - d.bbox[1]) * 0.34, 3 * S);
+  const fontFor = d => clamp(REF * 0.105, minorAxis(d) * 0.34, REF * 0.30);
 
   // Chinese only. The English line doubled the vertical space every label
   // needed, and in the 板橋/三重/中和 cluster that was the difference between
@@ -339,7 +433,8 @@ function run(cfg, DATA) {
       feedback.className = 'feedback ok';
       input.value = '';
     } else {
-      feedback.textContent = '已解鎖: ' + ids.map(id => byId[id].name).join(', ');
+      feedback.textContent = '已解鎖: ' +
+        ids.map(id => cityById[byId[id].city].name + byId[id].name).join(', ');
       feedback.className = 'feedback no';
     }
     input.focus();
@@ -351,15 +446,26 @@ function run(cfg, DATA) {
 
   // ---- 交卷 / report card ----
   // Ranks are checked top-down; the first threshold the score clears wins.
-  const rankFor = pct => cfg.ranks.find(r => pct >= r.min) || cfg.ranks[cfg.ranks.length - 1];
+  // cfg.ranks is a generic percentage ladder, because an arbitrary combination
+  // of 都 can't have a themed one. A single city can, and single-city is the
+  // common case, so it gets its own set when one is supplied.
+  const ranks = (cities.length === 1 && cfg.rankSets?.[cities[0].id]) || cfg.ranks;
+  const rankFor = pct => ranks.find(r => pct >= r.min) || ranks[ranks.length - 1];
   const overlay = document.getElementById('reportOverlay');
   function showReport() {
     if (!finalScore) finalScore = snapshotScore();
     const pctNum = finalScore.count / TOTAL * 100;
     const rank = rankFor(pctNum);
+    gtag('event', 'game_complete', {
+      cities_played: [...cityIds].join(','),
+      score: Math.round(pctNum * 10) / 10,
+      districts_found: finalScore.count,
+      districts_total: TOTAL
+    });
     const dt = new Date();
     document.getElementById('rpDate').textContent =
-      dt.getFullYear() + '.' + String(dt.getMonth() + 1).padStart(2, '0') + '.' + String(dt.getDate()).padStart(2, '0');
+      dt.getFullYear() + '.' + String(dt.getMonth() + 1).padStart(2, '0') + '.' + String(dt.getDate()).padStart(2, '0') +
+      ' · ' + label;
     document.getElementById('rpRank').textContent = rank.title;
     document.getElementById('rpQuip').textContent = rank.quip;
     document.getElementById('rpScore').textContent = pctNum.toFixed(1) + '%';
