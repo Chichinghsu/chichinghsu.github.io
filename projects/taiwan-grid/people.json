@@ -615,7 +615,7 @@
       "gender": ["男性"],
       "birth_city": ["澎湖縣"],
       "occupation": ["歌手"],
-      "education": [],
+      "education": ["國立政治大學"],
       "award": [],
       "birth_decade": ["1960年代"],
       "birthday": "1966/6/7",
@@ -2230,7 +2230,7 @@
       "gender": ["女性"],
       "birth_city": ["台北市"],
       "occupation": ["主持人","藝人","歌手"],
-      "education": [],
+      "education": ["國立政治大學"],
       "award": ["金鐘獎"],
       "birth_decade": ["1960年代"],
       "birthday": "1969/10/29",
@@ -9352,6 +9352,70 @@
       "birth_decade": ["1950年代"],
       "birthday": "1953/7/10",
       "tags": ["當過市長","結過婚"]
+    }
+  },
+  {
+    "id": "tw-587",
+    "name": "潘志遠",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["醫師"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-588",
+    "name": "潘建志",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["醫師","政治人物"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1966/7/30",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-589",
+    "name": "李四端",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["新聞主播","記者","主持人"],
+      "education": ["國立政治大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1950年代"],
+      "birthday": "1956/8/4",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-590",
+    "name": "李艷秋",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["新聞主播","記者","主持人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1950年代"],
+      "birthday": "1957/10/17",
+      "tags": ["結過婚"]
     }
   }
 ]
