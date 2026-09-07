@@ -97,10 +97,22 @@
 
   { "id": 26, "date": "2026-09-08",
     "rows": ["occupation:歌手", "occupation:演員", "occupation:藝人"],
-    "columns": ["special:海外出生", "birth_decade:1970年代", "tags:結過婚"] },
+    "columns": ["special:海外出生", "birth_decade:1970年代", "tags:離過婚"] },
 
   { "id": 27, "date": "2026-09-09",
     "rows": ["occupation:作家", "occupation:導演", "occupation:主持人"],
-    "columns": ["gender:男性", "birth_decade:1950年代", "award:金鐘獎"] }
+    "columns": ["gender:男性", "birth_decade:1950年代", "award:金鐘獎"] },
+
+  { "id": 28, "date": "2026-09-10",
+  "rows": ["special:1980後出生", "occupation:歌手", "occupation:主持人"],
+  "columns": ["gender:女性", "education:國立政治大學", "award:金曲獎"] },
+    
+  { "id": 29, "date": "2026-09-11",
+    "rows": ["occupation:運動員", "occupation:政治人物", "occupation:主持人"],
+    "columns": ["gender:男性", "birth_decade:1970年代", "tags:結過婚"] },
+
+  { "id": 30, "date": "2026-09-12",
+    "rows": ["occupation:歌手", "occupation:演員", "occupation:藝人"],
+    "columns": ["tags:結過婚", "tags:離過婚", "award:金鐘獎"] }
 
 ]

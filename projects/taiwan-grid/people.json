@@ -3017,7 +3017,7 @@
       "award": [],
       "birth_decade": ["1970年代"],
       "birthday": "1971/3/10",
-      "tags": ["當過市長"]
+      "tags": ["當過市長","當過內政部部長"]
     }
   },
   {
@@ -9415,6 +9415,166 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1950年代"],
       "birthday": "1957/10/17",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-591",
+    "name": "柯建銘",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新竹市"],
+      "occupation": ["政治人物","立法委員","醫師"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1951/9/8",
+      "tags": ["結過婚","外遇或劈腿過"]
+    }
+  },
+  {
+    "id": "tw-592",
+    "name": "牛煦庭",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["政治人物","立法委員","議員"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/10/17",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-593",
+    "name": "賴士葆",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立成功大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1951/6/20",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-594",
+    "name": "管中閔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","教授"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1956/8/15",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-595",
+    "name": "陳冲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1940年代"],
+      "birthday": "1949/10/13",
+      "tags": ["結過婚","當過行政院院長"]
+    }
+  },
+  {
+    "id": "tw-596",
+    "name": "林全",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["政治人物","教授"],
+      "education": ["輔仁大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1951/12/13",
+      "tags": ["結過婚","離過婚","當過行政院院長","當過財政部部長"]
+    }
+  },
+  {
+    "id": "tw-597",
+    "name": "毛治國",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["中國"],
+      "occupation": ["政治人物","教授"],
+      "education": ["國立成功大學"],
+      "award": [],
+      "birth_decade": ["1940年代"],
+      "birthday": "1948/10/4",
+      "tags": ["結過婚","當過行政院院長","當過交通部部長"]
+    }
+  },
+  {
+    "id": "tw-598",
+    "name": "江宜樺",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["政治人物","教授"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1960/11/18",
+      "tags": ["結過婚","當過行政院院長","當過內政部部長"]
+    }
+  },
+  {
+    "id": "tw-599",
+    "name": "鄭麗君",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/6/19",
+      "tags": ["結過婚","當過文化部部長"]
+    }
+  },
+  {
+    "id": "tw-600",
+    "name": "吳密察",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["教授"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1956/3/22",
       "tags": ["結過婚"]
     }
   }
