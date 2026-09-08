@@ -737,6 +737,7 @@ export async function mountGrid(cfg) {
 
   qInput.addEventListener('input', renderSuggestions);
   qInput.addEventListener('keydown', e => {
+    if (e.isComposing) return;
     if (e.key === 'Enter') {
       e.preventDefault();
       const first = sugg.querySelector('button[data-pid]:not([disabled])');
