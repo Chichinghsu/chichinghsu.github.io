@@ -113,6 +113,10 @@
 
   { "id": 30, "date": "2026-09-12",
     "rows": ["occupation:歌手", "occupation:演員", "occupation:藝人"],
-    "columns": ["tags:結過婚", "tags:離過婚", "award:金鐘獎"] }
+    "columns": ["tags:結過婚", "tags:離過婚", "award:金鐘獎"] },
+
+  { "id": 31, "date": "2026-09-13",
+  "rows": ["occupation:藝人", "occupation:主持人", "occupation:演員"],
+  "columns": ["tags:離過婚", "award:金鐘獎", "birth_decade:1970年代"] }
 
 ]

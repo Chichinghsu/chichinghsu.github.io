@@ -1909,7 +1909,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["香港"],
-      "occupation": ["演員","導演"],
+      "occupation": ["演員","導演","主持人","喜劇演員"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1960年代"],
@@ -3796,11 +3796,11 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["中國"],
-      "occupation": ["作家"],
+      "occupation": ["作家","教授"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1930年代"],
-      "birthday": "1937/7/11",
+      "birthday": "1937/8/16",
       "tags": []
     }
   },
@@ -3817,7 +3817,7 @@
       "award": [],
       "birth_decade": ["1920年代"],
       "birthday": "1928/10/21",
-      "tags": []
+      "tags": ["已故"]
     }
   },
   {
@@ -3944,7 +3944,7 @@
       "award": [],
       "birth_decade": ["1950年代"],
       "birthday": "1958/3/12",
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -4003,7 +4003,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台灣"],
-      "occupation": ["YouTuber","政治人物","主持人","Podcast"],
+      "occupation": ["YouTuber","政治人物","主持人","Podcast","議員"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -6759,7 +6759,7 @@
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
       "birthday": "1976/9/22",
-      "tags": ["結過婚"]
+      "tags": ["結過婚","台語歌手"]
     }
   },
   {
@@ -9575,6 +9575,326 @@
       "award": [],
       "birth_decade": ["1950年代"],
       "birthday": "1956/3/22",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-601",
+    "name": "柯裕棻",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["教授","作家"],
+      "education": ["輔仁大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/9/8",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-602",
+    "name": "李維菁",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["記者","作家"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/8/20",
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-603",
+    "name": "廖玉蕙",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["教授","作家"],
+      "education": ["東吳大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1950/3/14",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-604",
+    "name": "陳又津",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["記者","作家"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/1/16",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-605",
+    "name": "蘇偉貞",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["教授","作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1954/7/16",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-606",
+    "name": "童偉格",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["作家"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-607",
+    "name": "伊格言",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1977/11/6",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-608",
+    "name": "駱以軍",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["作家"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1967/3/29",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-609",
+    "name": "王文興",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["作家"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1930年代"],
+      "birthday": "1939/9/24",
+      "tags": ["已故","結過婚"]
+    }
+  },
+  {
+    "id": "tw-610",
+    "name": "陳雪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["作家"],
+      "education": ["國立中央大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1970/6/3",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-611",
+    "name": "胡淑雯",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["作家","記者"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-612",
+    "name": "東野圭吾",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["日本"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1958/2/4",
+      "tags": ["結過婚","已故"]
+    }
+  },
+  {
+    "id": "tw-613",
+    "name": "曾心梅",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎","金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1970/8/6",
+      "tags": ["選秀出身","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-614",
+    "name": "林俊逸",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["歌手","藝人","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/1/11",
+      "tags": ["選秀出身","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-615",
+    "name": "吳怡霈",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["藝人","主持人","記者","體育主播"],
+      "education": ["世新大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1980/2/9",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-616",
+    "name": "何美",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1993/4/16",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-617",
+    "name": "舒子晨",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","主持人","演員","啦啦隊"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1991/5/6",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-618",
+    "name": "哈孝遠",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員","籃球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/5/15",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-619",
+    "name": "郭彥均",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/12/31",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-620",
+    "name": "郭彥甫",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/12/31",
       "tags": ["結過婚"]
     }
   }
