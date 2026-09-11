@@ -32,11 +32,16 @@
    only the checklist itself needs styling here. */
 .pick-card{ max-width:420px; }
 .pick-list{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  display:flex;
+  flex-direction:column;
   gap:8px;
   margin:14px 0 10px;
   text-align:left;
+}
+#otherCitiesOverlay .pick-list{
+  max-height:50vh;
+  overflow-y:auto;
+  margin:8px 0;
 }
 .pick-item{
   display:flex;
@@ -47,12 +52,20 @@
   border-radius:10px;
   cursor:pointer;
   user-select:none;
+  background:none;
+  color:inherit;
+  font-family:inherit;
+  font-size:inherit;
+  text-align:left;
 }
+.pick-item:hover{ border-color:var(--accent); }
 .pick-item:has(input:checked){ border-color:var(--accent); background:#f7f8fa; }
 .pick-item input{ accent-color:var(--accent); width:16px; height:16px; flex:none; }
 .pick-item .sw{ width:10px; height:10px; border-radius:3px; flex:none; }
 .pick-item .nm{ font-weight:600; }
 .pick-item .ct{ margin-left:auto; color:#6c7480; font-size:13px; }
+.pick-item .go{ margin-left:auto; color:#6c7480; font-weight:600; }
+.pick-other-btn{ justify-content:space-between; }
 .pick-total{ color:#6c7480; font-size:14px; }
 .pick-quick{ display:flex; gap:8px; justify-content:center; margin:10px 0 2px; }
 .pick-quick button{ flex:1; }

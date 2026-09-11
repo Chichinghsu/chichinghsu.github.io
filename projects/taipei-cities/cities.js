@@ -26,7 +26,7 @@ const el = (tag, attrs) => {
 // two different games don't post identical results: 六都 / 臺中+高雄 / 臺北.
 const setLabel = (cfg, cities, all) => cities.length === all.length
   ? cfg.allLabel
-  : cities.map(c => c.name.replace(/[市縣]$/, '')).join('+');
+  : cities.map(c => c.name).join('+');
 
 // -------------------------------------------------------------------- picker
 // Gate the game on a city choice rather than booting a fixed set. The chosen
@@ -34,56 +34,177 @@ const setLabel = (cfg, cities, all) => cities.length === all.length
 // survives 再玩一次 (which is a location.reload) instead of dumping the player
 // back here.
 function showPicker(cfg, DATA, onStart) {
+  const allCities = DATA.cities;
+  const sixCities = allCities.slice(0, 6); // The original 六都
+  const allCounties = allCities.slice(6); // All other counties (for 其他縣市 menu)
+  const allCount = DATA.districts.length;
+
   document.body.innerHTML = `
 <div class="overlay show">
   <div class="report pick-card">
     <h2>${cfg.shareTitle}</h2>
     <div class="rp-sub">選擇想挑戰的縣市，可以複選</div>
-    <div class="pick-list">${DATA.cities.map(c => `
+    <div class="pick-list">
+      <label class="pick-item" id="pickAllTaiwan">
+        <input type="checkbox" value="__all__"/>
+        <span class="sw" style="background:#888"></span>
+        <span class="nm" style="font-weight:bold">全台 368</span>
+        <span class="ct">${allCount} 區</span>
+      </label>${sixCities.map(c => `
       <label class="pick-item">
         <input type="checkbox" value="${c.id}"${cfg.defaultCities.includes(c.id) ? ' checked' : ''}/>
         <span class="sw" style="background:${c.accent}"></span>
         <span class="nm">${c.name}</span>
         <span class="ct">${c.count} 區</span>
-      </label>`).join('')}</div>
+      </label>`).join('')}
+      <button type="button" id="pickOtherBtn" class="pick-item pick-other-btn">
+        <span class="nm">其他縣市</span>
+        <span class="go">→</span>
+      </button>
+    </div>
     <div class="pick-total">共 <b id="pickTotal">0</b> 區</div>
     <div class="pick-quick">
       <button type="button" id="pickAll">全選</button>
       <button type="button" id="pickNone">清除</button>
-      <button type="button" id="pickRandom">隨機一都</button>
+      <button type="button" id="pickRandom">隨機一縣市</button>
     </div>
     <div class="rp-actions"><button id="pickStart" class="primary">開始挑戰</button></div>
   </div>
+</div>
+
+<div class="overlay" id="otherCitiesOverlay">
+  <div class="report pick-card">
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+      <button type="button" id="otherBack" style="background:none; border:none; cursor:pointer; padding:0; font-size:20px;">←</button>
+      <h3 style="margin:0; flex:1; font-size:18px;">其他縣市</h3>
+    </div>
+    <div class="pick-list">
+      ${allCities.map(c => `
+      <label class="pick-item">
+        <input type="checkbox" value="${c.id}"/>
+        <span class="sw" style="background:${c.accent}"></span>
+        <span class="nm">${c.name}</span>
+        <span class="ct">${c.count} 區</span>
+      </label>`).join('')}
+    </div>
+    <div class="pick-quick">
+      <button type="button" id="otherAll">全選</button>
+      <button type="button" id="otherNone">清除</button>
+    </div>
+    <div class="rp-actions"><button id="otherDone" class="primary">開始挑戰</button></div>
+  </div>
 </div>`;
 
-  const boxes = [...document.querySelectorAll('.pick-item input')];
+  const allTaiwanBox = document.getElementById('pickAllTaiwan').querySelector('input');
+  const mainPickerList = document.querySelector('.overlay.show .report .pick-list');
+  const sixCityBoxes = mainPickerList ? [...mainPickerList.querySelectorAll(':scope > .pick-item:not(#pickAllTaiwan):not(.pick-other-btn) input')] : [];
+  const otherCityBoxes = [...document.querySelectorAll('#otherCitiesOverlay .pick-item input')];
+  const allCityBoxes = [...sixCityBoxes, ...otherCityBoxes];
   const startBtn = document.getElementById('pickStart');
   const totalEl = document.getElementById('pickTotal');
   const countOf = id => DATA.cities.find(c => c.id === id).count;
-  const chosen = () => boxes.filter(b => b.checked).map(b => b.value);
+  const chosen = () => {
+    if (allTaiwanBox.checked) return allCities.map(c => c.id);
+    return allCityBoxes.filter(b => b.checked).map(b => b.value);
+  };
 
   function sync() {
+    const isAllChecked = allTaiwanBox.checked;
+    sixCityBoxes.forEach(b => {
+      b.disabled = isAllChecked;
+      b.parentElement.style.opacity = isAllChecked ? '0.5' : '1';
+    });
+    otherCityBoxes.forEach(b => {
+      b.disabled = isAllChecked;
+      b.parentElement.style.opacity = isAllChecked ? '0.5' : '1';
+    });
     const ids = chosen();
     totalEl.textContent = ids.reduce((n, id) => n + countOf(id), 0);
     startBtn.disabled = !ids.length;
   }
-  const setAll = fn => { boxes.forEach((b, i) => { b.checked = fn(b, i); }); sync(); };
 
-  boxes.forEach(b => b.addEventListener('change', sync));
-  document.getElementById('pickAll').addEventListener('click', () => setAll(() => true));
-  document.getElementById('pickNone').addEventListener('click', () => setAll(() => false));
-  // One random 都, not a random subset: "臺南+桃園" is an arbitrary pairing,
+  allTaiwanBox.addEventListener('change', () => {
+    if (allTaiwanBox.checked) {
+      allCityBoxes.forEach(b => b.checked = false);
+    }
+    sync();
+  });
+
+  allCityBoxes.forEach(b => {
+    b.addEventListener('change', () => {
+      if (b.checked) allTaiwanBox.checked = false;
+      sync();
+    });
+  });
+
+  document.getElementById('pickAll').addEventListener('click', () => {
+    allTaiwanBox.checked = true;
+    allCityBoxes.forEach(b => b.checked = false);
+    sync();
+  });
+  document.getElementById('pickNone').addEventListener('click', () => {
+    allTaiwanBox.checked = false;
+    allCityBoxes.forEach(b => b.checked = false);
+    sync();
+  });
+  // One random city, not a random subset: "臺南+桃園" is an arbitrary pairing,
   // whereas "you got 高雄" is a challenge.
   document.getElementById('pickRandom').addEventListener('click', () => {
-    const pick = Math.floor(Math.random() * boxes.length);
-    setAll((_, i) => i === pick);
+    allTaiwanBox.checked = false;
+    const pick = Math.floor(Math.random() * allCityBoxes.length);
+    allCityBoxes.forEach((b, i) => { b.checked = i === pick; });
+    sync();
+    const ids = chosen();
+    if (ids.length) {
+      gtag('event', 'city_selected', {
+        cities: ids.join(','),
+        city_count: ids.length
+      });
+      onStart(ids);
+    }
   });
+
+  const otherOverlay = document.getElementById('otherCitiesOverlay');
+  document.getElementById('pickOtherBtn').addEventListener('click', () => {
+    allTaiwanBox.checked = false;
+    sixCityBoxes.forEach(b => b.checked = false);
+    otherCityBoxes.forEach(b => b.checked = false);
+    sync();
+    otherOverlay.classList.add('show');
+  });
+  document.getElementById('otherBack').addEventListener('click', () => {
+    otherOverlay.classList.remove('show');
+  });
+  otherOverlay.addEventListener('click', e => {
+    if (e.target === otherOverlay) otherOverlay.classList.remove('show');
+  });
+  document.getElementById('otherAll').addEventListener('click', () => {
+    otherCityBoxes.forEach(b => { b.checked = true; });
+    allTaiwanBox.checked = false;
+    sync();
+  });
+  document.getElementById('otherNone').addEventListener('click', () => {
+    otherCityBoxes.forEach(b => { b.checked = false; });
+    sync();
+  });
+  document.getElementById('otherDone').addEventListener('click', () => {
+    const ids = chosen();
+    if (ids.length) {
+      gtag('event', 'city_selected', {
+        cities: ids.join(','),
+        city_count: ids.length
+      });
+      onStart(ids);
+    }
+  });
+
   startBtn.addEventListener('click', () => {
+    const ids = chosen();
     gtag('event', 'city_selected', {
-      cities: chosen().join(','),
-      city_count: chosen().length
+      cities: ids.join(','),
+      city_count: ids.length
     });
-    onStart(chosen());
+    onStart(ids);
   });
   sync();
 }
@@ -261,16 +382,15 @@ function run(cfg, DATA, cities, label) {
   const STROKE = REF * 0.05;
 
   // ---- normalization / matching ----
-  // 臺 and 台 are interchangeable, and a trailing 區/市/鎮/鄉 is noise: 新北's
-  // districts were 市/鎮/鄉 before the 2010 upgrade and plenty of people still
-  // say 三重市 or 鶯歌鎮.
+  // 臺 and 台 are interchangeable. Suffixes (區/市/鎮/鄉) are preserved because
+  // d.short already provides the suffix-less version. This prevents false matches
+  // like "鹿港鎮" matching "鹿港區".
   function norm(str) {
     return str.toLowerCase()
       .normalize('NFKD')
       .replace(/[\u0300-\u036f]/g, '')
       .replace(/臺/g, '台')
       .replace(/[^a-z0-9\u4e00-\u9fff]/g, '')
-      .replace(/[區市鎮鄉]$/, '');
   }
   // A guess maps to a LIST of ids: 中正/中山/信義 repeat across 縣市, so once
   // more cities are added one typed name should unlock all of them.
@@ -421,7 +541,7 @@ function run(cfg, DATA, cities, label) {
     if (!raw) return;
     const ids = aliasMap[norm(raw)];
     if (!ids || !ids.length) {
-      feedback.textContent = '"' + raw + '" — 沒有這個區 QQ';
+      feedback.textContent = '"' + raw + '" — 沒有這個 QQ';
       feedback.className = 'feedback no';
       input.select();
       return;
@@ -441,15 +561,20 @@ function run(cfg, DATA, cities, label) {
   });
 
   document.getElementById('revealBtn').addEventListener('click', () => {
-    if (confirm('公布所有還沒解鎖的區？成績會以目前的進度結算，之後不能再作答。')) revealAllRemaining();
+    if (confirm('公布所有還沒解鎖的鄉鎮市區？成績會以目前的進度結算，之後不能再作答。')) revealAllRemaining();
   });
 
   // ---- 交卷 / report card ----
   // Ranks are checked top-down; the first threshold the score clears wins.
   // cfg.ranks is a generic percentage ladder, because an arbitrary combination
   // of 都 can't have a themed one. A single city can, and single-city is the
-  // common case, so it gets its own set when one is supplied.
-  const ranks = (cities.length === 1 && cfg.rankSets?.[cities[0].id]) || cfg.ranks;
+  // common case, so it gets its own set when one is supplied. Use generic ladder
+  // if any counties from 其他縣市 (outside the six cities) are selected.
+  const sixCitiesIds = new Set(DATA.cities.slice(0, 6).map(c => c.id));
+  const hasCountiesOutsideSix = cities.some(c => !sixCitiesIds.has(c.id));
+  const ranks = (cities.length === DATA.cities.length && cfg.rankSets?.['__all__'])
+    ? cfg.rankSets['__all__']
+    : ((cities.length === 1 && !hasCountiesOutsideSix && cfg.rankSets?.[cities[0].id]) || cfg.ranks);
   const rankFor = pct => ranks.find(r => pct >= r.min) || ranks[ranks.length - 1];
   const overlay = document.getElementById('reportOverlay');
   function showReport() {

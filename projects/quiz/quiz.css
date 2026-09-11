@@ -141,6 +141,8 @@ button{
   font-size:13px;
   font-family:inherit;
   cursor:pointer;
+  white-space:nowrap;
+  flex-shrink:0;
 }
 button:hover{ border-color:var(--accent); }
 button.primary{ background:var(--accent); color:#fffdf8; border-color:var(--accent); font-weight:600; }

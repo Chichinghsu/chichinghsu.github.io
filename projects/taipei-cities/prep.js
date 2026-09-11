@@ -30,7 +30,22 @@ const CITIES = [
   { id:'tcc',  src:'台中市', name:'臺中市', accent:'#1d4ed8' },
   { id:'tnn',  src:'台南市', name:'臺南市', accent:'#9333ea' },
   { id:'khh',  src:'高雄市', name:'高雄市', accent:'#be123c' },
-  // Extension: add { id:'kee', src:'基隆市', name:'基隆市', accent:'#...' } etc.
+  { id:'kee',  src:'基隆市', name:'基隆市', accent:'#1e88e5' },
+  { id:'hsz',  src:'新竹市', name:'新竹市', accent:'#d84315' },
+  { id:'hsc',  src:'新竹縣', name:'新竹縣', accent:'#f57f17' },
+  { id:'hs',   src:'苗栗縣', name:'苗栗縣', accent:'#558b2f' },
+  { id:'chw',  src:'彰化縣', name:'彰化縣', accent:'#c62828' },
+  { id:'ntn',  src:'南投縣', name:'南投縣', accent:'#00838f' },
+  { id:'yln',  src:'雲林縣', name:'雲林縣', accent:'#9333ea' },
+  { id:'cyz',  src:'嘉義市', name:'嘉義市', accent:'#6a1b9a' },
+  { id:'cyc',  src:'嘉義縣', name:'嘉義縣', accent:'#e65100' },
+  { id:'ptz',  src:'屏東縣', name:'屏東縣', accent:'#00695c' },
+  { id:'ttz',  src:'台東縣', name:'臺東縣', accent:'#e53935' },
+  { id:'hls',  src:'花蓮縣', name:'花蓮縣', accent:'#7cb342' },
+  { id:'ilan', src:'宜蘭縣', name:'宜蘭縣', accent:'#1565c0' },
+  { id:'phu',  src:'澎湖縣', name:'澎湖縣', accent:'#00838f' },
+  { id:'kmt',  src:'金門縣', name:'金門縣', accent:'#d32f2f' },
+  { id:'llj',  src:'連江縣', name:'連江縣', accent:'#0288d1' },
 ];
 
 const fold = s => s.replace(/臺/g, '台');
