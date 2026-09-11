@@ -117,6 +117,13 @@
 
   { "id": 31, "date": "2026-09-13",
   "rows": ["occupation:藝人", "occupation:主持人", "occupation:演員"],
-  "columns": ["tags:離過婚", "award:金鐘獎", "birth_decade:1970年代"] }
+  "columns": ["tags:離過婚", "award:金鐘獎", "birth_decade:1970年代"] },
 
+  { "id": 32, "date": "2026-09-14",
+  "rows": ["occupation:藝人", "occupation:主持人", "occupation:演員"],
+  "columns": ["special:海外出生", "birth_decade:1960年代", "tags:結過婚"] },
+
+  { "id": 33, "date": "2026-09-15",
+  "rows": ["occupation:YouTuber", "award:走鐘獎", "occupation:運動員"],
+  "columns": ["birth_decade:1990年代", "special:1989前出生", "gender:女性"] }
 ]

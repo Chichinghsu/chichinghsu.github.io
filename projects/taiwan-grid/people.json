@@ -4204,11 +4204,12 @@
     "aka": [],
     "properties": {
       "gender": ["男性"],
-      "birth_city": [],
+      "birth_city": ["花蓮縣"],
       "occupation": ["YouTuber"],
-      "education": [],
+      "education": ["國立臺北藝術大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
+      "birthday": "1994/2/1",
       "tags": []
     }
   },
@@ -4423,7 +4424,7 @@
     "id": "tw-278",
     "name": "白癡公主",
     "wikidata": "",
-    "aka": [],
+    "aka": ["白痴公主"],
     "properties": {
       "gender": ["女性"],
       "birth_city": ["新北市"],
@@ -4447,6 +4448,7 @@
       "education": ["國立中央大學"],
       "award": [],
       "birth_decade": ["1990年代"],
+      "birthday": "1993/10/9",
       "tags": ["結過婚"]
     }
   },
@@ -4478,6 +4480,7 @@
       "education": ["淡江大學"],
       "award": [],
       "birth_decade": ["1980年代"],
+      "birthday": "1989/12/1",
       "tags": []
     }
   },
@@ -4781,6 +4784,7 @@
       "education": ["世新大學"],
       "award": [],
       "birth_decade": ["1980年代"],
+      "birthday": "1987/7/20",
       "tags": []
     }
   },
@@ -5860,7 +5864,7 @@
       "birth_city": ["台北市"],
       "occupation": ["喜劇演員","YouTuber","主持人","Podcast"],
       "education": ["國立政治大學"],
-      "award": [],
+      "award": ["走鐘獎"],
       "birth_decade": ["1990年代"],
       "birthday": "1994/4/3",
       "tags": ["外遇或劈腿過"]
@@ -9896,6 +9900,118 @@
       "birth_decade": ["1970年代"],
       "birthday": "1979/12/31",
       "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-621",
+    "name": "魚乾",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["YouTuber","歌手"],
+      "education": ["國立臺灣海洋大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/10/27",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-622",
+    "name": "奎丁",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["YouTuber"],
+      "education": ["輔仁大學"],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1992/2/11",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-623",
+    "name": "Cheap",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["YouTuber"],
+      "education": ["東吳大學"],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/11/18",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-624",
+    "name": "黃小潔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["YouTuber"],
+      "education": [],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/9/9",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-625",
+    "name": "鳥屎",
+    "wikidata": "",
+    "aka": ["蘇志翔"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["YouTuber","主持人","演員"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1991/4/11",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-626",
+    "name": "貝莉莓",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["YouTuber","主持人"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/6/25",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-627",
+    "name": "六嘆",
+    "wikidata": "",
+    "aka": ["6tan"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["YouTuber","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/3/8",
+      "tags": []
     }
   }
 ]
