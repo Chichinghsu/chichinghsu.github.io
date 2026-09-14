@@ -125,5 +125,202 @@
 
   { "id": 33, "date": "2026-09-15",
   "rows": ["occupation:YouTuber", "award:走鐘獎", "occupation:運動員"],
-  "columns": ["birth_decade:1990年代", "special:1989前出生", "gender:女性"] }
+  "columns": ["birth_decade:1990年代", "special:1989前出生", "gender:女性"] },
+
+  {
+    "id": 34,
+    "date": "2026-09-16",
+    "rows": [
+      "occupation:歌手",
+      "occupation:演員",
+      "occupation:主持人"
+    ],
+    "columns": [
+      "birth_decade:1970年代",
+      "birth_decade:1980年代",
+      "gender:女性"
+    ]
+  },
+  {
+    "id": 35,
+    "date": "2026-09-17",
+    "rows": [
+      "occupation:政治人物",
+      "occupation:運動員",
+      "occupation:藝人"
+    ],
+    "columns": [
+      "gender:男性",
+      "birth_decade:1980年代",
+      "birth_decade:1990年代"
+    ]
+  },
+  {
+    "id": 36,
+    "date": "2026-09-18",
+    "rows": [
+      "occupation:歌手",
+      "occupation:演員",
+      "occupation:導演"
+    ],
+    "columns": [
+      "award:金曲獎",
+      "award:金鐘獎",
+      "award:金馬獎"
+    ]
+  },
+  {
+    "id": 37,
+    "date": "2026-09-19",
+    "rows": [
+      "occupation:藝人",
+      "occupation:主持人",
+      "special:海外出生"
+    ],
+    "columns": [
+      "birth_decade:1970年代",
+      "birth_decade:1980年代",
+      "birth_decade:1990年代"
+    ]
+  },
+  {
+    "id": 38,
+    "date": "2026-09-20",
+    "rows": [
+      "gender:男性",
+      "gender:女性",
+      "occupation:運動員"
+    ],
+    "columns": [
+      "birth_decade:1980年代",
+      "birth_decade:1990年代",
+      "birth_decade:2000年代"
+    ]
+  },
+  {
+    "id": 39,
+    "date": "2026-09-21",
+    "rows": [
+      "occupation:歌手",
+      "occupation:藝人",
+      "tags:樂團主唱"
+    ],
+    "columns": [
+      "award:金曲獎",
+      "gender:男性",
+      "birth_decade:1970年代"
+    ]
+  },
+  {
+    "id": 40,
+    "date": "2026-09-22",
+    "rows": [
+      "occupation:演員",
+      "occupation:主持人",
+      "occupation:藝人"
+    ],
+    "columns": [
+      "award:金鐘獎",
+      "gender:女性",
+      "tags:結過婚"
+    ]
+  },
+  {
+    "id": 41,
+    "date": "2026-09-23",
+    "rows": [
+      "occupation:政治人物",
+      "education:國立臺灣大學",
+      "gender:男性"
+    ],
+    "columns": [
+      "tags:當過市長",
+      "tags:選過總統",
+      "birth_decade:1950年代"
+    ]
+  },
+  {
+    "id": 42,
+    "date": "2026-09-24",
+    "rows": [
+      "occupation:歌手",
+      "occupation:主持人",
+      "gender:女性"
+    ],
+    "columns": [
+      "tags:選秀出身",
+      "award:金曲獎",
+      "birth_decade:1980年代"
+    ]
+  },
+  {
+    "id": 43,
+    "date": "2026-09-25",
+    "rows": [
+      "occupation:歌手",
+      "occupation:藝人",
+      "occupation:導演"
+    ],
+    "columns": [
+      "birth_decade:1960年代",
+      "birth_decade:1970年代",
+      "tags:結過婚"
+    ]
+  },
+  {
+    "id": 44,
+    "date": "2026-09-26",
+    "rows": [
+      "occupation:演員",
+      "occupation:導演",
+      "occupation:歌手"
+    ],
+    "columns": [
+      "award:金馬獎",
+      "special:海外出生",
+      "tags:結過婚"
+    ]
+  },
+  {
+    "id": 45,
+    "date": "2026-09-27",
+    "rows": [
+      "occupation:運動員",
+      "gender:男性",
+      "gender:女性"
+    ],
+    "columns": [
+      "tags:奧運金牌",
+      "tags:奧運獎牌",
+      "birth_decade:1990年代"
+    ]
+  },
+  {
+    "id": 46,
+    "date": "2026-09-28",
+    "rows": [
+      "occupation:作家",
+      "occupation:運動員",
+      "occupation:政治人物"
+    ],
+    "columns": [
+      "gender:男性",
+      "special:1979前出生",
+      "special:1980後出生"
+    ]
+  },
+  {
+    "id": 47,
+    "date": "2026-09-29",
+    "rows": [
+      "tags:當過市長",
+      "occupation:醫師",
+      "occupation:政治人物"
+    ],
+    "columns": [
+      "gender:男性",
+      "birth_decade:1970年代",
+      "education:國立臺灣大學"
+    ]
+  }  
 ]
