@@ -263,7 +263,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["歌手","主持人","藝人"],
+      "occupation": ["歌手","主持人","藝人","演員"],
       "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1970年代"],
@@ -2804,12 +2804,12 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["屏東縣"],
-      "occupation": ["政治人物","律師"],
+      "occupation": ["政治人物","律師","立法委員"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1940年代"],
       "birthday": "1947/7/28",
-      "tags": ["選過總統","當過行政院院長","結過婚"]
+      "tags": ["選過總統","當過行政院院長","結過婚","當過市長"]
     }
   },
   {
@@ -6331,7 +6331,7 @@
       "award": [],
       "birth_decade": ["1980年代"],
       "birthday": "1988/9/21",
-      "tags": ["大聯盟"]
+      "tags": ["大聯盟","結過婚"]
     }
   },
   {
@@ -6379,7 +6379,7 @@
       "award": [],
       "birth_decade": ["1980年代"],
       "birthday": "1984/2/2",
-      "tags": ["大聯盟"]
+      "tags": ["大聯盟","結過婚"]
     }
   },
   {
@@ -10060,6 +10060,182 @@
       "birth_decade": ["1980年代"],
       "birthday": "1982/8/27",
       "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-631",
+    "name": "黃志雄",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["政治人物","立法委員","運動員"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1976/10/16",
+      "tags": ["結過婚","奧運獎牌"]
+    }
+  },
+  {
+    "id": "tw-632",
+    "name": "廖國棟",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台東縣"],
+      "occupation": ["政治人物","立法委員","醫師"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1955/1/8",
+      "tags": ["結過婚","原住民"]
+    }
+  },
+  {
+    "id": "tw-633",
+    "name": "孔文吉",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["南投縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1957/10/18",
+      "tags": ["結過婚","原住民"]
+    }
+  },
+  {
+    "id": "tw-634",
+    "name": "陳鏞基",
+    "wikidata": "",
+    "aka": ["Mayaw Ciru"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台東縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1983/7/13",
+      "tags": ["結過婚","原住民"]
+    }
+  },
+  {
+    "id": "tw-635",
+    "name": "陳鏞基",
+    "wikidata": "",
+    "aka": ["Mayaw Ciru"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台東縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1983/7/13",
+      "tags": ["結過婚","原住民"]
+    }
+  },
+  {
+    "id": "tw-636",
+    "name": "李灝宇",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["2000年代"],
+      "birthday": "2003/2/3",
+      "tags": ["大聯盟","原住民"]
+    }
+  },
+  {
+    "id": "tw-637",
+    "name": "鄭宗哲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["2000年代"],
+      "birthday": "2001/7/26",
+      "tags": ["大聯盟"]
+    }
+  },
+  {
+    "id": "tw-638",
+    "name": "鄧愷威",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1998/12/1",
+      "tags": ["大聯盟"]
+    }
+  },
+  {
+    "id": "tw-639",
+    "name": "林子偉",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1994/2/15",
+      "tags": ["大聯盟","原住民"]
+    }
+  },
+  {
+    "id": "tw-640",
+    "name": "李振昌",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["澎湖縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/10/21",
+      "tags": ["大聯盟"]
+    }
+  },
+  {
+    "id": "tw-641",
+    "name": "陳子豪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台東縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1995/7/29",
+      "tags": []
     }
   }
 ]
