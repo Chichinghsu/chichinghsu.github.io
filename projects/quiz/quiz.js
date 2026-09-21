@@ -115,6 +115,7 @@ function buildLayout(cfg){
   <div class="stats">
     <span>解鎖 <b id="foundCount">0</b> / <span id="totalCount">0</span></span>
     <span class="pct"><b id="pctCount">0.0%</b></span>
+    <span id="timerDisplay">計時 <b>00:00</b></span>
   </div>
 </div>
 <div class="progressWrap"><div class="progressBar" id="progressBar"></div></div>
@@ -167,6 +168,7 @@ function buildLayout(cfg){
     <div class="rp-rank" id="rpRank">—</div>
     <div class="rp-quip" id="rpQuip"></div>
     <div class="rp-score" id="rpScore">0.0%</div>
+    <div class="rp-time" id="rpTime"></div>
     <div class="rp-count" id="rpCount"></div>
     <div class="rp-bar"><i id="rpBar" style="width:0%"></i></div>
     <div class="rp-lines" id="rpLines"></div>
@@ -246,6 +248,27 @@ function run(cfg, DATA){
   const layout = cfg.layout || {};
   const LBL_ZH = cfg.label?.zh ?? 6.5;
   const LBL_EN = cfg.label?.en ?? 4.6;
+
+  // ---- timer ----
+  let startTime = null;
+  let timerInterval = null;
+  let elapsedSeconds = 0;
+  const formatTime = (seconds) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+  };
+  const startTimer = () => {
+    if (startTime) return;
+    startTime = Date.now();
+    timerInterval = setInterval(() => {
+      elapsedSeconds = Math.floor((Date.now() - startTime) / 1000);
+      document.querySelector('#timerDisplay b').textContent = formatTime(elapsedSeconds);
+    }, 100);
+  };
+  const stopTimer = () => {
+    if (timerInterval) clearInterval(timerInterval);
+  };
 
   const proj = buildProjection(DATA, layout);
   const {W, H} = proj;
@@ -450,6 +473,7 @@ function run(cfg, DATA){
   function endGame(){
     if(submitted) return;
     submitted = true;
+    stopTimer();
     input.disabled = true;
     input.placeholder = '已交卷';
     form.querySelector('button[type=submit]').disabled = true;
@@ -516,6 +540,7 @@ function run(cfg, DATA){
   const form = document.getElementById('guessForm');
   const input = document.getElementById('guessInput');
   const feedback = document.getElementById('feedback');
+  input.addEventListener('input', startTimer);
   form.addEventListener('submit', e=>{
     e.preventDefault();
     const raw = input.value.trim();
@@ -558,6 +583,7 @@ function run(cfg, DATA){
     document.getElementById('rpRank').textContent = rank.title;
     document.getElementById('rpQuip').textContent = rank.quip;
     document.getElementById('rpScore').textContent = pctNum.toFixed(1)+'%';
+    document.getElementById('rpTime').textContent = '耗時 ' + formatTime(elapsedSeconds);
     document.getElementById('rpCount').textContent = finalScore.count+' / '+stations.length+' 站';
     document.getElementById('rpBar').style.width = Math.max(pctNum, 0.8)+'%';
     document.getElementById('rpLines').innerHTML = Object.keys(groupMeta).map(k=>{

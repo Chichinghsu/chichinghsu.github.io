@@ -237,6 +237,7 @@ button.primary:hover{ filter:brightness(1.1); }
   font-size:44px; font-weight:600; color:var(--ink);
   font-family:"SF Mono","Menlo",monospace; font-variant-numeric:tabular-nums;
 }
+.report .rp-time{ font-size:13px; color:var(--muted); font-family:"SF Mono","Menlo",monospace; margin-bottom:8px; }
 .report .rp-count{ font-size:13px; color:var(--muted); font-family:"SF Mono","Menlo",monospace; }
 .report .rp-bar{ height:6px; border-radius:3px; background:var(--line); margin:16px 0 18px; overflow:hidden; }
 .report .rp-bar i{ display:block; height:100%; background:var(--accent); }
