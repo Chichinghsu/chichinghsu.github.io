@@ -432,7 +432,7 @@ export async function mountNVS(cfg) {
 
   function shareText() {
     const s = score();
-    return `${title} ${s}/${rounds.length}\n\n${roundLines().join('\n')}`
+    return `${title} \n\n${roundLines().join('\n')}`
       + `\n\n戰南北，你懂台灣縣市嗎？ | 台灣大挑戰 \n🔗 ${cfg.shareUrl}?p=${puzzleNum}`;
   }
 
