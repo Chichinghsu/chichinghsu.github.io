@@ -182,15 +182,30 @@ export async function mountNVS(cfg) {
   const debugReplay = DEBUG && params.get('replay') === '1';
 
   let today = taipeiToday();
-  const requested = /^\d{4}-\d{2}-\d{2}$/.test(params.get('d') || '') ? params.get('d') : null;
-  const isFuture = requested && requested > today;
-  const blocked = isFuture && !DEBUG; // allow future dates in debug mode
-  let dateKey = (requested && !blocked) ? requested : today;
-  let isArchive = dateKey !== today;
+  const requestedId = Number(params.get('p'));
+  let dateKey = today;
+  let isArchive = false;
+  let blocked = false;
 
-  if (params.has('d') && !isArchive && !DEBUG) {
+  if (Number.isInteger(requestedId) && requestedId >= 1) {
+    // Convert puzzle ID to date (p=1 is FIRST_DATE, p=2 is FIRST_DATE+1, etc.)
+    const [year, month, day] = FIRST_DATE.split('-').map(Number);
+    const firstDate = new Date(Date.UTC(year, month - 1, day));
+    const targetDate = new Date(firstDate.getTime() + (requestedId - 1) * 86400000);
+    const targetKey = `${targetDate.getUTCFullYear()}-${String(targetDate.getUTCMonth() + 1).padStart(2, '0')}-${String(targetDate.getUTCDate()).padStart(2, '0')}`;
+    const isFuture = targetKey > today;
+    blocked = isFuture && !DEBUG;
+    if (!blocked) {
+      dateKey = targetKey;
+      isArchive = dateKey !== today;
+    }
+  }
+
+  if (params.has('p') && !isArchive && !DEBUG) {
     try { history.replaceState(null, '', './'); } catch (e) { /* non-fatal */ }
   }
+
+  const puzzleNum = daysBetween(FIRST_DATE, dateKey) + 1;
 
   /* ---------- shell (built once) ---------- */
 
@@ -399,8 +414,10 @@ export async function mountNVS(cfg) {
   const marks = () => rounds.map((r, i) =>
     state.choices[i] && state.choices[i] === correctSide(r) ? '🟩' : '🟥');
 
-  const roundLines = () => rounds.map((r, i) =>
-    `${countyById.get(r.left.countyId).name} vs ${countyById.get(r.right.countyId).name} ${marks()[i]}`);
+  const roundLines = () => rounds.map((r, i) => {
+    const ind = indicatorById.get(r.indicatorId);
+    return `${esc(ind.name)} ${marks()[i]}`;
+  });
 
   function roundsHTML() {
     const mk = marks();
@@ -416,7 +433,7 @@ export async function mountNVS(cfg) {
   function shareText() {
     const s = score();
     return `${title} ${s}/${rounds.length}\n\n${roundLines().join('\n')}`
-      + `\n\n戰南北，你比較懂台灣嗎？\n🔗 ${cfg.shareUrl}?d=${dateKey}`;
+      + `\n\n戰南北，你懂台灣縣市嗎？ | 台灣大挑戰 \n🔗 ${cfg.shareUrl}?p=${puzzleNum}`;
   }
 
   function showResult() {
@@ -456,24 +473,28 @@ export async function mountNVS(cfg) {
       d.setUTCDate(d.getUTCDate() + n);
       dates.push(`${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`);
     }
-    $('arList').innerHTML = dates.map(dk => {
+    $('arList').innerHTML = dates.map((dk, idx) => {
       const isToday = dk === today;
       const s = savedScore(dk);
+      const puzzleId = span - idx + 1;
       const status = !s ? '未挑戰'
         : s.finished ? `${s.score}/${ROUNDS}`
         : `進行中 ${s.answered}/${ROUNDS}`;
-      return `<button class="plist" data-date="${dk}"${isToday && !isArchive ? ' disabled' : ''}>`
+      return `<button class="plist" data-id="${puzzleId}"${isToday && !isArchive ? ' disabled' : ''}>`
         + `<span class="pl-mid"><span class="pl-date">${esc(dk)}${isToday ? '（今天）' : ''}</span></span>`
         + `<span class="pl-status${s && s.finished ? ' done' : ''}">${status}</span></button>`;
     }).join('') || '<p class="tab-hint">還沒有以前的題目。</p>';
     $('archive').classList.add('show');
   }
 
-  $('arList').addEventListener('click', e => {
-    const b = e.target.closest('.plist');
-    if (!b || b.disabled) return;
-    location.href = `?d=${b.dataset.date}`;
-  });
+  const arList = $('arList');
+  if (arList) {
+    arList.addEventListener('click', e => {
+      const b = e.target.closest('.plist');
+      if (!b || b.disabled) return;
+      location.href = `?p=${b.dataset.id}`;
+    });
+  }
 
   /* ---------- review (檢討答案) ---------- */
 
@@ -593,7 +614,8 @@ export async function mountNVS(cfg) {
     dateKey = dk;
     isArchive = dateKey !== today;
     rounds = roundsForDate(dateKey);
-    title = `${cfg.shareTitle} ${dateKey}`;
+    const newPuzzleNum = daysBetween(FIRST_DATE, dateKey) + 1;
+    title = `${cfg.shareTitle} #${String(newPuzzleNum).padStart(3, '0')}`;
     if (debugReplay) {
       delete store.games[gameKey(dateKey)];
       writeStore(STORE_KEY, store);
@@ -603,8 +625,7 @@ export async function mountNVS(cfg) {
       nvs.state = state;
       console.log(`[戰南北] date=${dateKey}, ${rounds.length}/${ROUNDS} rounds, saved=${store.games[gameKey(dateKey)] ? 'yes' : 'no'}`);
     }
-    const puzzleNum = daysBetween(FIRST_DATE, dateKey) + 1;
-    $('pno').textContent = `#${String(puzzleNum).padStart(3, '0')}`;
+    $('pno').textContent = `#${String(newPuzzleNum).padStart(3, '0')}`;
     const banner = $('archiveBanner');
     if (blocked) {
       banner.innerHTML = '這一題還沒開放，先玩今天的吧。 <a href="./">回到今天</a>';
