@@ -10749,5 +10749,69 @@
       "birthday": "1955/10/25",
       "tags": ["結過婚","當過市長"]
     }
+  },
+  {
+    "id": "tw-674",
+    "name": "葉石濤",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1920年代"],
+      "birthday": "1925/11/1",
+      "tags": ["結過婚","已故","被關過"]
+    }
+  },
+  {
+    "id": "tw-675",
+    "name": "鍾肇政",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1920年代"],
+      "birthday": "1925/1/20",
+      "tags": ["結過婚","已故"]
+    }
+  },
+  {
+    "id": "tw-676",
+    "name": "賴和",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["作家","醫師"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1890年代"],
+      "birthday": "1894/5/28",
+      "tags": ["結過婚","已故"]
+    }
+  },
+  {
+    "id": "tw-677",
+    "name": "楊逵",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1900年代"],
+      "birthday": "1906/10/18",
+      "tags": ["結過婚","已故","被關過"]
+    }
   }
 ]
