@@ -169,14 +169,14 @@ export async function mountOlder(cfg) {
     <div class="stats"><span>誰才能坐博愛座？猜猜誰比較年長</span></div>
     <div class="switcher" id="switcher"></div>
   </div>
-  <div class="stats">
-    <span>第 <b id="rno">1</b> / ${ROUNDS} 題</span>
-  </div>
 </div>
 <div class="progressWrap"><div class="progressBar" id="pbar"></div></div>
 
 <div class="wrap">
   <div class="archive-banner" id="archiveBanner"></div>
+  <div class="stats" style="margin-bottom:12px;">
+    <span>第 <b id="rno">1</b> / ${ROUNDS} 題</span>
+  </div>
   <p class="tagline" id="tagline"></p>
   <div class="roundDots" id="dots"></div>
   <div class="arena" id="arena">
@@ -198,8 +198,8 @@ export async function mountOlder(cfg) {
   </div>
   <a href="#" class="archive-link" id="archiveLink">玩以前的題目</a>
   <p class="footer-note">
-    資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>
-    純屬好玩<span class="ver" id="ver"></span>
+    資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰<br>
+    純屬好玩 <span class="ver" id="ver"></span>
   </p>
 </div>
 
@@ -267,7 +267,7 @@ export async function mountOlder(cfg) {
   const CLICK_ONLY = matchMedia('(hover: hover) and (pointer: fine)').matches;
   $('tagline').innerHTML = CLICK_ONLY
     ? '<strong>點</strong>比較年長的那一位；也可以用 <strong>← → ↑</strong> 方向鍵。<br>同年同月同日生的話，選<strong>一樣老</strong>'
-    : '左邊比較老就<strong>往左滑</strong>，右邊比較年長就<strong>往右滑</strong>；也可直接點名字<br>同年同月同日生的話，選<strong>一樣老</strong>';
+    : '選出比較「老」的人<br>同年同月同日生的話，選<strong>一樣老</strong>';
   $('hintL').textContent = CLICK_ONLY ? '' : '';
   $('hintR').textContent = CLICK_ONLY ? '' : '';
   if (CLICK_ONLY) arena.style.touchAction = 'auto';
@@ -364,6 +364,13 @@ export async function mountOlder(cfg) {
     $('rno').textContent = String(Math.min(i + 1, rounds.length));
 
     if (i >= rounds.length) {
+      // Undo the fly-out before hiding: a leftover translate(+x) still counts
+      // towards the document's scrollable width, and the result overlay is
+      // position:fixed — which sizes to the *initial containing block*, i.e. the
+      // widened document, not the viewport. margin:auto then centres the report
+      // in that oversized box and it lands off-screen to the lower right.
+      arena.style.transform = '';
+      arena.classList.remove('gone', 'settling');
       arena.style.visibility = 'hidden';
       $('btnSame').disabled = true;
       return;

@@ -201,12 +201,13 @@ footer a{text-decoration:underline; text-underline-offset:3px;}
 </footer>
 
 <script>
-// One place to add a new game: append to the right row and it shows up in both
-// the nav picker and the card grid.
 const ROWS = [
   { title:'捷運挑戰', color:'var(--blue)', games:[
     { title:'雙北捷運',   teaser:'紅橘藍綠棕加環狀線，一百多站你記得幾個？', path:'/projects/metro/',      glyph:'🚇' },
     { title:'高雄捷運',   teaser:'紅線、橘線，再加上環狀輕軌一圈。',         path:'/projects/khh_metro/',  glyph:'🚈' },
+  ]},
+  { title:'地理挑戰', color:'var(--red)', games:[
+    { title:'全台 368 行政區', teaser:'全台 368 行政區大挑戰，可單選、複選、全選', path:'/projects/taipei-cities/', glyph:'🗺️', badge:'NEW' },
   ]},
   { title:'國道挑戰', color:'var(--green)', games:[
     { title:'國道一號',   teaser:'中山高速公路，交流道、系統、服務區。',   path:'/projects/freeway/',    glyph:'🛣️'},
@@ -214,17 +215,15 @@ const ROWS = [
   ]},
   { title:'鐵路挑戰', color:'var(--yellow)', games:[
     { title:'台鐵西部幹線', teaser:'山線海線一百多個站，基隆到屏東。',     path:'/projects/tra/',        glyph:'🚆' },
-    { title:'台鐵東部幹線', teaser:'宜蘭、花東縱谷、南迴，一路到屏東。',     path:'/projects/tra-east/',   glyph:'🚆', badge:'NEW' },
-  ]},
-  { title:'地理挑戰', color:'var(--blue)', games:[
-    { title:'全台 368 行政區', teaser:'全台 368 行政區大挑戰，可單選、複選、全選', path:'/projects/taipei-cities/', glyph:'🗺️', badge:'NEW' },
+    { title:'台鐵東部幹線', teaser:'宜蘭、花東縱谷、南迴，一路到屏東。',     path:'/projects/tra-east/',   glyph:'🚆' },
   ]},
   { title:'每日挑戰', color:'var(--red)', games:[
-    { title:'台灣九宮格', teaser:'3×3 九宮格，在台灣有名的人，你認識多少個？', path:'/projects/taiwan-grid/', glyph:'📍' },
-    { title:'博愛座大挑戰',     teaser:'一次兩個名人，誰才能坐博愛座？猜猜誰比較老。',   path:'/projects/who-is-older/', glyph:'👵', badge:'NEW' },
+  { title:'戰南北',     teaser:'縣市統計指標大挑戰，哪個縣市有比較多隻豬？比較多台垃圾車？',   path:'/projects/north-vs-south/', glyph:'⚔️', badge:'NEW' },
+  { title:'台灣九宮格', teaser:'3×3 九宮格，在台灣有名的人，你認識多少個？', path:'/projects/taiwan-grid/', glyph:'📍' },
+  { title:'博愛座大挑戰',     teaser:'一次兩個名人，誰才能坐博愛座？猜猜誰比較老。',   path:'/projects/who-is-older/', glyph:'👵' },
   ]},
-  { title:'其他挑戰', color:'var(--red)', games:[
-    { title:'日本車牌制霸 App', teaser:'蒐集日本各地車牌的 iOS App。',          path:'https://apps.apple.com/ph/app/id6774146443', glyph:'🚗', external:true },
+  { title:'其他挑戰', color:'var(--green)', games:[
+    { title:'日本車牌制霸 App', teaser:'蒐集日本各地車牌的 iOS App。',          path:'https://apps.apple.com/ph/app/id6774146443', glyph:'🇯🇵', external:true },
   ]},
 ];
 

@@ -102,7 +102,7 @@ export function setupOverlayHideLogic($) {
 }
 
 export function populateSwitcher($, cfg) {
-  if (cfg.links && $(0, 'switcher')) {
+  if (cfg.links) {
     const switcher = document.getElementById('switcher');
     if (switcher) {
       switcher.innerHTML = (cfg.links || [])

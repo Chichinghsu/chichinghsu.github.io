@@ -7,4 +7,8 @@ vendor
 .DS_Store
 how_to
 /projects/taiwan-grid/puzzles_option.json
-/projects/who-is-older/HISTORY.md
+/projects/who-is-older/*.md
+/projects/north-vs-south/*.md
+/projects/north-vs-south/*.xml
+/projects/north-vs-south/data/*.txt
+/projects/north-vs-south/data/_cache*

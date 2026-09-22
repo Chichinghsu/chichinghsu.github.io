@@ -10,33 +10,34 @@
   </script>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>博愛座大挑戰 | 台灣大挑戰</title>
+<title>戰南北 | 台灣大挑戰</title>
 <link rel="icon" type="image/x-icon" href="https://cchsu.tw/projects/img/logo.png">
-<meta name="description" content="博愛座大挑戰：兩位名人擺在一起，誰有資格坐博愛座？猜猜誰比較年長，同一天生日還有「一樣老」。" />
+<meta name="description" content="戰南北：哪個縣市有比較多豬？哪裡垃圾車比較多？東西南北通通戰起來！" />
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="台灣大挑戰" />
-<meta property="og:title" content="博愛座大挑戰 | 台灣大挑戰" />
-<meta property="og:description" content="博愛座大挑戰：兩位名人擺在一起，誰有資格坐博愛座？猜猜誰比較年長，同一天生日還有「一樣老」。" />
-<meta property="og:image" content="https://cchsu.tw/projects/who-is-older/img/og-image.webp" />
+<meta property="og:title" content="戰南北 | 台灣大挑戰" />
+<meta property="og:description" content="戰南北：哪個縣市有比較多豬？哪裡垃圾車比較多？東西南北通通戰起來！" />
+<meta property="og:image" content="https://cchsu.tw/projects/north-vs-south/img/og-image.webp" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://cchsu.tw/projects/who-is-older/" />
+<meta property="og:url" content="https://cchsu.tw/projects/north-vs-south/" />
 <meta property="og:locale" content="zh_TW" />
 
-<link rel="stylesheet" href="/projects/who-is-older/older.css" />
+<link rel="stylesheet" href="/projects/north-vs-south/nvs.css" />
 </head>
 <body>
 <script type="module">
-import { mountOlder } from '/projects/who-is-older/older.js';
+import { mountNVS } from '/projects/north-vs-south/nvs.js';
 
-mountOlder({
-  shareTitle: '博愛座大挑戰',
-  shareUrl: 'https://cchsu.tw/projects/who-is-older/',
+mountNVS({
+  shareTitle: '戰南北',
+  shareUrl: 'https://cchsu.tw/projects/north-vs-south/',
+  footer: '資料來源：<a href="https://data.gov.tw/dataset/10935" target="_blank" rel="nofollow noopener">政府資料開放平台縣市統計指標</a><br>僅供娛樂，可能有誤，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰',
   links: [
     { href: '/projects/', text: '所有挑戰 →' },
     { href: '/projects/taipei-cities/',  text: '全台行政區 →'},
-    { href: '/projects/north-vs-south/', text: '戰南北 →' },
+    { href: '/projects/who-is-older/', text: '博愛座 →' },
     { href: '/projects/taiwan-grid/', text: '台灣九宮格 →' },
     { href: '/projects/metro/',     text: '雙北捷運 →' },
     { href: '/projects/khh_metro/', text: '高雄捷運 →' },

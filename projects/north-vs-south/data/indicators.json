@@ -1,0 +1,2626 @@
+[
+  {
+    "id": "土地面積",
+    "name": "土地面積",
+    "unit": "平方公里",
+    "definition": "土地面積係指行政區域之土地面積，包含海埔新生地及附屬島嶼。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "山坡面積",
+    "name": "山坡面積",
+    "unit": "公頃",
+    "definition": "主要包括標高100公尺以上，1,000公尺以下之丘陵地，或標高未滿100公尺，而其平均坡度在百分之五以上坡地之面積，依照山坡地保育利用條例劃定公布者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平原面積",
+    "name": "平原面積",
+    "unit": "公頃",
+    "definition": "指低海拔之平坦土地，包括平原、盆地、沖積扇、縱谷及部分臺地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "高山面積",
+    "name": "高山面積",
+    "unit": "公頃",
+    "definition": "指國有林事業區、試驗用林地、保安林地等，位於較高海拔，專供林業經營、國土保安及林業試驗所必須之土地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平原地區占土地面積比率",
+    "name": "平原地區占土地面積比率",
+    "unit": "％",
+    "definition": "指平原地區占土地面積之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "戶籍登記戶數",
+    "name": "戶籍登記戶數",
+    "unit": "戶",
+    "definition": "於統計標準日之戶籍登記戶數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "戶籍登記戶量",
+    "name": "戶籍登記戶量",
+    "unit": "人/戶",
+    "definition": "每戶平均人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "戶籍登記人口數",
+    "name": "戶籍登記人口數",
+    "unit": "人",
+    "definition": "指在某地區設有戶籍之中華民國國民，於統計標準日不論其是否住在戶內，均為該地區之人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "0-14歲人口數",
+    "name": "0-14歲人口數",
+    "unit": "人",
+    "definition": "於統計標準日戶籍登記實足年齡為0-14歲人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15-64歲人口數",
+    "name": "15-64歲人口數",
+    "unit": "人",
+    "definition": "於統計標準日戶籍登記實足年齡為15-64歲人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "65歲以上人口數",
+    "name": "65歲以上人口數",
+    "unit": "人",
+    "definition": "於統計標準日戶籍登記實足年齡為65歲以上人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "幼年人口比率(0-14歲)",
+    "name": "幼年人口比率(0-14歲)",
+    "unit": "％",
+    "definition": "指0-14歲的人口占總人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "青壯年人口比率(15-64歲)",
+    "name": "青壯年人口比率(15-64歲)",
+    "unit": "％",
+    "definition": "指15-64歲的人口占總人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "老年人口比率(65歲以上)",
+    "name": "老年人口比率(65歲以上)",
+    "unit": "％",
+    "definition": "年齡65歲以上的人口占總人口比率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "扶養比",
+    "name": "扶養比",
+    "unit": "()",
+    "definition": "依賴人口對工作年齡人口扶養負擔的一種簡略測度。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "男性人口",
+    "name": "男性人口",
+    "unit": "人",
+    "definition": "戶籍當年底男性登記人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "女性人口",
+    "name": "女性人口",
+    "unit": "人",
+    "definition": "戶籍當年底女性登記人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "性比例",
+    "name": "性比例",
+    "unit": "女=100",
+    "definition": "男性人口對女性人口的比例，即每百女子所當男子數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "出生登記數",
+    "name": "出生登記數",
+    "unit": "人",
+    "definition": "戶籍當年出生登記人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "死亡登記數",
+    "name": "死亡登記數",
+    "unit": "人",
+    "definition": "戶籍當年死亡登記人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "粗出生率",
+    "name": "粗出生率",
+    "unit": "0/00",
+    "definition": "每千人中出生人口之比率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "粗死亡率",
+    "name": "粗死亡率",
+    "unit": "0/00",
+    "definition": "每千人中死亡人口之比率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "自然增加率",
+    "name": "自然增加率",
+    "unit": "0/00",
+    "definition": "自然增加數對年中人口數的比率，即粗出生率與粗死亡率之差。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "遷入人口數",
+    "name": "遷入人口數",
+    "unit": "人",
+    "definition": "戶籍遷入登記人口數（不含住址變更之遷入人數)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "遷出人口數",
+    "name": "遷出人口數",
+    "unit": "人",
+    "definition": "戶籍遷出登記人口數（不含住址變更之遷出人數)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "社會增加率",
+    "name": "社會增加率",
+    "unit": "0/00",
+    "definition": "社會增加數對年中人口數的比率，即遷入率減遷出率之差（含住址變更數）。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "人口總增加率",
+    "name": "人口總增加率",
+    "unit": "0/00",
+    "definition": "總增加數對年中人口數的比率",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "人口密度",
+    "name": "人口密度",
+    "unit": "人/平方公里",
+    "definition": "平均每一平方公里之人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15-49婦女人口數",
+    "name": "15-49婦女人口數",
+    "unit": "人",
+    "definition": "戶籍登記15-49婦女人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "婚生出生登記數",
+    "name": "婚生出生登記數",
+    "unit": "人",
+    "definition": "戶籍出生登記當年胎兒由合法婚姻關係受胎而生產出生數",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "非婚生出生登記數",
+    "name": "非婚生出生登記數",
+    "unit": "人",
+    "definition": "戶籍出生登記當年胎兒非由合法婚姻關係受胎而生產出生數",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "婚生嬰兒占出生嬰兒比率",
+    "name": "婚生嬰兒占出生嬰兒比率",
+    "unit": "％",
+    "definition": "指非婚生嬰兒數占嬰兒出生數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "非婚生嬰兒占出生嬰兒比率",
+    "name": "非婚生嬰兒占出生嬰兒比率",
+    "unit": "％",
+    "definition": "指非婚生嬰兒數占嬰兒出生數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "一般生育率",
+    "name": "一般生育率",
+    "unit": "0/00",
+    "definition": "每千個育齡婦女（15-49歲）平均每年生育的子女數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "結婚登記對數",
+    "name": "結婚登記對數",
+    "unit": "對",
+    "definition": "當年戶籍結婚登記對數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "離婚登記對數",
+    "name": "離婚登記對數",
+    "unit": "對",
+    "definition": "當年戶籍離婚登記對數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "相同性別結婚登記對數",
+    "name": "相同性別結婚登記對數",
+    "unit": "對",
+    "definition": "當年相同性別戶籍結婚登記對數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "終止結婚登記對數",
+    "name": "終止結婚登記對數",
+    "unit": "對",
+    "definition": "當年戶籍終止結婚登記對數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "粗結婚率",
+    "name": "粗結婚率",
+    "unit": "0/00",
+    "definition": "指某一特定期間之結婚對數對同一期間期中總人口之千分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "粗離婚率",
+    "name": "粗離婚率",
+    "unit": "0/00",
+    "definition": "指某一特定期間之離婚對數對同一期間期中總人口之千分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上未婚人口數",
+    "name": "15歲以上未婚人口數",
+    "unit": "人",
+    "definition": "戶籍登記當年底15歲以上未婚人口數",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上有偶人口數",
+    "name": "15歲以上有偶人口數",
+    "unit": "人",
+    "definition": "戶籍登記當年底15歲以上有偶人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上離婚人口數",
+    "name": "15歲以上離婚人口數",
+    "unit": "人",
+    "definition": "戶籍登記當年底15歲以上離婚人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上喪偶人口數",
+    "name": "15歲以上喪偶人口數",
+    "unit": "人",
+    "definition": "戶籍登記當年底15歲以上喪偶人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上人口未婚比率",
+    "name": "15歲以上人口未婚比率",
+    "unit": "％",
+    "definition": "指15歲以上未婚人口占15歲以上人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上人口有偶比率",
+    "name": "15歲以上人口有偶比率",
+    "unit": "％",
+    "definition": "指15歲以上有偶人口占15歲以上人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上人口喪偶比率",
+    "name": "15歲以上人口喪偶比率",
+    "unit": "％",
+    "definition": "指15歲以上喪偶人口占15歲以上人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上人口離婚比率",
+    "name": "15歲以上人口離婚比率",
+    "unit": "％",
+    "definition": "指15歲以上離婚人口占15歲以上人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "100歲以上人口數",
+    "name": "100歲以上人口數",
+    "unit": "人",
+    "definition": "於統計標準日戶籍登記實足年齡為100歲以上人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "勞動力人口數",
+    "name": "勞動力人口數",
+    "unit": "千人",
+    "definition": "資料標準週內年滿十五歲可以工作之民間人口，包括就業者與失業者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "勞動力參與率",
+    "name": "勞動力參與率",
+    "unit": "％",
+    "definition": "係指勞動力占十五歲以上民間人口之百分比。勞動力係指年滿十五歲可以工作之民間人口，包括就業者及失業者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "失業率",
+    "name": "失業率",
+    "unit": "％",
+    "definition": "指失業人口占勞動力之百分比。失業者指在資料標準週內年滿十五歲同時具有下列條件者：無工作；隨時可以工作；正在尋找工作或已找工作在等待結果。此外，尚包括等待恢復工作者及找到職業而未開始工作亦無報酬者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "年齡別失業率-15-24歲",
+    "name": "年齡別失業率-15-24歲",
+    "unit": "％",
+    "definition": "15-24歲年齡組之失業率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "年齡別失業率-25-44歲",
+    "name": "年齡別失業率-25-44歲",
+    "unit": "％",
+    "definition": "25-44歲年齡組之失業率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "年齡別失業率-45-64歲",
+    "name": "年齡別失業率-45-64歲",
+    "unit": "％",
+    "definition": "45-64歲年齡組之失業率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "年齡別失業率-65歲及以上",
+    "name": "年齡別失業率-65歲及以上",
+    "unit": "％",
+    "definition": "65歲及以上年齡組之失業率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "教育程度別失業率-大專及以上",
+    "name": "教育程度別失業率-大專及以上",
+    "unit": "％",
+    "definition": "大專及以上程度者之失業率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "教育程度別失業率-高中(職)",
+    "name": "教育程度別失業率-高中(職)",
+    "unit": "％",
+    "definition": "高中（職）程度者之失業率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "教育程度別失業率-國中及以下",
+    "name": "教育程度別失業率-國中及以下",
+    "unit": "％",
+    "definition": "國中及以下程度者之失業率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業人口數",
+    "name": "就業人口數",
+    "unit": "千人",
+    "definition": "資料標準週內年滿十五歲從事有酬工作者或從事十五小時以上之無酬家屬工作者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之行業結構-工業",
+    "name": "就業者之行業結構-工業",
+    "unit": "％",
+    "definition": "從事包括礦業及土石採取業、製造業、水電燃氣業與營造業之就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之行業結構-服務業",
+    "name": "就業者之行業結構-服務業",
+    "unit": "％",
+    "definition": "從事包括批發及零售業、住宿及餐飲業、運輸倉儲及通信業 、金融及保險業、不動產及租賃業、專業科學及技術服務業、教育服務業、醫療保健及社會福利服務業、文化運動及休閒服務業、其他服務業與公共行政業之就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之行業結構-農林漁牧業",
+    "name": "就業者之行業結構-農林漁牧業",
+    "unit": "％",
+    "definition": "從事農林漁牧業之就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之教育程度結構-大專及以上",
+    "name": "就業者之教育程度結構-大專及以上",
+    "unit": "％",
+    "definition": "大專及以上教育程度之就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之教育程度結構-高中(職)",
+    "name": "就業者之教育程度結構-高中(職)",
+    "unit": "％",
+    "definition": "高中（職）教育程度之就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之教育程度結構-國中及以下",
+    "name": "就業者之教育程度結構-國中及以下",
+    "unit": "％",
+    "definition": "國中及以下教育程度之就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之年齡別結構-15-24歲",
+    "name": "就業者之年齡別結構-15-24歲",
+    "unit": "％",
+    "definition": "15至24歲就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之年齡別結構-25-44歲",
+    "name": "就業者之年齡別結構-25-44歲",
+    "unit": "％",
+    "definition": "25至44歲就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之年齡別結構-45-64歲",
+    "name": "就業者之年齡別結構-45-64歲",
+    "unit": "％",
+    "definition": "45至64歲就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者之年齡別結構-65歲及以上",
+    "name": "就業者之年齡別結構-65歲及以上",
+    "unit": "％",
+    "definition": "65歲及以上就業者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "總工時",
+    "name": "總工時",
+    "unit": "時",
+    "definition": "依職業安全衛生法規定，由中央主管機關指定，應填載職業災害情形之事業單位，其所僱用之勞工及受工作場所負責人指揮或監督從事勞動者實際工作時數之總和。關於推銷員或其他出差人員，因工時難以確定，一般以平均每日8小時列計；待工人員經雇主方面同意者，其工時可按一般勞工計算。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公教人員人數",
+    "name": "公教人員人數",
+    "unit": "人",
+    "definition": "含各縣市所屬機關、學校（103年度起不含公立幼兒園）、公營事業機構正式編制內職(教)員數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公教人員大專畢業以上程度人數",
+    "name": "公教人員大專畢業以上程度人數",
+    "unit": "人",
+    "definition": "含各縣市所屬機關、學校（103年度起不含公立幼兒園）、公營事業機構正式編制內職(教)員之大專畢業以上程度人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "女性公教人員人數",
+    "name": "女性公教人員人數",
+    "unit": "人",
+    "definition": "含各縣市所屬機關、學校（103年度起不含公立幼兒園）、公營事業機構正式編制內職(教)員之女性公教人員人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "行政機關公務人員數",
+    "name": "行政機關公務人員數",
+    "unit": "人",
+    "definition": "含各縣市所屬機關正式編制內職員數(不含教員)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公教人員占總人口比率",
+    "name": "公教人員占總人口比率",
+    "unit": "％",
+    "definition": "公教人員占總人口數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公教人員人力素質－大專以上",
+    "name": "公教人員人力素質－大專以上",
+    "unit": "％",
+    "definition": "公教人員大專畢業以上程度占公教人員之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "女性公教人員占公教人員比率",
+    "name": "女性公教人員占公教人員比率",
+    "unit": "％",
+    "definition": "女性公教人員占公教人員之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公教人員之平均年齡",
+    "name": "公教人員之平均年齡",
+    "unit": "歲",
+    "definition": "含各縣市所屬機關、學校（103年度起不含公立幼兒園）、公營事業機構正式編制內職(教)員之平均年齡。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "行政機關公務人員占公教人員比率",
+    "name": "行政機關公務人員占公教人員比率",
+    "unit": "％",
+    "definition": "行政機關公務人員占公教人員之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "刑案發生數",
+    "name": "刑案發生數",
+    "unit": "件",
+    "definition": "刑案發生件數係指各警察機關受理民眾告訴、告發、自首或於勤務中發現之犯罪，在同一期間內(月、年)或同類案件發生之件數總和，包括本期(月、年)以前未報發生積案，於本期(月、年)內偵破件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "刑案破獲數",
+    "name": "刑案破獲數",
+    "unit": "件",
+    "definition": "刑案破獲數：指警察機關偵(調)查破獲之刑事案件，在同一期間(月、年)內或同類案破獲之件數總和。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "嫌疑犯人數",
+    "name": "嫌疑犯人數",
+    "unit": "人",
+    "definition": "嫌疑犯人數：指經警察機關偵(調)查後，認定涉有犯罪嫌疑並經移送法辦之總人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "青年嫌疑犯人數",
+    "name": "青年嫌疑犯人數",
+    "unit": "人",
+    "definition": "係指經警察機關偵(調)查後，認定涉有犯罪嫌疑並經移送法辦之十八歲以上二十四歲未滿之嫌疑犯人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "成年嫌疑犯人數",
+    "name": "成年嫌疑犯人數",
+    "unit": "人",
+    "definition": "係指經警察機關偵(調)查後，認定涉有犯罪嫌疑並經移送法辦之二十四歲（含）以上之嫌疑犯人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "刑案發生率",
+    "name": "刑案發生率",
+    "unit": "件/十萬人",
+    "definition": "每十萬人口中刑案發生件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "刑案破獲率",
+    "name": "刑案破獲率",
+    "unit": "％",
+    "definition": "指刑案破獲數占刑案發生數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "犯罪人口率",
+    "name": "犯罪人口率",
+    "unit": "人/十萬人",
+    "definition": "每十萬人口中嫌疑犯人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "青年犯罪人口率",
+    "name": "青年犯罪人口率",
+    "unit": "人/十萬人",
+    "definition": "每十萬青年人口中嫌疑犯人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "成年犯罪人口率",
+    "name": "成年犯罪人口率",
+    "unit": "人/十萬人",
+    "definition": "每十萬成年人口中嫌疑犯人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "竊盜案發生數",
+    "name": "竊盜案發生數",
+    "unit": "件",
+    "definition": "竊盜案：指涉嫌意圖為自己或第三人不法之所有，而竊取他人動產之犯罪行為。民國七十五年起，竊盜含機車竊盜。刑案發生件數：係指各警察機關受理民眾告訴、告發、自首或於勤務中發現之犯罪，在同一期間內或同類案件發生之件數總和，包括本期以前未報發生積案，於本期內偵破件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "竊盜案破獲數",
+    "name": "竊盜案破獲數",
+    "unit": "件",
+    "definition": "竊盜案：指涉嫌意圖為自己或第三人不法之所有，而竊取他人動產之犯罪行為。民國七十五年起，竊盜含機車竊盜。刑案破獲數：指刑案經警察機關偵查破獲，在同一期間內或同類案破獲之件數總和。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "竊盜案嫌疑犯人數",
+    "name": "竊盜案嫌疑犯人數",
+    "unit": "人",
+    "definition": "竊盜案：指涉嫌意圖為自己或第三人不法之所有，而竊取他人動產之犯罪行為。民國七十五年起，竊盜含機車竊盜。嫌疑犯人數：指經警察機關偵(調)查後，認定涉有犯罪嫌疑並經移送法辦之人數。民國七十五年至八十三年一般竊盜嫌疑犯人數包含機車竊盜嫌疑犯人數，八十四年（含）以後新增機車竊盜嫌疑犯人數統計，故不包括在一般竊盜內。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "少年竊盜嫌疑犯人數",
+    "name": "少年竊盜嫌疑犯人數",
+    "unit": "人",
+    "definition": "少年嫌疑犯：指十二歲以上十八歲未滿之嫌疑犯人數。嫌疑犯人數：指經警察機關偵(調)查後，認定涉有犯罪嫌疑並經移送法辦之人數。民國七十五年至八十三年一般竊盜嫌疑犯人數包含機車竊盜嫌疑犯人數，八十四年（含）以後新增機車竊盜嫌疑犯人數統計，故不包括在一般竊盜內。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "竊盜案發生率",
+    "name": "竊盜案發生率",
+    "unit": "件/十萬人",
+    "definition": "每十萬人口中竊盜案發生件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "竊盜案破獲率",
+    "name": "竊盜案破獲率",
+    "unit": "％",
+    "definition": "指竊盜案破獲數占竊盜案發生數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "竊盜犯罪人口率",
+    "name": "竊盜犯罪人口率",
+    "unit": "人/十萬人",
+    "definition": "每十萬人口中竊盜嫌疑犯人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "少年竊盜犯罪人口率",
+    "name": "少年竊盜犯罪人口率",
+    "unit": "人/十萬人",
+    "definition": "每十萬少年人口中竊盜嫌疑犯人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "道路交通事故肇事總件數",
+    "name": "道路交通事故肇事總件數",
+    "unit": "件",
+    "definition": "警察機關統計造成人員死亡及受傷之交通事故(不含車輛財物損壞之事故)件數；八十八年以前僅包含造成人員當場或24小時內死亡之交通事故件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "道路交通事故(30日內)死亡人數",
+    "name": "道路交通事故(30日內)死亡人數",
+    "unit": "人",
+    "definition": "指道路交通事故造成人員當場或30日內死亡之人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "道路交通事故(30日內)受傷人數",
+    "name": "道路交通事故(30日內)受傷人數",
+    "unit": "人",
+    "definition": "指道路交通事故造成人員受傷之人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每萬輛機動車肇事數",
+    "name": "每萬輛機動車肇事數",
+    "unit": "件/萬輛",
+    "definition": "每萬輛機動車輛的平均肇事件數；八十八年以前僅包含A1類。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每日交通事故發生件數",
+    "name": "每日交通事故發生件數",
+    "unit": "件/日",
+    "definition": "一定期間內肇事總件數除以該期間內總日數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "火災發生次數",
+    "name": "火災發生次數",
+    "unit": "次",
+    "definition": "火災發生次數為相同原因、行為引起且消防單位有接獲報案之火災為一次火災。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "火災受傷人數",
+    "name": "火災受傷人數",
+    "unit": "人",
+    "definition": "指火災現場因滅火、避難、逃生或火災有直接關聯性之傷害，依救護紀錄表中醫療院所簽具之檢傷分級一、二、三級，均應列入受傷統計，惟車輛火災發生原因係車輛行進間發生車禍而造成人員受傷者，不列入火災受傷統計，其他非車禍火災造成人員受傷，皆應列入火災受傷統計。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每百萬人火災受傷人數",
+    "name": "每百萬人火災受傷人數",
+    "unit": "人/百萬人",
+    "definition": "每百萬人口該地區一定期間內因火災受傷人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "火災財物損失",
+    "name": "火災財物損失",
+    "unit": "千元",
+    "definition": "因火災造成財物損失之金額（包括房屋及財物）。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "消防人員數",
+    "name": "消防人員數",
+    "unit": "人",
+    "definition": "係指消防單位組織編制內現職人力。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "義消人員數",
+    "name": "義消人員數",
+    "unit": "人",
+    "definition": "指政府為運用民力，協助火災預防、災害搶救等消防工作，遴選地方民眾所編組的義務性輔助警察組織，其遴選條件為在當地居住、年滿十八歲、身體健康、熱心公益、十年內未曾受有期徒刑以上刑之宣告確定(但因過失犯罪或受緩刑宣告者，不在此限)之民眾志願擔任之。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "消防車輛數",
+    "name": "消防車輛數",
+    "unit": "輛",
+    "definition": "包括雲梯消防車、化學消防車、水箱消防車、水庫消防車、泡沫消防車、幫浦消防車、超高壓消防車。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "消防栓總數",
+    "name": "消防栓總數",
+    "unit": "支",
+    "definition": "為消防安全設備之一。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每十萬人消防人數",
+    "name": "每十萬人消防人數",
+    "unit": "人/十萬人",
+    "definition": "平均每十萬人口消防人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每十萬人義消人數",
+    "name": "每十萬人義消人數",
+    "unit": "人/十萬人",
+    "definition": "每十萬人口義消人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每萬人消防車輛數",
+    "name": "每萬人消防車輛數",
+    "unit": "輛/萬人",
+    "definition": "平均每萬人口配置消防車輛數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "老人長期照顧、安養機構數",
+    "name": "老人長期照顧、安養機構數",
+    "unit": "所",
+    "definition": "係指統計期末之公私立老人長期照顧、安養機構數。一、長期照顧機構：(一)長期照護型機構：以罹患長期慢性病，且需要醫護服務之老人為照顧對象之機構。(二)養護型機構：以生活自理能力缺損需他人照顧之老人或需鼻胃管、胃造廔口、導尿管護理服務需求之老人為照顧對象之機構。(三)失智照顧型機構：以神經科、精神科等專科醫師診斷為失智症中度以上、具行動能力，且需受照顧之老人為照顧對象之機構。二、安養機構：以需他人照顧或無扶養義務親屬或扶養義務親屬無扶養能力，且日常生活能自理之老人為照顧對象之機構。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "老人長期照顧、安養機構工作人員數",
+    "name": "老人長期照顧、安養機構工作人員數",
+    "unit": "人",
+    "definition": "工作人員數：指機構內編制、約聘及以其他方式雇用之所有員工數(惟董事會董事數除外)，包括行政人員、護理人員、社會工作人員、服務人員，及其他從事庶務性工作之人員。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "老人長期照顧、安養機構可供進住人數",
+    "name": "老人長期照顧、安養機構可供進住人數",
+    "unit": "人",
+    "definition": "可供進住人數：係指機構經主管機關許可設立之可收容人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "老人長期照顧、安養機構實際進住人數",
+    "name": "老人長期照顧、安養機構實際進住人數",
+    "unit": "人",
+    "definition": "實際進住人數：係指機構內現有實際照顧人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每萬老人長期照顧、安養機構數",
+    "name": "每萬老人長期照顧、安養機構數",
+    "unit": "所/萬人",
+    "definition": "每萬名老人所享有之長期照顧、安養機構個數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "老人長期照顧、安養機構每位工作人員服務老人數",
+    "name": "老人長期照顧、安養機構每位工作人員服務老人數",
+    "unit": "人/人",
+    "definition": "老人長期照顧、安養機構中每位工作人員服務老人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "地方政府社會處(局)所轄志工人數",
+    "name": "地方政府社會處(局)所轄志工人數",
+    "unit": "人",
+    "definition": "係指由地方政府社會處(局)所轄志工人數，包括社會福利類及綜合類等志工。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "地方政府社會處(局)所轄志工服務時數",
+    "name": "地方政府社會處(局)所轄志工服務時數",
+    "unit": "時",
+    "definition": "係指地方政府社會處(局)所轄志工，根據志願服務紀錄冊所登錄之總時數(受訓前或期間已服務時數亦包括在內)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "地方政府社會處(局)所轄志工人數占15歲以上人口比率",
+    "name": "地方政府社會處(局)所轄志工人數占15歲以上人口比率",
+    "unit": "％",
+    "definition": "每百名15歲以上人口當中，從事地方政府社會處(局)所轄志工人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "地方政府社會處(局)所轄每位志工一年內提供服務時數",
+    "name": "地方政府社會處(局)所轄每位志工一年內提供服務時數",
+    "unit": "小時/人",
+    "definition": "平均每位地方政府社會處(局)所轄志工一年之服務時數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "鄉鎮市區數",
+    "name": "鄉鎮市區數",
+    "unit": "個",
+    "definition": "依法劃分於直轄市或縣(市)之下之鄉、鎮、縣轄市、市區之行政區域個數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "社區發展協會數",
+    "name": "社區發展協會數",
+    "unit": "個",
+    "definition": "社區發展協會：係指經主管機關劃定之社區區域內，依法成立之社區發展協會。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每人政府社會福利支出淨額",
+    "name": "平均每人政府社會福利支出淨額",
+    "unit": "元/人",
+    "definition": "平均每一國民所享有之政府社會福利支出金額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "低收入戶人口數",
+    "name": "低收入戶人口數",
+    "unit": "人",
+    "definition": "符合低收入戶之家庭成員。低收入戶係指經申請戶籍所在地直轄市、縣（市）主管機關審核認定，符合家庭總收入平均分配全家人口，每人每月在最低生活費以下，且家庭財產未超過中央、直轄市主管機關公告之當年度一定金額者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "低收入戶人口數占總人口比率",
+    "name": "低收入戶人口數占總人口比率",
+    "unit": "％",
+    "definition": "經政府核定有案之低收入戶人口數占總人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "中低收入戶人口數",
+    "name": "中低收入戶人口數",
+    "unit": "人",
+    "definition": "符合中低收入戶之家庭成員。中低收入戶係指經申請戶籍所在地直轄市、縣（市）主管機關審核認定，符合家庭總收入平均分配全家人口，每人每月在最低生活費1.5倍以下，且家庭財產未超過中央、直轄市主管機關公告之當年度一定金額者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "中低收入戶人口數占總人口比率",
+    "name": "中低收入戶人口數占總人口比率",
+    "unit": "％",
+    "definition": "經政府核定有案之中低收入戶人口數占總人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "急難救助人次",
+    "name": "急難救助人次",
+    "unit": "人次",
+    "definition": "急難救助之受益人次。急難救助：係指依社會救助法第廿一條對生活突然發生困難或身體遭受嚴重傷病及其他意外變故給予救助。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "急難救助金額",
+    "name": "急難救助金額",
+    "unit": "元",
+    "definition": "政府所發放之急難救助總金額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "醫療補助人次",
+    "name": "醫療補助人次",
+    "unit": "人次",
+    "definition": "醫療補助之受益人次。醫療補助：依社會救助法第十八條規定對低收入戶之傷、病患者，或一般民眾患嚴重傷、病，所需醫療費用非其本人或扶養義務人所能負擔者，戶籍所在地主管機關所給予之醫療費用補助。不包括參加全民健康保險可取得之醫療給付者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "醫療補助金額",
+    "name": "醫療補助金額",
+    "unit": "元",
+    "definition": "依社會救助法第18條規定，政府對低收入戶之傷、病患者，或一般民眾患嚴重傷、病，所需醫療費用非其本人或扶養義務人所能負擔者，戶籍所在地主管機關所發放之醫療補助總金額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "災害救助受災人數",
+    "name": "災害救助受災人數",
+    "unit": "人",
+    "definition": "一定期間內直接遭受災害之人數；僅包括臨時收容、死亡、失蹤，重傷及其他人員。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "災害救助金額",
+    "name": "災害救助金額",
+    "unit": "元",
+    "definition": "因人民遭受水、火、風、雹、旱、地震及其他災害，致損害重大，影響生活者，予以災害救助；包括災害所造成人口傷亡、財物受損影響生計及住屋毀損，政府所發放之災害救助金額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上不識字人口",
+    "name": "15歲以上不識字人口",
+    "unit": "人",
+    "definition": "戶籍註記當年底15歲以上教育程度為不識字人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上人口識字率",
+    "name": "15歲以上人口識字率",
+    "unit": "％",
+    "definition": "指15歲以上識字人數占15歲以上人數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上民間人口之教育程度結構-國中及以下",
+    "name": "15歲以上民間人口之教育程度結構-國中及以下",
+    "unit": "％",
+    "definition": "15歲以上民間人口受國中及以下教育者占15歲以上之民間人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上民間人口之教育程度結構-高中(職)",
+    "name": "15歲以上民間人口之教育程度結構-高中(職)",
+    "unit": "％",
+    "definition": "15歲以上民間人口受高中（職）教育者占15歲以上之民間人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "15歲以上民間人口之教育程度結構-大專及以上",
+    "name": "15歲以上民間人口之教育程度結構-大專及以上",
+    "unit": "％",
+    "definition": "15歲以上民間人口受大專及以上教育者占15歲以上民間人口之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "幼兒園園數",
+    "name": "幼兒園園數",
+    "unit": "所",
+    "definition": "各公私立幼兒園園數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "幼兒園教保服務人員數",
+    "name": "幼兒園教保服務人員數",
+    "unit": "人",
+    "definition": "含各縣市政府教育局(處)審核通過之園長數、教師數(含教師、代理教師及學前特殊教師)、教保員人數、助理教保員人數及互助教保服務中心服務人員(含保母及具原住民族族語認證人員)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "幼兒園幼生數",
+    "name": "幼兒園幼生數",
+    "unit": "人",
+    "definition": "各公私立幼兒園幼生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每園幼生數-幼兒園",
+    "name": "平均每園幼生數-幼兒園",
+    "unit": "人",
+    "definition": "幼兒園平均每園幼生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國小校數",
+    "name": "國小校數",
+    "unit": "所",
+    "definition": "各公私立國民小學專設校數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國小班級數",
+    "name": "國小班級數",
+    "unit": "班",
+    "definition": "各公私立國民小學班級數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國小學生數",
+    "name": "國小學生數",
+    "unit": "人",
+    "definition": "各公私立國民小學學生數",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國小教師數",
+    "name": "國小教師數",
+    "unit": "人",
+    "definition": "各公私立國民小學教師數（含校長）。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每班學生數-國小",
+    "name": "平均每班學生數-國小",
+    "unit": "人",
+    "definition": "國小平均每班學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一教師教導學生數-國小",
+    "name": "平均每一教師教導學生數-國小",
+    "unit": "人",
+    "definition": "國小平均每一教師教導學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國中校數",
+    "name": "國中校數",
+    "unit": "所",
+    "definition": "各公私立國民中學專設校數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國中班級數",
+    "name": "國中班級數",
+    "unit": "班",
+    "definition": "各公私立國民中學班級數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國中學生數",
+    "name": "國中學生數",
+    "unit": "人",
+    "definition": "各公私立國民中學學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國中教師數",
+    "name": "國中教師數",
+    "unit": "人",
+    "definition": "各公私立國民中學學校教師數（含校長）。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每班學生數-國中",
+    "name": "平均每班學生數-國中",
+    "unit": "人",
+    "definition": "國中平均每班學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一教師教導學生數-國中",
+    "name": "平均每一教師教導學生數-國中",
+    "unit": "人",
+    "definition": "國民中學平均每一教師教導學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "高級中等學校校數",
+    "name": "高級中等學校校數",
+    "unit": "所",
+    "definition": "各公私立高級中等學校校數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "高級中等學校班級數",
+    "name": "高級中等學校班級數",
+    "unit": "班",
+    "definition": "各公私立高級中等學校班級數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "高級中等學校教師數",
+    "name": "高級中等學校教師數",
+    "unit": "人",
+    "definition": "各公私立高級中等學校教師數（含校長）。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "高級中等學校學生數",
+    "name": "高級中等學校學生數",
+    "unit": "人",
+    "definition": "各公私立高級中等學校學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每班學生數-高級中等學校",
+    "name": "平均每班學生數-高級中等學校",
+    "unit": "人",
+    "definition": "高級中等學校平均每班學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一教師教導學生數-高級中等學校",
+    "name": "平均每一教師教導學生數-高級中等學校",
+    "unit": "人",
+    "definition": "高級中等學校平均每一教師教導學生數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國小裸視檢查人數",
+    "name": "國小裸視檢查人數",
+    "unit": "人",
+    "definition": "國小裸視檢查人數",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國小學生視力不良數",
+    "name": "國小學生視力不良數",
+    "unit": "人",
+    "definition": "視力不良：兩眼視力均達0.9以上者為視力正常，一眼在0.9以下者為視力不良。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國中裸視檢查人數",
+    "name": "國中裸視檢查人數",
+    "unit": "人",
+    "definition": "國中裸視檢查人數",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國中學生視力不良數",
+    "name": "國中學生視力不良數",
+    "unit": "人",
+    "definition": "視力不良：兩眼視力均達0.9以上者為視力正常，一眼在0.9以下者為視力不良。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "視力不良率-國小",
+    "name": "視力不良率-國小",
+    "unit": "％",
+    "definition": "國小學生視力不良人數占國小學生裸視檢查人數之百分比；視力不良指一眼視力在0.9以下。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "視力不良率-國中",
+    "name": "視力不良率-國中",
+    "unit": "％",
+    "definition": "國中學生視力不良人數占國中學生裸視檢查人數之百分比；視力不良指一眼視力在0.9以下。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公立公共圖書館個數",
+    "name": "公立公共圖書館個數",
+    "unit": "所",
+    "definition": "公立公共圖書館館數（包含國家圖書館、國立公共資訊圖書館及國立臺灣圖書館）。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "古蹟總數",
+    "name": "古蹟總數",
+    "unit": "處",
+    "definition": "依據文化資產保存法第3條規定，古蹟；指人類為生活需要所營建之具有歷史、文化價值之建造物及附屬設施群。另依據同法第17條規定，古蹟依其主管機關區分為國定、直轄市定、縣（市）定三類，由各級主管機關審查指定後，辦理公告。據此，若經各級主管機關依法審議且指定之建造物及附屬設施即可定義為古蹟。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "稻作收穫面積",
+    "name": "稻作收穫面積",
+    "unit": "公頃",
+    "definition": "稻作種植面積中扣除當期作因災害等原因致全無收穫之面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "稻米產量",
+    "name": "稻米產量",
+    "unit": "公噸",
+    "definition": "糙米之總生產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "耕地面積",
+    "name": "耕地面積",
+    "unit": "公頃",
+    "definition": "指實際作為農耕使用之土地面積，亦包括短期休閒或休耕土地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "水田面積",
+    "name": "水田面積",
+    "unit": "公頃",
+    "definition": "指能蓄水，經常可以栽培水稻之耕地面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "旱田面積",
+    "name": "旱田面積",
+    "unit": "公頃",
+    "definition": "指土壤不容易儲水或水量不足，只能栽培陸稻、雜糧及果樹類等之耕地面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "耕地率",
+    "name": "耕地率",
+    "unit": "％",
+    "definition": "指耕地面積占土地面積之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "森林面積",
+    "name": "森林面積",
+    "unit": "公頃",
+    "definition": "依航空測量資料並配合人工實地勘查所得資料。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "造林面積",
+    "name": "造林面積",
+    "unit": "公頃",
+    "definition": "當年種植保安林、經濟林及其他林之面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "林木採伐面積",
+    "name": "林木採伐面積",
+    "unit": "公頃",
+    "definition": "當年林木採伐之面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "森林地占土地面積比率",
+    "name": "森林地占土地面積比率",
+    "unit": "％",
+    "definition": "指森林面積占土地面積之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每人森林面積",
+    "name": "平均每人森林面積",
+    "unit": "公頃/人",
+    "definition": "指每人平均所有森林面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每萬人造林面積",
+    "name": "平均每萬人造林面積",
+    "unit": "公頃/萬人",
+    "definition": "指每萬人口的平均造林（新植）面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "漁戶數",
+    "name": "漁戶數",
+    "unit": "戶",
+    "definition": "指在內陸從事水產動植物之採捕為業者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "近海漁戶數",
+    "name": "近海漁戶數",
+    "unit": "戶",
+    "definition": "指使用動力漁船在我國經濟海域（12海浬-200海浬）內從事漁業者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "沿岸漁戶數",
+    "name": "沿岸漁戶數",
+    "unit": "戶",
+    "definition": "指使用船筏或不使用船筏在我國領海（12浬）內從事漁業者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "海面養殖漁戶數",
+    "name": "海面養殖漁戶數",
+    "unit": "戶",
+    "definition": "指在淺海從事水產動植物之養育或蓄養者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "內陸養殖漁戶數",
+    "name": "內陸養殖漁戶數",
+    "unit": "戶",
+    "definition": "指在內陸從事水產動植物之養育或蓄養為業者稱為養殖漁業，分為鹹水魚塭、淡水魚塭、箱網、其他養殖等四項。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "近海漁業生產量",
+    "name": "近海漁業生產量",
+    "unit": "公噸",
+    "definition": "指使用動力漁船在我國經濟海域（12海浬-200海浬）內從事漁業者之生產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "沿岸漁業生產量",
+    "name": "沿岸漁業生產量",
+    "unit": "公噸",
+    "definition": "指使用船筏或不使用船筏在我國領海（12浬）內從事漁業者之生產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "海面養殖漁業生產量",
+    "name": "海面養殖漁業生產量",
+    "unit": "公噸",
+    "definition": "指在淺海從事水產動植物之養育或蓄養者之生產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "內陸養殖漁業生產量",
+    "name": "內陸養殖漁業生產量",
+    "unit": "公噸",
+    "definition": "指在內陸從事水產動植物之養育或蓄養為業者之生產量，分為鹹水魚塭、淡水魚塭、箱網、其他養殖等四項。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "近海漁業生產量占總漁業生產量比率",
+    "name": "近海漁業生產量占總漁業生產量比率",
+    "unit": "％",
+    "definition": "指近海漁業生產量占漁業生產量之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "農林漁牧業產值",
+    "name": "農林漁牧業產值",
+    "unit": "千元",
+    "definition": "指農林漁牧業總產值。產值＝單價＊產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "農產產值",
+    "name": "農產產值",
+    "unit": "千元",
+    "definition": "農產產值=各項農產品單價＊產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "漁產產值",
+    "name": "漁產產值",
+    "unit": "千元",
+    "definition": "漁產產值=各項漁產品單價＊產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "畜產產值",
+    "name": "畜產產值",
+    "unit": "千元",
+    "definition": "畜產產值=各項畜產品單價＊產量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫區計畫人口",
+    "name": "都市計畫區計畫人口",
+    "unit": "人",
+    "definition": "指依法完成法定程序的都市計畫區域範圍內計畫容納居住之人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫區現況人口",
+    "name": "都市計畫區現況人口",
+    "unit": "人",
+    "definition": "指依法完成法定程序的都市計畫區域範圍內現況居住之人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫區計畫人口密度",
+    "name": "都市計畫區計畫人口密度",
+    "unit": "人/平方公里",
+    "definition": "指都市計畫區內每單位土地面積之計畫人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫區現況人口密度",
+    "name": "都市計畫區現況人口密度",
+    "unit": "人/平方公里",
+    "definition": "指都市計畫區內每單位土地面積之現況人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫區現況人口密度與該縣市人口密度比",
+    "name": "都市計畫區現況人口密度與該縣市人口密度比",
+    "unit": "倍",
+    "definition": "都市計劃區現況人口密度為總人口密度倍數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫區面積",
+    "name": "都市計畫區面積",
+    "unit": "平方公里",
+    "definition": "依法完成法定程序的都市計劃區域範圍之總面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫公共設施用地計畫面積-道路",
+    "name": "都市計畫公共設施用地計畫面積-道路",
+    "unit": "公頃",
+    "definition": "依都市計畫設置之計畫道路或依法指定建築線之巷道用地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫公共設施用地面積",
+    "name": "都市計畫公共設施用地面積",
+    "unit": "公頃",
+    "definition": "都市計畫地區內，為增進民眾活動之便利，就人口、土地使用、交通狀況及未來發展趨勢及確保良好之都市生活環境而劃定之使用分區。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫公共設施用地已闢建面積-公園",
+    "name": "都市計畫公共設施用地已闢建面積-公園",
+    "unit": "公頃",
+    "definition": "依都市計畫設置，以供公眾活動遊憩，藉以調劑身心之開放空間用地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫公共設施用地已闢建面積-綠地",
+    "name": "都市計畫公共設施用地已闢建面積-綠地",
+    "unit": "公頃",
+    "definition": "依都市計畫設置，除為休憩性開放空間，並兼具隔離、緩衝機能之場地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫公共設施用地已闢建面積-廣場",
+    "name": "都市計畫公共設施用地已闢建面積-廣場",
+    "unit": "公頃",
+    "definition": "依都市計畫設置，提供公共開放空間或寬廣的街道用地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫公共設施用地已闢建面積-兒童遊樂場",
+    "name": "都市計畫公共設施用地已闢建面積-兒童遊樂場",
+    "unit": "公頃",
+    "definition": "依都市計畫設置，為供兒童遊戲而專設的場所用地。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "都市計畫公共設施用地已闢建面積-體育場",
+    "name": "都市計畫公共設施用地已闢建面積-體育場",
+    "unit": "公頃",
+    "definition": "依都市計畫設置之體育場。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每萬人公園、綠地、兒童遊樂場、體育場所及廣場面積數",
+    "name": "每萬人公園、綠地、兒童遊樂場、體育場所及廣場面積數",
+    "unit": "公頃",
+    "definition": "都市計畫區內平均每萬人享有公園綠地廣場兒童遊樂場體育場面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "小型汽車路外停車位",
+    "name": "小型汽車路外停車位",
+    "unit": "個",
+    "definition": "指在道路路面外，以平面式、立體式、機械式或塔臺式等所設，提供公眾停放小型車輛之場所，含都市計畫區內及都市計畫區外之停車位。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "小型汽車路邊停車位",
+    "name": "小型汽車路邊停車位",
+    "unit": "個",
+    "definition": "指以道路部分路面劃設，供公眾停放小型車之場所。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "道路里程長度",
+    "name": "道路里程長度",
+    "unit": "公里",
+    "definition": "包括國道、省道、縣道、鄉道、專用公路及市區道路等之道路長度。其中市區道路長度之統計係指各縣市都市計畫區域內路面寬度為6米以上之道路長度。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "道路路面面積",
+    "name": "道路路面面積",
+    "unit": "千平方公尺",
+    "definition": "各類道路路面面積，含國道、省道、縣道、鄉道、專用公路及市區道路﹝路面寬度六米以上﹞等，92年以前市區道路路面面積含人行道、安全島、溝蓋板等道路用地面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "道路里程密度",
+    "name": "道路里程密度",
+    "unit": "公里/平方公里",
+    "definition": "每一平方公里土地面積之道路里程長度。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "市內電話用戶數",
+    "name": "市內電話用戶數",
+    "unit": "戶",
+    "definition": "市內電話用戶總數，89年以前為中華電信公司資料。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每千人電話用戶數",
+    "name": "每千人電話用戶數",
+    "unit": "戶",
+    "definition": "平均每千人擁有電話數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公墓總面積",
+    "name": "公墓總面積",
+    "unit": "平方公尺",
+    "definition": "公墓：係指公立或私立供公眾營葬之公共設施。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "自來水供水普及率",
+    "name": "自來水供水普及率",
+    "unit": "％",
+    "definition": "實際供水人數佔行政區域人數比率",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "電燈用戶數",
+    "name": "電燈用戶數",
+    "unit": "戶",
+    "definition": "係指台電公司包燈用電與表燈用電（含營業用、非營業用）之用戶數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "電燈用戶平均每戶售電量",
+    "name": "電燈用戶平均每戶售電量",
+    "unit": "度/戶",
+    "definition": "以台電公司之電燈用戶用電量除以電燈用戶數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "電力用戶數",
+    "name": "電力用戶數",
+    "unit": "戶",
+    "definition": "係指台電公司除電燈用戶以外之用戶數，包括以包用電力與電力用電方式供電（低壓、高壓、特高壓）之用戶數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "電力用戶平均每戶售電量",
+    "name": "電力用戶平均每戶售電量",
+    "unit": "萬度/戶",
+    "definition": "以台電公司之電力用戶用電量除以電力用戶數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "收寄函件",
+    "name": "收寄函件",
+    "unit": "千件",
+    "definition": "郵局及其所設置收受郵件之專用器具暨所派專收郵件人員收寄寄件人交寄函件之件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "郵政儲金結存戶數",
+    "name": "郵政儲金結存戶數",
+    "unit": "戶",
+    "definition": "指向郵政儲金機關開立儲金帳戶之戶數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "郵政儲金結存金額",
+    "name": "郵政儲金結存金額",
+    "unit": "百萬元",
+    "definition": "郵政儲金之存款結餘。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "國民通信率",
+    "name": "國民通信率",
+    "unit": "件/人",
+    "definition": "國人平均每人交寄函件件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "機動車輛登記數",
+    "name": "機動車輛登記數",
+    "unit": "輛",
+    "definition": "年底向監理機關領有統一牌照之機動車輛數量。機動車輛係指在道路上不依軌道或電力架線而以原動機行駛之汽車及機器腳踏車。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "小客車登記數",
+    "name": "小客車登記數",
+    "unit": "輛",
+    "definition": "年底向監理機關領有統一牌照之小客車數量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "小貨車登記數",
+    "name": "小貨車登記數",
+    "unit": "輛",
+    "definition": "年底向監理機關領有統一牌照之小貨車數量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "機車登記數",
+    "name": "機車登記數",
+    "unit": "輛",
+    "definition": "年底向監理機關領有統一牌照之機車數量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "汽車登記數",
+    "name": "汽車登記數",
+    "unit": "輛",
+    "definition": "年底向監理機關領有統一牌照之汽車數量。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "領有汽車駕照人數",
+    "name": "領有汽車駕照人數",
+    "unit": "人",
+    "definition": "指由駕駛人向公路監理機關申請登記，考驗及格後發給駕駛汽車之許可憑證。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "領有機車駕照人數",
+    "name": "領有機車駕照人數",
+    "unit": "人",
+    "definition": "指由駕駛人向公路監理機關申請登記，考驗及格後發給駕駛機車之許可憑證。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "觀光旅館家數",
+    "name": "觀光旅館家數",
+    "unit": "家",
+    "definition": "指依觀光旅館業管理規則申請籌設符合「觀光旅館建築及設備標準」之旅館家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "觀光旅館房間數",
+    "name": "觀光旅館房間數",
+    "unit": "間",
+    "definition": "指依觀光旅館業管理規則申請籌設符合「觀光旅館建築及設備標準」之旅館房間數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "觀光旅館平均房價",
+    "name": "觀光旅館平均房價",
+    "unit": "元",
+    "definition": "客房總收入除以實際客房出租數所得之值。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "觀光旅館住用率",
+    "name": "觀光旅館住用率",
+    "unit": "％",
+    "definition": "實際住用客房累計數與可供出租客房累計數之比率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "工廠新登記家數",
+    "name": "工廠新登記家數",
+    "unit": "家",
+    "definition": "指工廠設廠完成後，應依工廠管理輔導法規定申請，辦理登記。自92年起依辦理工廠登記之單位別分類，增列科學園區及加工出口區。總計及臺灣地區合計不含科學園區及加工出口區",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "工廠歇業家數",
+    "name": "工廠歇業家數",
+    "unit": "家",
+    "definition": "指依工廠管理輔導法規定辦理歇業之工廠家數。自92年起依辦理工廠登記之單位別分類，增列科學園區及加工出口區。總計及臺灣地區合計不含科學園區及加工出口區",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "營利事業營業家數",
+    "name": "營利事業營業家數",
+    "unit": "家",
+    "definition": "依加值型及非加值型營業稅法第五章第二十八條辦理營利事業稅籍登記之公司行號家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "營利事業銷售額",
+    "name": "營利事業銷售額",
+    "unit": "千元",
+    "definition": "營利事業登記之公司行號依規定申報或核定之銷售額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公司登記新設家數",
+    "name": "公司登記新設家數",
+    "unit": "家",
+    "definition": "指依公司法規定，已辦公司登記之新設立家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公司解散、撤銷及廢止家數",
+    "name": "公司解散、撤銷及廢止家數",
+    "unit": "家",
+    "definition": "指依公司法規定，已辦公司解散、撤銷及廢止之家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公司登記現有家數",
+    "name": "公司登記現有家數",
+    "unit": "家",
+    "definition": "指依公司法規定，已辦公司登記之現有家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "公司登記現有資本額",
+    "name": "公司登記現有資本額",
+    "unit": "百萬元",
+    "definition": "指依公司法規定，已辦公司登記現有家數之資本額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "商業登記新設家數",
+    "name": "商業登記新設家數",
+    "unit": "家",
+    "definition": "指依商業登記法規定，已辦商業登記之新設立家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "商業登記歇業家數",
+    "name": "商業登記歇業家數",
+    "unit": "家",
+    "definition": "指依商業登記法規定，已辦商業登記歇業之家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "商業登記現有家數",
+    "name": "商業登記現有家數",
+    "unit": "家",
+    "definition": "指依商業登記法規定，已辦商業登記之現有家數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "商業登記現有資本額",
+    "name": "商業登記現有資本額",
+    "unit": "百萬元",
+    "definition": "指依商業登記法規定，已辦商業登記現有家數之資本額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "勞資爭議受理件數",
+    "name": "勞資爭議受理件數",
+    "unit": "件",
+    "definition": "指雇主或雇主團體與受雇者間所發生爭議之件數，可分為調整事項及權利事項之爭議。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "勞資爭議涉及人數",
+    "name": "勞資爭議涉及人數",
+    "unit": "人",
+    "definition": "指參與勞資爭議之人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者從業身分結構-自營作業者",
+    "name": "就業者從業身分結構-自營作業者",
+    "unit": "％",
+    "definition": "就業者主要工作場所之身分係自己或合夥經營事業或獨立從事 一項專門職業或技藝工作者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者從業身分結構-雇主",
+    "name": "就業者從業身分結構-雇主",
+    "unit": "％",
+    "definition": "就業者主要工作場所之身分係自己或合夥經營事業而僱用他人幫忙者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者從業身分結構-受僱者",
+    "name": "就業者從業身分結構-受僱者",
+    "unit": "％",
+    "definition": "就業者主要工作場所之身分係受僱於本國各級政府機關、公立學校、公營事業、公立醫院及受僱於私人、私立機構、政黨、民間團體或外國機關團體者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "就業者從業身分結構-無酬家屬工作者",
+    "name": "就業者從業身分結構-無酬家屬工作者",
+    "unit": "％",
+    "definition": "就業者主要工作場所之身分係在家屬經營之事業內幫忙工作而不支領固定報酬者占總就業者之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "歲入",
+    "name": "歲入",
+    "unit": "百萬元",
+    "definition": "依預算法第六條規定稱歲入者，謂一個會計年度之一切收入。自88下半年及89年度起不包括債務之舉借及以前年度歲計賸餘之移用。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "歲出",
+    "name": "歲出",
+    "unit": "百萬元",
+    "definition": "依預算法第六條規定稱歲出者，謂一個會計年度之一切支出。但不包括債務之償還。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "稅課收入-統籌分配稅收入",
+    "name": "稅課收入-統籌分配稅收入",
+    "unit": "百萬元",
+    "definition": "稅課由中央統籌分配直轄市、縣（市）及鄉（鎮、市）之款項。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "歲入歲出餘絀",
+    "name": "歲入歲出餘絀",
+    "unit": "百萬元",
+    "definition": "歲入與歲出之差額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "收支賸餘",
+    "name": "收支賸餘",
+    "unit": "百萬元",
+    "definition": "收入與支出之差額。88年度以前因歲入包括債務之舉借及以前年度歲計賸餘之移用，計算公式不同。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "醫療院所數",
+    "name": "醫療院所數",
+    "unit": "所",
+    "definition": "醫療院所包括公立及非公立醫院診所。公立醫院診所:包括部立及直轄市立醫院診所、縣市立醫院診所、公立醫學院校附設醫院或醫務室、軍方醫院診所、榮民醫院診所、公立機關(構)附設醫院或醫務室、公立中醫醫院、行政法人附設診所，以及衛生所。非公立醫院診所:包括醫療財團法人醫院診所、醫療社團法人醫院診所、宗教財團法人附設醫院診所、私立醫學院校附設醫院或醫務室、公益法人所設醫院診所、私立事業單位或機構附設醫務室，以及私立西醫/牙醫/中醫醫院診所。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一醫療院所服務人數",
+    "name": "平均每一醫療院所服務人數",
+    "unit": "人/所",
+    "definition": "平均每一醫療院所服務人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一醫療院所服務面積",
+    "name": "平均每一醫療院所服務面積",
+    "unit": "平方公里/所",
+    "definition": "平均每一醫療院所服務面積。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "執業醫事人員數",
+    "name": "執業醫事人員數",
+    "unit": "人",
+    "definition": "執業醫事人員指領有中央衛生主管機關醫事人員專業證書，並向地方衛生主管機關辦理執業登錄者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "執業醫師數",
+    "name": "執業醫師數",
+    "unit": "人",
+    "definition": "醫師包括西醫師、中醫師及牙醫師。西醫師係依醫師法規定經醫師考試及格，領有醫師證書，並向地方衛生主管機關辦理執業登錄者。中醫師係依醫師法規定經中醫師考試及格，領有中醫師證書，並向地方衛生主管機關辦理執業登錄者。牙醫師係依醫師法規定經牙醫師考試及格，領有牙醫師證書，並向地方衛生主管機關辦理執業登錄者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "護理人員數",
+    "name": "護理人員數",
+    "unit": "人",
+    "definition": "護理人員包括護理師及護士。護理師係經護理師考試及格或檢覈及格，領有護理師證書者。護士係經護士考試及格或檢覈及格，領有護士證書者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "病床數",
+    "name": "病床數",
+    "unit": "床",
+    "definition": "病床數包括醫院及診所之病床數，不含未登記之療養床。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每萬人口執業醫事人員",
+    "name": "每萬人口執業醫事人員",
+    "unit": "人/萬人",
+    "definition": "每萬人口執業醫事人員。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每平方公里執業醫事人員",
+    "name": "每平方公里執業醫事人員",
+    "unit": "人/平方公里",
+    "definition": "每平方公里執業醫事人員。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一執業醫師服務之人口數",
+    "name": "平均每一執業醫師服務之人口數",
+    "unit": "人/人",
+    "definition": "平均每一執業醫師服務之人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一護理人員服務之人口數",
+    "name": "平均每一護理人員服務之人口數",
+    "unit": "人/人",
+    "definition": "平均每一護理人員服務之人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每萬人口病床數",
+    "name": "每萬人口病床數",
+    "unit": "床/萬人",
+    "definition": "每萬人口病床數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一病床服務之人口數",
+    "name": "平均每一病床服務之人口數",
+    "unit": "人/床",
+    "definition": "平均每一病床服務之人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "法定傳染病患者數",
+    "name": "法定傳染病患者數",
+    "unit": "人",
+    "definition": "係指法定傳染病確定病例數。經由法令公布規定必需採取防疫措施之傳染病，現分為五類，除破傷風及流行性腮腺炎以報告病例統計，其他均以確定病例為統計。另登革出血熱/登革休克症候群為登革熱之重點監測項目、急性無力肢體麻痺為小兒麻痺症之疫情監視指標及後天免疫缺乏症候群為人類免疫缺乏病毒感染後之發病追蹤重點監測項目，以上3項不納入當年法定傳染病總數計算。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每十萬人法定傳染病患者",
+    "name": "每十萬人法定傳染病患者",
+    "unit": "人/十萬人",
+    "definition": "每十萬人法定傳染病患者數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "食品衛生查驗件數",
+    "name": "食品衛生查驗件數",
+    "unit": "件",
+    "definition": "係指食品抽樣檢查件數、檢驗件數及辦理中(移外縣市未結案)之合計。即若1件食品同時有檢驗及檢查，則以2件計算。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "食品衛生查驗與規定不符件數",
+    "name": "食品衛生查驗與規定不符件數",
+    "unit": "件",
+    "definition": "係指檢查不符規定件數及檢驗不符規定件數之合計。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "食品衛生查驗不合格率",
+    "name": "食品衛生查驗不合格率",
+    "unit": "％",
+    "definition": "指食品衛生查驗與規定不符件數占查驗件數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "垃圾焚化量",
+    "name": "垃圾焚化量",
+    "unit": "公噸",
+    "definition": "一般廢棄物運送至垃圾焚化廠之處理量。88年以前為年度資料。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "垃圾衛生掩埋量",
+    "name": "垃圾衛生掩埋量",
+    "unit": "公噸",
+    "definition": "一般廢棄物運送至衛生掩埋場之處理量。88年以前為年度資料。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "廚餘回收量",
+    "name": "廚餘回收量",
+    "unit": "公噸",
+    "definition": "指環保單位或社區、學校、機關團體廚餘回收量之總和，其處理方式包含以堆肥、養豬及其他廚餘再利用方式等方法處理再利用者。「堆肥量」91年以前包含於垃圾清運量，92年起計入廚餘回收量。88年以前為年度資料。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "垃圾回收清除車輛數",
+    "name": "垃圾回收清除車輛數",
+    "unit": "輛",
+    "definition": "係各級環境保護單位(含各鄉鎮市區公所)之垃圾回收清除車輛數，包括子母式垃圾車、密封式垃圾車、框式垃圾車、水肥車、清溝(溝泥)車、掃(洗)街車。為配合104年2月「一般廢棄物回收清除處理辦法」新增「垃圾車」用詞之定義與類別，自104年起，調整車輛範圍僅限執行一般廢棄物回收、清除作業之車輛，並修正指標名稱為「垃圾回收清除車輛數」，惟103年以前指標名稱「垃圾清理車數」，係指各級環境保護單位(含各鄉鎮市區公所)之垃圾清理車輛及機具，包括垃圾母車、密封壓縮車、密封車、普通卡車、機動車、溝泥車、掃街車、資源回收車、噴射沖溝吸泥車、手拉車及小型搬運車、灑水洗街車、消毒車、壓實車、挖土機、推土機、鏟土機〈車〉、推挖兩用機及其他等。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "清運人員數",
+    "name": "清運人員數",
+    "unit": "人",
+    "definition": "包括全體垃圾清運、水肥清運、資源回收及其他(含消毒﹑割草﹑拆除違規廣告﹑拖吊廢機動車輛等)清運人員數，含職員、約聘僱、工員(清潔隊員、駕駛、技工、工友、臨時工、代賑工)及駐衛警察，為期末靜態資料。104年以前僅包含垃圾及水肥清運之工員人數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "一般廢棄物產生量",
+    "name": "一般廢棄物產生量",
+    "unit": "公噸",
+    "definition": "係指廢棄物清理法所定義事業廢棄物以外之常態性廢棄物（包含一般垃圾、資源垃圾及廚餘）產生量。107年起含事業員工生活垃圾及過去暫存垃圾之數量，111年起含非例行性排出垃圾。總計數值係指全國一般廢棄物產生量，非執行機關一般廢棄物產生量加總而得，兩者差異主要係資源垃圾之計算方式不同，全國資源垃圾係公告應回收廢物品及容器回收量加計執行機關「紙類」、「舊衣類」、「其他金屬製品」、「光碟片」、「行動電話」、「其他塑膠製品」、「其他玻璃製品」、「食用油」及「其他」等9項回收量而得。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "一般廢棄物回收率",
+    "name": "一般廢棄物回收率",
+    "unit": "％",
+    "definition": "指一般廢棄物產生量中資源垃圾及廚餘回收之比率。總計數值係指全國一般廢棄物回收率，非執行機關一般廢棄物回收率平均而得，兩者差異主要係資源垃圾之計算方式不同，全國資源垃圾係公告應回收廢物品及容器回收量加計執行機關「紙類」、「舊衣類」、「其他金屬製品」、「光碟片」、「行動電話」、「其他塑膠製品」、「其他玻璃製品」、「食用油」及「其他」等9項回收量而得。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "空氣中總懸浮微粒濃度",
+    "name": "空氣中總懸浮微粒濃度",
+    "unit": "微克/立方公尺",
+    "definition": "浮游於空氣中之微粒﹙包括10微米以上浮游粒子﹚。各地區濃度為該地區一般人工監測站各測站濃度之算數平均值。各測站濃度為該測站各連續24小時監測值之幾何平均值；109年以前每年測定次數未達16次之測站不列入計算，110年起未達12次之測站不列入計算。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "細懸浮微粒手動監測(PM2.5)濃度值",
+    "name": "細懸浮微粒手動監測(PM2.5)濃度值",
+    "unit": "微克/立方公尺",
+    "definition": "指空氣中直徑2.5微米(um)以下的懸浮粒子，其濃度值依據環境部空氣品質監測站之手動監測資料彙編。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "AQI>100之站日數比率",
+    "name": "AQI>100之站日數比率",
+    "unit": "％",
+    "definition": "1.105年(含)前指PSI>100之站日數占PSI總監測站日數之百分比；106年起指AQI>100之站日數占AQI總監測站日數之百分比。PSI係指空氣污染指標 (Pollutant Standard Index)；AQI係指空氣品質指標 (Air Quality Index)。2.配合空氣品質標準修正，AQI>100之站日數比率改以新標準統計，並回溯計算至109年，106~108年則以「-」表示。另有關以舊標準計算之AQI>100之站日數比率，可參見環境統計查詢網(詳https://statis.moenv.gov.tw/epanet/)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "一般地區環境音量監測不合格時段數",
+    "name": "一般地區環境音量監測不合格時段數",
+    "unit": "時段",
+    "definition": "指特定監測站於特定時段之均能音量超過「環境音量標準」中之「一般地區環境音量標準」；88年起平均均能音量計算方式改變，故87年與88年資料有所波動。因金門縣、連江縣無測站，故各該縣、總計以「-」表示(數值無統計)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "一般地區環境音量監測不合格率",
+    "name": "一般地區環境音量監測不合格率",
+    "unit": "％",
+    "definition": "指監測時段中均能音量超過「一般地區環境音量標準」所占之百分比。因金門縣、連江縣無測站，故各該縣、總計以「-」表示(數值無統計)。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "豬隻數量",
+    "name": "豬隻數量",
+    "unit": "頭",
+    "definition": "年底在養豬之總頭數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "豬隻密度",
+    "name": "豬隻密度",
+    "unit": "頭/平方公里",
+    "definition": "平均每一平方公里之在養豬隻頭數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "事業廢水稽查次數",
+    "name": "事業廢水稽查次數",
+    "unit": "次",
+    "definition": "指環保單位主動或因陳情而執行污染(包括畜牧廢水、其他事業廢水)稽查之查勘次數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "事業廢水罰鍰次數",
+    "name": "事業廢水罰鍰次數",
+    "unit": "次",
+    "definition": "指環保單位執行污染(包括畜牧廢水、其他事業廢水)稽查，對違反法令規定之受查對象，給予處分罰金之次數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "事業廢水罰鍰金額",
+    "name": "事業廢水罰鍰金額",
+    "unit": "千元",
+    "definition": "指環保單位執行污染(包括畜牧廢水、其他事業廢水)稽查，對違反法令規定之受查對象，給予處分罰金之總額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "戶政管理件數",
+    "name": "戶政管理件數",
+    "unit": "件",
+    "definition": "依據「戶籍法」及「戶籍法施行細則」之規定執行案件中，戶政管理件數，計分：1. 虛報遷入(出)登記。2.無戶籍人口。3. 重複戶籍。4.未接受戶籍校正。5.發現不法取得、冒用、變造國民身分證。6.受理公文件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每百萬人戶政管理件數",
+    "name": "平均每百萬人戶政管理件數",
+    "unit": "件/百萬人",
+    "definition": "平均每百萬人違反戶籍法令件數",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "調解委員會調解成立案件數",
+    "name": "調解委員會調解成立案件數",
+    "unit": "件",
+    "definition": "指當期調解成立之件數。經調解成立時，由調解委員會作成調解書，並經法院核定之件數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "調解委員會受理調解案件調解成立比率",
+    "name": "調解委員會受理調解案件調解成立比率",
+    "unit": "％",
+    "definition": "指調解成立件數占調解受理件數之百分比。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每一公教人員服務人口數",
+    "name": "平均每一公教人員服務人口數",
+    "unit": "人",
+    "definition": "平均每一公教人員服務人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均戶內人口數",
+    "name": "家庭收支-平均戶內人口數",
+    "unit": "人",
+    "definition": "平均每一戶之人口數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均每戶就業人數",
+    "name": "家庭收支-平均每戶就業人數",
+    "unit": "人",
+    "definition": "平均每一戶之就業人數。就業人口係指年滿15歲以上人口在調查標準期（一年）內，合乎下列條件之一者：(1)凡從事有酬工作達6個月以上，且年內收入達全年最低工資一半以上者（雇主及自營作業者不受收入金額限制）；(2)原有職業但在標準期內因傷病、休假、天氣惡劣、災害、勞資爭議、工作場所整修及季節性休閒等原因暫未工作而年內領有全年最低工資一半以上之勞動報酬者(不包括賠償金及醫藥費)；(3)在學學生，於課餘兼任有酬工作，工作期間達6個月以上，且年內收入達全年最低工資一半以上者；(4)年滿15歲以上，每週工作15小時以上，或每天工作3小時以上，達6個月以上之無酬家屬工作者。在學學生，於家庭經營之非公司企業內每週工作15小時以上，或每天工作3小時以上，達6個月以上之無酬家屬工作者。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均每戶全年經常性支出",
+    "name": "家庭收支-平均每戶全年經常性支出",
+    "unit": "元",
+    "definition": "平均每一戶之經常性支出總額。經常性支出包括非消費性支出及消費性支出。消費性支出包括食品及非酒精飲料、菸酒及檳榔、衣著鞋襪及服飾用品、住宅服務水電瓦斯及其他燃料、 家具設備及家務維護、醫療保健、交通、通訊、休閒與文化、教育、餐廳及旅館、什項消費。非消費性支出包括利息支出及經常移轉支出。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均每戶全年經常性收入",
+    "name": "家庭收支-平均每戶全年經常性收入",
+    "unit": "元",
+    "definition": "平均每一戶之經常性收入總額。經常性收入=基本所得＋財產所得收入＋自用住宅及其他營建物設算租金（含折舊）＋經常移轉收入＋雜項收入。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均每戶可支配所得",
+    "name": "家庭收支-平均每戶可支配所得",
+    "unit": "元",
+    "definition": "平均每戶可支配所得。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均每戶消費支出",
+    "name": "家庭收支-平均每戶消費支出",
+    "unit": "元",
+    "definition": "平均每一戶之消費性支出總額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均每戶儲蓄額",
+    "name": "家庭收支-平均每戶儲蓄額",
+    "unit": "元",
+    "definition": "平均每一戶之儲蓄總額。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均消費傾向",
+    "name": "家庭收支-平均消費傾向",
+    "unit": "％",
+    "definition": "平均每戶消費支出占可支配所得比率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-平均儲蓄傾向",
+    "name": "家庭收支-平均儲蓄傾向",
+    "unit": "％",
+    "definition": "平均每戶儲蓄占可支配所得比率。可支配所得=經常性收入-非消費性支出-自用住宅及其他營建物折舊。經常性收入=基本所得＋財產所得收入＋自用住宅及其他營建物設算租金（含折舊）＋經常移轉收入＋雜項收入。基本所得=受雇人員報酬＋產業主所得。非消費性支出=利息支出+經常移轉支出。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-有線電視頻道設備",
+    "name": "家庭現代化設備(每百戶擁有數)-有線電視頻道設備",
+    "unit": "戶",
+    "definition": "每百戶擁有有線電視頻道設備戶數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-行動電話",
+    "name": "家庭現代化設備(每百戶擁有數)-行動電話",
+    "unit": "臺",
+    "definition": "每百戶擁有行動電話數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-冷暖氣機",
+    "name": "家庭現代化設備(每百戶擁有數)-冷暖氣機",
+    "unit": "臺",
+    "definition": "每百戶擁有冷暖氣機數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-汽車",
+    "name": "家庭現代化設備(每百戶擁有數)-汽車",
+    "unit": "輛",
+    "definition": "每百戶擁有汽車數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-家用電腦",
+    "name": "家庭現代化設備(每百戶擁有數)-家用電腦",
+    "unit": "臺",
+    "definition": "每百戶擁有家用電腦數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-彩色電視機",
+    "name": "家庭現代化設備(每百戶擁有數)-彩色電視機",
+    "unit": "臺",
+    "definition": "每百戶擁有彩色電視機數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-報紙",
+    "name": "家庭現代化設備(每百戶擁有數)-報紙",
+    "unit": "份",
+    "definition": "每百戶擁有報紙份數（含贈閱）。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-電話機",
+    "name": "家庭現代化設備(每百戶擁有數)-電話機",
+    "unit": "臺",
+    "definition": "每百戶擁有電話機數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭現代化設備(每百戶擁有數)-機車",
+    "name": "家庭現代化設備(每百戶擁有數)-機車",
+    "unit": "輛",
+    "definition": "每百戶擁有機車數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "家庭收支-自有住宅比率",
+    "name": "家庭收支-自有住宅比率",
+    "unit": "％",
+    "definition": "住宅所屬之「自有」，2009年及以前指「現住房屋所有權屬戶內成員之任何一人或其直系親屬者」， 2010年起配合人口及住宅普查定義，修改為「戶內經常居住成員所擁有」。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "每戶可支配所得中位數",
+    "name": "每戶可支配所得中位數",
+    "unit": "元",
+    "definition": "每戶可支配所得中位數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每人每年可支配所得",
+    "name": "平均每人每年可支配所得",
+    "unit": "元",
+    "definition": "平均每人每年可支配所得。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每人居住面積",
+    "name": "平均每人居住面積",
+    "unit": "坪",
+    "definition": "平均每人所享用的住宅坪數。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "平均每戶書報雜誌文具支出占消費支出比率",
+    "name": "平均每戶書報雜誌文具支出占消費支出比率",
+    "unit": "％",
+    "definition": "平均每戶書報雜誌消費金額（不含贈閱）占消費支出比率。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "飲食費(含家外食物)占消費支出比率",
+    "name": "飲食費(含家外食物)占消費支出比率",
+    "unit": "％",
+    "definition": "飲食費(含家外食物)占消費支出比率。家外食物係指婚生壽喪祭宴費、餐館等場所飲食交際費及在外伙食費。",
+    "category": null,
+    "higherIsInteresting": null
+  },
+  {
+    "id": "飲食費(不含家外食物)占消費支出比率",
+    "name": "飲食費(不含家外食物)占消費支出比率",
+    "unit": "％",
+    "definition": "飲食費(不含家外食物)占消費支出比率。家外食物係指婚生壽喪祭宴費、餐館等場所飲食交際費及在外伙食費。",
+    "category": null,
+    "higherIsInteresting": null
+  }
+]

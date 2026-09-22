@@ -213,8 +213,8 @@ export async function mountGrid(cfg) {
   </div>
   <a href="#" class="archive-link" id="archiveLink">挑戰以前的題目</a>
   <p class="footer-note">
-    資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>
-    純屬好玩<span class="ver" id="ver"></span>
+    資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰<br>
+    純屬好玩 <span class="ver" id="ver"></span>
   </p>
 </div>
 
@@ -243,7 +243,7 @@ export async function mountGrid(cfg) {
       <button id="rpOther">挑戰以前的題目</button>
       <button id="rpShare" class="primary">分享結果</button>
     </div>
-    <p class="footer-note" style="margin-top:12px">資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a></p>
+    <p class="footer-note" style="margin-top:12px">資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰</p>
   </div>
 </div>
 

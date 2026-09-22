@@ -20,6 +20,7 @@ export const GAMES = [
   { id:'who-is-older', path:'/projects/who-is-older/',    short:'博愛座',   title:'博愛座',     accent:'#0f766e' },
   { id:'taiwan-grid',   path:'/projects/taiwan-grid/',       short:'台灣九宮格',       title:'台灣九宮格',         accent:'#0f766e' },
   { id:'taipei-cities', path:'/projects/taipei-cities/',     short:'全台區',   title:'全台行政區',     accent:'#7c3aed' },
+  { id:'north-vs-south', path:'/projects/north-vs-south/',     short:'戰南北',   title:'戰南北',     accent:'#7c3aed' },
 ];
 
 const SVGNS = 'http://www.w3.org/2000/svg';

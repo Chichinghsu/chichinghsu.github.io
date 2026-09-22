@@ -186,16 +186,22 @@ button.primary{ background:var(--accent); color:#fffdf8; border-color:var(--acce
 button.primary:hover{ filter:brightness(1.1); }
 button:disabled{ opacity:.5; cursor:default; }
 
+
 .footer-note{
-  font-size:11px; color:#9098a3; line-height:1.6;
+  font-size:11px; color:#4c4c4f; line-height:1.6;
   margin:auto 0 0; padding-top:14px;
   font-family:"PingFang TC","Noto Sans TC",sans-serif;
   text-align:center;
   max-width:420px;
 }
-/* empty until VERSION loads, so the footer must not reserve space for it */
+.footer-note a{
+  color:var(--accent); text-decoration:none; border-bottom:1px solid #d3d8e0;
+}
+.footer-note a:hover{
+  border-bottom-color:var(--accent);
+}
 .footer-note .ver{
-  color:#b3bac4;
+  color:#4c4c4f;
   font-variant-numeric:tabular-nums;
   font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
 }
