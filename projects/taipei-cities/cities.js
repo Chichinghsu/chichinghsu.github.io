@@ -14,6 +14,7 @@
 // rank ladder is generic unless exactly one city is in play.
 
 import { GAMES } from '/projects/quiz/quiz.js';
+import { saveScore, setupLeaderboardOverlay } from '/projects/challenge.js';
 
 const SVGNS = 'http://www.w3.org/2000/svg';
 const el = (tag, attrs) => {
@@ -280,11 +281,22 @@ function buildLayout(cfg, label) {
     <a class="rp-more" id="rpMore" href="#">看更多挑戰 →</a>
     <div class="rp-actions">
       <button id="rpReveal">公布解答</button>
+      <button id="rpLeaderboard">我的戰績</button>
       <button id="rpRestart" class="primary">再玩一次</button>
     </div>
     <a class="rp-cta" href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">
       <span class="rp-cta-main">👉 追蹤我的 Threads</span>
     </a>
+  </div>
+</div>
+
+<div class="overlay" id="leaderboard">
+  <div class="report">
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+      <h2 style="margin:0;">我的戰績</h2>
+      <button id="lbClose" style="background:none; border:none; font-size:20px; cursor:pointer; padding:0; color:#999;">✕</button>
+    </div>
+    <div id="lbList"></div>
   </div>
 </div>
 
@@ -496,6 +508,7 @@ function run(cfg, DATA, cities, label) {
 
   let submitted = false;
   let finalScore = null; // frozen at 交卷 or 公布解答, whichever comes first
+  let scoreSaved = false; // prevent duplicate score entries
 
   function endGame() {
     if (submitted) return;
@@ -627,6 +640,10 @@ function run(cfg, DATA, cities, label) {
       return '<div class="rp-line"><span class="sw" style="background:' + c.accent + '"></span>' +
         c.name + '<span class="v">' + f + '/' + c.count + '</span></div>';
     }).join('');
+    if (!scoreSaved) {
+      saveScore(cfg.id, { count: finalScore.count, total: TOTAL, time: elapsedSeconds });
+      scoreSaved = true;
+    }
     overlay.classList.add('show');
   }
 
@@ -641,8 +658,19 @@ function run(cfg, DATA, cities, label) {
     overlay.classList.remove('show');
     revealAllRemaining();
   });
+  const leaderboardEl = document.getElementById('leaderboard');
+  document.getElementById('rpLeaderboard').addEventListener('click', () => {
+    const $ = id => document.getElementById(id);
+    setupLeaderboardOverlay($, cfg.id);
+    leaderboardEl.classList.add('show');
+  });
+  document.getElementById('lbClose').addEventListener('click', () => leaderboardEl.classList.remove('show'));
   overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.remove('show'); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') overlay.classList.remove('show'); });
+  leaderboardEl.addEventListener('click', e => { if (e.target === leaderboardEl) leaderboardEl.classList.remove('show'); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') {
+    if (leaderboardEl.classList.contains('show')) leaderboardEl.classList.remove('show');
+    else if (overlay.classList.contains('show')) overlay.classList.remove('show');
+  }});
 
   // ---- legend: one row per city in play ----
   const legendEl = document.getElementById('legend');

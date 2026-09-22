@@ -76,3 +76,59 @@
   100%{ opacity:1; }
 }
 .dist.pop-anim{ animation:distPop .45s ease-out; }
+
+/* Leaderboard styles */
+.lb-list{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  max-height:60vh;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  padding:4px 0;
+}
+.lb-row{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:8px 12px;
+  border:1px solid #dfe3e9;
+  border-radius:6px;
+  background:#fafafa;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  font-size:13px;
+}
+.lb-rank{
+  font-weight:600;
+  color:#6c7480;
+  min-width:24px;
+  text-align:right;
+}
+.lb-score{
+  font-weight:600;
+  color:#1c2530;
+  min-width:50px;
+}
+.lb-time{
+  color:#6c7480;
+  font-family:"SF Mono","Menlo",monospace;
+  min-width:50px;
+}
+.lb-date{
+  color:#999;
+  font-size:12px;
+  flex:1;
+}
+.lb-delete{
+  background:none;
+  border:none;
+  color:#ccc;
+  font-size:16px;
+  padding:2px 4px;
+  cursor:pointer;
+  line-height:1;
+  flex-shrink:0;
+}
+.lb-delete:hover{
+  color:#e74c3c;
+}

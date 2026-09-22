@@ -5,6 +5,8 @@
 // matching, scoring, pan/zoom — lives here, so adding a new network means
 // adding a data file plus a GAMES entry.
 
+import { saveScore, setupLeaderboardOverlay } from '/projects/challenge.js';
+
 // ---- registry: powers the cross-quiz switcher in the header ----
  
 export const GAMES = [
@@ -176,11 +178,22 @@ function buildLayout(cfg){
     <a class="rp-more" id="rpMore" href="#">看更多挑戰 →</a>
     <div class="rp-actions">
       <button id="rpReveal">公布解答</button>
+      <button id="rpLeaderboard">我的戰績</button>
       <button id="rpRestart" class="primary">再玩一次</button>
     </div>
     <a class="rp-cta" href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">
       <span class="rp-cta-main">👉 追蹤我的 Threads</span>
     </a>
+  </div>
+</div>
+
+<div class="overlay" id="leaderboard">
+  <div class="report">
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+      <h2 style="margin:0;">我的戰績</h2>
+      <button id="lbClose" style="background:none; border:none; font-size:20px; cursor:pointer; padding:0; color:#999;">✕</button>
+    </div>
+    <div id="lbList"></div>
   </div>
 </div>
 
@@ -213,6 +226,17 @@ function buildLayout(cfg){
   document.getElementById('gamesClose').addEventListener('click', ()=> gamesOverlay.classList.remove('show'));
   gamesOverlay.addEventListener('click', e=>{
     if(e.target === gamesOverlay) gamesOverlay.classList.remove('show');
+  });
+
+  const leaderboardEl = document.getElementById('leaderboard');
+  document.getElementById('rpLeaderboard').addEventListener('click', ()=>{
+    const $ = id => document.getElementById(id);
+    setupLeaderboardOverlay($, cfg.id);
+    leaderboardEl.classList.add('show');
+  });
+  document.getElementById('lbClose').addEventListener('click', ()=> leaderboardEl.classList.remove('show'));
+  leaderboardEl.addEventListener('click', e=>{
+    if(e.target === leaderboardEl) leaderboardEl.classList.remove('show');
   });
 
   const me = GAMES.find(g=>g.id===cfg.id);
@@ -468,6 +492,7 @@ function run(cfg, DATA){
 
   let submitted = false;
   let finalScore = null; // frozen at 交卷 or 公布解答, whichever comes first
+  let scoreSaved = false; // prevent duplicate score entries
 
   // Closing the game: no more guessing, and 交卷 turns into 看成績單.
   function endGame(){
@@ -592,6 +617,10 @@ function run(cfg, DATA){
       return '<div class="rp-line"><span class="sw" style="background:'+groupMeta[k].color+
         '"></span>'+groupMeta[k].name.replace(/\s*\(.*\)$/,'')+'<span class="v">'+lp+'%</span></div>';
     }).join('');
+    if (!scoreSaved) {
+      saveScore(cfg.id, { count: finalScore.count, total: stations.length, time: elapsedSeconds });
+      scoreSaved = true;
+    }
     overlay.classList.add('show');
   }
 

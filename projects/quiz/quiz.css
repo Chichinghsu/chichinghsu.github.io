@@ -304,3 +304,59 @@ button.primary:hover{ filter:brightness(1.1); }
   border-bottom:1px solid transparent; transition:border-color .15s;
 }
 .footer-note a:hover{ border-bottom-color:var(--accent); }
+
+/* Leaderboard styles */
+.lb-list{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  max-height:60vh;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  padding:4px 0;
+}
+.lb-row{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:8px 12px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  background:#fafafa;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  font-size:13px;
+}
+.lb-rank{
+  font-weight:600;
+  color:var(--muted);
+  min-width:24px;
+  text-align:right;
+}
+.lb-score{
+  font-weight:600;
+  color:var(--ink);
+  min-width:50px;
+}
+.lb-time{
+  color:var(--muted);
+  font-family:"SF Mono","Menlo",monospace;
+  min-width:50px;
+}
+.lb-date{
+  color:#999;
+  font-size:12px;
+  flex:1;
+}
+.lb-delete{
+  background:none;
+  border:none;
+  color:#ccc;
+  font-size:16px;
+  padding:2px 4px;
+  cursor:pointer;
+  line-height:1;
+  flex-shrink:0;
+}
+.lb-delete:hover{
+  color:var(--bad);
+}
