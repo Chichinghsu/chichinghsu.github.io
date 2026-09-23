@@ -272,6 +272,12 @@ button.primary:hover{ filter:brightness(1.1); }
   background:color-mix(in srgb, var(--accent) 13%, transparent);
 }
 .report .rp-cta-main{ font-size:13px; font-weight:600; color:var(--accent); }
+.report .rp-donate{
+  margin:10px 0 0; font-size:11px; color:var(--ink); line-height:1.5;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.report .rp-donate a{ color:var(--accent); text-decoration:none; border-bottom:1px solid color-mix(in srgb, var(--accent) 40%, transparent); }
+.report .rp-donate a:hover{ border-bottom-color:var(--accent); }
 .report .rp-more{
   display:inline-block; margin:0 0 14px;
   font-size:12px; font-weight:600; color:var(--ink); text-decoration:none;

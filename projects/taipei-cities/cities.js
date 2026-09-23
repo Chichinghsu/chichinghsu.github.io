@@ -287,6 +287,7 @@ function buildLayout(cfg, label) {
     <a class="rp-cta" href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">
       <span class="rp-cta-main">👉 追蹤我的 Threads</span>
     </a>
+    <p class="rp-donate">歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰</p>
   </div>
 </div>
 
@@ -375,6 +376,14 @@ function run(cfg, DATA, cities, label) {
   const districts = DATA.districts.filter(d => cityIds.has(d.city));
   const byId = Object.fromEntries(districts.map(d => [d.id, d]));
   const TOTAL = districts.length;
+
+  // Each city combination gets its own 戰績 bucket — a partial run isn't
+  // comparable to the full 368, and mixing them together wouldn't mean anything.
+  // The full set keeps the plain cfg.id so leaderboards saved before this existed
+  // still show up.
+  const gameId = cities.length === DATA.cities.length
+    ? cfg.id
+    : `${cfg.id}:${cities.map(c => c.id).sort().join(',')}`;
 
   // ---- timer ----
   let startTime = null;
@@ -641,7 +650,7 @@ function run(cfg, DATA, cities, label) {
         c.name + '<span class="v">' + f + '/' + c.count + '</span></div>';
     }).join('');
     if (!scoreSaved) {
-      saveScore(cfg.id, { count: finalScore.count, total: TOTAL, time: elapsedSeconds });
+      saveScore(gameId, { count: finalScore.count, total: TOTAL, time: elapsedSeconds });
       scoreSaved = true;
     }
     overlay.classList.add('show');
@@ -661,7 +670,7 @@ function run(cfg, DATA, cities, label) {
   const leaderboardEl = document.getElementById('leaderboard');
   document.getElementById('rpLeaderboard').addEventListener('click', () => {
     const $ = id => document.getElementById(id);
-    setupLeaderboardOverlay($, cfg.id);
+    setupLeaderboardOverlay($, gameId);
     leaderboardEl.classList.add('show');
   });
   document.getElementById('lbClose').addEventListener('click', () => leaderboardEl.classList.remove('show'));

@@ -185,6 +185,7 @@ function buildLayout(cfg){
     <a class="rp-cta" href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">
       <span class="rp-cta-main">👉 追蹤我的 Threads</span>
     </a>
+    <p class="rp-donate">若有餘力，歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我做更多無廣告的挑戰</p>
   </div>
 </div>
 
