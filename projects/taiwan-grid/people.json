@@ -377,7 +377,7 @@
       "birth_city": ["彰化縣"],
       "occupation": ["歌手","藝人"],
       "education": [],
-      "award": ["金曲獎"],
+      "award": ["金曲獎","金馬獎"],
       "birth_decade": ["1950年代"],
       "birthday": "1958/10/29",
       "tags": ["結過婚"]
@@ -1509,7 +1509,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": [],
-      "occupation": ["演員","藝人"],
+      "occupation": ["演員","藝人","主持人"],
       "education": ["國立臺北藝術大學"],
       "award": ["金馬獎","金鐘獎"],
       "birth_decade": ["1970年代"],
@@ -2036,13 +2036,13 @@
     "aka": [],
     "properties": {
       "gender": ["女性"],
-      "birth_city": [],
+      "birth_city": ["新北市"],
       "occupation": ["演員","藝人","歌手"],
       "education": [],
       "award": ["金馬獎"],
       "birth_decade": ["1950年代"],
       "birthday": "1956/10/9",
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -5356,7 +5356,7 @@
       "award": [],
       "birth_decade": ["1970年代"],
       "birthday": "1972/10/25",
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -7195,7 +7195,7 @@
       "award": ["金鐘獎","金曲獎"],
       "birth_decade": ["1950年代"],
       "birthday": "1954/6/6",
-      "tags": ["結過婚","離過婚","原住民"]
+      "tags": ["結過婚","離過婚","原住民","台語歌手"]
     }
   },
   {
@@ -8171,7 +8171,7 @@
       "award": ["金曲獎"],
       "birth_decade": ["1970年代"],
       "birthday": "1979/6/2",
-      "tags": ["台語歌手","選秀出身"]
+      "tags": ["台語歌手","選秀出身","結過婚"]
     }
   },
   {
@@ -8806,7 +8806,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": [],
-      "occupation": ["主持人", "藝人", "演員","作家"],
+      "occupation": ["主持人","藝人","演員","作家"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -10812,6 +10812,374 @@
       "birth_decade": ["1900年代"],
       "birthday": "1906/10/18",
       "tags": ["結過婚","已故","被關過"]
+    }
+  },
+  {
+    "id": "tw-678",
+    "name": "朱海君",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["歌手","藝人","主持人","演員"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1985/8/31",
+      "tags": ["結過婚","選秀出身","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-679",
+    "name": "陳盈潔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新竹縣"],
+      "occupation": ["歌手","藝人","主持人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1953/10/15",
+      "tags": ["結過婚","已故","原住民","台語歌手","離過婚","被關過"]
+    }
+  },
+  {
+    "id": "tw-680",
+    "name": "于美人",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["作家","政治人物","主持人","藝人","演員","Podcast"],
+      "education": ["東吳大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1965/3/3",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-681",
+    "name": "吳淡如",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["作家","記者","主持人","藝人","Podcast"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/11/22",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-682",
+    "name": "侯佩岑",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["主持人","藝人","演員","記者","新聞主播"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1977/12/20",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-683",
+    "name": "天心",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["主持人","藝人","演員","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/11/11",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-684",
+    "name": "蔡淑臻",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["模特兒","藝人","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/3/14",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-685",
+    "name": "簡嫚書",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["雲林縣"],
+      "occupation": ["導演","藝人","演員"],
+      "education": ["國立臺北藝術大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/10/16",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-686",
+    "name": "夏于喬",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["主持人","藝人","演員"],
+      "education": ["文化大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/8/24",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-687",
+    "name": "黃甘霖",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/3/12",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-688",
+    "name": "曾豪駒",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/11/27",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-689",
+    "name": "徐生明",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1958/9/11",
+      "tags": ["結過婚","已故"]
+    }
+  },
+  {
+    "id": "tw-690",
+    "name": "王貞治",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["日本"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1940年代"],
+      "birthday": "1940/5/20",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-691",
+    "name": "郭泰源",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1962/3/20",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-692",
+    "name": "潘若迪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","健身教練"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1963/12/4",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-693",
+    "name": "林益全",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1985/11/11",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-694",
+    "name": "林泓育",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/3/21",
+      "tags": ["結過婚","離過婚","外遇或劈腿過"]
+    }
+  },
+  {
+    "id": "tw-695",
+    "name": "高志綱",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/2/7",
+      "tags": ["結過婚","外遇或劈腿過"]
+    }
+  },
+  {
+    "id": "tw-696",
+    "name": "阿吉仔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["歌手","藝人","政治人物"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1950年代"],
+      "birthday": "1957/4/15",
+      "tags": ["結過婚","離過婚","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-697",
+    "name": "王識賢",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["歌手","藝人","演員"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/2/11",
+      "tags": ["結過婚","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-698",
+    "name": "陳建瑋",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1980/3/7",
+      "tags": ["結過婚","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-699",
+    "name": "聶永真",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["平面設計師"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1977/8/16",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-700",
+    "name": "陳如山",
+    "wikidata": "",
+    "aka": ["阿山"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人","演員"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/12/24",
+      "tags": ["樂團主唱"]
     }
   }
 ]
