@@ -2250,7 +2250,7 @@
       "award": ["金鐘獎"],
       "birth_decade": ["1960年代"],
       "birthday": "1962/10/25",
-      "tags": []
+      "tags": ["結過婚"]
     }
   },
   {
@@ -3065,7 +3065,7 @@
       "award": [],
       "birth_decade": ["1950年代"],
       "birthday": "1951/6/6",
-      "tags": ["結過婚","當過總統","選過總統","當過行政院院長"]
+      "tags": ["結過婚","當過總統","選過總統","當過行政院院長","當過中研院院長"]
     }
   },
   {
@@ -3172,12 +3172,12 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["新竹市"],
-      "occupation": ["科學家"],
+      "occupation": ["科學家","教授"],
       "education": ["國立臺灣大學"],
       "award": ["諾貝爾獎"],
       "birth_decade": ["1930年代"],
       "birthday": "1936/11/19",
-      "tags": []
+      "tags": ["當過中研院院長","結過婚"]
     }
   },
   {
@@ -6470,7 +6470,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["新北市"],
-      "occupation": ["主持人","藝人","歌手","喜劇演員","YouTuber"],
+      "occupation": ["主持人","藝人","歌手","喜劇演員","YouTuber","Podcast"],
       "education": ["國立政治大學"],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -11179,7 +11179,247 @@
       "award": ["金曲獎"],
       "birth_decade": ["1960年代"],
       "birthday": "1969/12/24",
-      "tags": ["樂團主唱"]
+      "tags": ["樂團主唱","結過婚"]
+    }
+  },
+  {
+    "id": "tw-701",
+    "name": "王鴻薇",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["政治人物","立法委員","議員","記者"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/7/10",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-702",
+    "name": "費鴻泰",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員","議員","教授"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1954/7/7",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-703",
+    "name": "陳明文",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["政治人物","立法委員","議員"],
+      "education": ["東海大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1954/5/13",
+      "tags": ["結過婚","當過市長"]
+    }
+  },
+  {
+    "id": "tw-704",
+    "name": "張花冠",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1954/7/7",
+      "tags": ["結過婚","當過市長"]
+    }
+  },
+  {
+    "id": "tw-705",
+    "name": "翁章梁",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["政治人物"],
+      "education": ["中原大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1965/5/28",
+      "tags": ["結過婚","當過市長"]
+    }
+  },
+  {
+    "id": "tw-706",
+    "name": "翁曉玲",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["政治人物","立法委員","教授"],
+      "education": ["國立中興大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/1/18",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-707",
+    "name": "翁啓惠",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["科學家","教授"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1940年代"],
+      "birthday": "1948/8/3",
+      "tags": ["結過婚","當過中研院院長"]
+    }
+  },
+  {
+    "id": "tw-708",
+    "name": "卜學亮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","演員","歌手","主持人"],
+      "education": ["淡江大學"],
+      "award": ["金曲獎","金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1965/9/11",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-709",
+    "name": "董至成",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","演員","主持人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1965/12/22",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-710",
+    "name": "侯昌明",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["藝人","主持人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/9/6",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-711",
+    "name": "黃西田",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","主持人","歌手","演員"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1940年代"],
+      "birthday": "1948/12/27",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-712",
+    "name": "陳隨意",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/12/14",
+      "tags": ["結過婚","選秀出身","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-713",
+    "name": "謝宜君",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["嘉義市"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1978/7/30",
+      "tags": ["結過婚","選秀出身","台語歌手"]
+    }
+  },
+  {
+    "id": "tw-714",
+    "name": "李懿",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["藝人","模特兒","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1985/4/9",
+      "tags": ["會開聯結車"]
+    }
+  },
+  {
+    "id": "tw-715",
+    "name": "劉宇珊",
+    "wikidata": "",
+    "aka": ["宇珊"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["藝人","演員","歌手","主持人","Podcast","YouTuber"],
+      "education": ["中原大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1991/6/8",
+      "tags": ["結過婚"]
     }
   }
 ]
