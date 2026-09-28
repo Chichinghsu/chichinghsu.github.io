@@ -5215,7 +5215,7 @@
       "award": [],
       "birth_decade": ["1980年代"],
       "birthday": "1987/4/8",
-      "tags": ["選秀出身","原住民"]
+      "tags": ["選秀出身","原住民","結過婚","離過婚"]
     }
   },
   {
@@ -11420,6 +11420,118 @@
       "birth_decade": ["1990年代"],
       "birthday": "1991/6/8",
       "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-716",
+    "name": "魏如昀",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["藝人","演員","歌手","主持人"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/3/19",
+      "tags": ["結過婚","選秀出身"]
+    }
+  },
+  {
+    "id": "tw-717",
+    "name": "閻奕格",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["中國"],
+      "occupation": ["藝人","演員","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/3/21",
+      "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-718",
+    "name": "劉明湘",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["美國"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/9/14",
+      "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-719",
+    "name": "黃偉晉",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","歌手","主持人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/3/23",
+      "tags": ["選秀出身"]
+    }
+  },
+  {
+    "id": "tw-720",
+    "name": "婁峻碩",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["藝人","歌手","主持人","演員"],
+      "education": ["東吳大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/3/23",
+      "tags": ["結過婚","原住民"]
+    }
+  },
+  {
+    "id": "tw-721",
+    "name": "高爾宣",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","歌手"],
+      "education": ["東吳大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1997/6/14",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-722",
+    "name": "謝和弦",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["南投縣"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/4/15",
+      "tags": ["結過婚","離過婚"]
     }
   }
 ]

@@ -322,5 +322,75 @@
       "birth_decade:1970年代",
       "education:國立臺灣大學"
     ]
-  }  
+  },
+  {
+    "id": 48,
+    "date": "2026-09-30",
+    "rows": [
+      "occupation:立法委員", 
+      "education:國立政治大學", 
+      "occupation:政治人物"
+    ],
+    "columns": [
+      "tags:結過婚",
+      "tags:當過行政院院長",
+      "birth_decade:1960年代"
+    ]
+  },
+  {
+    "id": 49,
+    "date": "2026-10-01",
+    "rows": [
+      "occupation:主持人", 
+      "special:海外出生", 
+      "occupation:演員"
+    ],
+    "columns": [
+      "occupation:歌手",
+      "tags:選秀出身",
+      "special:1989前出生"
+    ]
+  },
+  {
+    "id": 50,
+    "date": "2026-10-02",
+    "rows": [
+      "occupation:立法委員", 
+      "occupation:醫師", 
+      "occupation:政治人物"
+    ],
+    "columns": [
+      "education:國立臺灣大學",
+      "tags:當過市長",
+      "special:1989前出生"
+    ]
+  },
+  {
+    "id": 51,
+    "date": "2026-10-03",
+    "rows": [
+      "gender:女性", 
+      "special:1980後出生", 
+      "tags:原住民"
+    ],
+    "columns": [
+      "occupation:歌手",
+      "tags:台語歌手",
+      "tags:離過婚"
+    ]
+  },
+  {
+    "id": 52,
+    "date": "2026-10-04",
+    "rows": [
+      "occupation:立法委員", 
+      "occupation:議員", 
+      "occupation:政治人物"
+    ],
+    "columns": [
+      "tags:結過婚",
+      "tags:離過婚",
+      "birth_decade:1970年代"
+    ]
+  } 
 ]

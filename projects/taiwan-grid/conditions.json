@@ -22,6 +22,7 @@
     "occupation:立法委員": { "label": "立法委員" },
     "occupation:啦啦隊": { "label": "啦啦隊" },
     "occupation:棒球選手": { "label": "棒球選手" },
+    "occupation:議員": { "label": "議員" },
 
     "gender:男性":         { "label": "男性" },
     "gender:女性":         { "label": "女性" },
@@ -55,6 +56,7 @@
     "tags:當過總統": { "label": "當過（副）總統" },
     "tags:選過總統": { "label": "選過（副）總統" },
     "tags:當過市長": { "label": "當過縣市長" },
+    "tags:當過行政院院長": { "label": "當過行政院院長" },
     "tags:選秀出身": { "label": "選秀節目出身" },
     "tags:台語歌手": { "label": "台語歌手" },
     "tags:樂團主唱": { "label": "樂團主唱" },
