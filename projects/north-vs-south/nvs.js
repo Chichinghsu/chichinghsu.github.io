@@ -107,11 +107,20 @@ const pad3 = n => String(n).padStart(3, '0');
 /* ---------- entry point ---------- */
 
 export async function mountNVS(cfg) {
+  // VERSION bumps on every deploy (see HISTORY.md), so tagging puzzles.json
+  // with it busts the browser/mobile cache exactly when a new puzzle actually
+  // shipped, instead of forcing a fresh download on every load. counties/
+  // indicators/values change far less often, so they're left uncached-as-is.
+  const version = await fetch('VERSION', { cache: 'no-store' })
+    .then(r => (r.ok ? r.text() : ''))
+    .then(t => t.trim())
+    .catch(() => '');
+  const bust = version ? `?v=${encodeURIComponent(version)}` : '';
   const [counties, indicators, values, puzzlesFile] = await Promise.all([
     fetch('data/counties.json').then(r => r.json()),
     fetch('data/indicators.json').then(r => r.json()),
     fetch('data/values.json').then(r => r.json()),
-    fetch('puzzles.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch('puzzles.json' + bust).then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
 
   const byPuzzleId = puzzlesFile ? new Map(puzzlesFile.map(p => [p.date, p])) : new Map();

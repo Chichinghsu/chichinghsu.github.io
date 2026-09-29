@@ -110,9 +110,23 @@ const pad3 = n => String(n).padStart(3, '0');
 /* ---------- entry point ---------- */
 
 export async function mountOlder(cfg) {
+  // VERSION bumps on every deploy (see HISTORY.md), so tagging each data fetch
+  // with the VERSION of the project that owns that file busts the browser/
+  // mobile cache exactly when its content changed, instead of forcing a fresh
+  // download on every load. people.json is owned by taiwan-grid, so it's
+  // tagged with that project's VERSION rather than this one's.
+  const fetchVersion = path => fetch(path, { cache: 'no-store' })
+    .then(r => (r.ok ? r.text() : ''))
+    .then(t => t.trim())
+    .catch(() => '');
+  const [version, peopleVersion] = await Promise.all([
+    fetchVersion('VERSION'),
+    fetchVersion('../taiwan-grid/VERSION'),
+  ]);
+  const bust = v => (v ? `?v=${encodeURIComponent(v)}` : '');
   const [people, puzzles] = await Promise.all([
-    fetch('../taiwan-grid/people.json').then(r => r.json()),
-    fetch('puzzles.json').then(r => r.json()),
+    fetch('../taiwan-grid/people.json' + bust(peopleVersion)).then(r => r.json()),
+    fetch('puzzles.json' + bust(version)).then(r => r.json()),
   ]);
 
   const byId = new Map(people.map(p => [p.id, p]));
@@ -198,7 +212,7 @@ export async function mountOlder(cfg) {
   </div>
   <a href="#" class="archive-link" id="archiveLink">玩以前的題目</a>
   <p class="footer-note">
-    資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰<br>
+    資料整理自維基百科等公開資料，可能有誤，僅供娛樂。<br>必有疏漏，歡迎回報/追蹤 → <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a><br>歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰<br>
     純屬好玩 <span class="ver" id="ver"></span>
   </p>
 </div>
@@ -278,13 +292,7 @@ export async function mountOlder(cfg) {
     .map(l => `<a class="gamecard" href="${l.href}">${esc(l.text)}</a>`).join('');
 
   // VERSION is the single source of truth for the version number (see HISTORY.md).
-  fetch('VERSION')
-    .then(r => (r.ok ? r.text() : Promise.reject()))
-    .then(t => {
-      const v = t.trim();
-      if (/^\d+\.\d+\.\d+/.test(v)) $('ver').textContent = ` · ${v}`;
-    })
-    .catch(() => { /* no version shown */ });
+  if (/^\d+\.\d+\.\d+/.test(version)) $('ver').textContent = ` · ${version}`;
 
   /* ---------- rounds ---------- */
 
@@ -515,7 +523,7 @@ export async function mountOlder(cfg) {
     const s = score();
     const rank = RANKS.find(r => s >= r.min);
     return `${title}\n\n${roundLines().join('\n')}`
-      + `\n\n快來猜猜誰能坐博愛座\n🔗 ${cfg.shareUrl}?p=${puzzle.id}`;
+      + `\n\n快來猜猜誰能坐博愛座 | 台灣大挑戰 \n🔗 ${cfg.shareUrl}?p=${puzzle.id}`;
   };
 
   function showResult() {

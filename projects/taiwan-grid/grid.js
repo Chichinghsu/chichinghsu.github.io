@@ -137,10 +137,18 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 /* ---------- entry point ---------- */
 
 export async function mountGrid(cfg) {
+  // VERSION bumps on every deploy (see HISTORY.md), so tagging the data fetches
+  // with it busts the browser/mobile cache exactly when content actually
+  // changed, instead of forcing a fresh download on every load.
+  const version = await fetch('VERSION', { cache: 'no-store' })
+    .then(r => (r.ok ? r.text() : ''))
+    .then(t => t.trim())
+    .catch(() => '');
+  const bust = version ? `?v=${encodeURIComponent(version)}` : '';
   const [people, puzzles, condDefs] = await Promise.all([
-    fetch('people.json').then(r => r.json()),
-    fetch('puzzles.json').then(r => r.json()),
-    fetch('conditions.json').then(r => r.json()),
+    fetch('people.json' + bust).then(r => r.json()),
+    fetch('puzzles.json' + bust).then(r => r.json()),
+    fetch('conditions.json' + bust).then(r => r.json()),
   ]);
 
   const matches = makeMatcher(condDefs);
@@ -296,15 +304,7 @@ export async function mountGrid(cfg) {
     .map(l => `<a class="gamecard" href="${l.href}">${esc(l.text)}</a>`).join('');
 
   // VERSION is the single source of truth for the version number (see HISTORY.md).
-  // Fetched separately from the game data so a missing or unreadable file leaves the
-  // footer blank instead of blocking the board.
-  fetch('VERSION')
-    .then(r => (r.ok ? r.text() : Promise.reject()))
-    .then(t => {
-      const v = t.trim();
-      if (/^\d+\.\d+\.\d+/.test(v)) $('ver').textContent = ` · v${v}`;
-    })
-    .catch(() => { /* no version shown */ });
+  if (/^\d+\.\d+\.\d+/.test(version)) $('ver').textContent = ` · v${version}`;
 
   /* ---------- per-puzzle state ---------- */
 
