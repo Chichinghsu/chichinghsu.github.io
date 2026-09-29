@@ -1143,7 +1143,7 @@
       "birth_city": ["台北市"],
       "occupation": ["歌手","演員","藝人"],
       "education": [],
-      "award": ["金鐘獎"],
+      "award": ["金馬獎"],
       "birth_decade": ["1990年代"],
       "birthday": "1990/7/18",
       "tags": []
@@ -11498,7 +11498,7 @@
       "education": ["東吳大學"],
       "award": [],
       "birth_decade": ["1990年代"],
-      "birthday": "1990/3/23",
+      "birthday": "1993/9/14",
       "tags": ["結過婚","原住民"]
     }
   },
@@ -11532,6 +11532,86 @@
       "birth_decade": ["1980年代"],
       "birthday": "1987/4/15",
       "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-723",
+    "name": "邱鋒澤",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新加坡"],
+      "occupation": ["藝人","歌手","演員","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/10/31",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-724",
+    "name": "賴晏駒",
+    "wikidata": "",
+    "aka": ["小賴"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","歌手","主持人"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1991/1/16",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-725",
+    "name": "田亞霍",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","歌手","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1995/5/6",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-726",
+    "name": "紀卜心",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["藝人","YouTuber","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1995/5/12",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-727",
+    "name": "小吳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["YouTuber"],
+      "education": ["輔仁大學"],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1994/4/11",
+      "tags": ["結過婚"]
     }
   }
 ]
