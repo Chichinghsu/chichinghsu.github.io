@@ -1,0 +1,400 @@
+:root{
+  --bg:#f4f5f7;
+  --panel:#ffffff;
+  --line:#e1e5eb;
+  --ink:#1c2530;
+  --muted:#697280;
+  --accent:#ea580c;
+  --good:#188a54;
+  --bad:#c8402f;
+  --warn:#c99a12;
+}
+*{box-sizing:border-box; hyphens:none; -webkit-hyphens:none;}
+html,body{margin:0;height:100%;}
+body{
+  background:
+    radial-gradient(1200px 600px at 15% -10%, #ffffff 0%, transparent 60%),
+    radial-gradient(1000px 500px at 100% 10%, #eef0f4 0%, transparent 55%),
+    var(--bg);
+  color:var(--ink);
+  font-family:"Iowan Old Style","Georgia",serif;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  -webkit-text-size-adjust:100%;
+}
+
+/* ---------- header ---------- */
+.topbar{
+  padding:18px 20px 10px;
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  border-bottom:1px solid var(--line);
+}
+.brand{ display:flex; flex-direction:column; gap:4px; }
+.brand h1{
+  margin:0;
+  font-size:24px;
+  font-weight:600;
+  letter-spacing:.01em;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+}
+.brand h1 a{ color:inherit; text-decoration:none; }
+.switcher{
+  font-size:11.5px;
+  letter-spacing:.06em;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  color:var(--muted);
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.switcher a{ color:var(--accent); text-decoration:none; border-bottom:1px solid #d3d8e0; }
+.switcher a:hover{ border-bottom-color:var(--accent); }
+.stats{
+  font-family:"SF Mono","Menlo",monospace;
+  font-size:12.5px;
+  color:var(--muted);
+  display:flex;
+  gap:14px;
+  align-items:baseline;
+  font-variant-numeric:tabular-nums;
+}
+.stats b{ color:var(--ink); font-size:19px; font-family:inherit; }
+
+.progressWrap{ height:3px; background:var(--line); position:relative; overflow:hidden; }
+.progressBar{ height:100%; width:0%; background:var(--accent); transition:width .35s ease; }
+
+/* ---------- main ---------- */
+.wrap{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:16px 14px 20px;
+  gap:14px;
+  width:100%;
+  max-width:520px;
+  margin:0 auto;
+}
+.question{
+  margin:0;
+  color:var(--ink);
+  font-family:"PingFang TC","Noto Sans TC",serif;
+  text-align:center;
+  display:flex; flex-direction:column; gap:0; align-items:center; justify-content:center;
+}
+.q-text{
+  font-size:18px;
+  line-height:1.5;
+  font-weight:600;
+  display:block;
+}
+.q-unit{ font-size:13px; color:var(--muted); font-weight:400; }
+.q-info{
+  background:none; border:none; color:var(--accent);
+  font-size:13px; padding:0 4px; cursor:help; line-height:1;
+  flex-shrink:0;
+}
+.q-def{
+  margin-top:8px; font-size:12px; color:var(--ink);
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  line-height:1.4; text-align:center;
+  display:block;
+}
+
+/* ---------- round dots ---------- */
+.roundDots{ display:flex; gap:6px; justify-content:center; }
+.roundDots i{
+  width:8px; height:8px; border-radius:50%;
+  background:var(--line); border:1px solid #d7dce3;
+}
+.roundDots i.on{ background:#c3c9d2; border-color:#b3bac4; }
+.roundDots i.now{ background:var(--accent); border-color:var(--accent); }
+
+/* ---------- slider card ---------- */
+.slidecard{
+  width:100%;
+  background:#fbfbfc;
+  border:1px solid #cfd5dd;
+  border-radius:12px;
+  padding:20px 18px;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.guessval{
+  text-align:center;
+  font-family:"SF Mono","Menlo",monospace;
+  font-size:32px; font-weight:600; color:var(--accent);
+  font-variant-numeric:tabular-nums;
+}
+.guessval span{ font-size:15px; color:var(--muted); font-family:"PingFang TC","Noto Sans TC",sans-serif; margin-left:4px; }
+.slider-row{ display:flex; flex-direction:column; gap:6px; }
+input[type="range"]{
+  width:100%;
+  height:36px;
+  -webkit-appearance:none;
+  appearance:none;
+  background:transparent;
+  touch-action:none;
+}
+input[type="range"]::-webkit-slider-runnable-track{
+  height:8px; border-radius:4px; background:var(--line);
+}
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  width:28px; height:28px; border-radius:50%;
+  background:var(--accent); border:3px solid #fff;
+  box-shadow:0 2px 6px rgba(20,30,45,.3);
+  margin-top:-10px;
+}
+input[type="range"]::-moz-range-track{
+  height:8px; border-radius:4px; background:var(--line);
+}
+input[type="range"]::-moz-range-thumb{
+  width:28px; height:28px; border-radius:50%;
+  background:var(--accent); border:3px solid #fff;
+  box-shadow:0 2px 6px rgba(20,30,45,.3);
+}
+input[type="range"]:disabled::-webkit-slider-thumb{ background:var(--muted); }
+.range-labels{
+  display:flex; justify-content:space-between;
+  font-family:"SF Mono","Menlo",monospace; font-size:11px; color:var(--muted);
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---------- reveal bar ---------- */
+.revealbar{
+  position:relative;
+  height:20px;
+  background:var(--line);
+  border-radius:8px;
+  margin-top:2px;
+  margin-bottom:38px;
+}
+.rb-mark{
+  position:absolute;
+  top:0; bottom:0;
+  width:3px;
+  transform:translateX(-50%);
+}
+.rb-mark.guess{ background:var(--accent); }
+.rb-mark.actual{ background:var(--ink); }
+.rb-tag{
+  position:absolute;
+  top:100%;
+  margin-top:6px;
+  transform:translateX(-50%);
+  font-size:11px;
+  font-family:"SF Mono","Menlo",monospace;
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+.rb-tag.guess{ color:var(--accent); }
+.rb-tag.actual{ color:var(--ink); font-weight:600; }
+.rb-tag.actual.stacked{ margin-top:24px; }
+
+.verdict{
+  text-align:center;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+  font-size:20px; font-weight:700;
+}
+.verdict .pts{
+  display:inline;
+  margin-left:8px;
+  font-family:"SF Mono","Menlo",monospace; font-size:14px; color:var(--muted); font-weight:400;
+  font-variant-numeric:tabular-nums;
+}
+
+.funfact{
+  min-height:1px;
+  font-size:12.5px; line-height:1.5; color:var(--ink);
+  background:rgba(234,88,12,.08);
+  border:1px solid rgba(234,88,12,.2);
+  border-radius:8px;
+  padding:10px 12px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  text-align:center;
+}
+.funfact:empty{ display:none; padding:0; border:none; }
+
+/* ---------- buttons ---------- */
+button{
+  background:#eef0f3;
+  color:var(--ink);
+  border:1px solid #cfd5dd;
+  padding:11px 14px;
+  border-radius:8px;
+  font-size:13px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  cursor:pointer;
+}
+button:hover{ border-color:var(--accent); }
+button.primary{ background:var(--accent); color:#fffdf8; border-color:var(--accent); font-weight:600; }
+button.primary:hover{ filter:brightness(1.1); }
+button:disabled{ opacity:.5; cursor:default; }
+.actionrow{ display:flex; width:100%; }
+.actionrow button{ flex:1; padding:14px; font-size:15px; }
+
+.footer-note{
+  font-size:11px; color:#4c4c4f; line-height:1.6;
+  margin:auto 0 0; padding-top:14px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  text-align:center;
+  max-width:420px;
+}
+.footer-note a{ color:var(--accent); text-decoration:none; border-bottom:1px solid #d3d8e0; }
+.footer-note a:hover{ border-bottom-color:var(--accent); }
+.footer-note .ver{
+  color:#4c4c4f;
+  font-variant-numeric:tabular-nums;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+
+.archive-banner{
+  width:100%;
+  background:rgba(234,88,12,.08);
+  border:1px solid rgba(234,88,12,.25);
+  border-radius:8px;
+  padding:8px 12px;
+  font-size:12.5px; line-height:1.5;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  color:var(--ink);
+  text-align:center;
+}
+.archive-banner a{ color:var(--accent); }
+
+/* ---------- result card ---------- */
+.overlay{
+  position:fixed; inset:0; z-index:60;
+  background:rgba(20,30,45,.55);
+  display:none; align-items:flex-start; justify-content:center;
+  padding:20px; overflow-y:auto;
+}
+.overlay.show{ display:flex; }
+.report{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:14px;
+  box-shadow:0 18px 50px rgba(20,30,45,.28);
+  width:100%; max-width:380px;
+  padding:24px 22px 18px;
+  text-align:center;
+  margin:auto;
+}
+.report h2{
+  margin:0;
+  font-size:20px; font-weight:600;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+}
+.report .rp-quip{
+  font-size:13px; color:var(--muted); line-height:1.55;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  margin:6px 0 0;
+}
+.report .rp-score{
+  margin:14px 0 2px;
+  font-size:40px; font-weight:600; color:var(--ink);
+  font-family:"SF Mono","Menlo",monospace; font-variant-numeric:tabular-nums;
+}
+.report .rp-stack{ display:flex; flex-direction:column; gap:8px; margin-top:14px; }
+.report .rp-stack button{ width:100%; }
+
+.rp-rounds{
+  margin:14px 0 2px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  font-size:13.5px; line-height:1.85;
+  text-align:left;
+}
+.rp-rounds .rr{
+  display:grid;
+  grid-template-columns:20px 1fr auto auto;
+  align-items:baseline; gap:6px;
+  border-bottom:1px dashed var(--line);
+  padding:4px 0;
+}
+.rp-rounds .rr:last-child{ border-bottom:none; }
+.rp-rounds .rr .no{
+  font-family:"SF Mono","Menlo",monospace; font-size:11px;
+  color:#b3bac4;
+  font-variant-numeric:tabular-nums;
+}
+.rp-rounds .rr .ind{
+  font-family:"PingFang TC","Noto Sans TC",sans-serif; font-size:12px;
+  color:var(--muted);
+  min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.rp-rounds .rr .sc{
+  font-family:"SF Mono","Menlo",monospace; font-size:12px; color:var(--ink);
+  font-variant-numeric:tabular-nums;
+}
+.rp-rounds .rr .mk{ font-size:12px; }
+
+/* ---------- wide panel (other games) ---------- */
+.overlay.wide{ padding:12px; }
+.panel{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:14px;
+  box-shadow:0 18px 50px rgba(20,30,45,.28);
+  width:100%; max-width:520px;
+  padding:18px 16px 16px;
+  margin:auto;
+}
+.panel-hd{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:10px; margin-bottom:12px;
+}
+.panel-hd h2{
+  margin:0; font-size:17px; font-weight:600;
+  font-family:"PingFang TC","Noto Sans TC",serif;
+}
+.panel-hd .x{ padding:6px 10px; font-size:15px; line-height:1; }
+.other-games{ display:flex; gap:8px; flex-wrap:wrap; }
+.gamecard{
+  flex:1; min-width:96px; text-align:center;
+  padding:11px 10px; border:1px solid #cfd5dd; border-radius:8px;
+  font-size:13px; color:var(--ink); text-decoration:none;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+}
+.gamecard:hover{ border-color:var(--accent); color:var(--accent); }
+.tab-hint{
+  font-size:12.5px; color:var(--muted); margin:0 0 10px;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif; line-height:1.5;
+}
+#arList{ max-height:56vh; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+.plist{
+  display:flex; align-items:center; gap:10px; width:100%; text-align:left;
+  background:none; border:none; border-bottom:1px dashed var(--line);
+  border-radius:0; padding:11px 2px;
+}
+.plist:last-child{ border-bottom:none; }
+.plist:hover:not(:disabled){ background:#f4f5f7; }
+.plist:disabled{ opacity:1; cursor:default; }
+.pl-mid{ flex:1; min-width:0; display:flex; flex-direction:column; gap:2px; }
+.pl-date{ font-size:13.5px; }
+.pl-status{
+  font-family:"SF Mono","Menlo",monospace; font-size:12px;
+  color:var(--muted); flex-shrink:0;
+  font-variant-numeric:tabular-nums;
+}
+.pl-status.done{ color:var(--good); }
+.archive-link{
+  font-size:12.5px; color:var(--accent); text-decoration:none;
+  font-family:"PingFang TC","Noto Sans TC",sans-serif;
+  border-bottom:1px solid #d3d8e0; padding-bottom:1px;
+}
+.archive-link:hover{ border-bottom-color:var(--accent); }
+
+@media (min-width:600px){
+  .brand h1{ font-size:26px; }
+  .question{ font-size:18px; }
+}
+@media (max-width:359px){
+  .q-text{ font-size:16px; }
+  .guessval{ font-size:26px; }
+}

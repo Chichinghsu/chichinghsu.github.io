@@ -17,10 +17,11 @@ export const GAMES = [
   { id:'tra-east',   path:'/projects/tra-east/',       short:'台鐵東部', title:'台鐵東部', accent:'#0b4f9e' },
   { id:'freeway', path:'/projects/freeway/',    short:'國道一號',   title:'國道一號',     accent:'#00703C' },
   { id:'freeway3', path:'/projects/freeway3/',    short:'國道三號',   title:'國道三號',     accent:'#00703C' },
-  { id:'who-is-older', path:'/projects/who-is-older/',    short:'博愛座',   title:'博愛座',     accent:'#0f766e' },
   { id:'taiwan-grid',   path:'/projects/taiwan-grid/',       short:'台灣九宮格',       title:'台灣九宮格',         accent:'#0f766e' },
   { id:'taipei-cities', path:'/projects/taipei-cities/',     short:'全台區',   title:'全台行政區',     accent:'#7c3aed' },
   { id:'north-vs-south', path:'/projects/north-vs-south/',     short:'戰南北',   title:'戰南北',     accent:'#7c3aed' },
+  { id:'who-is-older', path:'/projects/who-is-older/',    short:'博愛座',   title:'博愛座',     accent:'#0f766e' },
+  { id:'slide-and-guess', path:'/projects/slide-and-guess/',     short:'台挑估估王',   title:'台挑估估王',     accent:'#ea580c' },
 ];
 
 const SVGNS = 'http://www.w3.org/2000/svg';
@@ -261,7 +262,11 @@ export async function mountQuiz(cfg){
 }
 
 function run(cfg, DATA){
-  const stations = DATA.stations;
+  // `skip: true` stations (e.g. grade crossings that are physically on the
+  // road but not a landmark anyone names) still anchor the line path and get
+  // projected coordinates, but are excluded from dots/labels/guessing/scoring.
+  const allStations = DATA.stations;
+  const stations = allStations.filter(s=>!s.skip);
   const lines = DATA.lines;
   const lineMeta = DATA.lineMeta;
   // The legend / report / dot colours are usually grouped by line, but a network
@@ -299,7 +304,7 @@ function run(cfg, DATA){
   const proj = buildProjection(DATA, layout);
   const {W, H} = proj;
   const byId = {};
-  stations.forEach(s=>{
+  allStations.forEach(s=>{
     const [x,y] = proj.project(s.lat, s.lon);
     s.x = x; s.y = y;
     byId[s.id] = s;
@@ -339,6 +344,9 @@ function run(cfg, DATA){
     addAlias(s.zh+'車站', s.id);
     s.en.split('/').forEach(part=>addAlias(part, s.id));
     addAlias(s.en.replace(/\./g,''), s.id);
+    // Grade ramps are named "<place>平交匝道"; nobody says the full form out
+    // loud, so the place name alone should also unlock it.
+    if(s.zh.endsWith('平交匝道')) addAlias(s.zh.slice(0, -4), s.id);
   });
   Object.entries(cfg.aliases || {}).forEach(([k,v])=> addAlias(k, v));
 
@@ -395,7 +403,11 @@ function run(cfg, DATA){
   }
   // Freeway data carries a milepost; on a road the distance marker is half the
   // identity of an interchange ("71 楊梅端"), so prefix it onto the map label.
-  const labelZh = s => (s.km != null ? s.km+' '+s.zh : s.zh);
+  // Grade ramps' full "<place>平交匝道" name is too long for how tightly they
+  // cluster on the map; shorten to "<place>平" there (guessing/found-list still
+  // use the full s.zh).
+  const shortZh = s => s.zh.endsWith('平交匝道') ? s.zh.slice(0, -3) : s.zh;
+  const labelZh = s => (s.km != null ? s.km+' '+shortZh(s) : shortZh(s));
   const boxesOverlap = (a,b,pad) =>
     !(a.x2+pad < b.x1 || b.x2+pad < a.x1 || a.y2+pad < b.y1 || b.y2+pad < a.y1);
 

@@ -162,7 +162,7 @@
   {
     "id": "粗出生率",
     "name": "粗出生率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "每千人中出生人口之比率。",
     "category": null,
     "higherIsInteresting": null
@@ -170,7 +170,7 @@
   {
     "id": "粗死亡率",
     "name": "粗死亡率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "每千人中死亡人口之比率。",
     "category": null,
     "higherIsInteresting": null
@@ -178,7 +178,7 @@
   {
     "id": "自然增加率",
     "name": "自然增加率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "自然增加數對年中人口數的比率，即粗出生率與粗死亡率之差。",
     "category": null,
     "higherIsInteresting": null
@@ -202,7 +202,7 @@
   {
     "id": "社會增加率",
     "name": "社會增加率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "社會增加數對年中人口數的比率，即遷入率減遷出率之差（含住址變更數）。",
     "category": null,
     "higherIsInteresting": null
@@ -210,7 +210,7 @@
   {
     "id": "人口總增加率",
     "name": "人口總增加率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "總增加數對年中人口數的比率",
     "category": null,
     "higherIsInteresting": null
@@ -266,7 +266,7 @@
   {
     "id": "一般生育率",
     "name": "一般生育率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "每千個育齡婦女（15-49歲）平均每年生育的子女數。",
     "category": null,
     "higherIsInteresting": null
@@ -306,7 +306,7 @@
   {
     "id": "粗結婚率",
     "name": "粗結婚率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "指某一特定期間之結婚對數對同一期間期中總人口之千分比。",
     "category": null,
     "higherIsInteresting": null
@@ -314,7 +314,7 @@
   {
     "id": "粗離婚率",
     "name": "粗離婚率",
-    "unit": "0/00",
+    "unit": "‰",
     "definition": "指某一特定期間之離婚對數對同一期間期中總人口之千分比。",
     "category": null,
     "higherIsInteresting": null
