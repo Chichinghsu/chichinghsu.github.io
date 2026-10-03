@@ -392,5 +392,26 @@
       "tags:離過婚",
       "birth_decade:1970年代"
     ]
-  } 
+  },
+
+  { "id": 53, "date": "2026-10-05",
+  "rows": ["special:1990後出生", "occupation:歌手", "occupation:演員"],
+  "columns": ["gender:男性", "education:國立政治大學", "award:金曲獎"] },
+    
+  { "id": 54, "date": "2026-10-06",
+    "rows": ["education:國立臺灣大學", "occupation:政治人物", "occupation:立法委員"],
+    "columns": ["gender:女性", "birth_decade:1980年代", "tags:當過行政院院長"] },
+
+  { "id": 55, "date": "2026-10-07",
+    "rows": ["occupation:醫師", "occupation:運動員", "occupation:作家"],
+    "columns": ["tags:結過婚", "tags:離過婚", "special:1989前出生"] },
+
+  { "id": 56, "date": "2026-10-08",
+  "rows": ["occupation:YouTuber", "occupation:Podcast", "occupation:歌手"],
+  "columns": ["birth_decade:1990年代", "award:走鐘獎", "gender:女性"] },
+
+  { "id": 57, "date": "2026-10-09",
+  "rows": ["occupation:藝人", "occupation:政治人物", "occupation:運動員"],
+  "columns": ["special:海外出生", "birth_decade:1970年代", "tags:離過婚"] }
+
 ]

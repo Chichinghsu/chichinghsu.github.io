@@ -11613,5 +11613,85 @@
       "birthday": "1994/4/11",
       "tags": ["結過婚"]
     }
+  },
+  {
+    "id": "tw-728",
+    "name": "方文山",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["花蓮縣"],
+      "occupation": ["作詞人","作家","導演"],
+      "education": [],
+      "award": ["金曲獎","金馬獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/1/26",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-729",
+    "name": "郭富城",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["香港"],
+      "occupation": ["演員","歌手","藝人"],
+      "education": [],
+      "award": ["金馬獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1965/10/26",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-730",
+    "name": "黎明",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["中國"],
+      "occupation": ["演員","歌手","藝人"],
+      "education": [],
+      "award": ["金馬獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1966/12/11",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-731",
+    "name": "陳慧琳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["香港"],
+      "occupation": ["演員","歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1972/9/13",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-732",
+    "name": "張敬軒",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["香港"],
+      "occupation": ["演員","歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1972/9/13",
+      "tags": ["結過婚"]
+    }
   }
 ]
