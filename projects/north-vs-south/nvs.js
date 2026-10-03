@@ -93,7 +93,7 @@ function questionText(round, indicatorById) {
   const ind = indicatorById.get(round.indicatorId);
   const [hi, lo] = wordPairFor(ind);
   const word = round.direction === 'higher' ? hi : lo;
-  return `哪個縣市${ind.name}比較${word}（${round.year}）？`;
+  return `哪個縣市${esc(ind.name)}比較${word}（${round.year}）？`;
 }
 
 function correctSide(r) {
@@ -425,7 +425,7 @@ export async function mountNVS(cfg) {
 
   const roundLines = () => rounds.map((r, i) => {
     const ind = indicatorById.get(r.indicatorId);
-    return `${esc(ind.name)} ${marks()[i]}`;
+    return `${ind.name} ${marks()[i]}`;
   });
 
   function roundsHTML() {
