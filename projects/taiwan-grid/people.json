@@ -11685,13 +11685,13 @@
     "aka": [],
     "properties": {
       "gender": ["男性"],
-      "birth_city": ["香港"],
-      "occupation": ["演員","歌手","藝人"],
+      "birth_city": ["中國"],
+      "occupation": ["歌手","藝人"],
       "education": [],
       "award": [],
-      "birth_decade": ["1970年代"],
-      "birthday": "1972/9/13",
-      "tags": ["結過婚"]
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/2/1",
+      "tags": []
     }
   }
 ]
