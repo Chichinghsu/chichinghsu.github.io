@@ -11693,5 +11693,53 @@
       "birthday": "1981/2/1",
       "tags": []
     }
+  },
+  {
+    "id": "tw-733",
+    "name": "曾之喬",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新竹縣"],
+      "occupation": ["歌手","藝人","主持人","演員","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/11/17",
+      "tags": ["結過婚","原住民"]
+    }
+  },
+  {
+    "id": "tw-734",
+    "name": "方炯鑌",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["馬來西亞"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1977/7/17",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-735",
+    "name": "黃品源",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","藝人","主持人","演員"],
+      "education": [],
+      "award": ["金鐘獎","金馬獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/3/17",
+      "tags": []
+    }
   }
 ]
