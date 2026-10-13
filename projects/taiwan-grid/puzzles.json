@@ -436,5 +436,30 @@
 
   { "id": 63,  "date": "2026-10-15",
   "rows": ["occupation:立法委員", "occupation:政治人物", "education:國立臺灣大學"],
-  "columns": ["tags:當過行政院院長", "birth_city:台北市", "special:1979前出生"] }
+  "columns": ["tags:當過行政院院長", "birth_city:台北市", "special:1979前出生"] },
+
+  { "id": 64,  "date": "2026-10-16",
+  "rows": ["occupation:歌手", "occupation:主持人", "occupation:演員"],
+  "columns": ["tags:選秀出身", "birth_city:高雄市", "birth_decade:1970年代"] },
+
+  { "id": 65,  "date": "2026-10-17",
+  "rows": ["occupation:立法委員", "occupation:政治人物", "special:1979前出生"],
+  "columns": ["tags:當過行政院院長", "birth_city:桃園市", "tags:離過婚"] },
+
+  { "id": 66,  "date": "2026-10-18",
+  "rows": ["occupation:主持人", "occupation:啦啦隊", "occupation:演員"],
+  "columns": ["tags:結過婚", "birth_decade:1990年代", "special:海外出生"] },
+
+  { "id": 67,  "date": "2026-10-19",
+  "rows": ["occupation:藝人", "occupation:政治人物", "occupation:YouTuber"],
+  "columns": ["birth_city:台北市", "education:輔仁大學", "birth_city:新北市"] },
+
+  { "id": 68,  "date": "2026-10-20",
+  "rows": ["occupation:歌手", "occupation:主持人", "occupation:演員"],
+  "columns": ["award:金曲獎", "award:金馬獎", "birth_city:新北市"] },
+
+  { "id": 69,  "date": "2026-10-21",
+  "rows": ["occupation:運動員", "occupation:歌手", "occupation:演員"],
+  "columns": ["tags:原住民", "birth_city:新北市", "birth_decade:1970年代"] }
+  
 ]

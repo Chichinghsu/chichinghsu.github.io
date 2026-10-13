@@ -48,6 +48,9 @@
     "birth_city:台北市": { "label": "台北市出生" },
     "birth_city:台中市": { "label": "台中市出生" },
     "birth_city:台南市": { "label": "台南市出生" },
+    "birth_city:桃園市": { "label": "桃園市出生" },
+    "birth_city:高雄市": { "label": "高雄市出生" },
+    "birth_city:新北市": { "label": "新北市出生" },
 
     "award:金曲獎": { "label": "金曲獎得主" },
     "award:金鐘獎": { "label": "金鐘獎得主" },
@@ -63,6 +66,7 @@
     "tags:選過總統": { "label": "選過（副）總統" },
     "tags:當過市長": { "label": "當過縣市長" },
     "tags:當過行政院院長": { "label": "當過行政院院長" },
+    "tags:當過立法院院長": { "label": "當過立法院院長" },
     "tags:選秀出身": { "label": "選秀節目出身" },
     "tags:台語歌手": { "label": "台語歌手" },
     "tags:樂團主唱": { "label": "樂團主唱" },

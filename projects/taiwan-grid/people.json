@@ -11773,5 +11773,69 @@
       "birthday": "1965/11/20",
       "tags": ["當過衛福部部長"]
     }
+  },
+  {
+    "id": "tw-738",
+    "name": "林家正",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新北市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1997/6/26",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-739",
+    "name": "孫易磊",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["運動員","棒球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["2000年代"],
+      "birthday": "2005/2/10",
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-740",
+    "name": "陳建禎",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["運動員","排球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1989/11/20",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-741",
+    "name": "黃培閎",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["苗栗縣"],
+      "occupation": ["運動員","排球選手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1990/9/17",
+      "tags": []
+    }
   }
 ]
