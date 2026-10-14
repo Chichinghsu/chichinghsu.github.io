@@ -23,8 +23,8 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["新北市"],
-      "occupation": ["歌手","演員"],
-      "education": [],
+      "occupation": ["歌手","演員","藝人"],
+      "education": ["輔仁大學"],
       "award": ["金曲獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1980/9/15",
@@ -11835,6 +11835,70 @@
       "award": [],
       "birth_decade": ["1990年代"],
       "birthday": "1990/9/17",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-742",
+    "name": "許哲珮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1981/2/2",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-743",
+    "name": "簡廷芮",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["歌手","藝人","演員","模特兒","主持人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1992/3/9",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-744",
+    "name": "陳妍希",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["歌手","藝人","演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1983/5/31",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-745",
+    "name": "賴雅妍",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["歌手","藝人","演員","主持人","模特兒"],
+      "education": ["世新大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/12/5",
       "tags": []
     }
   }
