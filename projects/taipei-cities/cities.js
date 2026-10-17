@@ -599,6 +599,12 @@ function run(cfg, DATA, cities, label) {
       feedback.textContent = '✓ ' + newly.map(d => cityById[d.city].name + d.name).join('  +  ');
       feedback.className = 'feedback ok';
       input.value = '';
+      if (found.size >= TOTAL && !submitted) {
+        finalScore = snapshotScore();
+        endGame();
+        showReport();
+        return;
+      }
     } else {
       feedback.textContent = '已解鎖: ' +
         ids.map(id => cityById[byId[id].city].name + byId[id].name).join(', ');
