@@ -74,7 +74,7 @@ function rngFor(dateKey) {
 /* ---------- wording heuristic ---------- */
 
 // Manually audited overrides for indicators where the default 3-bucket
-// heuristic (面積→大/小, ％/率→高/低, else→多/少) would read unnaturally.
+// heuristic (面積→大/小, 密度/％/率→高/低, else→多/少) would read unnaturally.
 // Add entries here as they're spotted; keyed by indicator.id (== name).
 const WORD_OVERRIDES = new Map([
   // e.g. ['人口密度', ['高','低']],
@@ -84,6 +84,7 @@ function wordPairFor(indicator) {
   if (WORD_OVERRIDES.has(indicator.id)) return WORD_OVERRIDES.get(indicator.id);
   const { name, unit } = indicator;
   if (name.includes('面積')) return ['大', '小'];
+  if (name.includes('密度')) return ['高', '低'];
   if (unit.includes('公里')) return ['長', '短'];
   if (unit.includes('％') || name.includes('率') || unit.includes('歲') || unit.includes('元')) return ['高', '低'];
   return ['多', '少'];
