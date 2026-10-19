@@ -460,6 +460,14 @@
 
   { "id": 69,  "date": "2026-10-21",
   "rows": ["occupation:運動員", "occupation:歌手", "occupation:演員"],
-  "columns": ["tags:原住民", "birth_city:新北市", "birth_decade:1970年代"] }
+  "columns": ["tags:原住民", "birth_city:新北市", "birth_decade:1970年代"] },
+
+  { "id": 70,  "date": "2026-10-22",
+  "rows": ["occupation:立法委員", "education:國立臺灣大學", "occupation:政治人物"],
+  "columns": ["tags:當過交通部部長", "birth_city:台南市", "birth_decade:1970年代"] },
+
+  { "id": 71,  "date": "2026-10-23",
+  "rows": ["occupation:作家", "occupation:教授", "occupation:主持人"],
+  "columns": ["education:國立臺灣大學", "birth_city:台北市", "special:1979前出生"] }
   
 ]

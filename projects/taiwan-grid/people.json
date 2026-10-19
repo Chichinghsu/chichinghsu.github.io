@@ -2596,7 +2596,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["台北市"],
-      "occupation": ["政治人物"],
+      "occupation": ["政治人物","教授","律師","立法委員"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1950年代"],
@@ -2756,7 +2756,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["政治人物"],
+      "occupation": ["政治人物","教授"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1950年代"],
@@ -3060,7 +3060,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["高雄市"],
-      "occupation": ["政治人物","醫師"],
+      "occupation": ["政治人物","醫師","教授"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1950年代"],
@@ -4020,7 +4020,7 @@
       "gender": ["女性"],
       "birth_city": ["台北市"],
       "occupation": ["醫師"],
-      "education": [],
+      "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1970年代"],
       "birthday": "1976/8/12",
@@ -4188,7 +4188,7 @@
     "aka": ["陳孜昊"],
     "properties": {
       "gender": ["男性"],
-      "birth_city": [],
+      "birth_city": ["新北市"],
       "occupation": ["YouTuber"],
       "education": ["國立政治大學"],
       "award": ["走鐘獎"],
@@ -4317,7 +4317,7 @@
       "gender": ["男性"],
       "birth_city": ["台北市"],
       "occupation": ["YouTuber"],
-      "education": [],
+      "education": ["輔仁大學"],
       "award": ["走鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1989/5/8",
@@ -9222,7 +9222,7 @@
     "properties": {
       "gender": ["男性"],
       "birth_city": ["台北市"],
-      "occupation": ["政治人物","立法委員","律師"],
+      "occupation": ["政治人物","立法委員","律師","教授"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1980年代"],
@@ -11900,6 +11900,118 @@
       "birth_decade": ["1970年代"],
       "birthday": "1979/12/5",
       "tags": []
+    }
+  },
+  {
+    "id": "tw-746",
+    "name": "許宗力",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義市"],
+      "occupation": ["大法官","教授","法官"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1956/2/10",
+      "tags": ["當過司法院院長","結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-747",
+    "name": "賴浩敏",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["苗栗縣"],
+      "occupation": ["大法官","教授","法官","律師"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1930年代"],
+      "birthday": "1939/1/2",
+      "tags": ["當過司法院院長","結過婚"]
+    }
+  },
+  {
+    "id": "tw-748",
+    "name": "林洋港",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["南投縣"],
+      "occupation": ["政治人物"],
+      "education": ["國立政治大學"],
+      "award": [],
+      "birth_decade": ["1920年代"],
+      "birthday": "1927/6/10",
+      "tags": ["當過司法院院長","當過內政部部長","當過市長","選過總統","已故","結過婚"]
+    }
+  },
+  {
+    "id": "tw-749",
+    "name": "彭明敏",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","教授","作家"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1920年代"],
+      "birthday": "1923/8/15",
+      "tags": ["已故","選過總統","結過婚","被關過"]
+    }
+  },
+  {
+    "id": "tw-750",
+    "name": "郝柏村",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["中國"],
+      "occupation": ["政治人物","軍人","作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1910年代"],
+      "birthday": "1919/8/8",
+      "tags": ["已故","選過總統","結過婚","當過行政院院長","當過國防部部長"]
+    }
+  },
+  {
+    "id": "tw-751",
+    "name": "柯志恩",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["政治人物","立法委員","教授","主持人","作家"],
+      "education": ["國立政治大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1962/4/29",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-752",
+    "name": "姚立明",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","教授","立法委員"],
+      "education": ["輔仁大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1952/1/15",
+      "tags": ["結過婚"]
     }
   }
 ]
