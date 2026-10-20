@@ -12013,5 +12013,181 @@
       "birthday": "1952/1/15",
       "tags": ["結過婚"]
     }
+  },
+  {
+    "id": "tw-753",
+    "name": "洪奇昌",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["政治人物","醫師","立法委員"],
+      "education": ["臺北醫學大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1951/8/23",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-754",
+    "name": "蘇嘉全",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立臺灣海洋大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1956/10/22",
+      "tags": ["結過婚","當過市長","當過立法院院長","當過內政部部長","選過總統"]
+    }
+  },
+  {
+    "id": "tw-755",
+    "name": "沈富雄",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["政治人物","立法委員","醫師"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1930年代"],
+      "birthday": "1939/8/23",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-756",
+    "name": "黃帝穎",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台南市"],
+      "occupation": ["政治人物","律師"],
+      "education": ["東吳大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/1/23",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-757",
+    "name": "尤美女",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["政治人物","律師","立法委員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1955/1/28",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-758",
+    "name": "黃瑞明",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["政治人物","律師","大法官","法官"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1955/10/23",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-759",
+    "name": "劉世芳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","工程師","立法委員"],
+      "education": ["淡江大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1959/8/13",
+      "tags": ["結過婚","當過內政部部長"]
+    }
+  },
+  {
+    "id": "tw-760",
+    "name": "楊瓊瓔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["東海大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/10/19",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-761",
+    "name": "饒慶鈴",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台東縣"],
+      "occupation": ["政治人物","議員","教授"],
+      "education": ["輔仁大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/11/23",
+      "tags": ["當過市長","結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-762",
+    "name": "徐榛蔚",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["桃園市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1968/10/12",
+      "tags": ["當過市長","結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-763",
+    "name": "鄺麗貞",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","空服員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1963/3/12",
+      "tags": ["當過市長","結過婚","離過婚"]
+    }
   }
 ]

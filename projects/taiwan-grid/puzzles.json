@@ -468,6 +468,10 @@
 
   { "id": 71,  "date": "2026-10-23",
   "rows": ["occupation:作家", "occupation:教授", "occupation:主持人"],
-  "columns": ["education:國立臺灣大學", "birth_city:台北市", "special:1979前出生"] }
+  "columns": ["education:國立臺灣大學", "birth_city:台北市", "special:1979前出生"] },
+
+  { "id": 72,  "date": "2026-10-24",
+  "rows": ["tags:離過婚", "occupation:立法委員", "occupation:政治人物"],
+  "columns": ["tags:當過市長", "birth_city:台中市", "birth_decade:1950年代"] }
   
 ]
