@@ -21,6 +21,7 @@ export const GAMES = [
   { id:'taipei-cities', path:'/projects/taipei-cities/',     short:'全台區',   title:'全台行政區',     accent:'#7c3aed' },
   { id:'north-vs-south', path:'/projects/north-vs-south/',     short:'戰南北',   title:'戰南北',     accent:'#7c3aed' },
   { id:'who-is-older', path:'/projects/who-is-older/',    short:'博愛座',   title:'博愛座',     accent:'#0f766e' },
+  { id:'draw-taiwan', path:'/projects/draw-taiwan/',     short:'畫台灣',   title:'畫台灣',     accent:'#ea580c' },
   { id:'slide-and-guess', path:'/projects/slide-and-guess/',     short:'台挑估估王',   title:'台挑估估王',     accent:'#ea580c' },
 ];
 
