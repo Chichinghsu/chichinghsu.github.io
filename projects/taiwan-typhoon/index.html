@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-61JT1LW9PW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-61JT1LW9PW', { 'anonymize_ip': true });
+  </script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>颱置遠 | 台灣大挑戰</title>
+<link rel="icon" type="image/x-icon" href="https://cchsu.tw/projects/img/logo.png">
+<meta name="description" content="颱置遠：你就是台灣！用方向鍵或手指在太平洋上閃躲隨機生成的颱風，看你能撐多久。" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="台灣大挑戰" />
+<meta property="og:title" content="颱置遠 | 台灣大挑戰" />
+<meta property="og:description" content="颱置遠：你就是台灣！用方向鍵或手指在太平洋上閃躲隨機生成的颱風，看你能撐多久。" />
+<meta property="og:image" content="https://cchsu.tw/projects/taiwan-typhoon/img/og-image.webp" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://cchsu.tw/projects/taiwan-typhoon/" />
+<meta property="og:locale" content="zh_TW" />
+
+<link rel="stylesheet" href="/projects/taiwan-typhoon/escape.css" />
+</head>
+<body>
+<div id="app"></div>
+<footer class="foot">純屬好玩，這裡有更多<a href="https://cchsu.tw/projects/">其他挑戰</a><br>任何問題，歡迎至 <a href="https://www.threads.com/@jppro.tw" target="_blank" rel="nofollow noopener">Threads</a> 回報<br>歡迎點<a href="https://buymeacoffee.com/jppro.tw" target="_blank" rel="nofollow noopener">這裡</a>贊助我，做更多無廣告的挑戰</footer>
+<script type="module">
+import { mountTyphoonEscape } from '/projects/taiwan-typhoon/escape.js';
+mountTyphoonEscape(document.getElementById('app'), {
+  shareUrl: 'https://cchsu.tw/projects/taiwan-typhoon/',
+});
+</script>
+</body>
+</html>

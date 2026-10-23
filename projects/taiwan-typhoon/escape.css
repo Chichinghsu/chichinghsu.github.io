@@ -1,0 +1,27 @@
+@import url('/projects/typhoon/typhoon.css');
+.stage .hud{position:absolute;top:8px;left:10px;right:10px;z-index:2;margin:0;padding:0;background:none;display:flex;justify-content:space-between;font-size:17px;font-weight:700;pointer-events:none;text-shadow:0 1px 3px #000;}
+.stage{position:relative;margin:0 auto;height:auto;min-height:0;overflow:visible;background:none;border:0;}
+#app{max-width:1100px;}
+#te-cv{display:block;width:100%;border-radius:12px;border:1px solid var(--line);user-select:none;-webkit-user-select:none;}
+.ov{overflow:auto;display:none;position:absolute;inset:0;z-index:3;align-items:center;justify-content:center;background:rgba(8,23,55,.72);border-radius:12px;padding:14px;}
+.ov.on{display:flex;}
+.ov .card{width:100%;max-width:380px;margin:auto;text-align:center;}
+.ov h2{margin:0 0 10px;font-size:24px;}
+.ov .over{font-size:22px;font-weight:700;margin-bottom:4px;}
+.ov .score{font-size:38px;font-weight:800;margin:6px 0;color:#f4efe6;letter-spacing:1px;}
+.ov .rules{text-align:left;margin-bottom:8px;}
+.ov .best{color:#c9b99a;font-size:14px;margin:8px 0 14px;min-height:18px;}
+.btns{display:flex;flex-direction:column;align-items:center;gap:10px;}
+.te-btn{display:block;margin:0 auto;min-width:200px;padding:12px 28px;border-radius:999px;border:1px solid rgba(244,239,230,.45);background:transparent;color:#f4efe6;font-size:16px;font-weight:600;font-family:inherit;letter-spacing:2px;cursor:pointer;transition:background .15s,color .15s;}
+.te-btn:hover{background:rgba(244,239,230,.14);}
+.te-btn.primary{background:#f4efe6;color:#1b2a4e;border-color:#f4efe6;}
+.te-btn.primary:hover{background:#fff;}
+/* 手機虛擬搖桿 */
+.joy{display:none;position:absolute;right:16px;bottom:20px;z-index:2;width:128px;height:128px;border-radius:50%;background:rgba(120,130,160,.35);border:1.5px solid rgba(220,226,240,.6);touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;}
+.joy .knob{position:absolute;left:50%;top:50%;width:56px;height:56px;margin:-28px 0 0 -28px;border-radius:50%;background:rgba(228,230,236,.92);pointer-events:none;}
+@media (pointer:coarse),(max-width:700px){.joy{display:block;}}
+.ov .quip{font-size:15px;color:#c9b99a;margin:2px 0 6px;}
+.te-foot{margin-top:22px;font-size:12px;line-height:1.7;color:var(--muted);}
+.te-foot a{color:#c9b99a;}
+.ov .brand{font-size:14px;letter-spacing:3px;color:#c9b99a;margin-bottom:8px;}
+.ov .dodged{font-size:16px;color:#f4efe6;opacity:.85;margin:-2px 0 4px;}
