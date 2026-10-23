@@ -1,5 +1,5 @@
 import { readStore, writeStore, share, esc } from '/projects/challenge.js';
-import { NAMES } from '/projects/typhoon/names.js';
+import { NAMES } from '/projects/taiwan-typhoon/names.js';
 
 const STORE_KEY = 'taiwan-typhoon';
 let WX = 310, WY = -30, W = 1040, H = 1760;

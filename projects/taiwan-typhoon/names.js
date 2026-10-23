@@ -1,0 +1,30 @@
+// 颱風委員會(西北太平洋)命名表，節錄。[中文, English]
+// 資料為手動整理，難免有誤。
+export const NAMES = [
+  ['丹瑞','Damrey'],['海葵','Haikui'],['鴻雁','Kirogi'],['鴛鴦','Yun-yeung'],['小犬','Koinu'],
+  ['布拉萬','Bolaven'],['三巴','Sanba'],['杰拉華','Jelawat'],['艾維尼','Ewiniar'],['馬力斯','Maliksi'],
+  ['凱米','Gaemi'],['巴比侖','Prapiroon'],['瑪莉亞','Maria'],['山神','Son-Tinh'],['安比','Ampil'],
+  ['悟空','Wukong'],['雲雀','Jongdari'],['珊珊','Shanshan'],['摩羯','Yagi'],['麗琵','Leepi'],
+  ['貝碧佳','Bebinca'],['普拉桑','Pulasan'],['蘇力','Soulik'],['西馬隆','Cimaron'],['燕子','Jebi'],
+  ['山陀兒','Krathon'],['百里嘉','Barijat'],['潭美','Trami'],['康芮','Kong-rey'],['銀杏','Yinxing'],
+  ['桔梗','Toraji'],['萬宜','Man-yi'],['天兔','Usagi'],['帕布','Pabuk'],['蝴蝶','Wutip'],
+  ['聖帕','Sepat'],['木恩','Mun'],['丹娜絲','Danas'],['百合','Nari'],['薇帕','Wipha'],
+  ['弗朗西斯可','Francisco'],['玲玲','Lingling'],['白鹿','Bailu'],['劍魚','Kajiki'],['琵琶','Peipah'],
+  ['塔巴','Tapah'],['米塔','Mitag'],['樺加沙','Ragasa'],['浣熊','Neoguri'],['博羅依','Bualoi'],
+  ['馬鞍','Matmo'],['哈隆','Halong'],['娜克莉','Nakri'],['風神','Fengshen'],['卡玫基','Kalmaegi'],
+  ['鳳凰','Fung-wong'],['閃電','Koto'],['鸚鵡','Nuri'],['辛樂克','Sinlaku'],['哈格比','Hagupit'],
+  ['薔蜜','Jangmi'],['米克拉','Mekkhala'],['黑格比','Higos'],['巴威','Bavi'],['美莎克','Maysak'],
+  ['海神','Haishen'],['紅霞','Noul'],['白海豚','Dolphin'],['鯨魚','Kujira'],['燦鴻','Chan-hom'],
+  ['南卡','Nangka'],['蘇迪勒','Saudel'],['艾莎尼','Atsani'],['艾陶','Etau'],['柯羅沙','Krosa'],
+  ['煙花','In-fa'],['查帕卡','Champi'],['盧碧','Lupit'],['米雷','Mirinae'],['妮妲','Nida'],
+  ['奧麥斯','Omais'],['璨樹','Chanthu'],['電母','Dianmu'],['蒲公英','Mindulle'],['獅子山','Lionrock'],
+  ['圓規','Kompasu'],['南修','Namtheun'],['瑪瑙','Malou'],['妮亞圖','Nyatoh'],['梅姬','Megi'],
+  ['瑪娃','Mawar'],['古超','Guchol'],['泰利','Talim'],['卡努','Khanun'],['蘭恩','Lan'],
+  ['蘇拉','Saola'],['杜蘇芮','Doksuri'],['梅花','Muifa'],['梅米','Meari'],['莫柏','Merbok'],
+  ['南瑪都','Nanmadol'],['塔拉斯','Talas'],['諾盧','Noru'],['庫拉','Kulap'],['洛克','Roke'],
+  ['桑卡','Sonca'],['納沙','Nesat'],['海棠','Haitang'],['尼格','Nalgae'],['班恩','Banyan'],
+  ['天鴿','Hato'],['帕卡','Pakhar'],['珊瑚','Sanvu'],['莎莉佳','Sarika'],['海馬','Haima'],
+  ['尼伯特','Nepartak'],['莫蘭蒂','Meranti'],['馬勒卡','Malakas'],['莫拉克','Morakot'],['杜鵑','Dujuan'],
+  ['艾利','Aere'],['利奇馬','Lekima'],
+];
+export const pickName = rng => NAMES[Math.floor(rng() * NAMES.length)];
