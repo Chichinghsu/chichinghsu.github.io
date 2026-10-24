@@ -8439,7 +8439,7 @@
       "gender": ["女性"],
       "birth_city": ["台北市"],
       "occupation": ["藝人","主持人","演員","歌手"],
-      "education": ["國立政治大學"],
+      "education": [],
       "award": ["金鐘獎"],
       "birth_decade": ["1980年代"],
       "birthday": "1988/8/8",
@@ -12188,6 +12188,150 @@
       "birth_decade": ["1960年代"],
       "birthday": "1963/3/12",
       "tags": ["當過市長","結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-764",
+    "name": "林義雄",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["政治人物","律師"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1940年代"],
+      "birthday": "1941/8/24",
+      "tags": ["結過婚","被關過"]
+    }
+  },
+  {
+    "id": "tw-765",
+    "name": "林冠吟",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["歌手","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/12/20",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-766",
+    "name": "方芳芳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1961/3/21",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-767",
+    "name": "柯以柔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","作家","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/10/3",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-768",
+    "name": "徐懷鈺",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1978/3/3",
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-769",
+    "name": "江淑娜",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": ["金曲獎","金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/7/30",
+      "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-770",
+    "name": "江語晨",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","模特兒","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/4/29",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-771",
+    "name": "狗柏",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義縣"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1995/7/26",
+      "tags": ["樂團主唱"]
+    }
+  },
+  {
+    "id": "tw-772",
+    "name": "金智娟",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["藝人","主持人","歌手"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/10/4",
+      "tags": ["樂團主唱","結過婚"]
     }
   }
 ]

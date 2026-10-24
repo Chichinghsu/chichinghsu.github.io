@@ -472,6 +472,13 @@
 
   { "id": 72,  "date": "2026-10-24",
   "rows": ["tags:離過婚", "occupation:立法委員", "occupation:政治人物"],
-  "columns": ["tags:當過市長", "birth_city:台中市", "birth_decade:1950年代"] }
-  
+  "columns": ["tags:當過市長", "birth_city:台中市", "birth_decade:1950年代"] },
+
+  { "id": 73,  "date": "2026-10-25",
+  "rows": ["occupation:棒球選手", "occupation:運動員", "tags:台語歌手"],
+  "columns": ["tags:原住民", "birth_city:台南市", "birth_decade:1980年代"] }, 
+ 
+  { "id": 74,  "date": "2026-10-26",
+  "rows": ["occupation:歌手", "occupation:演員", "tags:樂團主唱"],
+  "columns": ["award:金曲獎", "birth_city:台北市", "birth_decade:1990年代"] }
 ]
