@@ -480,5 +480,13 @@
  
   { "id": 74,  "date": "2026-10-26",
   "rows": ["occupation:歌手", "occupation:演員", "tags:樂團主唱"],
-  "columns": ["award:金曲獎", "birth_city:台北市", "birth_decade:1990年代"] }
+  "columns": ["award:金曲獎", "birth_city:台北市", "birth_decade:1990年代"] },
+
+  { "id": 75,  "date": "2026-10-27",
+  "rows": ["occupation:主持人", "occupation:演員", "occupation:作家"],
+  "columns": ["special:海外出生", "birth_city:台中市", "birth_decade:1980年代"] },
+
+  { "id": 76,  "date": "2026-10-28",
+  "rows": ["occupation:YouTuber", "award:金鐘獎", "award:金曲獎"],
+  "columns": ["birth_city:高雄市", "birth_city:台南市", "birth_city:台中市"] }
 ]

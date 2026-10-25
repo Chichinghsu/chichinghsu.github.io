@@ -3305,7 +3305,7 @@
       "award": [],
       "birth_decade": ["1970年代"],
       "birthday": "1977/10/28",
-      "tags": ["結過婚","大聯盟"]
+      "tags": ["結過婚","大聯盟","原住民"]
     }
   },
   {
@@ -12332,6 +12332,182 @@
       "birth_decade": ["1960年代"],
       "birthday": "1964/10/4",
       "tags": ["樂團主唱","結過婚"]
+    }
+  },
+  {
+    "id": "tw-773",
+    "name": "陳匡怡",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","模特兒","演員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/11/20",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-774",
+    "name": "翁滋蔓",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","歌手","演員","主持人"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/10/28",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-775",
+    "name": "劉乃潔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["醫師","教授"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/9/9",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-776",
+    "name": "余函彌",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/3/25",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-777",
+    "name": "吳依潔",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["新聞主播","主持人","記者"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1985/12/27",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-778",
+    "name": "周曉涵",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": ["逢甲大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/8/8",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-779",
+    "name": "邵庭",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員","模特兒","YouTuber"],
+      "education": [],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1985/11/25",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-780",
+    "name": "阿喜",
+    "wikidata": "",
+    "aka": ["林育品"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["基隆市"],
+      "occupation": ["藝人","主持人","歌手","演員","喜劇演員","YouTuber"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/1/24",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-781",
+    "name": "大元",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1989/11/14",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-782",
+    "name": "洪詩",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/1/7",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-783",
+    "name": "貝童彤",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/12/10",
+      "tags": ["結過婚"]
     }
   }
 ]
