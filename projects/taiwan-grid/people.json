@@ -12509,5 +12509,53 @@
       "birthday": "1986/12/10",
       "tags": ["結過婚"]
     }
+  },
+  {
+    "id": "tw-784",
+    "name": "李琴峰",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["作家"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-785",
+    "name": "邱妙津",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["作家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/5/29",
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-786",
+    "name": "賴香吟",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["作家"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1969/7/2",
+      "tags": []
+    }
   }
 ]

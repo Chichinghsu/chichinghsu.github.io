@@ -488,5 +488,13 @@
 
   { "id": 76,  "date": "2026-10-28",
   "rows": ["occupation:YouTuber", "award:金鐘獎", "award:金曲獎"],
-  "columns": ["birth_city:高雄市", "birth_city:台南市", "birth_city:台中市"] }
+  "columns": ["birth_city:高雄市", "birth_city:台南市", "birth_city:台中市"] },
+
+  { "id": 77,  "date": "2026-10-29",
+  "rows": ["occupation:立法委員", "occupation:作家", "occupation:演員"],
+  "columns": ["birth_city:嘉義", "birth_city:台南市", "birth_city:桃園市"] },
+
+  { "id": 78,  "date": "2026-10-30",
+  "rows": ["occupation:作家", "award:金曲獎", "occupation:主持人"],
+  "columns": ["birth_city:台南市", "birth_city:台中市", "birth_city:新北市"] }
 ]

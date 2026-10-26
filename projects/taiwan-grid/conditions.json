@@ -25,6 +25,7 @@
     "occupation:啦啦隊": { "label": "啦啦隊" },
     "occupation:棒球選手": { "label": "棒球選手" },
     "occupation:議員": { "label": "議員" },
+    "occupation:律師": { "label": "律師" },
 
     "gender:男性":         { "label": "男性" },
     "gender:女性":         { "label": "女性" },
@@ -52,6 +53,8 @@
     "birth_city:桃園市": { "label": "桃園市出生" },
     "birth_city:高雄市": { "label": "高雄市出生" },
     "birth_city:新北市": { "label": "新北市出生" },
+    "birth_city:嘉義": { "label": "嘉義縣市出生", "mode": "anyOf", "values": ["嘉義縣", "嘉義市"] },
+    "birth_city:新竹": { "label": "新竹縣市出生", "mode": "anyOf", "values": ["新竹縣", "新竹市"] },
 
     "award:金曲獎": { "label": "金曲獎得主" },
     "award:金鐘獎": { "label": "金鐘獎得主" },
