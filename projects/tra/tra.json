@@ -221,6 +221,16 @@
       ]
     },
     {
+      "id": "pingzhen",
+      "en": "pingzhen",
+      "zh": "平鎮",
+      "lat": 24.9533,
+      "lon": 121.2262,
+      "lines": [
+        "W"
+      ]
+    },
+    {
       "id": "puxin",
       "en": "Puxin",
       "zh": "埔心",
@@ -1299,6 +1309,7 @@
       "taoyuan",
       "neili",
       "zhongli",
+      "pingzhen",
       "puxin",
       "yangmei",
       "fugang",
