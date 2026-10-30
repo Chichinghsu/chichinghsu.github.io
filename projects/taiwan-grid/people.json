@@ -2932,7 +2932,7 @@
     "properties": {
       "gender": ["女性"],
       "birth_city": ["日本"],
-      "occupation": ["政治人物"],
+      "occupation": ["政治人物","立法委員"],
       "education": [],
       "award": [],
       "birth_decade": ["1970年代"],
@@ -12556,6 +12556,86 @@
       "birth_decade": ["1960年代"],
       "birthday": "1969/7/2",
       "tags": []
+    }
+  },
+  {
+    "id": "tw-787",
+    "name": "康茵茵",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["宜蘭縣"],
+      "occupation": ["藝人","主持人","演員"],
+      "education": ["國立臺北藝術大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/6/18",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-788",
+    "name": "林岱樺",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["高雄市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["輔仁大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1972/8/4",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-789",
+    "name": "賴品妤",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員"],
+      "education": ["國立臺北大學"],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1992/3/2",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-790",
+    "name": "周春米",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["政治人物","立法委員","律師","法官"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1966/11/1",
+      "tags": ["當過市長","結過婚"]
+    }
+  },
+  {
+    "id": "tw-791",
+    "name": "羅瑩雪",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["花蓮"],
+      "occupation": ["政治人物","立法委員","律師"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1951/11/8",
+      "tags": ["已故","當過法務部部長","結過婚"]
     }
   }
 ]
