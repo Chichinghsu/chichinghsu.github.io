@@ -928,5 +928,1865 @@
         "countyId": "changhua"
       }
     ]
+  },
+  {
+    "id": 31,
+    "date": "2026-10-30",
+    "rounds": [
+      {
+        "indicatorId": "刑案發生數",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "火災財物損失",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "國民通信率",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "森林面積",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "每萬老人長期照顧、安養機構數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "date": "2026-10-31",
+    "rounds": [
+      {
+        "indicatorId": "刑案破獲數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "電燈用戶數",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "戶籍登記人口數",
+        "year": 2024,
+        "countyId": "keelung"
+      },
+      {
+        "indicatorId": "急難救助人次",
+        "year": 2024,
+        "countyId": "taitung"
+      },
+      {
+        "indicatorId": "公墓總面積",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "date": "2026-11-01",
+    "rounds": [
+      {
+        "indicatorId": "就業者之教育程度結構-大專及以上",
+        "year": 2024,
+        "countyId": "taipei"
+      },
+      {
+        "indicatorId": "旱田面積",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "結婚登記對數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "平均每人政府社會福利支出淨額",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "非婚生出生登記數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "date": "2026-11-02",
+    "rounds": [
+      {
+        "indicatorId": "都市計畫公共設施用地已闢建面積-綠地",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "國民通信率",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "森林面積",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "商業登記現有資本額",
+        "year": 2024,
+        "countyId": "taitung"
+      },
+      {
+        "indicatorId": "勞動力人口數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "date": "2026-11-03",
+    "rounds": [
+      {
+        "indicatorId": "事業廢水罰鍰次數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "漁戶數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "遷入人口數",
+        "year": 2024,
+        "countyId": "taitung"
+      },
+      {
+        "indicatorId": "高級中等學校學生數",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "古蹟總數",
+        "year": 2024,
+        "countyId": "miaoli"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "date": "2026-11-04",
+    "rounds": [
+      {
+        "indicatorId": "社會增加率",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "國小教師數",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "歲入",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "家庭收支-平均戶內人口數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "家庭收支-平均消費傾向",
+        "year": 2024,
+        "countyId": "kinmen"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "date": "2026-11-05",
+    "rounds": [
+      {
+        "indicatorId": "國中裸視檢查人數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "人口總增加率",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "女性公教人員人數",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "勞資爭議涉及人數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "國中學生視力不良數",
+        "year": 2024,
+        "countyId": "lienchiang"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "date": "2026-11-06",
+    "rounds": [
+      {
+        "indicatorId": "家庭收支-平均每戶可支配所得",
+        "year": 2024,
+        "countyId": "yunlin"
+      },
+      {
+        "indicatorId": "沿岸漁業生產量",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "畜產產值",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "內陸養殖漁業生產量",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "少年竊盜嫌疑犯人數",
+        "year": 2024,
+        "countyId": "tainan"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "date": "2026-11-07",
+    "rounds": [
+      {
+        "indicatorId": "15歲以上民間人口之教育程度結構-國中及以下",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "竊盜案發生率",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "道路交通事故肇事總件數",
+        "year": 2024,
+        "countyId": "nantou"
+      },
+      {
+        "indicatorId": "高級中等學校教師數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "15歲以上人口識字率",
+        "year": 2024,
+        "countyId": "pingtung"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "date": "2026-11-08",
+    "rounds": [
+      {
+        "indicatorId": "領有汽車駕照人數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "電燈用戶數",
+        "year": 2024,
+        "countyId": "yunlin"
+      },
+      {
+        "indicatorId": "婚生嬰兒占出生嬰兒比率",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "道路交通事故(30日內)受傷人數",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "家庭收支-平均每戶全年經常性支出",
+        "year": 2024,
+        "countyId": "taoyuan"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "date": "2026-11-09",
+    "rounds": [
+      {
+        "indicatorId": "人口總增加率",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "豬隻密度",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "國中裸視檢查人數",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "調解委員會受理調解案件調解成立比率",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "商業登記歇業家數",
+        "year": 2024,
+        "countyId": "yilan"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "date": "2026-11-10",
+    "rounds": [
+      {
+        "indicatorId": "就業者之教育程度結構-高中(職)",
+        "year": 2024,
+        "countyId": "keelung"
+      },
+      {
+        "indicatorId": "國小校數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "沿岸漁戶數",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "女性人口",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "領有機車駕照人數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "date": "2026-11-11",
+    "rounds": [
+      {
+        "indicatorId": "自然增加率",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "都市計畫公共設施用地已闢建面積-體育場",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "稅課收入-統籌分配稅收入",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "市內電話用戶數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "15歲以上有偶人口數",
+        "year": 2024,
+        "countyId": "pingtung"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "date": "2026-11-12",
+    "rounds": [
+      {
+        "indicatorId": "觀光旅館住用率",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "家庭收支-平均戶內人口數",
+        "year": 2024,
+        "countyId": "nantou"
+      },
+      {
+        "indicatorId": "鄉鎮市區數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "教育程度別失業率-大專及以上",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "地方政府社會處(局)所轄每位志工一年內提供服務時數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "date": "2026-11-13",
+    "rounds": [
+      {
+        "indicatorId": "公司登記現有資本額",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "少年竊盜嫌疑犯人數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "古蹟總數",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "事業廢水稽查次數",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "細懸浮微粒手動監測(PM2.5)濃度值",
+        "year": 2024,
+        "countyId": "nantou"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "date": "2026-11-14",
+    "rounds": [
+      {
+        "indicatorId": "家庭收支-平均每戶儲蓄額",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "國小教師數",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "每萬人消防車輛數",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "歲入",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "領有機車駕照人數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "date": "2026-11-15",
+    "rounds": [
+      {
+        "indicatorId": "教育程度別失業率-大專及以上",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "都市計畫公共設施用地已闢建面積-公園",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "就業者之行業結構-服務業",
+        "year": 2024,
+        "countyId": "nantou"
+      },
+      {
+        "indicatorId": "女性人口",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "就業者之年齡別結構-45-64歲",
+        "year": 2024,
+        "countyId": "keelung"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "date": "2026-11-16",
+    "rounds": [
+      {
+        "indicatorId": "遷出人口數",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "平均每一教師教導學生數-國小",
+        "year": 2024,
+        "countyId": "changhua"
+      },
+      {
+        "indicatorId": "非婚生嬰兒占出生嬰兒比率",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "竊盜案發生率",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "公司登記新設家數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "date": "2026-11-17",
+    "rounds": [
+      {
+        "indicatorId": "非婚生嬰兒占出生嬰兒比率",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "災害救助金額",
+        "year": 2024,
+        "countyId": "yunlin"
+      },
+      {
+        "indicatorId": "竊盜案發生數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "15歲以上人口有偶比率",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "平均每一教師教導學生數-高級中等學校",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "date": "2026-11-18",
+    "rounds": [
+      {
+        "indicatorId": "森林地占土地面積比率",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "水田面積",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "竊盜案嫌疑犯人數",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "豬隻密度",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "沿岸漁戶數",
+        "year": 2024,
+        "countyId": "changhua"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "date": "2026-11-19",
+    "rounds": [
+      {
+        "indicatorId": "執業醫師數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "都市計畫區現況人口密度",
+        "year": 2024,
+        "countyId": "changhua"
+      },
+      {
+        "indicatorId": "災害救助受災人數",
+        "year": 2024,
+        "countyId": "nantou"
+      },
+      {
+        "indicatorId": "國小班級數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "老人長期照顧、安養機構可供進住人數",
+        "year": 2024,
+        "countyId": "taitung"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "date": "2026-11-20",
+    "rounds": [
+      {
+        "indicatorId": "粗死亡率",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "遷出人口數",
+        "year": 2024,
+        "countyId": "changhua"
+      },
+      {
+        "indicatorId": "小貨車登記數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "教育程度別失業率-國中及以下",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "國中校數",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "date": "2026-11-21",
+    "rounds": [
+      {
+        "indicatorId": "平均每園幼生數-幼兒園",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "犯罪人口率",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "竊盜案發生數",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "老人長期照顧、安養機構可供進住人數",
+        "year": 2024,
+        "countyId": "taipei"
+      },
+      {
+        "indicatorId": "平均每一醫療院所服務面積",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "date": "2026-11-22",
+    "rounds": [
+      {
+        "indicatorId": "歲出",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "事業廢水稽查次數",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "工廠新登記家數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "15歲以上民間人口之教育程度結構-大專及以上",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "死亡登記數",
+        "year": 2024,
+        "countyId": "changhua"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "date": "2026-11-23",
+    "rounds": [
+      {
+        "indicatorId": "平均每一執業醫師服務之人口數",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "每戶可支配所得中位數",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "失業率",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "成年犯罪人口率",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "相同性別結婚登記對數",
+        "year": 2024,
+        "countyId": "yilan"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "date": "2026-11-24",
+    "rounds": [
+      {
+        "indicatorId": "空氣中總懸浮微粒濃度",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "婚生出生登記數",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "戶籍登記戶數",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "勞資爭議涉及人數",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "商業登記歇業家數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "date": "2026-11-25",
+    "rounds": [
+      {
+        "indicatorId": "AQI>100之站日數比率",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "家庭收支-平均每戶全年經常性支出",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "汽車登記數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "平均每一執業醫師服務之人口數",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "勞資爭議受理件數",
+        "year": 2024,
+        "countyId": "tainan"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "date": "2026-11-26",
+    "rounds": [
+      {
+        "indicatorId": "小客車登記數",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "行政機關公務人員占公教人員比率",
+        "year": 2024,
+        "countyId": "yunlin"
+      },
+      {
+        "indicatorId": "家庭現代化設備(每百戶擁有數)-家用電腦",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "家庭收支-平均每戶全年經常性收入",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "低收入戶人口數占總人口比率",
+        "year": 2024,
+        "countyId": "lienchiang"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "date": "2026-11-27",
+    "rounds": [
+      {
+        "indicatorId": "低收入戶人口數占總人口比率",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "自然增加率",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "事業廢水罰鍰金額",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "男性人口",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "法定傳染病患者數",
+        "year": 2024,
+        "countyId": "keelung"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "date": "2026-11-28",
+    "rounds": [
+      {
+        "indicatorId": "竊盜案嫌疑犯人數",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "每萬老人長期照顧、安養機構數",
+        "year": 2024,
+        "countyId": "taipei"
+      },
+      {
+        "indicatorId": "戶政管理件數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "人口總增加率",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "高級中等學校教師數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "date": "2026-11-29",
+    "rounds": [
+      {
+        "indicatorId": "粗出生率",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "都市計畫公共設施用地已闢建面積-兒童遊樂場",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "都市計畫公共設施用地已闢建面積-綠地",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "中低收入戶人口數占總人口比率",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "每萬老人長期照顧、安養機構數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "date": "2026-11-30",
+    "rounds": [
+      {
+        "indicatorId": "每萬人消防車輛數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "郵政儲金結存金額",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "老人長期照顧、安養機構工作人員數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "成年嫌疑犯人數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "AQI>100之站日數比率",
+        "year": 2024,
+        "countyId": "taichung"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "date": "2026-12-01",
+    "rounds": [
+      {
+        "indicatorId": "清運人員數",
+        "year": 2024,
+        "countyId": "changhua"
+      },
+      {
+        "indicatorId": "平均每一執業醫師服務之人口數",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "道路里程長度",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "每十萬人義消人數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "平均每萬人造林面積",
+        "year": 2024,
+        "countyId": "lienchiang"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "date": "2026-12-02",
+    "rounds": [
+      {
+        "indicatorId": "機動車輛登記數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "視力不良率-國小",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "歲入歲出餘絀",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "森林面積",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "行政機關公務人員占公教人員比率",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "date": "2026-12-03",
+    "rounds": [
+      {
+        "indicatorId": "平均每一醫療院所服務面積",
+        "year": 2024,
+        "countyId": "yunlin"
+      },
+      {
+        "indicatorId": "幼兒園教保服務人員數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "0-14歲人口數",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "電燈用戶數",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "護理人員數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "date": "2026-12-04",
+    "rounds": [
+      {
+        "indicatorId": "領有機車駕照人數",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "法定傳染病患者數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "戶籍登記人口數",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "人口密度",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "高級中等學校教師數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "date": "2026-12-05",
+    "rounds": [
+      {
+        "indicatorId": "領有機車駕照人數",
+        "year": 2024,
+        "countyId": "nantou"
+      },
+      {
+        "indicatorId": "就業者從業身分結構-受僱者",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "電力用戶數",
+        "year": 2024,
+        "countyId": "taipei"
+      },
+      {
+        "indicatorId": "幼年人口比率(0-14歲)",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "非婚生出生登記數",
+        "year": 2024,
+        "countyId": "kinmen"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "date": "2026-12-06",
+    "rounds": [
+      {
+        "indicatorId": "公司登記現有家數",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "事業廢水罰鍰金額",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "年齡別失業率-25-44歲",
+        "year": 2024,
+        "countyId": "yunlin"
+      },
+      {
+        "indicatorId": "勞動力人口數",
+        "year": 2024,
+        "countyId": "changhua"
+      },
+      {
+        "indicatorId": "細懸浮微粒手動監測(PM2.5)濃度值",
+        "year": 2024,
+        "countyId": "pingtung"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "date": "2026-12-07",
+    "rounds": [
+      {
+        "indicatorId": "家庭現代化設備(每百戶擁有數)-彩色電視機",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "地方政府社會處(局)所轄志工服務時數",
+        "year": 2024,
+        "countyId": "taitung"
+      },
+      {
+        "indicatorId": "平均每班學生數-國小",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "自然增加率",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "每千人電話用戶數",
+        "year": 2024,
+        "countyId": "penghu"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "date": "2026-12-08",
+    "rounds": [
+      {
+        "indicatorId": "收支賸餘",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "出生登記數",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "病床數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "幼兒園教保服務人員數",
+        "year": 2024,
+        "countyId": "nantou"
+      },
+      {
+        "indicatorId": "道路交通事故肇事總件數",
+        "year": 2024,
+        "countyId": "taichung"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "date": "2026-12-09",
+    "rounds": [
+      {
+        "indicatorId": "就業者之年齡別結構-15-24歲",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "都市計畫區現況人口",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "戶籍登記人口數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "地方政府社會處(局)所轄志工人數",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "粗出生率",
+        "year": 2024,
+        "countyId": "penghu"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "date": "2026-12-10",
+    "rounds": [
+      {
+        "indicatorId": "道路交通事故(30日內)死亡人數",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "15歲以上人口離婚比率",
+        "year": 2024,
+        "countyId": "nantou"
+      },
+      {
+        "indicatorId": "鄉鎮市區數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "營利事業營業家數",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "歲入",
+        "year": 2024,
+        "countyId": "lienchiang"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "date": "2026-12-11",
+    "rounds": [
+      {
+        "indicatorId": "都市計畫區現況人口密度與該縣市人口密度比",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "高山面積",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "豬隻數量",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "國小班級數",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "竊盜犯罪人口率",
+        "year": 2024,
+        "countyId": "nantou"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "date": "2026-12-12",
+    "rounds": [
+      {
+        "indicatorId": "都市計畫區現況人口密度",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "平均每一教師教導學生數-高級中等學校",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "商業登記現有家數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "內陸養殖漁業生產量",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "都市計畫區計畫人口密度",
+        "year": 2024,
+        "countyId": "changhua"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "date": "2026-12-13",
+    "rounds": [
+      {
+        "indicatorId": "國民通信率",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "勞資爭議受理件數",
+        "year": 2024,
+        "countyId": "keelung"
+      },
+      {
+        "indicatorId": "15歲以上有偶人口數",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "公墓總面積",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "農林漁牧業產值",
+        "year": 2024,
+        "countyId": "kinmen"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "date": "2026-12-14",
+    "rounds": [
+      {
+        "indicatorId": "就業者從業身分結構-受僱者",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "15歲以上喪偶人口數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "100歲以上人口數",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "中低收入戶人口數",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "國中教師數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "date": "2026-12-15",
+    "rounds": [
+      {
+        "indicatorId": "刑案發生數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "造林面積",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "國小學生視力不良數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "歲出",
+        "year": 2024,
+        "countyId": "taitung"
+      },
+      {
+        "indicatorId": "國中學生視力不良數",
+        "year": 2024,
+        "countyId": "yunlin"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "date": "2026-12-16",
+    "rounds": [
+      {
+        "indicatorId": "就業者之教育程度結構-大專及以上",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "高山面積",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "行政機關公務人員數",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "電力用戶數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "平均每百萬人戶政管理件數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "date": "2026-12-17",
+    "rounds": [
+      {
+        "indicatorId": "觀光旅館平均房價",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "工廠新登記家數",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "平均每戶書報雜誌文具支出占消費支出比率",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "法定傳染病患者數",
+        "year": 2024,
+        "countyId": "yunlin"
+      },
+      {
+        "indicatorId": "稅課收入-統籌分配稅收入",
+        "year": 2024,
+        "countyId": "kinmen"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "date": "2026-12-18",
+    "rounds": [
+      {
+        "indicatorId": "女性公教人員人數",
+        "year": 2024,
+        "countyId": "keelung"
+      },
+      {
+        "indicatorId": "汽車登記數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "消防栓總數",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "就業人口數",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "國中班級數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "date": "2026-12-19",
+    "rounds": [
+      {
+        "indicatorId": "視力不良率-國中",
+        "year": 2024,
+        "countyId": "hualien"
+      },
+      {
+        "indicatorId": "都市計畫區現況人口密度",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "豬隻密度",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "火災財物損失",
+        "year": 2024,
+        "countyId": "taichung"
+      },
+      {
+        "indicatorId": "每萬人口執業醫事人員",
+        "year": 2024,
+        "countyId": "yunlin"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "date": "2026-12-20",
+    "rounds": [
+      {
+        "indicatorId": "中低收入戶人口數占總人口比率",
+        "year": 2024,
+        "countyId": "taipei"
+      },
+      {
+        "indicatorId": "幼兒園園數",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "義消人員數",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "家庭現代化設備(每百戶擁有數)-有線電視頻道設備",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "領有機車駕照人數",
+        "year": 2024,
+        "countyId": "pingtung"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "date": "2026-12-21",
+    "rounds": [
+      {
+        "indicatorId": "都市計畫區現況人口密度與該縣市人口密度比",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "災害救助受災人數",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "家庭收支-平均儲蓄傾向",
+        "year": 2024,
+        "countyId": "hsinchu_city"
+      },
+      {
+        "indicatorId": "15歲以上人口未婚比率",
+        "year": 2024,
+        "countyId": "penghu"
+      },
+      {
+        "indicatorId": "離婚登記對數",
+        "year": 2024,
+        "countyId": "pingtung"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "date": "2026-12-22",
+    "rounds": [
+      {
+        "indicatorId": "平均每人每年可支配所得",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "老人長期照顧、安養機構可供進住人數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "耕地面積",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "勞資爭議涉及人數",
+        "year": 2024,
+        "countyId": "chiayi_county"
+      },
+      {
+        "indicatorId": "國中學生視力不良數",
+        "year": 2024,
+        "countyId": "hualien"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "date": "2026-12-23",
+    "rounds": [
+      {
+        "indicatorId": "死亡登記數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      },
+      {
+        "indicatorId": "國小校數",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "勞動力參與率",
+        "year": 2024,
+        "countyId": "taipei"
+      },
+      {
+        "indicatorId": "都市計畫公共設施用地面積",
+        "year": 2024,
+        "countyId": "taitung"
+      },
+      {
+        "indicatorId": "旱田面積",
+        "year": 2024,
+        "countyId": "yunlin"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "date": "2026-12-24",
+    "rounds": [
+      {
+        "indicatorId": "小貨車登記數",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "就業者之行業結構-農林漁牧業",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "女性人口",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "就業者從業身分結構-雇主",
+        "year": 2024,
+        "countyId": "yilan"
+      },
+      {
+        "indicatorId": "收寄函件",
+        "year": 2024,
+        "countyId": "keelung"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "date": "2026-12-25",
+    "rounds": [
+      {
+        "indicatorId": "年齡別失業率-25-44歲",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "每萬人公園、綠地、兒童遊樂場、體育場所及廣場面積數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "刑案破獲率",
+        "year": 2024,
+        "countyId": "keelung"
+      },
+      {
+        "indicatorId": "都市計畫公共設施用地已闢建面積-廣場",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "機車登記數",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "date": "2026-12-26",
+    "rounds": [
+      {
+        "indicatorId": "年齡別失業率-45-64歲",
+        "year": 2024,
+        "countyId": "changhua"
+      },
+      {
+        "indicatorId": "就業者之年齡別結構-25-44歲",
+        "year": 2024,
+        "countyId": "tainan"
+      },
+      {
+        "indicatorId": "食品衛生查驗與規定不符件數",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "家庭現代化設備(每百戶擁有數)-汽車",
+        "year": 2024,
+        "countyId": "new_taipei"
+      },
+      {
+        "indicatorId": "老人長期照顧、安養機構實際進住人數",
+        "year": 2024,
+        "countyId": "taitung"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "date": "2026-12-27",
+    "rounds": [
+      {
+        "indicatorId": "護理人員數",
+        "year": 2024,
+        "countyId": "taoyuan"
+      },
+      {
+        "indicatorId": "家庭現代化設備(每百戶擁有數)-機車",
+        "year": 2024,
+        "countyId": "lienchiang"
+      },
+      {
+        "indicatorId": "家庭收支-平均每戶全年經常性收入",
+        "year": 2024,
+        "countyId": "kinmen"
+      },
+      {
+        "indicatorId": "低收入戶人口數占總人口比率",
+        "year": 2024,
+        "countyId": "pingtung"
+      },
+      {
+        "indicatorId": "平均每一醫療院所服務面積",
+        "year": 2024,
+        "countyId": "hsinchu_county"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "date": "2026-12-28",
+    "rounds": [
+      {
+        "indicatorId": "男性人口",
+        "year": 2024,
+        "countyId": "chiayi_city"
+      },
+      {
+        "indicatorId": "家庭現代化設備(每百戶擁有數)-冷暖氣機",
+        "year": 2024,
+        "countyId": "taitung"
+      },
+      {
+        "indicatorId": "工廠歇業家數",
+        "year": 2024,
+        "countyId": "kaohsiung"
+      },
+      {
+        "indicatorId": "視力不良率-國小",
+        "year": 2024,
+        "countyId": "miaoli"
+      },
+      {
+        "indicatorId": "調解委員會受理調解案件調解成立比率",
+        "year": 2024,
+        "countyId": "yunlin"
+      }
+    ]
   }
 ]
