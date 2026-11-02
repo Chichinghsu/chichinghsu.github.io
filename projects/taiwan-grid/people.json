@@ -2729,7 +2729,7 @@
       "award": [],
       "birth_decade": ["1960年代"],
       "birthday": "1964/12/23",
-      "tags": ["當過市長","結過婚","原住民"]
+      "tags": ["當過市長","結過婚"]
     }
   },
   {
@@ -12629,13 +12629,157 @@
     "aka": [],
     "properties": {
       "gender": ["女性"],
-      "birth_city": ["花蓮"],
+      "birth_city": ["花蓮縣"],
       "occupation": ["政治人物","立法委員","律師"],
       "education": ["國立臺灣大學"],
       "award": [],
       "birth_decade": ["1950年代"],
       "birthday": "1951/11/8",
       "tags": ["已故","當過法務部部長","結過婚"]
+    }
+  },
+  {
+    "id": "tw-792",
+    "name": "陳柔縉",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["作家","記者","教授"],
+      "education": ["國立臺灣大學"],
+      "award": ["金鼎獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/6/25",
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-793",
+    "name": "楊昇達",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","演員"],
+      "education": ["國立臺灣海洋大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1986/8/27",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-794",
+    "name": "王偉忠",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["嘉義市"],
+      "occupation": ["藝人","主持人","製作人","作家"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1957/10/26",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-795",
+    "name": "張兆志",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","演員","歌手"],
+      "education": ["文化大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1974/4/18",
+      "tags": ["結過婚","離過婚"]
+    }
+  },
+  {
+    "id": "tw-796",
+    "name": "派翠克",
+    "wikidata": "",
+    "aka": ["柳柏丞"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": [],
+      "occupation": ["藝人","主持人","演員"],
+      "education": ["文化大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1992/7/21",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-797",
+    "name": "林志儒",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["新竹縣"],
+      "occupation": ["導演","演員"],
+      "education": ["文化大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1961/1/26",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-798",
+    "name": "鄭芬芬",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["導演"],
+      "education": ["國立政治大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1970/1/11",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-799",
+    "name": "呂蒔媛",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["導演"],
+      "education": ["文化大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1960年代"],
+      "birthday": "1964/2/28",
+      "tags": ["離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-800",
+    "name": "項婕如",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": [],
+      "occupation": ["演員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1990年代"],
+      "birthday": "1999/6/27",
+      "tags": []
     }
   }
 ]

@@ -504,5 +504,13 @@
 
   { "id": 80, "date": "2026-11-01",
   "rows": ["occupation:歌手", "occupation:主持人", "occupation:演員"],
-  "columns": ["award:金曲獎", "award:金馬獎", "birth_city:新竹"] }
+  "columns": ["award:金曲獎", "award:金馬獎", "birth_city:新竹"] },
+
+  { "id": 81, "date": "2026-11-02",
+  "rows": ["occupation:政治人物", "education:國立臺灣大學", "occupation:立法委員"],
+  "columns": ["birth_city:高雄市", "birth_city:台南市", "birth_city:台中市"] },
+
+  { "id": 82, "date": "2026-11-03",
+  "rows": ["occupation:歌手", "occupation:運動員", "occupation:演員"],
+  "columns": ["tags:原住民", "birth_city:新竹", "birth_city:桃園市"] }
 ]
