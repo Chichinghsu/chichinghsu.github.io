@@ -872,6 +872,19 @@
    "km": 315
   },
   {
+    "id": "beiwaihuanic",
+    "en": "Beiwaihuan IC",
+    "zh": "北外環",
+    "lat": 23.055,
+    "lon": 120.257,
+    "lines": [
+     "N1"
+    ],
+    "core": true,
+    "type": "ic",
+    "km": 317
+   },
+  {
    "id": "yongkangic",
    "en": "Yongkang IC",
    "zh": "永康",
@@ -1136,6 +1149,7 @@
    "madouic",
    "andingic",
    "tainansystem",
+   "beiwaihuanic",
    "yongkangic",
    "dawanic",
    "rendeic",
