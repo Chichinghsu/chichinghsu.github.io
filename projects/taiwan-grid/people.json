@@ -12781,5 +12781,37 @@
       "birthday": "1999/6/27",
       "tags": []
     }
+  },
+  {
+    "id": "tw-801",
+    "name": "徐若瑄",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["藝人","演員","主持人","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/3/19",
+      "tags": ["離過婚","結過婚"]
+    }
+  },
+  {
+    "id": "tw-802",
+    "name": "溫嵐",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新竹縣"],
+      "occupation": ["藝人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1976/7/16",
+      "tags": ["原住民"]
+    }
   }
 ]
