@@ -6843,7 +6843,7 @@
       "award": [],
       "birth_decade": ["2000年代"],
       "birthday": "2000/10/5",
-      "tags": ["原住民"]
+      "tags": ["原住民","選秀出身"]
     }
   },
   {
@@ -12812,6 +12812,70 @@
       "birth_decade": ["1970年代"],
       "birthday": "1976/7/16",
       "tags": ["原住民"]
+    }
+  },
+  {
+    "id": "tw-803",
+    "name": "霍建華",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","演員","歌手"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/12/26",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-804",
+    "name": "陳芳語",
+    "wikidata": "",
+    "aka": ["Kimberley"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["澳洲"],
+      "occupation": ["藝人","歌手"],
+      "education": [],
+      "award": ["走鐘獎"],
+      "birth_decade": ["1990年代"],
+      "birthday": "1994/5/23",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-805",
+    "name": "范曉萱",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["藝人","歌手","演員"],
+      "education": [],
+      "award": ["金曲獎"],
+      "birth_decade": ["1970年代"],
+      "birthday": "1977/2/27",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-806",
+    "name": "陳純甄",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["彰化縣"],
+      "occupation": ["撞球選手","運動員","主持人","演員","藝人"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1975/7/17",
+      "tags": []
     }
   }
 ]

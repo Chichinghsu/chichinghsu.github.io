@@ -520,5 +520,9 @@
 
   { "id": 84,  "date": "2026-11-05",
   "rows": ["occupation:歌手", "occupation:主持人", "tags:樂團主唱"],
-  "columns": ["birth_city:台北市", "award:金曲獎", "birth_city:新北市"] }
+  "columns": ["birth_city:台北市", "award:金曲獎", "birth_city:新北市"] },
+
+  { "id": 85,  "date": "2026-11-06",
+  "rows": ["occupation:運動員", "tags:原住民", "occupation:政治人物"],
+  "columns": ["birth_city:新竹", "birth_city:台中市", "birth_city:高雄市"] }
 ]
