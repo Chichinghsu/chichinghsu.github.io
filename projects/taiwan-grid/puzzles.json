@@ -524,5 +524,30 @@
 
   { "id": 85,  "date": "2026-11-06",
   "rows": ["occupation:運動員", "tags:原住民", "occupation:政治人物"],
-  "columns": ["birth_city:新竹", "birth_city:台中市", "birth_city:高雄市"] }
+  "columns": ["birth_city:新竹", "birth_city:台中市", "birth_city:高雄市"] },
+
+  { "id": 86,  "date": "2026-11-07",
+  "rows": ["occupation:歌手", "occupation:主持人", "occupation:演員"],
+  "columns": ["birth_city:彰化縣", "birth_city:新北市", "birth_city:基隆市"] },
+
+  { "id": 87,  "date": "2026-11-08",
+  "rows": ["tags:離過婚", "special:1979前出生", "special:1980後出生"],
+  "columns": ["birth_city:嘉義", "award:金鐘獎", "birth_city:新北市"] },
+
+  { "id": 88,  "date": "2026-11-09",
+  "rows": ["tags:原住民", "award:金曲獎", "occupation:歌手"],
+  "columns": ["birth_decade:1970年代", "birth_decade:1980年代", "birth_decade:1990年代"] },
+
+  { "id": 89,  "date": "2026-11-10",
+  "rows": ["birth_city:台中市", "birth_city:高雄市", "birth_city:新北市"],
+  "columns": ["birth_decade:1970年代", "birth_decade:1980年代", "birth_decade:1990年代"] },
+
+  { "id": 90,  "date": "2026-11-11",
+  "rows": ["occupation:政治人物", "education:國立臺灣大學", "occupation:立法委員"],
+  "columns": ["birth_city:新北市", "tags:當過市長", "birth_decade:1980年代"] },
+
+  { "id": 91,  "date": "2026-11-12",
+  "rows": ["special:1980後出生", "occupation:主持人", "occupation:演員"],
+  "columns": ["award:金鐘獎", "award:金曲獎", "birth_city:彰化縣"] }
+  
 ]
