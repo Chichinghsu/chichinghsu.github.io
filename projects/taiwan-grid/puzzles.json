@@ -548,6 +548,13 @@
 
   { "id": 91,  "date": "2026-11-12",
   "rows": ["special:1980後出生", "occupation:主持人", "occupation:演員"],
-  "columns": ["award:金鐘獎", "award:金曲獎", "birth_city:彰化縣"] }
-  
+  "columns": ["award:金鐘獎", "award:金曲獎", "birth_city:彰化縣"] },
+
+  { "id": 92,  "date": "2026-11-13",
+  "rows": ["birth_city:台中市", "education:國立政治大學", "birth_city:新北市"],
+  "columns": ["birth_decade:1980年代", "birth_decade:1990年代", "tags:結過婚"] },
+
+  { "id": 93,  "date": "2026-11-14",
+  "rows": ["occupation:政治人物", "tags:結過婚", "education:國立臺灣大學"],
+  "columns": ["tags:當過總統", "tags:選過總統", "special:1980後出生"] }
 ]
