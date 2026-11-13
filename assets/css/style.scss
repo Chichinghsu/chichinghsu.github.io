@@ -434,7 +434,7 @@ td {
 }
 
 .post-content a {
-    text-decoration: none;           /* Remove the old blue line */
+    text-decoration: underline;
     color: #2c3e50;                  /* A dark, professional navy/black */
     transition: all 0.3s ease;       /* Smooth hover effect */
     padding-bottom: 1px;
