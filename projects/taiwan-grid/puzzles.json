@@ -556,5 +556,14 @@
 
   { "id": 93,  "date": "2026-11-14",
   "rows": ["occupation:政治人物", "tags:結過婚", "education:國立臺灣大學"],
-  "columns": ["tags:當過總統", "tags:選過總統", "special:1980後出生"] }
+  "columns": ["tags:當過總統", "tags:選過總統", "special:1980後出生"] },
+
+  { "id": 94,  "date": "2026-11-15",
+    "rows": ["occupation:歌手", "birth_city:台中市", "tags:原住民"],
+    "columns": ["award:金曲獎", "birth_decade:1980年代", "occupation:演員"] },
+
+  { "id": 95,  "date": "2026-11-16",
+  "rows": ["occupation:政治人物", "occupation:演員", "education:國立臺灣大學"],
+  "columns": ["birth_city:屏東縣", "birth_city:新北市", "birth_city:台南市"] }
+
 ]

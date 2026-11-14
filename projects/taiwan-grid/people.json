@@ -3113,7 +3113,7 @@
       "award": [],
       "birth_decade": ["1960年代"],
       "birthday": "1963/2/17",
-      "tags": ["結過婚"]
+      "tags": ["結過婚","外遇或劈腿過"]
     }
   },
   {
@@ -12876,6 +12876,70 @@
       "birth_decade": ["1970年代"],
       "birthday": "1975/7/17",
       "tags": []
+    }
+  },
+  {
+    "id": "tw-807",
+    "name": "李四川",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["政治人物"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1958/2/1",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-808",
+    "name": "簡太郎",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["政治人物"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1940年代"],
+      "birthday": "1947/2/15",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-809",
+    "name": "陳沂",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["主持人","Podcast","YouTuber"],
+      "education": ["國立臺北大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1984/3/26",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-810",
+    "name": "黃世杰",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","立法委員","律師"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1979/1/5",
+      "tags": ["結過婚"]
     }
   }
 ]
