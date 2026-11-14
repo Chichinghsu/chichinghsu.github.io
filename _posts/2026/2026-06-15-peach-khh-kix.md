@@ -14,6 +14,8 @@ thumbnail: /images/2026-06-15-peach-khh-kix/peach_mm32_cover.webp
 
 此文簡單分享 2026年 4月搭乘 MM32 高雄 KHH - 大阪關西 KIX 的心得。
 
+你可能也想看：<a href="https://cchsu.tw/posts/tigerair-tpe-kix/" target="_blank">【2026 台灣虎航】IT212 與 IT211 台北 - 大阪關西：經濟艙心得與手提行李限制</a>
+
 <div class="toc-box" markdown="1">
 <a id="nav"></a>
   <p class="toc-title">快速瀏覽</p>
