@@ -564,6 +564,10 @@
 
   { "id": 95,  "date": "2026-11-16",
   "rows": ["occupation:政治人物", "occupation:演員", "education:國立臺灣大學"],
-  "columns": ["birth_city:屏東縣", "birth_city:新北市", "birth_city:台南市"] }
+  "columns": ["birth_city:屏東縣", "birth_city:新北市", "birth_city:台南市"] },
+
+  { "id": 96,  "date": "2026-11-17",
+  "rows": ["occupation:主持人", "occupation:演員", "occupation:導演"],
+  "columns": ["special:海外出生", "award:金馬獎", "tags:離過婚"] }
 
 ]

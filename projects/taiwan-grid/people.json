@@ -11767,7 +11767,7 @@
       "gender": ["男性"],
       "birth_city": ["新竹縣"],
       "occupation": ["政治人物","醫師"],
-      "education": ["高雄醫學院"],
+      "education": ["高雄醫學大學"],
       "award": [],
       "birth_decade": ["1960年代"],
       "birthday": "1965/11/20",
@@ -12940,6 +12940,134 @@
       "birth_decade": ["1970年代"],
       "birthday": "1979/1/5",
       "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-811",
+    "name": "證嚴法師",
+    "wikidata": "",
+    "aka": ["釋證嚴"],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台中市"],
+      "occupation": ["宗教人物"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1930年代"],
+      "birthday": "1937/5/4",
+      "tags": []
+    }
+  },
+  {
+    "id": "tw-812",
+    "name": "星雲大師",
+    "wikidata": "",
+    "aka": ["釋星雲"],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["中國"],
+      "occupation": ["宗教人物"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1920年代"],
+      "birthday": "1927/8/19",
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-813",
+    "name": "莊競程",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台中市"],
+      "occupation": ["政治人物","教授","立法委員"],
+      "education": ["中原大學"],
+      "award": [],
+      "birth_decade": ["1980年代"],
+      "birthday": "1980/12/22",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-814",
+    "name": "陳椒華",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["新北市"],
+      "occupation": ["政治人物","教授","立法委員"],
+      "education": ["高雄醫學大學"],
+      "award": [],
+      "birth_decade": ["1950年代"],
+      "birthday": "1959/10/29",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-815",
+    "name": "劉冠廷",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["演員","藝人","老師"],
+      "education": ["國立臺灣藝術大學"],
+      "award": ["金馬獎","金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1988/11/11",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-816",
+    "name": "孫可芳",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台南市"],
+      "occupation": ["演員","藝人","老師","主持人"],
+      "education": ["國立臺灣藝術大學"],
+      "award": ["金鐘獎"],
+      "birth_decade": ["1980年代"],
+      "birthday": "1987/11/2",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-817",
+    "name": "許瑋倫",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["演員","藝人"],
+      "education": ["淡江大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1978/11/13",
+      "tags": ["已故"]
+    }
+  },
+  {
+    "id": "tw-818",
+    "name": "江國賓",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["屏東縣"],
+      "occupation": ["演員","藝人","歌手"],
+      "education": ["淡江大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1967/11/9",
+      "tags": ["結過婚","離過婚"]
     }
   }
 ]

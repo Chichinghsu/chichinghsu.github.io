@@ -47,6 +47,7 @@
     "education:國立臺灣大學": { "label": "臺大畢業" },
     "education:國立政治大學": { "label": "政大畢業" },
     "education:輔仁大學": { "label": "輔大畢業" },
+    "education:國立臺灣藝術大學": { "label": "臺藝大畢業" },
 
     "birth_city:台北市": { "label": "台北市出生" },
     "birth_city:台中市": { "label": "台中市出生" },
