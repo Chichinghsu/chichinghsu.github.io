@@ -568,6 +568,10 @@
 
   { "id": 96,  "date": "2026-11-17",
   "rows": ["occupation:主持人", "occupation:演員", "occupation:導演"],
-  "columns": ["special:海外出生", "award:金馬獎", "tags:離過婚"] }
+  "columns": ["special:海外出生", "award:金馬獎", "tags:離過婚"] },
+
+  { "id": 97,  "date": "2026-11-18",
+  "rows": ["tags:當過市長", "tags:選過總統", "tags:當過行政院院長"],
+  "columns": ["birth_city:台北市", "occupation:立法委員", "birth_decade:1950年代"] }
 
 ]
