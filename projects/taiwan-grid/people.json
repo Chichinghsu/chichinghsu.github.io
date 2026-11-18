@@ -13069,5 +13069,69 @@
       "birthday": "1967/11/9",
       "tags": ["結過婚","離過婚"]
     }
+  },
+  {
+    "id": "tw-819",
+    "name": "連加恩",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["醫師"],
+      "education": ["國立陽明大學"],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1976/6/4",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-820",
+    "name": "陳士駿",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["男性"],
+      "birth_city": ["台北市"],
+      "occupation": ["企業家"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1978/8/25",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-821",
+    "name": "徐佳青",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","議員"],
+      "education": ["國立臺灣大學"],
+      "award": [],
+      "birth_decade": ["1960年代"],
+      "birthday": "1967/10/22",
+      "tags": ["結過婚"]
+    }
+  },
+  {
+    "id": "tw-822",
+    "name": "李彥秀",
+    "wikidata": "",
+    "aka": [],
+    "properties": {
+      "gender": ["女性"],
+      "birth_city": ["台北市"],
+      "occupation": ["政治人物","議員","立法委員"],
+      "education": [],
+      "award": [],
+      "birth_decade": ["1970年代"],
+      "birthday": "1971/12/18",
+      "tags": ["結過婚"]
+    }
   }
 ]

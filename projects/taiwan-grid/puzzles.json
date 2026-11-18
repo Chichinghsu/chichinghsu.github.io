@@ -572,6 +572,10 @@
 
   { "id": 97,  "date": "2026-11-18",
   "rows": ["tags:當過市長", "tags:選過總統", "tags:當過行政院院長"],
-  "columns": ["birth_city:台北市", "occupation:立法委員", "birth_decade:1950年代"] }
+  "columns": ["birth_city:台北市", "occupation:立法委員", "birth_decade:1950年代"] },
+
+  { "id": 98,  "date": "2026-11-19",
+  "rows": ["occupation:YouTuber", "award:金馬獎", "occupation:運動員"],
+  "columns": ["gender:女性", "birth_city:新北市", "birth_decade:1970年代"] }
 
 ]
