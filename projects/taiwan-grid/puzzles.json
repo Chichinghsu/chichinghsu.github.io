@@ -576,6 +576,14 @@
 
   { "id": 98,  "date": "2026-11-19",
   "rows": ["occupation:YouTuber", "award:金馬獎", "occupation:運動員"],
-  "columns": ["gender:女性", "birth_city:新北市", "birth_decade:1970年代"] }
+  "columns": ["gender:女性", "birth_city:新北市", "birth_decade:1970年代"] },
+
+  { "id": 99,  "date": "2026-11-20",
+  "rows": ["occupation:歌手", "occupation:主持人", "birth_city:新北市"],
+  "columns": ["award:金曲獎", "award:金馬獎", "birth_decade:1970年代"] },
+
+  { "id": 100,  "date": "2026-11-21",
+  "rows": ["occupation:醫師", "occupation:律師", "occupation:教授"],
+  "columns": ["birth_city:台北市", "education:國立臺灣大學", "tags:結過婚"] }
 
 ]
