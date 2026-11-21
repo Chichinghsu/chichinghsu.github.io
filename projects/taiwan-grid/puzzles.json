@@ -584,6 +584,14 @@
 
   { "id": 100,  "date": "2026-11-21",
   "rows": ["occupation:醫師", "occupation:律師", "occupation:教授"],
-  "columns": ["birth_city:台北市", "education:國立臺灣大學", "tags:結過婚"] }
+  "columns": ["birth_city:台北市", "education:國立臺灣大學", "tags:結過婚"] },
+
+  { "id": 101,  "date": "2026-11-22",
+  "rows": ["occupation:啦啦隊", "award:走鐘獎", "occupation:運動員"],
+  "columns": ["birth_decade:1980年代", "birth_decade:1990年代", "gender:女性"] },
+
+  { "id": 102,  "date": "2026-11-23",
+  "rows": ["occupation:主持人", "birth_city:台北市", "occupation:歌手"],
+  "columns": ["birth_decade:1970年代", "birth_decade:1980年代", "award:金鐘獎"] }
 
 ]
